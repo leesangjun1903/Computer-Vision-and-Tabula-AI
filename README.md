@@ -12,4 +12,5 @@ https://github.com/jwasham/coding-interview-university/blob/main/translations/RE
 ref)  
 https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code?tab=readme-ov-file  
 https://github.com/teddylee777/machine-learning/tree/master?tab=readme-ov-file  
-https://tensorflow.blog/book-roadmap/
+https://tensorflow.blog/book-roadmap/  
+https://github.com/ddiddu/cs470team1/tree/master
