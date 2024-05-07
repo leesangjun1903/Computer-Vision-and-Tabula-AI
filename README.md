@@ -14,4 +14,10 @@ https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-
 https://github.com/teddylee777/machine-learning/tree/master?tab=readme-ov-file  
 https://tensorflow.blog/book-roadmap/  
 https://github.com/ddiddu/cs470team1/tree/master  
-https://wikidocs.net/book/2788
+https://wikidocs.net/book/2788  
+https://ddiddu.medium.com/  
+https://seongqjini.com/category/deeplearning/
+
+## Contral AI  
+https://shelf.io/blog/how-to-control-ai-ensuring-ai-remains-manageable-and-safe/
+
