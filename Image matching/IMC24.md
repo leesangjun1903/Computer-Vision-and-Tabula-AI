@@ -13,6 +13,7 @@ ref)
 - https://woochan-autobiography.tistory.com/944
 - https://medium.com/@loboateresa/understanding-structure-from-motion-algorithms-fc034875fd0c
 - https://cmsc426.github.io/sfm/
+- https://velog.io/@shj4901/Structure-from-Motion-Revisited
 
 ## Estimate the Camera Poses
 
