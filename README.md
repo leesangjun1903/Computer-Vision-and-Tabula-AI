@@ -17,6 +17,7 @@ https://www.mit.edu/~9.520/fall19/#briefsyllabus
 - Statistical Learning Theory And Applications https://ocw.mit.edu/courses/9-520-statistical-learning-theory-and-applications-spring-2003/pages/lecture-notes/  
 - Understanding Deep Learning https://udlbook.github.io/udlbook/
 - Machine Learning and Nueral Network Exersices https://github.com/juifa-tsai/workbook_MachineLearning/tree/master
+- https://ml-course.github.io/master/intro.html#
 
 
 ref)  
