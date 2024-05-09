@@ -18,6 +18,8 @@ https://github.com/ddiddu/cs470team1/tree/master
 https://wikidocs.net/book/2788  
 https://ddiddu.medium.com/  
 https://seongqjini.com/category/deeplearning/
+- Mathematical Statistics https://ocw.mit.edu/courses/18-655-mathematical-statistics-spring-2016/pages/lecture-notes/  
+- Statistical Learning Theory And Applications https://ocw.mit.edu/courses/9-520-statistical-learning-theory-and-applications-spring-2003/pages/lecture-notes/
 
 ## Control AI  
 https://shelf.io/blog/how-to-control-ai-ensuring-ai-remains-manageable-and-safe/
