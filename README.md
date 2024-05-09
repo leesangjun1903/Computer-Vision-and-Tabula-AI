@@ -27,7 +27,12 @@ https://tensorflow.blog/book-roadmap/
 https://github.com/ddiddu/cs470team1/tree/master  
 https://wikidocs.net/book/2788  
 https://ddiddu.medium.com/  
-https://seongqjini.com/category/deeplearning/
+https://seongqjini.com/category/deeplearning/  
+https://hyeonchan523.tistory.com/3  
+- Meta Learning https://bigwaveai.tistory.com/18
+
+## Code
+- Easy Few-Shot Learning https://github.com/sicara/easy-few-shot-learning/tree/master
 
 
 ## Control AI  
