@@ -3,8 +3,8 @@
 # Data Science with coding
 ref)   
 https://github.com/jwasham/practice-python  
-https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ko.md#%EC%9D%B4%EA%B1%B4-%EB%8C%80%EC%B2%B4-%EB%AD%90%ED%95%98%EB%8A%94-%EA%B1%B4%EA%B0%80%EC%9A%94
-
+https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ko.md#%EC%9D%B4%EA%B1%B4-%EB%8C%80%EC%B2%B4-%EB%AD%90%ED%95%98%EB%8A%94-%EA%B1%B4%EA%B0%80%EC%9A%94  
+https://github.com/smfelixchoi?tab=repositories  
 
 # Machine Learning
 ref)  
@@ -20,8 +20,14 @@ https://seongqjini.com/category/deeplearning/
 https://shelf.io/blog/how-to-control-ai-ensuring-ai-remains-manageable-and-safe/
 
 # Computer Vision
+## Book recommendation
+
 ## Image Matching  
 https://github.com/chicleee/Image-Matching-Paper-List  
 https://github.com/ericzzj1989/Awesome-Image-Matching  
 https://github.com/3DOM-FBK/deep-image-matching
 
+### IMC 24
+https://www.kaggle.com/competitions/image-matching-challenge-2024/overview  
+https://www.kaggle.com/code/asarvazyan/imc-understanding-the-baseline  
+https://www.kaggle.com/code/nartaa/imc2024-starter/notebook
