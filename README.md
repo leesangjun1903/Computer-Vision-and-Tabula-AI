@@ -14,7 +14,8 @@ https://github.com/smfelixchoi?tab=repositories
 https://lcsl.unige.it/courses/regml/regml2020/  
 https://www.mit.edu/~9.520/fall19/#briefsyllabus
 - Mathematical Statistics https://ocw.mit.edu/courses/18-655-mathematical-statistics-spring-2016/pages/lecture-notes/  
-- Statistical Learning Theory And Applications https://ocw.mit.edu/courses/9-520-statistical-learning-theory-and-applications-spring-2003/pages/lecture-notes/
+- Statistical Learning Theory And Applications https://ocw.mit.edu/courses/9-520-statistical-learning-theory-and-applications-spring-2003/pages/lecture-notes/  
+- Understanding Deep Learning https://udlbook.github.io/udlbook/
 
 
 ref)  
