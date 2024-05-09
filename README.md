@@ -3,6 +3,7 @@
 # Data Science with coding
 ref)   
 https://dacon.io/  
+https://wikidocs.net/
 
 https://github.com/jwasham/practice-python  
 https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ko.md#%EC%9D%B4%EA%B1%B4-%EB%8C%80%EC%B2%B4-%EB%AD%90%ED%95%98%EB%8A%94-%EA%B1%B4%EA%B0%80%EC%9A%94  
