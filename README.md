@@ -22,6 +22,10 @@ https://shelf.io/blog/how-to-control-ai-ensuring-ai-remains-manageable-and-safe/
 # Computer Vision
 ## Book recommendation
 
+## Code
+https://dacon.io/codeshare/1856?page&dtype=vote&ptype&fType  
+https://velog.io/@seolryung/posts
+
 ## Image Matching  
 https://github.com/chicleee/Image-Matching-Paper-List  
 https://github.com/ericzzj1989/Awesome-Image-Matching  
