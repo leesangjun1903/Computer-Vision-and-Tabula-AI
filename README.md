@@ -27,6 +27,9 @@ https://shelf.io/blog/how-to-control-ai-ensuring-ai-remains-manageable-and-safe/
 # Computer Vision
 ## Book recommendation
 
+## Lecture
+https://github.com/kuzand/Computer-Vision-Video-Lectures?tab=readme-ov-file
+
 ## Code
 https://dacon.io/codeshare/1856?page&dtype=vote&ptype&fType  
 https://velog.io/@seolryung/posts  
