@@ -30,8 +30,3 @@ https://velog.io/@seolryung/posts
 https://github.com/chicleee/Image-Matching-Paper-List  
 https://github.com/ericzzj1989/Awesome-Image-Matching  
 https://github.com/3DOM-FBK/deep-image-matching
-
-### IMC 24
-https://www.kaggle.com/competitions/image-matching-challenge-2024/overview  
-https://www.kaggle.com/code/asarvazyan/imc-understanding-the-baseline  
-https://www.kaggle.com/code/nartaa/imc2024-starter/notebook
