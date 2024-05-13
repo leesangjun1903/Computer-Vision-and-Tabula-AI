@@ -44,6 +44,7 @@ https://shelf.io/blog/how-to-control-ai-ensuring-ai-remains-manageable-and-safe/
 ## Lecture
 https://github.com/kuzand/Computer-Vision-Video-Lectures?tab=readme-ov-file  
 https://velog.io/@wilko97/posts  
+https://github.com/DavidLandup0/dl4cv
 
 ## Code
 https://dacon.io/codeshare/1856?page&dtype=vote&ptype&fType  
