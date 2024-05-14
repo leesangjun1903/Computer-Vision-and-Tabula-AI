@@ -15,6 +15,8 @@ ref)
 - https://cmsc426.github.io/sfm/
 - https://velog.io/@shj4901/Structure-from-Motion-Revisited
 
+- Dinov2 vs CLiP https://medium.com/aimonks/clip-vs-dinov2-in-image-similarity-6fa5aa7ed8c6
+
 ## Estimate the Camera Poses
 
 ### Finding image pairs
