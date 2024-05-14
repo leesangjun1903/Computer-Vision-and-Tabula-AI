@@ -33,6 +33,7 @@ https://hyeonchan523.tistory.com/3
 
 ## Code
 - Easy Few-Shot Learning https://github.com/sicara/easy-few-shot-learning/tree/master
+- CNNs in Image Classification: cifar10 https://colab.research.google.com/github/MatchLab-Imperial/deep-learning-course/blob/master/04_Common_CNN_architectures.ipynb#scrollTo=dRB4GcuJxbp_
 
 
 ## Control AI  
