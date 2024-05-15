@@ -45,7 +45,10 @@ https://shelf.io/blog/how-to-control-ai-ensuring-ai-remains-manageable-and-safe/
 ## Lecture
 https://github.com/kuzand/Computer-Vision-Video-Lectures?tab=readme-ov-file  
 https://velog.io/@wilko97/posts  
-https://github.com/DavidLandup0/dl4cv
+https://github.com/DavidLandup0/dl4cv  
+- [딥러닝 with 파이썬] Segmentation 평가지표 (Pixel Accuracy, IOU, Dice Coefficient(F1 score), Precision & Recall 등)
+출처: https://jaylala.tistory.com/entry/딥러닝-with-파이썬-Segmentation-평가지표-Pixel-Accuracy-IOU-Dice-CoefficientF1-score-Precision-Recall-등 [Innov_AI_te:티스토리]
+- [딥러닝] Dice Coefficient 설명, pytorch 코드(segmentation 평가방법) https://minimin2.tistory.com/179
 
 ## Code
 https://dacon.io/codeshare/1856?page&dtype=vote&ptype&fType  
