@@ -30,6 +30,7 @@ https://ddiddu.medium.com/
 https://seongqjini.com/category/deeplearning/  
 https://hyeonchan523.tistory.com/3  
 - Meta Learning https://bigwaveai.tistory.com/18
+- image deep learning https://github.com/satellite-image-deep-learning/techniques
 
 ## Code
 - Easy Few-Shot Learning https://github.com/sicara/easy-few-shot-learning/tree/master
