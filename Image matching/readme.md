@@ -13,7 +13,7 @@ In this competition, the important aspect of SfM we are interested in is obtaini
 ref)
 - https://mvje.tistory.com/92  
 - A Deep Learning Approach to Camera Pose Estimation : https://github.com/fedeizzo/camera-pose-estimation?tab=readme-ov-file
-- https://woochan-autobiography.tistory.com/944
+- Structure From motion 설명 https://woochan-autobiography.tistory.com/944
 - https://medium.com/@loboateresa/understanding-structure-from-motion-algorithms-fc034875fd0c
 - https://cmsc426.github.io/sfm/
 - https://velog.io/@shj4901/Structure-from-Motion-Revisited
