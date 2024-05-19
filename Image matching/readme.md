@@ -1,5 +1,8 @@
 https://www.kaggle.com/competitions/image-matching-challenge-2024/overview  
 
+https://paperswithcode.com/sota/self-supervised-image-classification-on  
+https://paperswithcode.com/dataset/imc-phototourism
+
 # Baseline
 https://www.kaggle.com/code/asarvazyan/imc-understanding-the-baseline
 
@@ -16,6 +19,7 @@ ref)
 - https://velog.io/@shj4901/Structure-from-Motion-Revisited
 
 - Dinov2 vs CLiP https://medium.com/aimonks/clip-vs-dinov2-in-image-similarity-6fa5aa7ed8c6
+- Dinov2 https://mvje.tistory.com/143
 
 ## Estimate the Camera Poses
 
@@ -36,3 +40,6 @@ https://www.kaggle.com/code/nartaa/imc2024-starter/notebook
 
 ## 39th place solution - SuperGlue + SIFT
 https://github.com/gunesevitan/image-matching-challenge-2023/tree/main
+
+## Feature detection
+https://github.com/deepanshut041/feature-detection/tree/master/fast
