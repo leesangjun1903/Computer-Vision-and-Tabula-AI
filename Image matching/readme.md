@@ -34,5 +34,5 @@ ref)
 # Starter
 https://www.kaggle.com/code/nartaa/imc2024-starter/notebook
 
-## 
+## 39th place solution - SuperGlue + SIFT
 https://github.com/gunesevitan/image-matching-challenge-2023/tree/main
