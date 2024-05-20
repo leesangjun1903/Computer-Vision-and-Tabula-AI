@@ -21,6 +21,7 @@ https://www.mit.edu/~9.520/fall19/#briefsyllabus
 
 
 ref)  
+-Papers You Must Read (PYMR) https://sustaining-starflower-aff.notion.site/c3b3474d18ef4304b23ea360367a5137?v=5d763ad5773f44eb950f49de7d7671bd  
 https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code?tab=readme-ov-file  
 https://github.com/teddylee777/machine-learning/tree/master?tab=readme-ov-file  
 https://tensorflow.blog/book-roadmap/  
