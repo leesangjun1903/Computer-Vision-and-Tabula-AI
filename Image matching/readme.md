@@ -43,3 +43,8 @@ https://github.com/gunesevitan/image-matching-challenge-2023/tree/main
 
 ## Feature detection
 https://github.com/deepanshut041/feature-detection/tree/master/fast
+
+## Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed
+https://github.com/zju3dv/EfficientLoFTR/tree/main?tab=readme-ov-file
+
+- Data Augmentation for Facial Keypoint Detection https://www.kaggle.com/code/balraj98/data-augmentation-for-facial-keypoint-detection
