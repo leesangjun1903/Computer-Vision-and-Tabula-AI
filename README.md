@@ -23,6 +23,9 @@ https://www.mit.edu/~9.520/fall19/#briefsyllabus
 - Machine Learning and Nueral Network Exersices https://github.com/juifa-tsai/workbook_MachineLearning/tree/master
 - https://ml-course.github.io/master/intro.html#
 
+## Theory
+- Functional Gradient Descent https://simple-complexities.github.io/optimization/functional/gradient/descent/2020/03/04/functional-gradient-descent.html
+- https://nzer0.github.io/reproducing-kernel-hilbert-space.html
 
 ref)  
 -Papers You Must Read (PYMR) https://sustaining-starflower-aff.notion.site/c3b3474d18ef4304b23ea360367a5137?v=5d763ad5773f44eb950f49de7d7671bd  
