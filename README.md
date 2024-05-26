@@ -69,6 +69,7 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 - [딥러닝] Dice Coefficient 설명, pytorch 코드(segmentation 평가방법) https://minimin2.tistory.com/179
 - https://velog.io/@seolryung/posts
 - HEEJOON MOON https://github.com/PHANTOM0122?tab=repositories
+- [매핑 & 로컬라이제이션 챌린지] 데이터셋 구축 과정과 베이스라인 측위 기법 https://www.naverlabs.com/storyDetail/161
 
 ## Control AI  
 https://shelf.io/blog/how-to-control-ai-ensuring-ai-remains-manageable-and-safe/
