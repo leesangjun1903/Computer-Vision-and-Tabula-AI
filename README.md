@@ -22,6 +22,8 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 - Machine Learning Study 혼자 해보기 https://github.com/teddylee777/machine-learning/tree/master?tab=readme-ov-file
 - 텐서 플로우 블로그 (Tensor ≈ Blog) https://tensorflow.blog/book-roadmap/
 - PyTorch로 시작하는 딥 러닝 입문 https://wikidocs.net/book/2788
+- 논문으로 짚어보는 딥러닝의 맥 https://www.edwith.org/deeplearningchoi/joinLectures/10979
+- Tensorflow Tutorials using Jupyter Notebook https://github.com/sjchoi86/Tensorflow-101/tree/master?tab=readme-ov-file
 
 ## Theory
 - Functional Gradient Descent https://simple-complexities.github.io/optimization/functional/gradient/descent/2020/03/04/functional-gradient-descent.html
@@ -42,6 +44,7 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 - Paper with code : Image matching https://paperswithcode.com/task/image-matching
 - Image-Matching-Paper-List https://github.com/chicleee/Image-Matching-Paper-List
 - Awesome-Image-Matching https://github.com/ericzzj1989/Awesome-Image-Matching
+- computer-vision-research-papers https://github.com/maunesh/computer-vision-research-papers?tab=readme-ov-file
 
 ## Project
 - Mask Verification https://github.com/ddiddu/cs470team1/tree/master   
