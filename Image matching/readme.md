@@ -11,6 +11,7 @@ Structure from Motion (SfM) is the name given to the procedure of reconstructing
 In this competition, the important aspect of SfM we are interested in is obtaining the camera poses of where each image was taken, described by a rotation matrix and translation vector from the origin.
 
 ref)
+- Structure from Motion : 2D 이미지는 어떻게 3D로 재구성될까? https://www.youtube.com/watch?v=LBW7a2UkRJI&t=97s
 - https://mvje.tistory.com/92  
 - A Deep Learning Approach to Camera Pose Estimation : https://github.com/fedeizzo/camera-pose-estimation?tab=readme-ov-file
 - Structure From motion 설명 https://woochan-autobiography.tistory.com/944
