@@ -48,4 +48,7 @@ https://github.com/deepanshut041/feature-detection/tree/master/fast
 ## Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed
 https://github.com/zju3dv/EfficientLoFTR/tree/main?tab=readme-ov-file
 
+## Image Matching Challenge 2022 - EDA
+https://www.kaggle.com/code/dschettler8845/image-matching-challenge-2022-eda
+
 - Data Augmentation for Facial Keypoint Detection https://www.kaggle.com/code/balraj98/data-augmentation-for-facial-keypoint-detection
