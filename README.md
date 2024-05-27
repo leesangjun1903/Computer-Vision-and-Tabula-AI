@@ -14,7 +14,8 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 
 ## Learning Coding
 - Part of my daily plan for studying Python. https://github.com/jwasham/practice-python  
-- Coding Interview University https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ko.md#%EC%9D%B4%EA%B1%B4-%EB%8C%80%EC%B2%B4-%EB%AD%90%ED%95%98%EB%8A%94-%EA%B1%B4%EA%B0%80%EC%9A%94    
+- Coding Interview University https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ko.md#%EC%9D%B4%EA%B1%B4-%EB%8C%80%EC%B2%B4-%EB%AD%90%ED%95%98%EB%8A%94-%EA%B1%B4%EA%B0%80%EC%9A%94
+- 파이썬 증권 데이터 분석 (Stock Analysis in Python) https://github.com/INVESTAR/StockAnalysisInPython  
 
 # Machine Learning
 ## Lecture 
@@ -24,6 +25,12 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 - PyTorch로 시작하는 딥 러닝 입문 https://wikidocs.net/book/2788
 - 논문으로 짚어보는 딥러닝의 맥 https://www.edwith.org/deeplearningchoi/joinLectures/10979
 - Tensorflow Tutorials using Jupyter Notebook https://github.com/sjchoi86/Tensorflow-101/tree/master?tab=readme-ov-file
+- 모두를 위한 머신러닝/딥러닝 강의 https://hunkim.github.io/ml/
+- Computer Science courses with video lectures https://github.com/Developer-Y/cs-video-courses?tab=readme-ov-file#machine-learning
+- 핸즈온 머신러닝(2판) https://formal.hknu.ac.kr/handson-ml2/
+- Neural Networks and Deep Learning by Michael A. Nielsen https://sihyeon-kim.github.io/neural-networks-and-deep-learning-korean/index.html
+- 딥 러닝을 이용한 자연어 처리 입문 https://wikidocs.net/book/2155
+- 데이터 과학자를 위한 실전 머신러닝 https://github.com/giwoong2/doit_hands-on_ML
 
 ## Theory
 - Functional Gradient Descent https://simple-complexities.github.io/optimization/functional/gradient/descent/2020/03/04/functional-gradient-descent.html
@@ -34,6 +41,9 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 - Statistical Learning Theory And Applications https://ocw.mit.edu/courses/9-520-statistical-learning-theory-and-applications-spring-2003/pages/lecture-notes/
 - Machine Learning and Nueral Network Exersices https://github.com/juifa-tsai/workbook_MachineLearning/tree/master
 - ML for Engineers https://ml-course.github.io/master/intro.html#
+- CS4780/CS5780: Machine Learning for Intelligent Systems https://www.cs.cornell.edu/courses/cs4780/2018fa/
+- Stanford Machine Learning https://www.holehouse.org/mlclass/
+- 
 
 ## Code
 ## Project    
@@ -59,7 +69,10 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 
 ## Lecture
 - Computer Vision Video Lectures https://github.com/kuzand/Computer-Vision-Video-Lectures?tab=readme-ov-file  
-- Practical Deep Learning for Computer Vision with Python https://github.com/DavidLandup0/dl4cv  
+- Practical Deep Learning for Computer Vision with Python https://github.com/DavidLandup0/dl4cv
+- CS231n: Convolutional Neural Networks for Visual Recognition https://cs231n.github.io/
+- 딥러닝기반영상분석 (cs231n) https://www.youtube.com/playlist?list=PL1Kb3QTCLIVtyOuMgyVgT-OeW0PYXl3j5
+- 한땀한땀 딥러닝 컴퓨터 비전 백과사전 https://wikidocs.net/book/6651
 
 # ETC(Blog)
 - https://github.com/smfelixchoi?tab=repositories
@@ -73,6 +86,28 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 - https://velog.io/@seolryung/posts
 - HEEJOON MOON https://github.com/PHANTOM0122?tab=repositories
 - [매핑 & 로컬라이제이션 챌린지] 데이터셋 구축 과정과 베이스라인 측위 기법 https://www.naverlabs.com/storyDetail/161
+- https://stanford.edu/~shervine/
+- https://jrc-park.tistory.com/
+- https://m.blog.naver.com/PostList.naver?blogId=laonple&categoryNo=31&logCode=0&tab=1
+- https://bkshin.tistory.com/
+- https://pinkwink.kr/category/Theory/DeepLearning
+- 데이터 사이언스 스쿨 https://datascienceschool.net/intro.html
+- https://velog.io/@cha-suyeon/posts
+- https://ysco.tistory.com/
+- https://minimin2.tistory.com/
+- https://yeong-jin-data-blog.tistory.com/
+- https://strutive07.github.io/
+- https://devkihyun.github.io/
+- https://bigdatamaster.tistory.com/
+- https://dbstndi6316.tistory.com/
+- https://limitsinx.tistory.com/
+- https://076923.github.io/
+- https://hyunlee103.tistory.com/
+- https://ssung-22.tistory.com/
+- https://deep-learning-study.tistory.com/
+- https://rfriend.tistory.com/
+- https://gils-lab.tistory.com/
+- https://rhcsky.tistory.com/
 
 ## Control AI  
 https://shelf.io/blog/how-to-control-ai-ensuring-ai-remains-manageable-and-safe/
