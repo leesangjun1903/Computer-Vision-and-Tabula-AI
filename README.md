@@ -9,7 +9,7 @@
 ## Papers
 Journal of Machine Learning Research https://jmlr.org/papers/  
 Deep Learning Monitor https://deeplearn.org/  
-AI 논문 사이트 모음 https://sohyunwriter.tistory.com/59
+AI 논문 사이트 모음 https://sohyunwriter.tistory.com/59  
 Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://sustaining-starflower-aff.notion.site/c3b3474d18ef4304b23ea360367a5137?v=5d763ad5773f44eb950f49de7d7671bd
 
 ## Learning Coding
