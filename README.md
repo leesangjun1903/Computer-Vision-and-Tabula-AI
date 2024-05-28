@@ -68,7 +68,8 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 - hloc - the hierarchical localization toolbox https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file   
 - DEEP-IMAGE-MATCHING https://github.com/3DOM-FBK/deep-image-matching  
 - 3D Reconstruction using Structure from Motion https://github.com/harish-vnkt/structure-from-motion
-- Awesome-Local-Feature-Matching https://github.com/vignywang/Awesome-Local-Feature-Matching?tab=readme-ov-file#Detector-based-Models  
+- Awesome-Local-Feature-Matching https://github.com/vignywang/Awesome-Local-Feature-Matching?tab=readme-ov-file#Detector-based-Models
+- SOTA in Computer vision, two excellent resources https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge/discussion/44102
 
 ## Lecture
 - Computer Vision Video Lectures https://github.com/kuzand/Computer-Vision-Video-Lectures?tab=readme-ov-file  
