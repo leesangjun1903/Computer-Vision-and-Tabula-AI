@@ -72,7 +72,7 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 ## Lecture
 - Computer Vision Video Lectures https://github.com/kuzand/Computer-Vision-Video-Lectures?tab=readme-ov-file  
 - Practical Deep Learning for Computer Vision with Python https://github.com/DavidLandup0/dl4cv
-- CS231n: Convolutional Neural Networks for Visual Recognition https://cs231n.github.io/
+- CS231n: Convolutional Neural Networks for Visual Recognition https://cs231n.github.io/ https://cs231n.stanford.edu/2017/syllabus.html  
 - 딥러닝기반영상분석 (cs231n) https://www.youtube.com/playlist?list=PL1Kb3QTCLIVtyOuMgyVgT-OeW0PYXl3j5
 - 한땀한땀 딥러닝 컴퓨터 비전 백과사전 https://wikidocs.net/book/6651
 
