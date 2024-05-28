@@ -67,7 +67,8 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 - Exhaustive overview of deep learning techniques specifically tailored for satellite and aerial image processing https://github.com/satellite-image-deep-learning/techniques
 - hloc - the hierarchical localization toolbox https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file   
 - DEEP-IMAGE-MATCHING https://github.com/3DOM-FBK/deep-image-matching  
-- 3D Reconstruction using Structure from Motion https://github.com/harish-vnkt/structure-from-motion  
+- 3D Reconstruction using Structure from Motion https://github.com/harish-vnkt/structure-from-motion
+- Awesome-Local-Feature-Matching https://github.com/vignywang/Awesome-Local-Feature-Matching?tab=readme-ov-file#Detector-based-Models  
 
 ## Lecture
 - Computer Vision Video Lectures https://github.com/kuzand/Computer-Vision-Video-Lectures?tab=readme-ov-file  
