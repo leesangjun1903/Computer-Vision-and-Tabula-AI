@@ -82,4 +82,8 @@ https://medium.com/aimonks/image-similarity-with-dinov2-and-faiss-741744bc5804
 # Efficient LoFTR: Semi-Dense Local Feature Matching
 https://www.kaggle.com/code/doublej37/efficient-loftr-semi-dense-local-feature-matching
 
+# DINOv2-SALAD image similarity
+https://www.kaggle.com/code/oldufo/dinov2-salad-image-similarity
+
+# 
 
