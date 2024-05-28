@@ -59,7 +59,7 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 - computer-vision-research-papers https://github.com/maunesh/computer-vision-research-papers?tab=readme-ov-file
 - PWC list https://github.com/zziz/pwc
 
-## Project
+## Project and Studies
 - Mask Verification https://github.com/ddiddu/cs470team1/tree/master   
 - Easy Few-Shot Learning https://github.com/sicara/easy-few-shot-learning/tree/master
 - CNNs in Image Classification: cifar10 https://colab.research.google.com/github/MatchLab-Imperial/deep-learning-course/blob/master/04_Common_CNN_architectures.ipynb#scrollTo=dRB4GcuJxbp_
@@ -71,6 +71,7 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 - 3D Reconstruction using Structure from Motion https://github.com/harish-vnkt/structure-from-motion
 - Awesome-Local-Feature-Matching https://github.com/vignywang/Awesome-Local-Feature-Matching?tab=readme-ov-file#Detector-based-Models
 - SOTA in Computer vision, two excellent resources https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge/discussion/44102
+- [Tutorial] Image Feature Extraction and Matching https://www.kaggle.com/code/wesamelshamy/tutorial-image-feature-extraction-and-matching
 
 ## Lecture
 - Computer Vision Video Lectures https://github.com/kuzand/Computer-Vision-Video-Lectures?tab=readme-ov-file  
