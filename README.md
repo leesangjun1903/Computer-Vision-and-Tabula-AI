@@ -57,6 +57,7 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 - Image-Matching-Paper-List https://github.com/chicleee/Image-Matching-Paper-List
 - Awesome-Image-Matching https://github.com/ericzzj1989/Awesome-Image-Matching
 - computer-vision-research-papers https://github.com/maunesh/computer-vision-research-papers?tab=readme-ov-file
+- PWC list https://github.com/zziz/pwc
 
 ## Project
 - Mask Verification https://github.com/ddiddu/cs470team1/tree/master   
