@@ -70,4 +70,11 @@ https://www.kaggle.com/code/dschettler8845/image-matching-challenge-2022-eda
 ## superpoint-imc2023-2nd-position
 https://www.kaggle.com/code/mukit0/superpoint-imc2023-2nd-position
 
-- Data Augmentation for Facial Keypoint Detection https://www.kaggle.com/code/balraj98/data-augmentation-for-facial-keypoint-detection
+# 3rd Place Solution - Significantly Reduced the Fluctuations caused by Randomness!
+https://www.kaggle.com/competitions/image-matching-challenge-2023/discussion/417191
+
+# Data Augmentation for Facial Keypoint Detection 
+https://www.kaggle.com/code/balraj98/data-augmentation-for-facial-keypoint-detection
+
+# Image similarity with DINOv2 and FAISS
+https://medium.com/aimonks/image-similarity-with-dinov2-and-faiss-741744bc5804
