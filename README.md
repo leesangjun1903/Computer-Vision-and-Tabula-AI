@@ -76,6 +76,8 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 - 딥러닝기반영상분석 (cs231n) https://www.youtube.com/playlist?list=PL1Kb3QTCLIVtyOuMgyVgT-OeW0PYXl3j5
 - 한땀한땀 딥러닝 컴퓨터 비전 백과사전 https://wikidocs.net/book/6651
 - EENG 512 - Computer Vision https://www.youtube.com/playlist?list=PL4B3F8D4A5CAD8DA3
+- CSE455 https://courses.cs.washington.edu/courses/cse455/23wi/
+- CS381V: Visual Recognition https://vision.cs.utexas.edu/381V-fall2017/#Category_recognition_
 
 # ETC(Blog)
 - https://github.com/smfelixchoi?tab=repositories
