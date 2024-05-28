@@ -5,7 +5,8 @@
 데이콘 https://dacon.io/  
 위키독스 https://wikidocs.net/  
 머신러닝 레딧 https://www.reddit.com/r/MachineLearning/  
-Top 10 Deep Learning Algorithms to Know in 2024 https://emeritus.org/in/learn/top-10-deep-learning-algorithms-to-know-in-2024/
+Top 10 Deep Learning Algorithms to Know in 2024 https://emeritus.org/in/learn/top-10-deep-learning-algorithms-to-know-in-2024/  
+https://stackoverflow.com/
 
 ## Papers
 Journal of Machine Learning Research https://jmlr.org/papers/  
