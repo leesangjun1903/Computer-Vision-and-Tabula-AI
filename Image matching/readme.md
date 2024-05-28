@@ -84,6 +84,7 @@ https://www.kaggle.com/code/doublej37/efficient-loftr-semi-dense-local-feature-m
 
 # DINOv2-SALAD image similarity
 https://www.kaggle.com/code/oldufo/dinov2-salad-image-similarity
+https://github.com/serizba/salad
 
 # 
 
