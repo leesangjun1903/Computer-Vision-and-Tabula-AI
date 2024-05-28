@@ -3,6 +3,13 @@ https://www.kaggle.com/competitions/image-matching-challenge-2024/overview
 https://paperswithcode.com/sota/self-supervised-image-classification-on  
 https://paperswithcode.com/dataset/imc-phototourism
 
+
+# imc-2024-submission-example
+https://www.kaggle.com/code/oldufo/imc-2024-submission-example
+
+# IMC2024-3D-metric-evaluation-example
+https://www.kaggle.com/code/fabiobellavia/imc2024-3d-metric-evaluation-example
+
 # Baseline
 https://www.kaggle.com/code/asarvazyan/imc-understanding-the-baseline
 
@@ -38,6 +45,14 @@ ref)
 
 # Starter
 https://www.kaggle.com/code/nartaa/imc2024-starter/notebook
+
+https://www.kaggle.com/code/nartaa/imc24/notebook
+
+# IMC-2024-Multi models pipeline
+https://www.kaggle.com/code/motono0223/imc-2024-multi-models-pipeline/notebook
+
+# Feature Matching and Image Pair Finding
+https://www.kaggle.com/code/tabassumnova/feature-matching-and-image-pair-finding
 
 ## 39th place solution - SuperGlue + SIFT
 https://www.kaggle.com/c/image-matching-challenge-2023/discussion/416847  
