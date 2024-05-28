@@ -52,4 +52,7 @@ https://github.com/zju3dv/EfficientLoFTR/tree/main?tab=readme-ov-file
 ## Image Matching Challenge 2022 - EDA
 https://www.kaggle.com/code/dschettler8845/image-matching-challenge-2022-eda
 
+## superpoint-imc2023-2nd-position
+https://www.kaggle.com/code/mukit0/superpoint-imc2023-2nd-position
+
 - Data Augmentation for Facial Keypoint Detection https://www.kaggle.com/code/balraj98/data-augmentation-for-facial-keypoint-detection
