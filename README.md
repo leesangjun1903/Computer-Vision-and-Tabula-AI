@@ -81,6 +81,7 @@ Papers You Must Read (PYMR), Data Science & Business Analytics Lab https://susta
 - EENG 512 - Computer Vision https://www.youtube.com/playlist?list=PL4B3F8D4A5CAD8DA3
 - CSE455 https://courses.cs.washington.edu/courses/cse455/23wi/
 - CS381V: Visual Recognition https://vision.cs.utexas.edu/381V-fall2017/#Category_recognition_
+- An Invitation to 3D Vision: A Tutorial for Everyone https://github.com/mint-lab/3dv_tutorial/tree/master?tab=readme-ov-file
 
 # ETC(Blog)
 - https://github.com/smfelixchoi?tab=repositories
