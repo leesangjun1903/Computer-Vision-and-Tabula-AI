@@ -1,4 +1,4 @@
-After this session, if you're interested in further study, I recommend exploring the following papers and codes:
+After this session, if you're interested in further study, I recommend exploring the following papers and codes:  
 (1) [Computer Vision] U-GAT-IT, Vision Transformer, (Mask, Fast, Faster) R-CNN, YOLO, Detectron(2), nnUnet, MobileNet, Neural Style Transfer
 
 (2) [Natural Language Processing] KoBERT, BERT, KoBART, BART, ELECTRA
