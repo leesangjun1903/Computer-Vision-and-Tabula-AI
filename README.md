@@ -1,5 +1,9 @@
 
 # Computer Vision  
+## Roadmap
+- Awesome AI & Data GitHub-Repos https://github.com/youssefHosni/Awesome-AI-Data-GitHub-Repos
+- A Comprehensive Learning Path to Master Computer Vision in 2024 https://www.analyticsvidhya.com/blog/2020/01/computer-vision-learning-path/
+
 ## Papers
 - Paper with code : Image matching https://paperswithcode.com/task/image-matching
 - Image-Matching-Paper-List https://github.com/chicleee/Image-Matching-Paper-List
