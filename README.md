@@ -3,6 +3,7 @@
 ## Roadmap
 - Awesome AI & Data GitHub-Repos https://github.com/youssefHosni/Awesome-AI-Data-GitHub-Repos
 - A Comprehensive Learning Path to Master Computer Vision in 2024 https://www.analyticsvidhya.com/blog/2020/01/computer-vision-learning-path/
+- Awesome Computer Vision https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file#Pre-trained-Computer-Vision-Models
 
 ## Papers
 - Paper with code : Image matching https://paperswithcode.com/task/image-matching
@@ -10,6 +11,8 @@
 - Awesome-Image-Matching https://github.com/ericzzj1989/Awesome-Image-Matching
 - computer-vision-research-papers https://github.com/maunesh/computer-vision-research-papers?tab=readme-ov-file
 - PWC list https://github.com/zziz/pwc
+- https://computer-vision-talks.com/
+- PyTorch Implementations of various state of the art architectures https://github.com/04RR/SOTA-Vision
 
 ## Project and Studies
 - Mask Verification https://github.com/ddiddu/cs470team1/tree/master   
@@ -25,8 +28,10 @@
 - SOTA in Computer vision, two excellent resources https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge/discussion/44102
 - [Tutorial] Image Feature Extraction and Matching https://www.kaggle.com/code/wesamelshamy/tutorial-image-feature-extraction-and-matching
 - Deep Autoenconder - PyTorch - Image Reconstruction https://www.kaggle.com/code/drvaibhavkumar/deep-autoenconder-pytorch-image-reconstruction
+- Segment Anything https://github.com/facebookresearch/segment-anything/tree/main
 
 ## Lecture
+- LearnOpenCV https://github.com/spmallick/learnopencv/tree/master?tab=readme-ov-file
 - Computer Vision Video Lectures https://github.com/kuzand/Computer-Vision-Video-Lectures?tab=readme-ov-file  
 - Practical Deep Learning for Computer Vision with Python https://github.com/DavidLandup0/dl4cv
 - CS231n: Convolutional Neural Networks for Visual Recognition https://cs231n.github.io/ https://cs231n.stanford.edu/2017/syllabus.html  
