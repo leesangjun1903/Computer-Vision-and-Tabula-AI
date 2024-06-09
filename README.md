@@ -31,4 +31,5 @@
 - CSE455 https://courses.cs.washington.edu/courses/cse455/23wi/
 - CS381V: Visual Recognition https://vision.cs.utexas.edu/381V-fall2017/#Category_recognition_
 - An Invitation to 3D Vision: A Tutorial for Everyone https://github.com/mint-lab/3dv_tutorial/tree/master?tab=readme-ov-file
+- Modern Computer Vision with PyTorch https://github.com/PacktPublishing/Modern-Computer-Vision-with-PyTorch
 
