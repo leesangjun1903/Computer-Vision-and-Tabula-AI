@@ -1,8 +1,8 @@
 # CNN
-- Common CNN architectures
-## Classification
-- Pytorch animal face classification with cnns https://colab.research.google.com/github/MatchLab-Imperial/deep-learning-course/blob/master/04_Common_CNN_architectures.ipynb#scrollTo=dRB4GcuJxbp_
+- Common CNN architectures https://colab.research.google.com/github/MatchLab-Imperial/deep-learning-course/blob/master/04_Common_CNN_architectures.ipynb#scrollTo=dRB4GcuJxbp_
 
+## Classification
+- Pytorch animal face classification with cnns 
 ## Object Detection
 - 의료용 마스크 탐지 모델 구축  
 https://github.com/leesangjun1903/Computer-Vision/blob/main/src/Object_Detection.ipynb  
