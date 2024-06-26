@@ -14,7 +14,12 @@
 - https://computer-vision-talks.com/
 - PyTorch Implementations of various state of the art architectures https://github.com/04RR/SOTA-Vision
 
+# Code
 ## Project and Studies
+
+### Object Detection
+의료용 마스크 탐지 모델 구축 https://pseudo-lab.github.io/Tutorial-Book/chapters/object-detection/Ch1-Object-Detection.html
+
 - Mask Verification https://github.com/ddiddu/cs470team1/tree/master   
 - Easy Few-Shot Learning https://github.com/sicara/easy-few-shot-learning/tree/master
 - CNNs in Image Classification: cifar10 https://colab.research.google.com/github/MatchLab-Imperial/deep-learning-course/blob/master/04_Common_CNN_architectures.ipynb#scrollTo=dRB4GcuJxbp_
