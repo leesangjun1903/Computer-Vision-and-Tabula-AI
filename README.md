@@ -18,7 +18,6 @@
 ## Project and Studies
 - Mask Verification https://github.com/ddiddu/cs470team1/tree/master   
 - Easy Few-Shot Learning https://github.com/sicara/easy-few-shot-learning/tree/master
-- 컴퓨터 비전 스터디 코드 공유 https://dacon.io/codeshare/1856?page&dtype=vote&ptype&fType
 - OpenCV를 활용한 컴퓨터 비전 스터디 https://github.com/engineerjkk/Image_Processing/tree/main
 - Exhaustive overview of deep learning techniques specifically tailored for satellite and aerial image processing https://github.com/satellite-image-deep-learning/techniques
 - hloc - the hierarchical localization toolbox https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file   
