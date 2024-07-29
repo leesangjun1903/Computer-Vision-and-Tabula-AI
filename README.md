@@ -28,6 +28,7 @@
 - [Tutorial] Image Feature Extraction and Matching https://www.kaggle.com/code/wesamelshamy/tutorial-image-feature-extraction-and-matching
 - Deep Autoenconder - PyTorch - Image Reconstruction https://www.kaggle.com/code/drvaibhavkumar/deep-autoenconder-pytorch-image-reconstruction
 - Segment Anything https://github.com/facebookresearch/segment-anything/tree/main
+- satellite-image-deep-learning https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file
 
 ## Lecture
 - LearnOpenCV https://github.com/spmallick/learnopencv/tree/master?tab=readme-ov-file
@@ -41,4 +42,5 @@
 - CS381V: Visual Recognition https://vision.cs.utexas.edu/381V-fall2017/#Category_recognition_
 - An Invitation to 3D Vision: A Tutorial for Everyone https://github.com/mint-lab/3dv_tutorial/tree/master?tab=readme-ov-file
 - Modern Computer Vision with PyTorch https://github.com/PacktPublishing/Modern-Computer-Vision-with-PyTorch
+- 서울대학교 Intelligent Computer Vision https://www.youtube.com/watch?v=Ysbp9wspRGk&list=PLFHgP5PmkZLBS1dguG4_UpVwJFNGoyzX8&index=4
 
