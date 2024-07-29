@@ -6,6 +6,7 @@
 - Awesome Computer Vision https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file#Pre-trained-Computer-Vision-Models
 
 ## Papers
+- Awesome Computer Vision https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file
 - Paper with code : Image matching https://paperswithcode.com/task/image-matching
 - Image-Matching-Paper-List https://github.com/chicleee/Image-Matching-Paper-List
 - Awesome-Image-Matching https://github.com/ericzzj1989/Awesome-Image-Matching
@@ -13,6 +14,9 @@
 - PWC list https://github.com/zziz/pwc
 - https://computer-vision-talks.com/
 - PyTorch Implementations of various state of the art architectures https://github.com/04RR/SOTA-Vision
+- Computer Vision Foundation open access CVF https://openaccess.thecvf.com/menu
+- LLaVA: Large Language and Vision Assistant https://github.com/haotian-liu/LLaVA?tab=readme-ov-file
+- Fatih Porikli https://paperswithcode.com/search?q=author%3AFatih+Porikli&order_by=stars
 
 # Code
 ## Project and Studies
@@ -29,6 +33,9 @@
 - Deep Autoenconder - PyTorch - Image Reconstruction https://www.kaggle.com/code/drvaibhavkumar/deep-autoenconder-pytorch-image-reconstruction
 - Segment Anything https://github.com/facebookresearch/segment-anything/tree/main
 - Classifying custom image datasets by creating Convolutional Neural Networks and Residual Networks from scratch with PyTorch https://github.com/Rumeysakeskin/EuroSat-Satellite-CNN-and-ResNet/tree/main
+- Deep Learning Tutorials using PyTorch (PseudoLab) https://github.com/Pseudo-Lab/Tutorial-Book?tab=readme-ov-file
+- Joeun Park https://github.com/corazzon
+- Exploring-the-MLP-Mixer-Architecture for Image Classification: Performance Evaluation, Tuning, and Ablation Study on MNIST Dataset https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file
 
 ## Lecture
 - LearnOpenCV https://github.com/spmallick/learnopencv/tree/master?tab=readme-ov-file
@@ -43,4 +50,8 @@
 - An Invitation to 3D Vision: A Tutorial for Everyone https://github.com/mint-lab/3dv_tutorial/tree/master?tab=readme-ov-file
 - Modern Computer Vision with PyTorch https://github.com/PacktPublishing/Modern-Computer-Vision-with-PyTorch
 - 서울대학교 Intelligent Computer Vision https://www.youtube.com/watch?v=Ysbp9wspRGk&list=PLFHgP5PmkZLBS1dguG4_UpVwJFNGoyzX8&index=4
+- 컴퓨터 비전 실습 https://www.boostcourse.org/search/show?searchQuery=%EC%BB%B4%ED%93%A8%ED%84%B0+%EB%B9%84%EC%A0%84+%EC%8B%A4%EC%8A%B5&MAX=20
+
+## ETC(Blog)
+- https://davidlds.tistory.com/category/%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0
 
