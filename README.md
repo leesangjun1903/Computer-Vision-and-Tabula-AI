@@ -19,7 +19,7 @@
 - Mask Verification https://github.com/ddiddu/cs470team1/tree/master   
 - Easy Few-Shot Learning https://github.com/sicara/easy-few-shot-learning/tree/master
 - OpenCV를 활용한 컴퓨터 비전 스터디 https://github.com/engineerjkk/Image_Processing/tree/main
-- Exhaustive overview of deep learning techniques specifically tailored for satellite and aerial image processing https://github.com/satellite-image-deep-learning/techniques
+- Satellite-image-deep-learning https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file
 - hloc - the hierarchical localization toolbox https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file   
 - DEEP-IMAGE-MATCHING https://github.com/3DOM-FBK/deep-image-matching  
 - 3D Reconstruction using Structure from Motion https://github.com/harish-vnkt/structure-from-motion
@@ -28,7 +28,6 @@
 - [Tutorial] Image Feature Extraction and Matching https://www.kaggle.com/code/wesamelshamy/tutorial-image-feature-extraction-and-matching
 - Deep Autoenconder - PyTorch - Image Reconstruction https://www.kaggle.com/code/drvaibhavkumar/deep-autoenconder-pytorch-image-reconstruction
 - Segment Anything https://github.com/facebookresearch/segment-anything/tree/main
-- satellite-image-deep-learning https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file
 
 ## Lecture
 - LearnOpenCV https://github.com/spmallick/learnopencv/tree/master?tab=readme-ov-file
