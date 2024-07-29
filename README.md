@@ -15,7 +15,6 @@
 - https://computer-vision-talks.com/
 - PyTorch Implementations of various state of the art architectures https://github.com/04RR/SOTA-Vision
 - Computer Vision Foundation open access CVF https://openaccess.thecvf.com/menu
-- LLaVA: Large Language and Vision Assistant https://github.com/haotian-liu/LLaVA?tab=readme-ov-file
 - Fatih Porikli https://paperswithcode.com/search?q=author%3AFatih+Porikli&order_by=stars
 
 # Code
