@@ -45,6 +45,7 @@
 - LearnOpenCV https://github.com/spmallick/learnopencv/tree/master?tab=readme-ov-file
 - PyTorch-GAN : https://github.com/eriklindernoren/PyTorch-GAN/tree/master?tab=readme-ov-file#super-resolution-gan
 - Three Ways of Storing and Accessing Lots of Images in Python : https://realpython.com/storing-images-in-python/
+- Deep Learning Projects : https://github.com/aswintechguy/Deep-Learning-Projects/tree/main
 
 ## Lecture with Theory
 - Computer Vision Video Lectures https://github.com/kuzand/Computer-Vision-Video-Lectures?tab=readme-ov-file  
