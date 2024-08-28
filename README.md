@@ -37,6 +37,11 @@
 - image classification with qnn-inference-examples : https://github.com/maltanar/qnn-inference-examples
 - Classifying animals using SOTA Models : https://www.kaggle.com/code/aymenkhouja/classifying-animals-using-sota-models/notebook
 - 365 Days Computer Vision Learning LinkedIn Post : https://github.com/ashishpatel26/365-Days-Computer-Vision-Learning-Linkedin-Post
+- Semantic Segmentation을 위한 U-Net 모델 : https://dacon.io/forum/405807
+- Top 10 Open Source Computer Vision Repositories : https://encord.com/blog/open-source-computer-vision-repositories/
+- Understanding and Calculating the number of Parameters in Convolution Neural Networks (CNNs) : https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d
+- object detection 개요 [딥러닝 컴퓨터 비전 완벽가이드 필기] : https://check-this.tistory.com/6
+- Artificial Images : https://github.com/dvschultz/ai/tree/master
 
 ## Lecture
 - LearnOpenCV https://github.com/spmallick/learnopencv/tree/master?tab=readme-ov-file
