@@ -37,6 +37,7 @@
 - 논문으로 짚어보는 딥러닝의 맥 : https://www.boostcourse.org/deeplearningchoi/joinLectures/10979
 - image classification with qnn-inference-examples : https://github.com/maltanar/qnn-inference-examples
 - Classifying animals using SOTA Models : https://www.kaggle.com/code/aymenkhouja/classifying-animals-using-sota-models/notebook
+- 365 Days Computer Vision Learning LinkedIn Post : https://github.com/ashishpatel26/365-Days-Computer-Vision-Learning-Linkedin-Post
 
 ## Lecture
 - LearnOpenCV https://github.com/spmallick/learnopencv/tree/master?tab=readme-ov-file
