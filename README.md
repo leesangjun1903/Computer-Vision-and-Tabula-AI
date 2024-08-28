@@ -1,7 +1,6 @@
 
 # Computer Vision  
 ## Roadmap
-- Awesome AI & Data GitHub-Repos https://github.com/youssefHosni/Awesome-AI-Data-GitHub-Repos
 - Awesome Computer Vision https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file#Pre-trained-Computer-Vision-Models
 
 ## Papers
