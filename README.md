@@ -53,11 +53,6 @@
 - 서울대학교 Intelligent Computer Vision https://www.youtube.com/watch?v=Ysbp9wspRGk&list=PLFHgP5PmkZLBS1dguG4_UpVwJFNGoyzX8&index=4
 - 컴퓨터 비전 실습 https://www.boostcourse.org/search/show?searchQuery=%EC%BB%B4%ED%93%A8%ED%84%B0+%EB%B9%84%EC%A0%84+%EC%8B%A4%EC%8A%B5&MAX=20
 
-## ETC(Blog, Challenge)
-- https://davidlds.tistory.com/category/%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0
+## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
-- Semantic Segmentation을 위한 U-Net 모델 : https://dacon.io/forum/405807
-- Top 10 Open Source Computer Vision Repositories : https://encord.com/blog/open-source-computer-vision-repositories/
-- Understanding and Calculating the number of Parameters in Convolution Neural Networks (CNNs) : https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d
-- object detection 개요 [딥러닝 컴퓨터 비전 완벽가이드 필기] : https://check-this.tistory.com/6
 
