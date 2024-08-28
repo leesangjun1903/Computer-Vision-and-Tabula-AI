@@ -2,7 +2,6 @@
 # Computer Vision  
 ## Roadmap
 - Awesome AI & Data GitHub-Repos https://github.com/youssefHosni/Awesome-AI-Data-GitHub-Repos
-- A Comprehensive Learning Path to Master Computer Vision in 2024 https://www.analyticsvidhya.com/blog/2020/01/computer-vision-learning-path/
 - Awesome Computer Vision https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file#Pre-trained-Computer-Vision-Models
 
 ## Papers
