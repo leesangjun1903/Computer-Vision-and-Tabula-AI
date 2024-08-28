@@ -43,6 +43,7 @@
 - object detection 개요 [딥러닝 컴퓨터 비전 완벽가이드 필기] : https://check-this.tistory.com/6
 - Artificial Images : https://github.com/dvschultz/ai/tree/master
 - LearnOpenCV https://github.com/spmallick/learnopencv/tree/master?tab=readme-ov-file
+- PyTorch-GAN : https://github.com/eriklindernoren/PyTorch-GAN/tree/master?tab=readme-ov-file#super-resolution-gan
 
 ## Lecture with Theory
 - Computer Vision Video Lectures https://github.com/kuzand/Computer-Vision-Video-Lectures?tab=readme-ov-file  
