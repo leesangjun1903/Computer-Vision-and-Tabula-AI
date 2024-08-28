@@ -15,8 +15,8 @@
 - Computer Vision Foundation open access CVF https://openaccess.thecvf.com/menu
 - Fatih Porikli https://paperswithcode.com/search?q=author%3AFatih+Porikli&order_by=stars
 
-# Code
-## Project and Studies
+# Tutorial
+## Coding Studies
 - Mask Verification https://github.com/ddiddu/cs470team1/tree/master   
 - Easy Few-Shot Learning https://github.com/sicara/easy-few-shot-learning/tree/master
 - OpenCV를 활용한 컴퓨터 비전 스터디 https://github.com/engineerjkk/Image_Processing/tree/main
@@ -42,9 +42,9 @@
 - Understanding and Calculating the number of Parameters in Convolution Neural Networks (CNNs) : https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d
 - object detection 개요 [딥러닝 컴퓨터 비전 완벽가이드 필기] : https://check-this.tistory.com/6
 - Artificial Images : https://github.com/dvschultz/ai/tree/master
-
-## Lecture
 - LearnOpenCV https://github.com/spmallick/learnopencv/tree/master?tab=readme-ov-file
+
+## Lecture with Theory
 - Computer Vision Video Lectures https://github.com/kuzand/Computer-Vision-Video-Lectures?tab=readme-ov-file  
 - Practical Deep Learning for Computer Vision with Python https://github.com/DavidLandup0/dl4cv
 - CS231n: Convolutional Neural Networks for Visual Recognition https://cs231n.github.io/ https://cs231n.stanford.edu/2017/syllabus.html  
