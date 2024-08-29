@@ -1,7 +1,5 @@
 
 # Computer Vision  
-# Awesome Series
-- Awesome Computer Vision https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file#Pre-trained-Computer-Vision-Models
 
 ## Papers
 - Awesome Computer Vision https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file
