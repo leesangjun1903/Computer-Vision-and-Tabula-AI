@@ -298,7 +298,7 @@ Song et al. 은 다중 규모에서 순환 이동 창 기반 attention을 활용
 이러한 유형의 어텐션 메커니즘은 계산 비용이 많이 드는 것으로 알려져 있습니다.  
 성능 및 계산 복잡성 측면에서 어텐션 모듈을 개선하기 위해 많은 작업이 수행되었습니다.
 
-### CaiT (Class attention layer)
+### CaiT (Class-Attention in Image Transformers)
 Touvron et al. 은 심층 트랜스포머의 성능을 향상시키기 위한 새로운 접근 방식을 도입했습니다.  
 CaiT라는 아키텍처에는 self-attention 모듈과 class attention 모듈이 포함되어 있습니다.  
 self-attention 모듈은 일반 ViT 아키텍처와 동일하지만 초기 레이어에 클래스 토큰(클래스 정보)이 추가되지 않습니다.  
