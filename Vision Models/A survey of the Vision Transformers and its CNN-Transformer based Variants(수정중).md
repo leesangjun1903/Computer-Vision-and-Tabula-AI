@@ -159,6 +159,8 @@ attention 과정의 수학적 표현은 다음과 같습니다:
 $MSA(𝑸,𝑲,𝑽)$ $=𝐶𝑜𝑛𝑐𝑎𝑡(ℎ𝑒𝑎𝑑_1,ℎ𝑒𝑎𝑑_2,⋅⋅⋅,ℎ𝑒𝑎𝑑_ℎ)⋅𝑾^𝑂$  
 $ℎ𝑒𝑎𝑑_𝑖 =𝐴𝑡𝑡𝑒𝑛𝑡𝑖𝑜𝑛(𝑸_𝑖,𝑲_𝑖,𝑽_𝑖), \text{ where } 𝑖=1,2,...,ℎ$
 
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcx6fS9%2FbtrTFmhGL1b%2FliEpkqd2KPl2qwvXHPPYD0%2Fimg.png)
+
 모든 입력 시퀀스에 대해 필터를 동적으로 계산하는 Self-attention의 능력은 컨볼루션 프로세스에 비해 상당한 이점을 제공합니다.  
 종종 정적인 컨볼루셔널 필터와 달리 self-attention은 입력 데이터의 특정 컨텍스트에 맞게 조정될 수 있습니다.  
 Self-attention은 입력 포인트 수나 순열의 변화에도 강력하므로 불규칙한 입력을 처리하는 데 적합합니다.  
