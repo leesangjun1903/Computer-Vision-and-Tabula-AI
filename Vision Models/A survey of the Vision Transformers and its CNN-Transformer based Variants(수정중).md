@@ -209,39 +209,458 @@ ResT에서도 유사한 방법을 사용하지만 변동하는 이미지 크기�
 블록별 및 그리드별 Attention 레이어는 각각 로컬 및 전역 특성을 추출할 수 있습니다.  
 컨볼루션 및 트랜스포머 모델의 장점은 이러한 하이브리드 설계에 결합되도록 고안되었습니다.
 
-Architectural level modifications in vision transformers
-3.1. Patch-based approaches
- 3.1.1. T2T-ViT (Tokens-to-Token Vision Transformer)
- 3.1.2. TNT-ViT (Transformer in Transformer)
- 3.1.3. DPT (Deformable Patch-based Transformer)
- 3.1.4. CrowdFormer
-3.2. Knowledge transfer-based approaches
- 3.2.1. DeiT (Data-efficient Image Transformers)
- 3.2.2. TaT (Target aware Transformer)
- 3.2.3. TinyViT (Tiny Vision Transformer)
-3.3. Shifted window-based approaches
-3.4. Attention-based approaches
- 3.4.1. CaiT (Class attention layer)
- 3.4.2. DAT (Deformable attention transformer)
- 3.4.3. SeT (patch-based Separable Transformer)
-3.5. Multi-transformer-based approaches
- 3.5.1. CrossViT (Cross Vision Transformer)
- 3.5.2. Dual-ViT (Dual Vision Transformer)
- 3.5.3. MMViT (Multiscale Multiview Vision Transformer)
- 3.5.4. MPViT (Multi-Path Vision Transformer)
-3.6. Details and taxonomy of HVTs (CNN-Transformer architectures)
- 3.6.1. Early-layer integration
- 3.6.2. Lateral-layer integration
- 3.6.3. Sequential integration
- 3.6.4. Parallel integration
- 3.6.5. Hierarchical integration
- 3.6.6. Attention-based integration
- 3.6.7. Channel boosting-based integration
-Applications of HVTs
-4.1. Image/video recognition
-4.2. Image generation
-4.3. Image segmentation
-4.4. Image Restoration
+# Architectural level modifications in vision transformers
+최근 몇 년 동안 비전 트랜스포머 아키텍처에서 다양한 수정이 수행되었습니다.  
+이러한 수정은 어텐션 메커니즘, 위치 인코딩, 사전 학습 전략, 아키텍처 변경, 확장성 등에 따라 분류될 수 있습니다.  
+비전 트랜스포머 아키텍처는 아키텍처 수정 유형에 따라 크게 5가지 주요 클래스로 분류될 수 있습니다.  
+즉, (i) 패치 기반 접근 방식, (ii) Knowledge 이동 기반 접근 방식, (iii) 이동된 윈도우 기반 접근 방식, (iv) 어텐션 기반 접근 방식, (v) 다중 트랜스포머 기반 접근 방식 입니다.  
+그러나 비전 트랜스포머에 CNN의 유도 바이어스를 도입하면 성능이 향상되는 것으로 관찰되었습니다.  
+이와 관련하여 우리는 하이브리드 비전 트랜스포머를 구조 설계에 따라 세 가지 주요 범주로 더 분류했습니다.
+
+## Patch-based approaches
+ViT에서 이미지는 먼저 패치 그리드로 분할된 후 평면화되어 일련의 토큰으로 처리되는 선형 임베딩을 생성합니다.  
+위치 임베딩과 클래스 토큰이 이러한 임베딩에 추가된 다음 특성 학습을 위해 인코더에 제공됩니다.  
+여러 연구에서는 ViT의 성능을 향상시키기 위해 패치 추출 메커니즘의 다양한 방법을 활용했습니다.  
+이러한 메커니즘에는 고정 크기 패치, 동적 패치 및 중첩 패치가 포함됩니다.  
+이와 관련하여 여러 아키텍처와 해당 패치 기준에 대해 논의합니다.
+
+### T2T-ViT (Tokens-to-Token Vision Transformer)
+T2T-ViT(Tokens-to-Token Vision Transformer)는 고정된 크기와 반복적 접근 방식을 활용하여 패치를 생성합니다.  
+제안된 토큰 대 토큰 모듈을 반복적으로 활용하여 이미지에서 패치를 생성합니다.  
+생성된 패치는 T2T-ViT 네트워크에 공급되어 최종 예측을 얻습니다.
+
+### TNT-ViT (Transformer in Transformer)
+Transformer in Transformer ViT (TNT-ViT)는 다양한 크기와 위치를 가진 객체의 표현을 학습하기 위한 다중 레벨 패치 메커니즘을 제시했습니다.  
+먼저 입력 이미지를 패치로 나눈 다음 각 패치를 하위 패치로 다시 나눕니다.  
+나중에 아키텍처는 다양한 트랜스포머 블록을 활용하여 패치와 하위 패치 간의 관계를 모델링합니다.  
+광범위한 실험을 통해 ImageNet 데이터 세트의 이미지 분류 측면에서 TNT-ViT의 효율성이 나타났습니다.
+
+### DPT (Deformable Patch-based Transformer)
+Deformable Patch-based Transformer(DPT)는 DePatch라는 적응형 패치 임베딩 모듈을 제시했습니다.  
+트랜스포머의 고정 크기 패치로 인해 의미 정보가 손실되어 시스템 성능에 영향을 미칩니다.  
+이와 관련하여 제안된 DPT의 DePatch 모듈은 다양한 크기와 강력한 의미 정보를 갖는 패치를 얻기 위해 적응형 방식으로 이미지를 분할합니다.
+
+### CrowdFormer
+Yang과 공동 저자는 군중 계산을 위한 ViT 아키텍처인 CrowdFormer를 개발했습니다.  
+제안된 아키텍처는 오버랩 패칭 트랜스포머 블록을 활용하여 군중의 전역 상황 정보를 캡처합니다.  
+다양한 스케일과 하향식 방식으로 이미지를 고려하기 위해 고정 크기 패치 대신 슬라이딩 윈도우를 사용하여 겹치는 패치를 추출하는 오버랩 패치 레이어가 활용됩니다.  
+이러한 겹치는 패치는 효과적인 군중 계산을 위해 상대적인 상황 정보를 유지하는 경향이 있습니다.
+
+## Knowledge transfer-based approaches
+이 범주에는 지식 전달(지식 증류) 접근 방식을 활용하는 비전 트랜스포머 아키텍처가 포함됩니다.  
+여기에는 교사가 학생에게 지식을 전달하는 것과 마찬가지로 더 큰 네트워크에서 더 작은 네트워크로 지식을 전달하는 작업이 포함됩니다.  
+교사 모델은 일반적으로 충분한 학습 능력을 갖춘 복잡한 모델인 반면 학생 모델은 더 간단합니다.  
+지식 증류의 기본 아이디어는 교사 모델의 독특한 특성을 획득하고 통합하는 데 있어 학생 모델을 촉진하는 것입니다.  
+이는 작은 ViT 모델이 큰 모델보다 더 효율적으로 배포될 수 있으므로 계산 리소스가 제한된 작업에 특히 유용할 수 있습니다.
+
+### DeiT (Data-efficient Image Transformers)
+Deit는 다양한 작업에서 경쟁력 있는 성능을 보여준 ViT의 더 작고 효율적인 버전입니다.  
+교사에게는 사전 훈련된 ViT 모델을 사용하고 학생에게는 더 작은 버전을 사용합니다.  
+일반적으로 지도 학습과 비지도 학습이 결합되어 사용되며 교사 네트워크가 학생 네트워크를 감독하여 유사한 결과를 생성합니다.  
+DeiT의 빠른 추론 시간과 제한된 계산 리소스 외에도 학생 모델은 훈련 데이터를 단순히 기억하는 것이 아니라 데이터에서 가장 중요한 특성과 패턴을 캡처하는 방법을 학습했기 때문에 일반화 성능도 향상되었습니다.
+
+### TaT (Target aware Transformer)
+TaT(Target Aware Transformer)는 일대다 관계를 활용하여 교사에서 학생 네트워크로 정보를 교환했습니다.  
+특성 맵은 먼저 여러 개의 패치로 분할된 다음 각 패치에 대해 모든 공간 영역 간의 상관 관계를 사용하는 대신 모든 교사의 특성이 모든 학생 특성으로 전송되었습니다.  
+그런 다음 패치 내부의 모든 특성을 단일 벡터로 평균화하여 지식 전달을 계산적으로 효율적으로 만들었습니다.
+
+### TinyViT (Tiny Vision Transformer)
+Wu et al.은 TinyViT로 알려진 새로운 아키텍처와 함께 빠른 증류 방법을 제안했습니다.  
+그들의 주요 개념은 사전 훈련 중에 큰 사전 훈련된 모델의 학습된 특성을 작은 모델에 전달하는 것이었습니다(그림 4).  
+강사 모델의 출력 로짓은 메모리와 계산 리소스를 절약하기 위해 미리 디스크에 인코딩된 데이터 증가와 함께 축소 및 저장되었습니다.  
+그런 다음 학생 모델은 디코더를 사용하여 저장된 데이터 확대를 재구성하고 지식은 두 모델이 독립적으로 훈련된 출력 로짓을 통해 전송됩니다.  
+결과는 대규모 테스트 세트에서 TinyViT의 효율성을 입증했습니다.
+
+![](https://wikidocs.net/images/page/236673/Fig_TR_CV_Survey_04.png)
+
+## Shifted window-based approaches
+여러 ViT 아키텍처는 성능 향상을 위해 전환된 창 기반 접근 방식을 채택했습니다.  
+이 접근법은 Liu et al.에 의해 Swin Transformer에서 처음 소개되었습니다.  
+Swin Transformer는 ViT와 유사한 아키텍처를 가지고 있지만 그림 5와 같이 이동된 윈도우 방식을 사용합니다.  
+이는 겹치지 않는 각 로컬 창 내에서 계산하여 self-attention 계산을 제어하는 동시에 효율성을 향상시키기 위해 창 간 연결을 제공합니다.  
+이는 이동된 창 기반 셀프 어텐션을 두 개의 연속 Swin Transformer 블록으로 구현함으로써 달성됩니다.  
+첫 번째 블록은 일반 창 기반 셀프 어텐션을 사용하고, 두 번째 블록은 해당 창을 이동하고 일반 창 기반 셀프 어텐션을 다시 적용합니다.  
+창 이동 이면의 아이디어는 창 간 연결을 활성화하는 것입니다.  
+이는 네트워크가 글로벌 관계를 모델링하는 능력을 향상시키는 데 도움이 될 수 있습니다.
+
+![](https://wikidocs.net/images/page/236673/Fig_TR_CV_Survey_05.png)
+
+Song et al. 은 다중 규모에서 순환 이동 창 기반 attention을 활용하는 시각적 객체 추적을 위한 새로운 ViT 아키텍처를 제안했습니다.  
+이 접근 방식은 window attention에 대한 pixel attention을 향상시키고 다양한 규모의 주의를 집계하기 위해 창 간 다중 규모 주의를 가능하게 합니다.  
+이를 통해 추적 개체의 무결성이 보장되고 대상 개체에 대해 가장 미세한 일치 항목이 생성됩니다.  
+또한 순환 이동 기술은 위치 정보로 창 샘플을 확장하므로 정확도와 계산 효율성이 향상됩니다.  
+위치 정보를 어텐션 메커니즘에 통합함으로써 모델은 시간이 지남에 따라 객체 위치의 변화를 더 효과적으로 처리하고 객체를 보다 효과적으로 추적할 수 있습니다.  
+전반적으로 제안된 아키텍처는 ViT 기반 모델을 사용하여 시각적 객체 추적의 정확성과 효율성을 향상시키는 유망한 결과를 보여주었습니다.
+
+## Attention-based approaches
+성능을 향상시키기 위해 self-attention 모듈을 수정하는 다양한 ViT(Vision Transformer) 아키텍처가 제안되었습니다.  
+이러한 모델 중 일부는 조밀한 전역 어텐션 메커니즘을 활용하는 반면, 다른 모델은 희소 어텐션 메커니즘을 활용하여 공간 정보 없이 이미지에서 전역 수준 종속성을 캡처합니다.  
+이러한 유형의 어텐션 메커니즘은 계산 비용이 많이 드는 것으로 알려져 있습니다.  
+성능 및 계산 복잡성 측면에서 어텐션 모듈을 개선하기 위해 많은 작업이 수행되었습니다.
+
+### CaiT (Class attention layer)
+Touvron et al. 은 심층 트랜스포머의 성능을 향상시키기 위한 새로운 접근 방식을 도입했습니다.  
+CaiT라는 아키텍처에는 self-attention 모듈과 class attention 모듈이 포함되어 있습니다.  
+self-attention 모듈은 일반 ViT 아키텍처와 동일하지만 초기 레이어에 클래스 토큰(클래스 정보)이 추가되지 않습니다.  
+클래스 임베딩은 나중에 아키텍처의 클래스 어텐션 모듈에 추가됩니다.  
+그들의 접근 방식은 몇 가지 매개 변수를 사용하여 좋은 결과를 보여주었습니다.
+
+### DAT (Deformable attention transformer)
+Xia와 공동 저자는 보다 신뢰할 수 있는 영역에 초점을 맞추기 위해 데이터 기반 어텐션 메커니즘을 제안했습니다.  
+그들의 아키텍처는 각 단계마다 로컬 어텐션 레이어와 변형 가능한 어텐션 레이어가 있는 모듈식 디자인을 가지고 있습니다.  
+제안된 DAT 아키텍처는 벤치마크 데이터 세트에서 모범적인 성능을 보여주었습니다.
+
+### SeT (patch-based Separable Transformer)
+Sun et al.은 ViT 아키텍처에서 두 가지 서로 다른 어텐션 모듈을 사용하여 이미지의 글로벌 관계를 완전히 포착했습니다(그림 6).  
+그들은 초기 레이어에서 로컬 상호 작용을 학습하기 위해 픽셀 단위의 어텐션 모듈을 제안했습니다.  
+나중에 그들은 글로벌 수준의 정보를 추출하기 위해 패치별 어텐션 모듈을 활용했습니다.  
+SeT는 ImageNet 및 MS COCO 데이터 세트를 포함한 여러 데이터 세트에서 다른 방법보다 우수한 결과를 보여주었습니다.
+
+![](https://wikidocs.net/images/page/236673/Fig_TR_CV_Survey_06_a.png)
+
+## Multi-transformer-based approaches
+많은 접근 방식에서는 multi-scale 특성이 필요한 다양한 작업의 성능을 향상시키기 위해 아키텍처에서 여러 ViT를 활용했습니다.  
+이 섹션에서는 이러한 유형의 다중 트랜스포머 기반 ViT 아키텍처에 대해 설명합니다.
+
+### CrossViT (Cross Vision Transformer)
+Chen과 공동 저자들은 CrossViT라는 이름의 이중 분기를 갖는 ViT 아키텍처를 제안했습니다.  
+제안된 모델의 주요 혁신은 CrossViT가 도메인 관련성이 높은 특성을 생성할 수 있도록 다양한 크기의 이미지 패치를 조합한 것입니다.  
+더 작은 패치 토큰과 더 큰 패치 토큰은 계산 복잡성이 다양한 두 개의 별도 분기를 사용하여 처리됩니다.  
+두 가지 분기는 효율적인 교차 관심 모듈을 사용하여 여러 번 함께 융합됩니다.  
+이 모듈은 비패치 토큰을 생성하여 지점 간 지식 이전을 가능하게 합니다.  
+이러한 과정을 통해 Attention Map 생성은 2차형이 아닌 선형적으로 이루어집니다.  
+이로 인해 CrossViT는 2차 주의를 사용하는 다른 모델보다 계산 효율성이 더 높아졌습니다.
+
+### Dual-ViT (Dual Vision Transformer)
+Dual-ViT(Dual Vision Transformer)는 self-attention 메커니즘의 계산 비용을 줄이는 새로운 ViT 아키텍처입니다.  
+이 아키텍처는 두 가지 개별 경로를 활용하여 글로벌 및 로컬 수준 정보를 캡처합니다.  
+의미론적 분기는 코스 세부 사항을 학습하는 반면, 픽셀 경로는 이미지에서 더 미세한 세부 사항을 캡처합니다.  
+이 두 분기는 모두 통합되어 병렬로 학습됩니다.  
+제안된 DualViT는 기존의 다른 모델에 비해 더 적은 수의 매개변수를 사용하여 ImageNet 데이터세트에서 좋은 결과를 보여주었습니다.
+
+### MMViT (Multiscale Multiview Vision Transformer)
+MMViT(Multiscale Multiview Vision Transformers)는 다중 스케일 특성 맵과 다중 뷰 인코딩을 트랜스포머 모델에 통합합니다.  
+MMViT 모델은 여러 특성 추출 단계를 활용하여 다양한 해상도에서 입력의 여러 보기를 병렬로 처리합니다.  
+각 규모 단계에서 교차 어텐션 블록을 활용하여 다양한 관점에서 데이터를 병합합니다.  
+이 접근 방식을 사용하면 MMViT 모델이 여러 해상도에서 입력의 고차원 표현을 얻을 수 있어 복잡하고 강력한 특성 표현이 가능해집니다.
+
+### MPViT (Multi-Path Vision Transformer)
+MPViT는 다중 규모 패치 기술과 다중 경로 기반 ViT 아키텍처를 활용하여 다양한 규모의 특성 표현을 학습합니다.  
+그들이 제안한 다중 규모 패치 기술은 CNN을 활용하여 다양한 규모의 특성 맵을 생성합니다(그림 7).  
+나중에 그들은 다중 스케일 패치 임베딩을 처리하기 위해 여러 트랜스포머 인코더를 활용합니다.  
+마지막으로 각 인코더의 출력을 집계하여 집계된 출력을 생성합니다.  
+제안된 MPViT는 ImageNet 데이터세트에 대한 기존 접근 방식과 비교하여 우수한 결과를 보여주었습니다.
+
+![](https://wikidocs.net/images/page/236673/Fig_TR_CV_Survey_07.png)
+
+## Details and taxonomy of HVTs (CNN-Transformer architectures)
+하이브리드 비전 트랜스포머는 CNN과 트랜스포머 아키텍처의 장점을 결합하여 이미지의 로컬 패턴과 글로벌 컨텍스트를 모두 캡처하기 위한 모델을 만듭니다.  
+하이브리드 비전 트랜스포머는 여러 이미지 관련 작업에서 유망한 결과로 인해 연구 커뮤니티에서 귀중한 관심을 얻었습니다.  
+연구자들은 CNN과 트랜스포머를 병합하는 다양한 접근 방식을 활용하여 이 분야에서 다양한 아키텍처를 제안했습니다.  
+이러한 접근 방식에는 일부 CNN 레이어를 트랜스포머 블록으로 교체하거나, CNN에 다중 어텐션 메커니즘을 도입하거나, CNN을 사용하여 로컬 특성 및 트랜스포머를 추출하여 장거리 종속성을 캡처하는 등이 포함되지만 이에 국한되지는 않습니다.  
+이와 관련하여 우리는 컨볼루션 작업과 비전 트랜스포머 아키텍처의 통합 패턴을 기반으로 몇 가지 하위 범주를 정의합니다.  
+여기에는 (1) 초기 계층 통합, (2) 측면 계층 통합, (3) 순차 통합, (4) 병렬 통합, (5) 블록 통합, (6) 계층적 통합, (7) 어텐션 기반 통합, (8) 채널 부스팅 통합을 포함합니다.
+
+### Early-layer integration
+이미지의 장거리 종속성은 비전 트랜스포머로 잘 포착되지만, 귀납적 편향이 없기 때문에 이를 훈련하려면 많은 데이터가 필요합니다.  
+반면에 CNN은 이미지 관련 귀납적 편향을 내재하고 이미지에 존재하는 높은 수준의 상관관계를 로컬로 포착합니다.  
+따라서 연구자들은 CNN과 트랜스포머의 이점을 결합하기 위해 하이브리드 비전 트랜스포머를 설계하는 데 중점을 두고 있습니다.  
+트랜스포머 아키텍처에서 컨볼루션과 어텐션을 융합하는 가장 최적의 방법을 찾기 위해 많은 작업이 수행되었습니다.  
+CNN은 아키텍처의 지역성을 통합하기 위해 다양한 수준에서 활용될 수 있습니다.  
+다양한 연구에서는 먼저 로컬 패턴을 캡처한 다음 장거리 종속성을 학습하여 이미지에 대해 보다 최적화된 로컬 및 글로벌 관점을 갖는 것이 유익하다는 아이디어를 제안했습니다.
+
+#### Hybrid ViT
+최초의 비전 트랜스포머(ViT)는 2020년 Dosovitskiy et al.에 의해 제안되었습니다.  
+그들의 작업에서 그들은 이미지 패치를 토큰 시퀀스로 간주하고 이를 트랜스포머 기반 네트워크에 공급하여 이미지 인식 작업을 수행하는 아이디어를 제안했습니다.  
+논문에서 그들은 ViT의 하이브리드 버전을 제시함으로써 하이브리드 비전 트랜스포머의 기반을 마련했습니다.  
+하이브리드 아키텍처에서는 원시 이미지 패치 대신 CNN 특성 맵에서 입력 시퀀스를 얻었습니다.  
+입력 시퀀스는 특성 맵을 공간적으로 평면화하여 생성되었으며 패치는 1×1 필터를 사용하여 생성되었습니다.  
+그들은 ResNet50 아키텍처를 활용하여 ViT에 대한 입력으로 특성 맵을 얻었습니다.  
+또한 특성 맵 추출을 위한 최적의 중간 블록을 식별하기 위해 광범위한 실험을 수행했습니다.
+
+#### DETR (Detection Transformer)
+Carion et al.은 2020년에 기존 이미지에서 객체 감지를 수행하기 위한 DETR(감지 트랜스포머)을 제안했습니다.  
+제안된 엔드투엔드 접근 방식에서는 처음에 CNN을 활용하여 입력을 ViT 아키텍처에 공급하기 전에 처리했습니다.  
+CNN 백본의 특성 맵은 고정 크기 위치 임베딩과 결합되어 ViT 인코더에 대한 입력을 생성했습니다.  
+ViT 디코더의 출력은 최종 예측을 위해 피드포워드 네트워크에 공급되었습니다.  
+DETR은 Faster R-CNN과 같은 다른 혁신적인 탐지 모델과 비교할 때 더 나은 성능을 보여주었습니다.  
+그들의 자세한 아이디어는 그림 8에 나와 있습니다.
+
+![](https://wikidocs.net/images/page/236673/Fig_TR_CV_Survey_08.png)
+
+#### LeViT (LeNet-based Vision Transformer)
+Graham et al.은 2021년에 하이브리드 ViT "LeViT"를 제안했습니다.  
+그들의 모델에서는 처음에 입력 처리를 위해 컨볼루션 레이어를 활용했습니다.  
+제안된 아키텍처는 CNN과 ViT 아키텍처의 MSA를 결합하여 입력 이미지에서 로컬 및 전역 특성을 추출합니다.  
+LeViT 아키텍처는 처음에 이미지 해상도를 줄이고 로컬 특성 표현을 얻기 위해 4계층 CNN 모델을 활용했습니다.  
+그런 다음 이러한 표현은 MLP 및 Attention 레이어를 갖춘 ViT에서 영감을 받은 다단계 아키텍처에 공급되어 출력을 생성했습니다.
+
+#### CPVT (Conditional Positional Encodings for Vision Transformers)
+CPVT는 Chu et al.이 제안했습니다.  
+그들의 작업에서 그들은 ViT의 성능을 향상시키기 위해 조건부 위치 임베딩의 새로운 체계를 고안했습니다(그림 9).  
+이와 관련하여 그들은 위치 임베딩을 보다 지역적이고 변환적으로 동등하게 만들기 위해 깊이별 컨볼루션을 활용하는 위치 인코딩 생성기(PEG / Positional Encoding Generators)를 제안했습니다.  
+그들은 또한 더 많은 위치 정보를 아키텍처에 통합하기 위해 PEG를 활용하는 제안된 방식을 기반으로 ViT를 개발했으며 좋은 결과를 보여주었습니다.  
+또한 클래스 토큰 대신 최종 MLP 레이어 위의 전역 평균 풀링 레이어를 사용하면 성능이 향상되는 것으로 나타났습니다.  
+Xiao et al.은 그들의 연구에서는 ViT의 초기 레이어에서 CNN 레이어를 활용하면 성능이 향상될 수 있다고 추정했습니다.
+
+![](https://wikidocs.net/images/page/236673/Fig_TR_CV_Survey_09.png)
+
+### Lateral-layer integration
+마지막 선형 레이어 대신 또는 후처리 레이어와 같이 트랜스포머 네트워크 끝의 CNN 레이어 또는 블록을 사용하는 모델이 이 범주에 속합니다.
+
+#### DPT (Dense Prediction Transformer)
+Ranftl et al.은 자연 영상 분할을 위한 조밀한 예측 트랜스포머 “DPT”를 제안했습니다.  
+DPT는 ViT를 인코더로, CNN을 디코더로 사용하는 인코더-디코더 기반 설계를 가지고 있습니다.  
+백본 아키텍처를 통해 글로벌 관점과 장기적인 종속성을 포착했습니다.  
+학습된 전역 표현은 CNN을 활용하여 얻은 이미지 기반 임베딩으로 디코딩되었습니다.  
+ViT 기반 인코더의 출력은 밀도 높은 예측을 수행하기 위해 다양한 수준에서 디코딩되었습니다.
+
+#### LocalViT (Local Vision Transformer)
+Li et al.은 연구에서 이미지 분류를 위해 ViT 아키텍처에 지역성을 통합했습니다.  
+LocalViT의 아키텍처는 이미지의 전역 수준 특성을 캡처하는 데 특화된 MSA 모듈을 갖춘 기존 ViT와 같습니다.  
+ViT 인코더의 피드포워드 네트워크는 Attention 모듈에서 학습된 인코딩의 입력을 받아 최종 예측을 수행합니다.  
+LocalVit은 깊이별 컨볼루션을 사용하여 로컬 정보를 아키텍처에 통합함으로써 FFN을 수정합니다.
+
+### Sequential integration
+이 범주에서는 일부 순차적 통합을 수행하여 ViT 아키텍처에서 CNN의 이점을 활용한 인기 있는 하이브리드 ViT 중 일부에 대해 설명합니다.
+
+#### CoAtNet (Convolution and Attention networks)
+Dai et al.은 단일 아키텍처에서 컨볼루션과 어텐션 메커니즘을 병합하여 일반화 및 용량을 늘리는 가장 최적이고 효율적인 방법을 찾기 위해 광범위한 연구를 수행했습니다.  
+이에 대해 그들은 여러 개의 컨볼루션 블록과 트랜스포머 블록을 수직으로 쌓아 CoAtNet을 도입했습니다.  
+컨볼루션 블록의 경우 깊이별 컨볼루션을 기반으로 하는 MBConv 블록을 사용했습니다.  
+그들의 연구 결과에 따르면 두 개의 컨볼루션 블록과 두 개의 트랜스포머 블록을 순차적으로 적층하면 효율적인 결과가 나타납니다.
+
+![](https://user-images.githubusercontent.com/67839539/138133065-337bb5ac-3dca-4ce8-af51-990c5ff23316.png)
+
+#### CMT (CNNs Meet Transformers)
+성공적인 성능에도 불구하고 ViT는 세 가지 주요 문제에 직면합니다.  
+a) 로컬 이웃의 상관 관계를 고려하여 낮은 수준의 특성을 캡처할 수 없음,  
+b) MSA 메커니즘으로 인해 계산 및 메모리 소비 측면에서 비용이 많이 들음,  
+c) 고정된 크기의 입력 토큰, 임베딩 입니다.  
+이러한 문제를 극복하기 위해 2021년 이후 CNN과 ViT의 하이브리드화 붐이 일고 있습니다.  
+Guo et al.은 2021년에 CMT(CNNs Meet Transformers)라는 하이브리드 ViT를 제안했습니다.  
+CNN에서 영감을 받은 CMT는 초기 스템 블록과 CNN 레이어 및 CMT 블록의 순차적 스택으로 구성됩니다.  
+설계된 CMT 블록은 ViT 아키텍처에서 영감을 얻었으므로 기존 MSA 대신 경량 MSA 블록을 포함했으며 MLP 계층은 IRFFN(Inverted Residual Feed-Forward Network)으로 대체되었습니다.  
+또한 CMT 블록에는 LPU(Local Perception Unit)를 추가하여 네트워크의 표현 용량을 늘립니다.  
+아키텍처는 그림 10에 나와 있습니다.
+
+![](https://wikidocs.net/images/page/236673/Fig_TR_CV_Survey_10_a.png)
+
+#### BoTNet (Bottleneck Transformers)
+컨볼루션 레이어는 이미지의 많은 구조 요소의 주요 구성 요소인 하위 수준 특성을 캡처하므로 Srinivas et al.은 CNN과 ViT의 이점을 모두 활용하기 위해 하이브리드 ViT, BoTNet(시각 인식을 위한 병목 트랜스포머)을 도입했습니다.  
+BoTNet의 아키텍처는 Attention 메커니즘이 마지막 세 블록에 통합된 ResNet 블록의 순차적 조합일 뿐입니다.  
+ResNet 블록에는 2개의 1×1 컨볼루션과 1개의 3×3 컨볼루션이 포함되어 있습니다.  
+MSA는 로컬 특성 외에도 장기적인 종속성을 캡처하기 위해 3×3 컨볼루션 대신 추가되었습니다.
+
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb6GMsp%2FbtrbEOCer3m%2F0zJCk0ymzgAwa4vPywbx11%2Fimg.png)
+
+### Parallel integration
+이 범주에는 CNN과 트랜스포머 아키텍처를 병렬로 사용하고 최종적으로 예측을 결합하는 하이브리드 비전 트랜스포머가 포함됩니다.
+
+#### Conformer (Convolution-augmented Transformer)
+2021년 Peng et al.은 자연 이미지에서 시각적 인식을 수행하는 연구를 수행했습니다.  
+이에 그들은 Conformer라는 아키텍처를 제안했다.  
+ViT의 인기로 인해 Conformer의 아키텍처도 ViT를 기반으로 했습니다.  
+네트워크의 인식 능력을 향상시키기 위해 CNN의 이점과 다중 헤드 셀프 어텐션 메커니즘을 통합했습니다.  
+하이브리드 ViT인 Conformer에는 두 개의 별도 분기, 즉 로컬 인식을 캡처하는 CNN 분기와 글로벌 수준 특성을 캡처하는 트랜스포머 분기가 포함되어 있습니다.  
+각 분기가 로컬-글로벌 컨텍스트를 인식하도록 하기 위해 CNN 분기에서 트랜스포머 분기로 후속 연결이 구축되었습니다.  
+최종 예측은 CNN 분류기와 트랜스포머 분류기로부터 얻어졌습니다.  
+교차 엔트로피 손실 함수는 각 분류기를 훈련하는 데 사용되었습니다.  
+Conformer는 DeiT, VIT 등 다른 우수한 ViT 아키텍처보다 더 나은 성능을 보여주었습니다.
+
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fm9Pei%2FbtrfaqdqUES%2F0sXbsoInGq3E2Z2XQFaed0%2Fimg.png)
+
+#### Mobile-Former (MobileNet-based Transformer)
+Chen et al.은 CNN과 트랜스포머를 위한 두 가지 다른 경로를 갖춘 동시 하이브리드 ViT 아키텍처를 제안했습니다.  
+다른 하이브리드 ViT와 마찬가지로 Mobile-Former는 CNN 모델을 사용하여 공간 상관 관계를 학습하고 트랜스포머를 사용하여 이미지의 장기적인 종속성을 캡처하여 로컬 정보와 글로벌 정보를 융합했습니다.  
+CNN 아키텍처는 매개변수 수가 줄어든 역 잔차 블록을 사용하는 MobileNet을 기반으로 했습니다.  
+두 가지 간의 정보는 연결을 사용하여 동기화되었으며, 이를 통해 CNN 경로는 글로벌 정보를 인식하고 트랜스포머는 로컬 정보를 인식하게 되었습니다.  
+두 가지 분기의 연결된 출력과 풀링 레이어는 최종 예측을 위해 2레이어 분류기에 공급되었습니다.  
+그림 11은 자세한 아키텍처를 보여줍니다.
+
+![](https://wikidocs.net/images/page/236673/Fig_TR_CV_Survey_11_a.png)
+
+#### BossNAS (Block-wisely Self-supervised Neural Architecture Search)
+Li et al.은 하이브리드 아키텍처를 평가하기 위해 검색 공간(HyTra)을 개발했으며 각 블록을 별도로 훈련해야 한다고 조언했습니다.  
+HyTra 검색 공간 내의 모든 레이어에서 CNN과 다양한 해상도의 트랜스포머 블록을 병렬로 자유롭게 선택 가능한 형태로 활용했습니다.  
+이 광범위한 검색 영역에는 공간 규모가 점차 작아지는 기존 CNN과 콘텐츠 길이가 고정된 순수 트랜스포머가 포함됩니다.
+
+![](https://user-images.githubusercontent.com/61453811/112087643-4a874b00-8bc9-11eb-9440-757429034d81.png)
+
+### Hierarchical integration
+#### MaxViT (Multi-Axis Attention-based Vision Transformer)
+MaxViT는 Tu 등이 "Multi-Axis Attention Based Vision Transformer"라는 논문에서 소개한 ViT(Vision Transformer) 아키텍처의 변형입니다.  
+이는 차단된 로컬 주의와 확장된 전역 주의로 구성된 다축 어텐션 메커니즘을 도입했습니다.  
+이는 이전 아키텍처에 비해 효율적이고 확장 가능한 어텐션 메커니즘임이 입증되었습니다.  
+MBConv 기반의 convolution과 Multi-Axis 기반 attention으로 구성된 새로운 하이브리드 블록이 기본 요소로 도입되었습니다.  
+기본 하이브리드 블록은 분류, 객체 감지, 분할 및 생성 모델링에 사용할 수 있는 CNN 기반 백본과 유사한 계층적 백본을 얻기 위해 여러 단계에 걸쳐 반복되었습니다.  
+MaxViT는 초기 단계를 포함하여 전체 네트워크에 걸쳐 로컬 및 글로벌로 볼 수 있습니다.
+
+![](https://github.com/google-research/maxvit/raw/main/doc/maxvit_arch.png)
+
+#### CvT (Convolutional Vision Transformer)
+CvT는 2021년 Wu et al.에 의해 도입되었습니다.  
+CvT의 아키텍처에는 계층적 프레임워크를 구성하기 위한 CNN과 같은 여러 단계가 포함되어 있습니다.  
+그들은 두 가지 방법으로 아키텍처에 컨볼루션을 추가했습니다.  
+처음에는 토큰 시퀀스를 추출하기 위해 컨볼루셔널 토큰 임베딩을 사용했는데, 이는 네트워크에 지역성을 통합했을 뿐만 아니라 시퀀스 길이를 점차적으로 단축했습니다.  
+둘째, 그들은 인코더 블록의 각 self-attention 블록 앞의 선형 투영을 대체하기 위해 깊이별 분리 가능한 컨볼루션을 사용하는 컨볼루션 투영을 제안했습니다.  
+CvT는 이미지 인식에 대한 다른 접근 방식보다 성능이 뛰어났습니다.
+
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDWpH2%2FbtrJRtkcYZK%2FGkSd7ZN7CXXXCfVKE78WpK%2Fimg.png)
+
+#### Visformer (Vision-Friendly Transformer)
+Visformer는 비전 친화적인 Transformer로 소개되었습니다.  
+효율적인 성능을 위해 모듈식 설계를 적용했습니다.  
+아키텍처에는 ViT 네트워크에 대한 몇 가지 수정 사항이 있었습니다.  
+Classification Token 대신 Global Average Pooling을 채용하였고, 2020년에는 Batch Normalization을 사용하였다.  
+또한 각 단계에서는 Self Attention 대신 Convolution을 활용하였으나 마지막 2단계에서만 Attention과 Conveolution을 채택하였다.  
+컨볼루션 블록은 ResNeXt에서 영감을 받았습니다.
+
+![](https://production-media.paperswithcode.com/social-images/shwPstfsrrpytunQ.png)
+
+#### ViTAE (Vision Transformer Advanced by Exploring intrinsic Inductive Bias)
+저자는 두 가지 기본 셀 유형(그림 12 참조), 즉 reduction cells (RC) 과 normal cells (NC)을 결합한 ViTAE라는 새로운 비전 트랜스포머를 제안했습니다.  
+RC는 입력 이미지를 축소하고 이를 풍부한 다중 규모 상황별 토큰에 포함하는 데 사용되는 반면, NC는 토큰 시퀀스 내에서 로컬 및 장기 종속성을 동시에 모델링하는 데 사용됩니다.  
+이 두 가지 유형의 셀의 기본 구조도 유사하며 병렬 어텐션 모듈, 컨볼루션 레이어 및 FFN으로 구성됩니다.  
+RC는 피라미드 축소 모듈에서 다양한 팽창률을 갖는 여러 컨볼루션을 활용하여 토큰에 상황 정보를 포함합니다.  
+저자는 또한 이전 방법보다 더 나은 성능을 보여주는 보다 최적화된 버전인 ViTAEv2를 제시했습니다.
+
+![](https://wikidocs.net/images/page/236673/Fig_TR_CV_Survey_12_a.png)
+
+#### ConTNet (Convolution-Transformer Network)
+이 분야에서 직면한 과제를 해결하기 위해 컴퓨터 비전 작업을 위해 새로운 ConTNet(Convolution-Transformer Network)이 제안되었습니다.  
+ConTNet은 여러 ConT 블록을 쌓아서 구현됩니다(그림 13 참조).  
+ConT 블록은 표준 트랜스포머 인코더(STE)를 컨볼루션 계층과 유사한 독립 구성 요소로 처리합니다.  
+구체적으로, 특성 맵은 동일한 크기의 여러 패치로 분할되고 각 패치는 (슈퍼) 픽셀 시퀀스로 평면화되어 STE에 입력됩니다.  
+패치 임베딩을 재구성한 후 결과 특성 맵은 다음 컨볼루셔널 레이어 또는 STE 모듈로 전달됩니다.
+
+![](https://wikidocs.net/images/page/236673/Fig_TR_CV_Survey_13_a.png)
+
+#### MoCoViT (Mobile Convolutional Vision Transformer)
+본 논문에서 저자는 모바일 컨볼루셔널 네트워크와 트랜스포머 설계의 장점을 결합하여 성능과 효율성을 향상시키는 MoCoViT(Mobile Convolutional Vision Transformer)를 소개합니다.  
+MoCoViT의 트랜스포머 블록을 가볍고 모바일 장치에 적합하게 만들기 위해  1) self-attention 모듈과 2) 피드포워드 네트워크의 두 가지 주요 수정 작업을 수행했습니다.  
+이들은 어텐션 맵 계산을 최적화하기 위해 Branch Sharing 기술을 사용하는 MoSA(Mobile Self-Attention) 모듈을 도입했습니다.  
+둘째, MoFFN(모바일 피드 포워드 네트워크)은 트랜스포머에서 모바일 MLP 역할을 하여 계산을 크게 줄입니다.
+
+![](https://github.com/smitheric95/MoCoViT-PyTorch/raw/main/figures/figure2.png)
+
+### Attention-based integration
+이 섹션에서는 지역성을 통합하기 위해 어텐션 메커니즘에 CNN을 활용한 HVT 아키텍처에 대해 설명합니다.
+
+#### EA-AA-ResNet (Evolving Attention with Residual Convolutions)
+토큰 간의 기본 종속성을 캡처하는 데 있어 독립적인 self-attention 레이어의 일반화가 제한되어 있기 때문에 Wang et al.은 컨볼루셔널 모듈을 추가하여 어텐션 메커니즘을 확장했습니다.  
+구체적으로 그들은 Evolving Attention(EA)이라는 이전 레이어에서 상속된 지식을 활용하여 각 레이어의 어텐션 맵을 일반화하기 위해 잔여 연결이 있는 컨볼루셔널 유닛을 채택했습니다.  
+제안된 EA-AA-ResNet 아키텍처는 다양한 계층에 걸쳐 주의 지도를 연결하고 컨볼루션 모듈을 사용하여 어텐션의 일반적인 패턴을 학습함으로써 어텐션 메커니즘을 확장합니다.
+
+![](https://ar5iv.labs.arxiv.org/html/2102.12895/assets/x2.png)
+
+#### ResT (ResNet Transformer)
+ViT를 ResNet 백본과 결합하여 글로벌 및 로컬 특성을 모두 효과적으로 캡처할 수 있는 하이브리드 아키텍처입니다.
+
+![](https://pbs.twimg.com/media/E2sCJnNX0AMPjpI.png:large)
+
+#### CeiT (Convolution-Enhanced Image Transformer)
+CeiT는 Yuan et al.이 2021년에 "컨볼루션 디자인을 ViT에 통합(Incorporating Convolution Designs into Visual Transformers)"이라는 논문에서 제안했습니다.  
+제안된 CeiT는 낮은 수준의 특성을 추출하고, 지역성을 캡처하고, 장거리 종속성을 학습하는 데 있어 CNN과 ViT의 이점을 결합했습니다.  
+CeiT에서는 기존 ViT 아키텍처에서 세 가지 주요 발전을 이루었습니다.  
+그들은 패치 추출 방식인 MLP 레이어를 수정하고 ViT 아키텍처 위에 마지막 레이어를 추가했습니다.  
+패치 추출을 위해 그들은 CNN 기반 블록을 활용하여 입력을 처리하는 I2T(Image-to-Tokens) 모듈을 제안했습니다.  
+원시 입력 이미지를 활용하는 대신 초기 컨볼루션 블록에서 학습된 하위 수준 특성을 사용하여 패치를 추출했습니다.
+
+I2T는 ViT에서 CNN의 이점을 최대한 활용하기 위해 아키텍처에 컨볼루션, 최대 풀링 및 배치 정규화 레이어를 포함했습니다. 그들은 ViT 인코더의 기존 MLP 계층 대신 LeFF(Locally-enhanced Feed-Forward) 계층을 활용했으며, 여기서 깊이별 컨볼루션을 활용하여 더 많은 공간적 상관 관계를 포착했습니다. 또한 ViT의 다양한 계층의 출력을 체계적으로 결합하기 위해 마지막 클래스 LCA(Token Attention) 계층이 고안되었습니다. CeiT는 여러 이미지 및 장면 인식 데이터 세트(ImageNet, CIFAR 및 Oxford-102 포함)에서 유망한 결과를 보여줬을 뿐만 아니라 ViT에 비해 계산 효율성도 뛰어납니다.
+
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbrFARZ%2FbtrbodVpDxJ%2Fc16qBD7qTgjgOgprQ3srPk%2Fimg.png)
+
+### Channel boosting-based integration
+채널 부스팅(CB)은 딥러닝에서 CNN 모델의 표현 학습 능력을 높이기 위해 사용되는 아이디어입니다.  
+CB에서는 원본 채널 외에도 전이 학습 기반 보조 학습기를 사용하여 부스트 채널을 생성하여 이미지에서 다양하고 복잡한 패턴을 캡처합니다.  
+CB 기반 CNN(CB-CNN)은 다양한 비전 관련 작업에서 뛰어난 성능을 보여왔습니다.  
+Liaquat et al.의 연구에서 그들은 CB 기반 HVT 아키텍처를 제안했습니다.  
+CB-HVT에서는 CNN과 ViT 기반 보조 학습자를 활용하여 강화된 채널을 생성했습니다.  
+CNN 기반 채널은 이미지 패턴에서 로컬 수준의 다양성을 포착한 반면, Pyramid Vision Transformer(PVT) 기반 채널은 전역 수준의 상황 정보를 학습했습니다.  
+해당 아키텍처의 개요는 그림 14에 나와 있습니다.  
+저자는 림프구 평가 데이터 세트에서 CB-HVT를 평가했으며 합리적인 성능을 보여주었습니다.
+
+![](https://wikidocs.net/images/page/236673/Fig_TR_CV_Survey_14.png)
+ 
+# Applications of ViT and HVTs
+비전 트랜스포머와 하이브리드 비전 트랜스포머는 이미지 및 비디오 인식, 객체 감지, 분할, 이미지 복원 및 의료 이미지 분석을 포함한 다양한 비전 기반 애플리케이션에서 최근 몇 년 동안 점점 더 보편화되었습니다.  
+CNN(컨볼루션 신경망)과 트랜스포머 기반 모듈을 결합하여 복잡한 시각적 패턴을 해석할 수 있는 강력한 접근 방식인 하이브리드 비전 트랜스포머를 만듭니다.  
+하이브리드 비전 트랜스포머의 몇 가지 주목할만한 응용 분야는 아래에 설명되어 있습니다.
+
+## Image/video recognition
+CNN은 시각적 데이터에서 복잡한 정보를 자동으로 추출하는 능력으로 인해 이미지 및 비디오 처리에 광범위하게 활용되었습니다.  
+그럼에도 불구하고 ViT는 이미지 및 비디오 인식을 포함한 다양하고 까다로운 작업에서 뛰어난 성능을 달성함으로써 컴퓨터 비전 분야에 혁명을 일으켰습니다.  
+ViT의 성공은 이미지의 장거리 의존성을 포착할 수 있는 Self-Attention 메커니즘에 기인합니다.  
+최근에는 CNN과 트랜스포머의 성능을 결합한 하이브리드 비전 트랜스포머(HVTs / hybrid vision transformers)가 인기를 얻었습니다.  
+이미지와 비디오 모두에서 인식을 위해 HVT를 기반으로 다양한 방법이 제안되었습니다.  
+Xiong et al.은 세밀한 3D 객체 인식을 향상시키기 위해 ViT와 CNN을 기반으로 하는 하이브리드 다중 모드 접근 방식을 제안했습니다.  
+그들의 접근 방식은 ViT 네트워크를 사용하여 객체의 전역 정보를 인코딩하고 객체의 RGB 및 깊이 뷰를 통해 CNN 네트워크를 사용하여 객체의 로컬 표현을 인코딩합니다.
+
+그들의 기술은 CNN 전용 및 ViT 전용 기준선보다 성능이 뛰어납니다.  
+또 다른 기술에서 Tiong et al.은 얼굴-주위 교차 식별을 수행하기 위한 새로운 하이브리드 어텐션 비전 트랜스포머(HA-ViT / hybrid attention vision transformer)를 제시했습니다.  
+HA-ViT는 하이브리드 어텐션 모듈에서 깊이별 컨볼루션과 컨볼루션 기반 MSA를 동시에 활용하여 로컬 및 글로벌 특성을 통합합니다.  
+제안된 방법론은 FPCI 정확도 측면에서 세 가지 벤치마크 데이터 세트보다 성능이 뛰어납니다.  
+Wang et al.은 HVT 기반 아키텍처를 사용하여 시각적 장소 인식을 위한 새로운 접근 방식을 제안했습니다.  
+그들의 방법은 CNN과 ViT를 결합하여 지역 세부 정보, 공간적 맥락 및 높은 수준의 의미 정보를 캡처함으로써 시각적 장소 인식 시스템의 견고성을 향상시키는 것을 목표로 합니다.  
+차량을 인식하기 위해 Shi et al.은 특성 추출을 위해 SE-CNN 아키텍처를 사용한 다음 ViT 아키텍처를 사용하여 글로벌 상황 정보를 캡처하는 융합 네트워크를 개발했습니다.  
+그들이 제안한 접근 방식은 도로 인식 작업에 대한 우수한 정확도 값을 보여주었습니다.
+
+## Image generation
+이미지 생성은 컴퓨터 비전에서 흥미로운 작업이며 많은 다운스트림 작업의 기준선 역할을 할 수 있습니다.  
+생성적 적대 신경망(GAN)은 이미지 생성을 위한 최선의 옵션으로 간주됩니다.  
+그러나 Transformer 기반 GAN은 이 작업에서도 뛰어난 성능을 보여주었습니다.  
+최근 연구자들은 HVT 기반 GAN을 활용하여 다양한 벤치마크 데이터 세트에서 뛰어난 성능을 입증했습니다.  
+Torbunov et al.은 이미지 생성을 위한 하이브리드 GAN 모델인 UVCGAN을 보고했습니다.  
+UVCGAN 모델의 아키텍처는 일부 수정된 원본 CycleGAN 모델을 기반으로 합니다.  
+UVCGAN의 생성기는 UNet과 ViT 병목 현상을 기반으로 하는 하이브리드 아키텍처입니다.  
+실험 결과는 원본 이미지와 생성된 이미지 간의 강력한 상관 관계를 유지하면서 이전의 최고 성능 모델에 비해 우수한 성능을 보여주었습니다.  
+또 다른 연구에서는 Zhao et al.이 MRI 재구성을 위해 SwinGAN을 도입했습니다. 그들은 Swin Transformer U-Net 기반 생성기 네트워크와 CNN 기반 판별기 네트워크를 활용했습니다.
+
+SwinGAN으로 생성된 MRI 이미지는 보다 효과적인 정보를 캡처할 수 있는 능력으로 인해 우수한 재구성 품질을 보여주었습니다.  
+Tu et al.은 제안된 SWCGAN에 Swin 트랜스포머와 CNN 레이어를 결합했습니다.  
+아키텍처에서 처음에는 CNN 레이어를 사용하여 로컬 수준 특성을 캡처한 다음 이후 레이어에서는 Residual Dense Swin Transformer Blocks "RDST"를 활용하여 글로벌 수준 특성을 캡처했습니다.  
+개발된 방법은 원격탐사 영상에서 기존 접근법에 비해 좋은 재구성 성능을 보였다.  
+최근 Bao et al.은 얼굴 이미지를 재구성하기 위해 공간 주의 유도 CNN-Transformer 집계 네트워크(SCTANet / spatial attention-guided CNN-Transformer aggregation network)를 제안했습니다.  
+그들은 심층적인 특성 추출을 위해 HAA(Hybrid Attention Aggregation) 블록에서 CNN과 트랜스포머를 모두 활용했습니다.  
+그들의 실험 결과는 다른 기술보다 더 나은 성능을 보여주었습니다.  
+Zheng et al.은 그들의 접근 방식에서 의료 영상 생성을 위한 HVT 기반 GAN 네트워크를 제시했습니다.  
+L-former라는 접근 방식에서는 얕은 레이어에 트랜스포머를 사용하고 더 깊은 레이어에 CNN을 사용합니다.  
+그들의 접근 방식은 기존 GAN 아키텍처에 비해 뛰어난 성능을 보여주었습니다.
+
+## Image segmentation
+CNN과 ViT 기반 접근 방식은 이미지 분할과 같은 복잡한 이미지 관련 작업에서 뛰어난 성능을 보여주었지만 현재는 성능 향상을 위해 두 접근 방식의 장점을 결합하는 데 중점을 두고 있습니다.  
+이에 대해 Wang et al.은 포도 분할을 위한 DualSeg라는 새로운 의미론적 분할 방법을 제시했습니다.  
+그들의 방법은 Swin Transformer와 CNN을 결합하여 글로벌 기능과 로컬 특성의 장점을 모두 활용합니다.  
+또 다른 연구에서 Zhou와 공동 저자는 터널 균열을 분할하기 위해 SCDeepLab이라는 하이브리드 접근 방식을 제안했습니다.  
+그들의 접근 방식은 터널 라이닝의 균열 분할에서 다른 CNN 전용 및 트랜스포머 전용 기반 모델보다 성능이 뛰어났습니다.
+
+Feng et al.은 파손 표면을 감지하기 위해 금속 커플러에서 분할 인식을 수행했습니다.  
+이를 위해 자동 특성 추출을 위한 CNN과 특성 융합 및 전역 모델링을 위한 HCT(Hybrid Convolution and Transformer) 모듈을 활용하여 엔드 투 엔드 HVT 기반 접근 방식을 제안했습니다.  
+최근 Xia와 Kim은 ViT 또는 CNN 기반 시스템의 한계를 해결하기 위해 HVT 접근 방식인 Mask2Former를 개발했습니다.  
+개발된 접근 방식은 ADE20K 및 Cityscapes 데이터 세트 모두에서 다른 기술에 비해 더 나은 결과를 얻었습니다.  
+Yuan et al.은 원격탐사 이미지의 의미론적 분할을 위해 MCAFNet이라는 HVT 기반 방법을 제안했습니다.
+
+## Image Restoration
+컴퓨터 비전에서 중요한 작업은 이미지 복원으로, 손상된 버전에서 원본 이미지를 복원하는 경향이 있습니다.  
+이미지 복원 기반 시스템은 CNN 사용에서 ViT 모델로 전환되었으며, 최근에는 CNN과 트랜스포머의 장점을 결합한 하이브리드 트랜스포머로 전환되었습니다.  
+Yi et al.은 단일 적외선 이미지 블라인드 디블러링을 수행하기 위해 AutoEncoder 기반 하이브리드 방법을 제안했습니다.  
+그들의 접근 방식은 객체와 배경 사이의 상황 관련 정보를 추출하기 위해 하이브리드 컨볼루션-트랜스포머 블록을 활용합니다.  
+학습 프로세스의 수렴을 가속화하고 우수한 이미지 디블러링 결과를 달성하기 위해 이 연구에서는 다단계 학습 기술과 혼합 오류 기능도 통합했습니다.
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S1350449523000981-gr2_lrg.jpg)
+
+또 다른 기술로 Chen et al.은 Convolution의 로컬 모델링 기능과 Self-Attention 모듈의 글로벌 모델링 능력을 결합한 Dual-former라는 효율적인 이미지 복원 아키텍처를 개발했습니다.  
+제안된 아키텍처는 이전에 제시된 방법보다 훨씬 적은 GFLOP를 소비하면서 여러 이미지 복원 작업에서 뛰어난 성능을 달성합니다.  
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S1051200424001106-gr002_lrg.jpg)
+
+높은 계산 복잡성 문제를 해결하기 위해 Fang et al.은 경량 이미지 초해상도를 위해 하이브리드 네트워크인 HNCT를 활용했습니다.  
+HNCT는 CNN과 ViT의 장점을 활용하고 로컬 및 비로컬 사전 변수를 모두 고려하는 특성을 추출하여 가볍지만 효과적인 초해상도 모델을 만듭니다. 실험 결과는 더 적은 매개변수를 사용하는 기존 접근 방식에 비해 HNCT의 결과가 향상되었음을 보여줍니다.
+
+![]()
+
+Zhao et al.은 효율적이고 효과적인 실제 이미지 노이즈 제거를 위해 TECDNet(Transformer Encoder and Convolutional Decoder Network)이라는 하이브리드 노이즈 제거 모델을 개발했습니다. TECDNet은 상대적으로 낮은 계산 비용을 유지하면서 뛰어난 노이즈 제거 결과를 얻었습니다. 최근 Chen et al.은 적외선 및 가시 이미지 융합을 위한 엔드투엔드 HVT 기반 이미지 융합 접근 방식을 제시했습니다. 제안된 기법은 거친 특성을 추출하기 위한 두 개의 분기를 가진 CNN 모듈과 이미지의 전역 및 공간 관계를 얻기 위한 ViT 모듈로 구성됩니다. 그들의 방법은 글로벌 정보에 집중할 수 있었고 CNN 기반 방법의 단점을 극복할 수 있었습니다. 또한, 조직적, 공간적 정보를 유지하기 위해 특화된 손실 함수가 설계되었습니다.
 4.5. Feature extraction
 4.6. Medical image analysis
 4.7. Object Detection
