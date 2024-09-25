@@ -127,6 +127,8 @@ and output representation $z_i$, $\alpha_{ij}\$ : $𝐴𝑡𝑡𝑒𝑛𝑡𝑖�
 z_{i} = \sum^{n}_{j=1}\alpha_{ij}\left(x_{j}W^{V} + a_{ij}^{V}\right)
 ```
 
+![](https://production-media.paperswithcode.com/methods/ceefba40-152a-41b0-840c-6446df1cd89b.png)
+
 ### Convolution Position Embedding (CPE)
 CPE(Convolutional Position Embedding) 방법은 입력 시퀀스의 2D 특성을 고려합니다.  
 2D 컨볼루션은 2D 특성을 활용하기 위해 제로 패딩을 사용하여 위치 정보를 수집하는 데 사용됩니다.  
