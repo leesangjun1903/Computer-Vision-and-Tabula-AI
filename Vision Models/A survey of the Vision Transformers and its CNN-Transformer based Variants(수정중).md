@@ -117,6 +117,16 @@ RPE 값을 계산하기 위해 학습 가능한 매개변수를 기반으로 하
 조회 프로세스는 패치 간의 상대적 거리에 따라 결정됩니다.  
 RPE 기술은 다양한 길이의 시퀀스로 확장 가능하지만 훈련 및 테스트 시간이 늘어날 수 있습니다.  
 
+```math
+e_{ij} = \frac{x_{i}W^{Q}\left(x_{j}W^{K} + a^{K}_{ij}\right)^{T}}{\sqrt{d_{z}}}
+```
+$a^{K}_{ij}$ : edge representation for the inputs $x_i$, $x_j$
+
+and output representation $z_i$, $\alpha_{ij}\$ : $𝐴𝑡𝑡𝑒𝑛𝑡𝑖𝑜𝑛(𝑸,𝑲,𝑽)$
+```math
+z_{i} = \sum^{n}_{j=1}\alpha_{ij}\left(x_{j}W^{V} + a_{ij}^{V}\right)
+```
+
 ### Convolution Position Embedding (CPE)
 CPE(Convolutional Position Embedding) 방법은 입력 시퀀스의 2D 특성을 고려합니다.  
 2D 컨볼루션은 2D 특성을 활용하기 위해 제로 패딩을 사용하여 위치 정보를 수집하는 데 사용됩니다.  
@@ -126,8 +136,8 @@ CPE는 특히 self-attention 모듈, FFN(Feed-Forward Network) 또는 두 인코
 ## Attention Mechanism
 ViT 아키텍처의 self-attention 메커니즘은 시퀀스의 엔터티 간의 관계를 명시적으로 표현하는 기능으로 인해 핵심 구성 요소입니다.  
 이는 글로벌 상황 정보 측면에서 각 엔터티를 나타내고 이들 간의 상호 작용을 포착하여 다른 항목에 대한 한 항목의 중요성을 계산합니다.  
-self-attention 모듈은 입력 시퀀스를 쿼리, 키, 값이라는 세 가지 다른 임베딩 공간으로 변환합니다.  
-쿼리 벡터가 포함된 키-값 쌍 집합이 입력으로 사용되며 출력 벡터는 값의 가중 합계와 소프트맥스 연산자를 사용하여 계산됩니다.  
+self-attention 모듈은 입력 시퀀스를 Query, Key, Value라는 세 가지 다른 임베딩 공간으로 변환합니다.  
+쿼리 벡터가 포함된 Key-Value 쌍 집합이 입력으로 사용되며 출력 벡터는 값의 가중 합계와 소프트맥스 연산자를 사용하여 계산됩니다.  
 여기서 가중치는 채점 함수(방정식 3)로 계산됩니다.
 
 $𝐴𝑡𝑡𝑒𝑛𝑡𝑖𝑜𝑛(𝑸,𝑲,𝑽)=𝑠𝑜𝑓𝑡𝑚𝑎𝑥 \left( \frac{𝑸 ⋅ 𝑲^𝑇}{ \sqrt{𝑑_𝑘} } \right)⋅𝑽 \tag{3}$
