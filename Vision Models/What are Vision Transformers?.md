@@ -52,22 +52,143 @@ Self-attention을 이미지에 적용하는 것을 간단하게 생각했을 때
 하지만 그렇게 된다면 pixel의 수에 따라 엄청나게 많은 cost가 소요될 수도 있어서 현실적이지 못합니다.  
 
 # Method
+구글팀은 최대한 original 형태의 Transformer를 이미지에 사용하고자 했고 해당 노력의 결과로 탄생한 Visual Transformer 구조의 모습은 아래와 같습니다.
 
 ![](https://velog.velcdn.com/images/kbm970709/post/ac973a8b-d7e6-4619-9cf4-7f08f58077e7/image.png)
 
+ViT는 original Transformer(Attention is all you need 중)의 구조를 대부분 따릅니다.
 
+물론 완벽히 동일한 아키텍처를 구축할 수는 없겠지만, 최대한 기존 transformer와 가깝게하려고 한 이유는 NLP Transformer의 확장성(scalability)과 효율적인 implementations을 가능하게 하기 위함입니다.
 
+### Vision Transformer (ViT)
 
+ViT의 작동 과정은 5개의 Step으로 설명 가능합니다.
 
+1. 이미지 $x \in R^{H\times W\times C}$가 있을 때 $(P\times P)$ 패치의 크기를 $N(=H\times W /P^2)$ 개로 분할하여 sequence $x_p \in R^{N\times(P^2\times C)}$ 로 구축합니다. 여기서 $(H,W)$ 는 원본 이미지의 해상도, $C$ 는 채널의 수, $(P,P)$ 는 이미지 패치의 해상도입니다.
+2. Trainable linear projection을 통해 $x_p$ 의 각 patch를 flatten한 벡터 $D$ 차원으로 변환한 후, 이를 patch 임베딩으로 사용합니다.
+3. Learnable class 임베딩과 patch 임베딩에 learnable position 임베딩을 더합니다. 여기서 Learnable class는 BERT 모델의 class 토큰과 같이 classification 역할을 수행합니다.
+4. 임베딩을 Transformer encoder에 input으로 넣어 마지막 layer에서 class embedding에 대한 output인 image representation을 도출합니다. 여기서 image representation이란 L번의 encoder를 거친 후의 output 중 learnable class 임베딩과 관련된 부분을 의미합니다.
+5. MLP에 image representation을 input으로 넣어 이미지의 class를 분류합니다.
 
+이와 관련한 수식은 다음과 같습니다.
 
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FoxIJY%2FbtsCZiQmO8U%2F1wXOPgIyHmXOwLQghaJAck%2Fimg.png)
 
+Step 1~3까지는 (1)번 수식, Step 4는 (2), (3)번 수식, Step 5는 (4)번 수식과 연결됩니다.
 
+#### Inductive Bias
+ViT에서 MLP는 locality와 translation equivariance가 있습니다.  
+왜냐하면 이미지 패치를 sequential하게 잘라서 임베딩했기 때문입니다.  
+하지만 MSA는 global하기 때문에 CNN보다 image-specific inductive bias가 낮습니다.
+따라서 ViT에서는 모델에 두가지 방법을 사용하여 inductive bias의 주입을 시도합니다.  
+이미지 패치들을 잘라내고 대규모 데이터에 대한 Pre-training이 필요하며, 그 후 각각의 Task에 맞게 Fine-tuning이 필요합니다.
+
+- Patch extraction: cutting the image into patches : 패치들로 잘라내는 방법으로 패치 추출
+- Resolution adjustment: adjusing the position embeddings for images of diffrent resolution at fine-tuning : 이미지의 해상도에 따라 변하는 시퀀스는 사전 학습된 Position embeddings의 의미를 잃어버릴 수 있기 때문에 position embedding 조정
+
+#### Hybrid Architecture
+ViT의 입력으로 raw image가 아닌 CNN으로 추출한 raw image의 feature map을 활용할 수 있습니다.  
+Feature map은 이미 raw image의 공간적 정보를 포함하고 있으므로 패치를 자를 때 1x1로 설정해도 됩니다.  
+그렇게 한다면 feature map의 공간 차원을 flatten하여 각 벡터에 linear projection을 적용하면 됩니다.  
+
+### Fine-Tuning And Higher Resolution
+논문의 저자는 ViT를 large dataset으로 pre-train하고 downstream task에 fine-tune하여 사용합니다.  
+이와 같은 경우에는 pre-trained prediction head를 제거하고 $D×K$ zero-initialized feedforward layer로 대체하면 됩니다.  
+대체가 이루어진다면 pre-training할 때보다 더 높은 해상도를 fine-tune하는 것에 도움이 됩니다.  
+높은 해상도의 이미지를 모델에 적용한다면, patch size는 그대로 가져갈 것이고, 그렇다면 상당히 큰 sequence length를 갖게 됩니다.
+
+물론 ViT는 가변적 길이의 패치를 처리할 수는 있지만, pre-trained position embeddings는 의미를 잃게 됩니다.  
+이 경우 pre-trained position embedding을 원본 이미지의 위치에 따라 2D interpolation하면 됩니다.
+
+## Experiments
+### Setup
+#### Datasets
+$$<table><thead><tr><th>Pre-trained Dataset</th><th># of Classes</th><th># of Images</th></tr></thead><tbody><tr><td>ImageNet-1k</td><td>1k</td><td>1.3M</td></tr><tr><td>ImageNet-21k</td><td>21k</td><td>14M</td></tr><tr><td>JFT</td><td>18k</td><td>303M</td></tr><tr><td></td><td></td><td>(High resolution)</td></tr></tbody></table>
+
+ViT는 위와 같이 3개의 데이터셋으로 pre-train 됩니다.  
+그 후 이를 몇가지 benchmark tasks에 transfer 합니다. benchmark tasks는 다음과 같습니다.
+
+- ReaL labels, CIFAR-10/100, Oxford-IIIT Pets, Oxford Flowers-102
+- 19-task VTAB classification suite
+
+#### Model Variants
+![](https://velog.velcdn.com/images/kbm970709/post/08ba0eef-05af-4816-9c36-ea31673c1da7/image.png)
+
+ViT는 총 3개의 volume에 대해서 실험을 진행했으며, 각 볼륨에서도 다양한 패치 크기에 대해 실험을 진행했습니다.  
+여기서 Base와 Large 모델은 BERT 모델에서 직접적으로 채택했으며, Huge는 저자들이 추가한 것입니다.  
+
+본 논문의 저자인 구글 팀은 이전 논문으로 transfer learning에 적합한 Big Transformer (BiT) 구조의 ResNet을 발표했습니다.  
+이는 batch normalization layer를 group normalization으로 변경하고 standardized convolutional leyer를 사용한 모델입니다.  
+해당 모델을 비교군으로 삼아 실험을 진행합니다.
+
+#### Metrics
+
+평가 지표로는 few-shot accuracy와 fine-tuning accuracy를 고려합니다.
+
+- Few-shot accuracy: Training set에 없는 클래스를 맞추는 문제에 대한 정확도
+- Fine-tuning accuracy: Fine-tuning 후의 정확도
+본 논문의 저자는 fine-tuning의 성능에 집중하고 있기에 fine-tuning accuracy를 사용하지만 fine-tuning의 cost가 너무 크기 때문에 빠른 평가를 위해 때때로는 few-shot accuracies를 사용했습니다.
+
+### Comparison To State Of The Art
+![](https://velog.velcdn.com/images/kbm970709/post/2e8051f8-1a6a-430f-a1ea-0460f082eb61/image.png)
+
+거의 모든 데이터셋에서 ViT-H/14 모델이 가장 높은 성능을 보였습니다.  
+이는 기존 SOTA 모델인 BiT-L 보다도 높은 성능이며 더 적은 시간이 걸렸습니다.  
+또한 주목할 점은 이보다 작은 모델인 ViT-L/16 또한 BiT-L보다 높은 성능을 보였으며 시간은 훨씬 적게 걸렸다는 것입니다.
+
+![](https://velog.velcdn.com/images/kbm970709/post/35deefdc-689a-4a1b-9c0b-5f67a21bc8ab/image.png)
+
+VTAB 데이터셋에서도 ViT-H/14 모델이 가장 좋은 성능을 보였습니다. 해당 실험은 데이터셋을 3개의 그룹으로 나누어 진행한 실험인데 그룹은 다음과 같습니다.
+
+- Natural: tasks like Pets, CIFAR, etc
+- Specialized: medical and satellite imagery
+- Structured: tasks that require geometric understanding like localization
+
+### Pre-training Data Requirements
+![](https://velog.velcdn.com/images/kbm970709/post/91a9fb9a-1db5-4a39-8329-9e1e89d78efb/image.png)
+
+Figure 3 실험을 통해 알 수 있는 것은 크기가 큰 데이터셋으로 pre-training 하는 경우 BiT보다 ViT가 더 높은 성능을 띄고, 반대의 경우는 반대의 성능을 띈다는 것입니다.
+
+Figure 4 실험은 JFT 데이터셋을 각각 다른 크기로 랜덤 샘플링한 데이터셋을 활용하여 진행한 것입니다.  
+이를 통해 작은 데이터셋에서는 확실히 inductive bias 효과가 있는 CNN 계열의 BiT가 높은 성능을 보이나, 큰 데이터셋으로 갈수록 ViT 성능이 더 좋아지는 것을 확인할 수 있습니다.
+
+### Scaling Study
+![](https://velog.velcdn.com/images/kbm970709/post/e1192157-6f0e-4d91-947f-d69245c75a39/image.png)
+
+Figure 5를 통해 같은 시간이 소모되었을 때 ViT가 더 높은 성능을 거두는 것을 확인할 수 있었습니다.  
+따라서 성능과 cost의 trade-off에서 ViT가 BiT보다 우세한 것을 검증해냈습니다.
+
+또한 Cost가 낮을 때는 Hybrid가 ViT보다 유리한 듯 하지만 Cost가 높아지면서 trade-off 차이가 감소합니다.
+
+### Inspecting Vision Transformer
+![](https://velog.velcdn.com/images%2Fsjinu%2Fpost%2Fc8ce3b46-5d27-4e6e-82f9-b695770adaff%2Fimage.png)
+
+왼쪽 그림: RGB 이미지를 ViT에 입력하기 전에 이미지를 패치로 나누고, D차원으로 매핑한 후, 학습된 임베딩 필터들의 주요 구성 요소를 보여줍니다.  
+이 구성 요소들은 잘 학습된 CNN 필터의 기능과 유사한 패턴을 나타내는 것을 볼 수 있습니다.
+
+가운데 그림: ViT에서 이미지 패치 임베딩에 이어 포지션 임베딩을 주입한 상태를 나타냅니다.  
+이 그림은 포지션 임베딩 간의 코사인 유사도를 분석한 것으로, 가까운 패치 간에 높은 유사도가 나타나는 것을 확인할 수 있습니다.  
+같은 열이나 같은 행에 있는 패치들 사이에서 높은 유사도가 관찰됩니다.
+
+오른쪽 그림: 각각의 Attention head가 네트워크에서 self-attention 기능을 얼마나 잘 활용하는지 조사한 결과를 보여줍니다.  
+이미지 공간에서 attention weights를 기반으로 정보가 통합되는 평균 거리, 즉 "attention distance"를 계산합니다.  
+이는 CNN의 수용 필드의 크기와 유사합니다. 224 x 224 크기의 이미지로 실험을 진행했기 때문에, 평균 거리가 대략 112 정도에 이르면 각 픽셀이 전역적으로 정보를 통합했다고 볼 수 있습니다.  
+Layer 층이 깊어질수록 모든 Attention head가 이 거리에 근접해 모든 정보를 통합할 수 있는 것을 확인할 수 있습니다.
+
+![](https://velog.velcdn.com/images%2Fsjinu%2Fpost%2Fcaeaa465-a521-441b-9c90-6f57d42494c1%2Fimage.png)
+
+위 그림처럼 classification에 대해 의미적으로 가까운 image regions에 attend하는 모습을 보여줍니다.
+
+## Conclusion
+image-specific inductive biases를 특별하게 사용하지 않고, 이미지를 패치로 자른 sequence를 NLP에서 사용하는 Transformer encoder에 넣어서 self-attention을 사용했습니다.  
+특히 large datasets으로 pre-train 시킴으로써 기존의 SOTA 모델들을 능가하는 성능과 더 적은 computational cost가 소요됩니다.  
+여전히 Challenge는 존재하며 1. Detection과 Segmentation 2. Self-Supervised Learning 에 적용해볼 수 있을 것입니다.
 
 # Refernence
 - https://discuss.pytorch.kr/t/vision-transformer-a-visual-guide-to-vision-transformers/4158
 - https://velog.io/@kbm970709/%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-An-Image-is-Worth-16x16-Words-Transformers-for-Image-Recognition-at-Scale
 - https://velog.io/@sjinu/%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0AN-IMAGE-IS-WORTH-16X16-WORDS-TRANSFORMERS-FOR-IMAGE-RECOGNITION-AT-SCALE-Vi-TVision-Transformer
+- https://lcyking.tistory.com/entry/%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0-ViTVision-Transformer%EC%9D%98-%EC%9D%B4%ED%95%B4
 
 # Transformers in Vision: A Survey
 # Abstract
