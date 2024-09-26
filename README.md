@@ -14,7 +14,7 @@
 - Fatih Porikli https://paperswithcode.com/search?q=author%3AFatih+Porikli&order_by=stars
 
 ## Papers with name
-- 
+- An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 
 ## Lecture with Theory
 - Computer Vision Video Lectures https://github.com/kuzand/Computer-Vision-Video-Lectures?tab=readme-ov-file  
