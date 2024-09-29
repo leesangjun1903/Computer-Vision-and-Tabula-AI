@@ -1,6 +1,8 @@
 # Swin Transformer
 
-# Abstract
+# Swin Transformer: Hierarchical Vision Transformer using Shifted Windows
+
+## Abstract
 이 논문에서는 컴퓨터 비전의 다양한 목적에 맞게 backbone 역할을 할 수 있는 새로운 비전 트랜스포머인 Swin Transformer를 소개합니다.  
 트랜스포머를 언어에서 시각으로 적용하는 데 있어 시각적인 데이터의 규모가 크고 텍스트의 단어에 비해 이미지에서 픽셀의 해상도가 높은 등 두 영역 간의 차이로 인해 어려움이 발생합니다.  
 이러한 차이를 해결하기 위해 Shifted Windows(이동되는 윈도우)로 표현이 계산되는 계층적 트랜스포머를 제안합니다.  
@@ -10,7 +12,7 @@ Swin Transformer의 이러한 특성으로 인해 이미지 분류(이미지넷-
 성능은 이전 최첨단 기술인 COCO data에서 +2.7개의 상자 AP 및 +2.6개의 마스크 AP를, ADE20K에서 +3.2개의 mIoU를 큰 차이로 능가하여 트랜스포머 기반 모델이 비전 분야에서 잠재력을 입증합니다.  
 계층적 설계와 Shifted Window 접근 방식은 모든 MLP 아키텍처에도 유용합니다.  
 
-# Introduction
+## Introduction
 컴퓨터 비전의 모델링은 오랫동안 CNN에 의해 지배되었습니다.  
 AlexNet과 ImageNet image classification 챌린지에 대한 혁신적인 성능을 시작으로 CNN 아키텍처는 더 큰 스케일, 더 광범위한 연결, 더 정교한 convolution 형식을 통해 점점 더 강력해졌습니다.  
 다양한 비전 task를 위한 backbone 네트워크 역할을 하는 CNN과 함께 이러한 아키텍처의 발전은 전체 분야를 광범위하게 끌어올린 성능 향상으로 이어졌습니다.
@@ -71,8 +73,8 @@ Window 내의 모든 쿼리 패치는 하드웨어에서 메모리 액세스를 
 제안된 shifted window 방식이 sliding window 방식보다 지연 시간이 훨씬 짧지만 모델링 능력은 비슷합니다.  
 또한 shfted window 접근 방식은 모든 MLP 아키텍처에도 유익합니다.
 
-# Method
-## Overall Architecture
+## Method
+### Overall Architecture
 ![](https://kimjy99.github.io/assets/img/swin-transformer/swin-transformer-fig3.PNG)
 
 Swin Transformer 아키텍처의 개요는 tiny 버전인 SwinT를 보여주는 위 그림에 나와 있습니다.  
@@ -105,16 +107,16 @@ Stage 1의 출력인 $\frac {H} {4} \times \frac {W} {4} \times C$ 의 차원을
 
 이러한 계층적 구조는, 일반적인 Representations보다 더 계층적인 Representations을 학습할 수 있고, 앞선 전술한 것처럼 줄어든 차원만큼 연산속도에도 이점이 있습니다.
 
-### Swin Transformer block
+#### Swin Transformer block
 Swin Transformer는 Transformer 블록의 multi-head self-attention (MSA) 모듈을 shifted window를 기반으로 하는 모듈로 교체하고 다른 레이어는 동일하게 유지함으로써 구축됩니다.  
 Swin Transformer 블록은 shifted window 기반 MSA 모듈과 중간에 GELU nonlinearity가 있는 2-layer MLP로 구성됩니다.  
 LN (LayerNorm) layer는 각 MSA 모듈과 각 MLP 이전에 적용되고 residual connection은 각 모듈 이후에 적용됩니다.
 
-## Shifted Window based Self-Attention
+### Shifted Window based Self-Attention
 표준 Transformer 아키텍처와 image classification을 위한 모델은 토큰과 다른 모든 토큰 간의 관계가 계산되는 글로벌 self-attention을 수행합니다.  
 글로벌 계산은 토큰 수와 관련하여 2차 복잡도를 초래하여 조밀한 예측이나 고해상도 이미지를 나타내기 위해 막대한 토큰 세트가 필요한 많은 비전 문제에 적합하지 않습니다.  
 
-### Self-attention in non-overlapped windows
+#### Self-attention in non-overlapped windows
 본 논문은 효율적인 모델링을 위해 로컬한 window 내에서 self-attention을 계산할 것을 제안합니다.  
 Window는 겹치지 않는 방식으로 이미지를 균등하게 분할하도록 배열됩니다.  
 각 window에 $M \times M$ 개의 패치가 포함되어 있다고 가정하면 글로벌 MSA 모듈의 계산 복잡도와 $h \times w$ 패치 이미지를 기반으로 하는 window의 계산 복잡도는 다음과 같습니다.  
@@ -135,7 +137,7 @@ $Ω$ 기호는 연산에 얼마나 시간이 걸리는지 측정한 기준입니
 반면, Swin의 경우 윈도우의 크기는 보통 고정되어 있으니 상수처럼 취급하고, $hw$의 크기에서만 선형적으로 계산량이 증가하기 때문에 계산적인 부분에서는 상당한 이점이 있습니다.
 글로벌 self-attention 계산은 일반적으로 큰 $hw$ 에 적합하지 않은 반면 window 기반 self-attention은 확장 가능합니다.
 
-### Shifted window partitioning in successive blocksPermalink
+#### Shifted window partitioning in successive blocks
 Window 기반 self-attention 모듈은 window 간의 연결이 부족하여 모델링 능력이 제한됩니다.  
 저자들은 겹치지 않는 창의 효율적인 계산을 유지하면서 window 사이의 연결을 도입하기 위해 연속되는 Swin Transformer 블록에서 두 개의 파티션 구성을 번갈아 가며 전환하는 shifted window 파티셔닝 방식을 제안하였습니다.  
 
@@ -156,7 +158,7 @@ W-MSA와 SW-MSA는 각각 일반 및 shfted window 파티션 구성을 사용하
 
 Shifted window 파티셔닝 접근법은 이전 레이어에서 인접한 겹치지 않는 window 사이의 연결을 도입하고 image classification, object detection, semantic segmentation에 효과적입니다.
 
-### Efficient batch computation for shifted configuration
+#### Efficient batch computation for shifted configuration
 Shifted window 파티셔닝의 문제는 더 많은 window를 만들며, 일부 창은 $M \times M$보다 작아야 합니다.
 
 ```math
@@ -176,7 +178,7 @@ Naive한 해결책은 attention을 계산할 때 더 작은 window를  $M \times
 따라서 마스킹 메커니즘을 사용하여 각 하위 window 내에서 self-attention 계산을 제한합니다.  
 Cyclic-shifting를 사용하면 배치된 window의 수가 일반 window 파티션과 동일하게 유지되므로 효율적입니다.  
 
-### Relative position bias
+#### Relative position bias
 Self-attention 계산에서 각 head에 대한 Relative position bias $B \in \mathbb{R}^{M^2 \times M^2}$ 를 포함합니다.
 
 ```math
@@ -192,16 +194,16 @@ $M^2$ 은 window patch 수입니다.
 Swin Transformer의 성능을 더 이끌 방법으로 Relative position bias를 각 헤드에 더해주었습니다.  
 기존에는 Absolute bias를 더해주었는데, 이 부분은 오히려 성능 저하를 나타냈다고 합니다.
 
-## Architecture Variants
+### Architecture Variants
 저자들은 ViT-B/DeiT-B와 유사한 모델 크기와 계산 복잡도를 갖도록 Swin-B라는 기본 모델을 구축하였습니다.  
 또한 모델 크기와 계산 복잡도가 각각 약 0.25배, 0.5배, 2배인 버전인 Swin-T, Swin-S, Swin-L을 도입합니다.  
 Swin-T와 Swin-S의 복잡도는 각각 ResNet-50 (DeiT-S)과 ResNet-101의 복잡도와 유사합니다.
 
-# Experiments
+## Experiments
 - 데이터셋 :
 ImageNet-1K image classification, COCO object detection, ADE20K semantic segmentation
 
-## Image Classification on ImageNet-1K
+### Image Classification on ImageNet-1K
 ![](https://kimjy99.github.io/assets/img/swin-transformer/swin-transformer-table1.PNG)
 
 이미지 분류에서, 왼쪽 결과를 보면 비슷한 파라미터를 가진 모델 중, FLOPs가 가장 낮으며 정확도는 가장 높게 나왔습니다.  
@@ -209,13 +211,13 @@ ImageNet-1K image classification, COCO object detection, ADE20K semantic segment
 
 또한, 오른쪽 결과는 더 큰 데이터 세트에 대해 사전 학습 시킨 것인데, 역시 Transformer의 특성에 맞게 많은 데이터에 대한 사전 학습을 시키니 성능이 CNN 모델과 기존 모델의 성능 향상을 볼 수 있습니다.
 
-## Object Detection on COCO
+### Object Detection on COCO
 ![](https://kimjy99.github.io/assets/img/swin-transformer/swin-transformer-table2.PNG)
 
-## Semantic Segmentation on ADE20K
+### Semantic Segmentation on ADE20K
 ![](https://kimjy99.github.io/assets/img/swin-transformer/swin-transformer-table3.PNG)
 
-## Ablation Study
+### Ablation Study
 다음은 분류, Object Detection, Semantic Segmentaiton에서 Shifted windows 방식과 Relative position bias를 제거하였을 때 성능에 얼마나 영향을 미치는 가에 대한 결과입니다.
 
 ![](https://kimjy99.github.io/assets/img/swin-transformer/swin-transformer-table4.PNG)
