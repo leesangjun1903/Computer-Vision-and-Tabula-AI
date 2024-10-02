@@ -113,7 +113,7 @@ token은 input으로 2D spatial grid로 재구성되고 (overlap 정도는 strid
 그림 2(b)는 Convolutional Transformer Block의 아키텍처를 보여줍니다.  
 여기서 Convolutional Projection이라고 하는 깊이별 분리 가능한 컨볼루션 연산[5]은 표준 위치 방식 대신 쿼리, 키 및 값 임베딩에 각각 적용됩니다.  
 또한 classification token은 마지막 단계에서만 추가됩니다.  
-마지막으로, 클래스를 예측하기 위해 최종 단계 출력의 classification token에 MLP(즉, 완전 연결) 헤드가 활용됩니다.  
+마지막으로, 클래스를 예측하기 위해 최종 단계 출력의 classification token에 MLP(multi-layer perceptron) 헤드가 활용됩니다.  
 
 ### Convolutional Token Embedding
 공식적으로, 이전 단계 $x_{i-1} \in \mathbb {R}^{H_{i-1} * W_{i-1} * C_{i-1}}$ 의 2D 이미지 또는 2D 형상의 출력 토큰 맵이 단계 $i$에 입력으로 주어지면, 우리는 $x_{i-1}$ 을 $C_i$ 를 가진 새로운 토큰 $f(x_{i-1}) \in \mathbb {R}^{H_i * W_i * C_i}$ 에 매핑하는 함수 $f(·)$ 를 학습합니다.  
@@ -250,11 +250,6 @@ CvT-W24 모델은 CvT-W24보다 매개 변수 수가 3배 이상인 대형 BitT-
 이 연구에서는 비전 트랜스포머 아키텍처에 컨볼루션을 도입하여 트랜스포머의 이점과 이미지 인식 작업에 대한 CNN의 이점을 결합하는 상세한 연구를 제시했습니다.  
 광범위한 실험을 통해 도입된 컨볼루션 토큰 임베딩 및 컨볼루션 프로젝션과 컨볼루션에 의해 활성화된 네트워크의 multi-stage design이 계산 효율성을 유지하면서도 우수한 성능을 달성한다는 것을 입증했습니다.  
 또한 컨볼루션에 의해 도입된 내장된 local context structure로 인해 CVT는 더 이상 position embedding이 필요하지 않으므로 변할 수 있는 input resolution에 필요한 광범위한 비전 작업에 적응할 수 있는 잠재적 이점을 제공합니다.
-
-
-
-
-
 
 
 
