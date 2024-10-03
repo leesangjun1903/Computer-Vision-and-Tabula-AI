@@ -267,6 +267,8 @@ Yang과 공동 저자는 군중 계산을 위한 ViT 아키텍처인 CrowdFormer
 지식 증류의 기본 아이디어는 교사 모델의 독특한 특성을 획득하고 통합하는 데 있어 학생 모델을 촉진하는 것입니다.  
 이는 작은 ViT 모델이 큰 모델보다 더 효율적으로 배포될 수 있으므로 계산 리소스가 제한된 작업에 특히 유용할 수 있습니다.
 
+![](https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-031-33380-4_13/MediaObjects/548822_1_En_13_Fig1_HTML.png)
+
 ### DeiT (Data-efficient Image Transformers)
 Deit는 다양한 작업에서 경쟁력 있는 성능을 보여준 ViT의 더 작고 효율적인 버전입니다.  
 교사에게는 사전 훈련된 ViT 모델을 사용하고 학생에게는 더 작은 버전을 사용합니다.  
