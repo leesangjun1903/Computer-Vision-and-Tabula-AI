@@ -7,4 +7,5 @@ linear bottenecks는 레이어에 채널 수가 적다면 linear activation을 �
 inverted residuals는 기존의 BottleNeck 구조는 첫 번째 1x1 conv layer에서 채널 수를 감소시키고 3x3 conv로 전달합니다. 채널 수가 감소된 레이어에서 ReLU 함수를 사용하면 정보 손실이 발생하게 됩니다. 따라서 첫 번째 레이어에서 입력값의 채널 수를 증가시키고 3x3conv layer로 전달합니다. 
 
 # Reference
+- 주요 CNN알고리즘 구현 : MobileNet v2 https://velog.io/@tbvjvsladla/26.-%EC%A3%BC%EC%9A%94-CNN%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B5%AC%ED%98%84-MobileNet-v2-1-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EA%B3%A0%EA%B8%89%EC%8B%9C%EA%B0%81-%EA%B0%95%EC%9D%98-%EB%B3%B5%EC%8A%B5
 https://m.blog.naver.com/phj8498/222689054103
