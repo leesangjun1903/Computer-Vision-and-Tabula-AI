@@ -1,5 +1,6 @@
-# MobileNet
+# MobileNetV1
 - https://ctkim.tistory.com/entry/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EB%84%B7
+- https://blog.firstpenguine.school/45
 
 # MobileNetV2
 mobilenetv2는 ReLU 함수를 거치게 되면 정보가 손실된다는 것에 영감을 받아 이를 최소화하기 위해 Inverted Residuals와 Linear Bottlenecks를 제안함
