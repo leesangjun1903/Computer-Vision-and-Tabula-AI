@@ -13,6 +13,9 @@ regularizing effect도 있습니다. 그래서 학습에 사용할 데이터셋�
 하나의 값으로 합쳐진게 아니라 서로 연결되어 하나의 데이터가 된 것이죠.  
 이러한 dense connectivity을 모든 레이어에서 거치기 때문에 저자는 자신들이 만든 네트워크를 Dense Convolutional Network (DenseNet)이라 불렀습니다.
 
+## Densenet 논문리뷰 및 구현
+- https://csm-kr.tistory.com/10
+
 # Reference
 - https://velog.io/@minkyu4506/%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0-Densely-Connected-Convolutional-NetworksDenseNet
 - https://deep-learning-study.tistory.com/528
