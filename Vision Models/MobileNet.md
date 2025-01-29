@@ -13,3 +13,4 @@ inverted residuals는 기존의 BottleNeck 구조는 첫 번째 1x1 conv layer�
 # Reference
 - 주요 CNN알고리즘 구현 : MobileNet v2 https://velog.io/@tbvjvsladla/26.-%EC%A3%BC%EC%9A%94-CNN%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B5%AC%ED%98%84-MobileNet-v2-1-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EA%B3%A0%EA%B8%89%EC%8B%9C%EA%B0%81-%EA%B0%95%EC%9D%98-%EB%B3%B5%EC%8A%B5
 - https://m.blog.naver.com/phj8498/222689054103
+- https://gaussian37.github.io/dl-concept-mobilenet_v2/
