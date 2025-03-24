@@ -13,6 +13,7 @@
 - PyTorch Implementations of various state of the art architectures https://github.com/04RR/SOTA-Vision
 - Computer Vision Foundation open access CVF https://openaccess.thecvf.com/menu
 - Fatih Porikli https://paperswithcode.com/search?q=author%3AFatih+Porikli&order_by=stars
+- Awesome-Scene-Change-Detection(SCD) : https://github.com/DoongLi/Awesome-Scene-Change-Detection?tab=readme-ov-file
 
 ## Papers with name
 - An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
