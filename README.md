@@ -14,6 +14,7 @@
 - Computer Vision Foundation open access CVF https://openaccess.thecvf.com/menu
 - Fatih Porikli https://paperswithcode.com/search?q=author%3AFatih+Porikli&order_by=stars
 - Awesome-Scene-Change-Detection(SCD) : https://github.com/DoongLi/Awesome-Scene-Change-Detection?tab=readme-ov-file
+- Awesome works on Unsupervised Object Localization : https://github.com/valeoai/Awesome-Unsupervised-Object-Localization
 
 ## Papers with name
 - An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
