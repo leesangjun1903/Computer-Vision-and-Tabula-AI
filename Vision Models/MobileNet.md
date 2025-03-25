@@ -21,3 +21,4 @@ inverted residuals는 기존의 BottleNeck 구조는 첫 번째 1x1 conv layer�
 - 파라미터 용량 : https://pytorch.org/vision/main/models/generated/torchvision.models.mobilenet_v2.html
 - https://velog.io/@woojinn8/LightWeight-Deep-Learning-7.-MobileNet-v2
 - https://sahiltinky94.medium.com/know-about-mobilenet-v2-implementation-from-scratch-using-pytorch-8e589b55599
+- https://hackmd.io/@machine-learning/ryaDuxe5L
