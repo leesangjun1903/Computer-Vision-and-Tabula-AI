@@ -18,3 +18,4 @@ inverted residuals는 기존의 BottleNeck 구조는 첫 번째 1x1 conv layer�
 - What is MobileNetV2? Features, Architecture, Application and More : https://www.analyticsvidhya.com/blog/2023/12/what-is-mobilenetv2/
 - https://velog.io/@woojinn8/LightWeight-Deep-Learning-7.-MobileNet-v2
 - MobileNetV2(2018) : https://deep-learning-study.tistory.com/541
+- 파라미터 용량 : https://pytorch.org/vision/main/models/generated/torchvision.models.mobilenet_v2.html
