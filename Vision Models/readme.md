@@ -2,7 +2,7 @@
 A survey of the Vision Transformers and its CNN-Transformer based Variants
 
 # Models
-## CLIP
+- CLIP
 
 ## CNN based Models
 
