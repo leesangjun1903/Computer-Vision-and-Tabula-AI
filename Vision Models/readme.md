@@ -1,10 +1,11 @@
 # Survey
 A survey of the Vision Transformers and its CNN-Transformer based Variants
 
-# Models
+# Models(papers)
 - CLIP
 - Class-Attention in Image Transformers(CaiT)
 - ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models
+- DeepPainter: Painter Classification Using Deep Convolutional Autoencoders
 
 # Diffusion Models
 - DPM
