@@ -207,6 +207,24 @@ Chapter 18: Using OpenCV Utilities for Image Analysis
 19. Temporal models  
 20. Models for visual words  
 
+## DEEP LEARNING FOR COMPUTER VISION WITH PYTHON, Dr. Adrian Rosebrock
+Training Networks Using Multiple GPUs  
+What Is ImageNet?  
+Preparing the ImageNet Dataset  
+Training AlexNet on ImageNet  
+Training VGGNet on ImageNet  
+Training GoogLeNet on ImageNet  
+Training ResNet on ImageNet  
+Training SqueezeNet on ImageNet  
+Case Study: Emotion Recognition  
+Case Study: Correcting Image Orientation  
+Case Study: Vehicle Identification  
+Case Study: Age and Gender Prediction  
+Faster R-CNNs  
+Training a Faster R-CNN From Scratch  
+Single Shot Detectors (SSDs)  
+Training a SSD From Scratch  
+
 ## Deep Learning for Computer Vision, Rajalingappaa Shanmugamani
 Understanding deep learning  
 Deep learning for computer vision  
