@@ -50,7 +50,7 @@ Edge detection
 Corner, interest point, and invariant feature detection  
 Texture analysis  
 Binary shape analysis  
-Bound ary pattern analysis  
+Boundary pattern analysis  
 Line. circle. and ellipse detection  
 The generalized Hough transform  
 Object segmentation and shape models  
