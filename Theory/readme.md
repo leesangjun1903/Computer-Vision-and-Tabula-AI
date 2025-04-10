@@ -67,6 +67,12 @@ Surveillance
 In-vehicle vision systems  
 Epilogue-Perspectives in vision
 
+## Computer Vision: A Modern Approach, Forsyth David A
+Part I. Image Formation  
+Part II. Image Models  
+Part III. Early Vision: One Image  
+Part V. Mid-Level Vision  
+Part VII. Applications and Topics  
 
 ## Learn Computer Vision Using OpenCV, Sunila Gollapudi
 Chapter 1: Artificial Intelligence and Computer Vision  
@@ -120,6 +126,27 @@ Chapter 9 Symbol Recognition
 Chapter 10 Content-Based Search — Finding Images by Example  
 Chapter 11 High-Performance Computing for Vision and Image Processing  
 
+## Modern Computer Vision with PyTorch, V Kishore Ayyadevara
+Chapter 1: Artificial Neural Network Fundamentals   
+Chapter 2: PyTorch Fundamentals  
+Chapter 3: Building a Deep Neural Network with PyTorch  
+Chapter 4: Introducing Convolutional Neural Networks  
+Chapter 5: Transfer Learning for Image Classification  
+Chapter 6: Practical Aspects of Image Classification  
+Chapter 7: Basics of Object Detection  
+Chapter 8: Advanced Object Detection  
+Chapter 9: Image Segmentation  
+Chapter 10: Applications of Object Detection and Segmentation  
+Chapter 11: Autoencoders and Image Manipulation  
+Chapter 12: Image Generation Using GANs  
+Chapter 13: Advanced GANs to Manipulate Images  
+Chapter 14: Training with Minimal Data Points  
+Chapter 15: Combining Computer Vision and NLP Techniques  
+Chapter 16: Combining Computer Vision and Reinforcement Learning  
+Chapter 17: Moving a Model to Production  
+Chapter 18: Using OpenCV Utilities for Image Analysis  
+
+
 ## Deep Learning for Computer Vision, Rajalingappaa Shanmugamani
 Understanding deep learning  
 Deep learning for computer vision  
@@ -156,6 +183,18 @@ Extending image-based approaches to videos
 Performance of models  
 Deployment in the cloud  
 Deployment of models in devices  
+
+## Deep Learning for Vision Systems, MOHAMED ELGENDY
+1 Welcome to computer vision  
+2 Deep learning and neural networks  
+3 Convolutional neural networks  
+4 Structuring DL projects and hyperparameter tuning  
+5 Advanced CNN architectures  
+6 Transfer learning  
+7 Object detection with R-CNN, SSD, and YOLO  
+8 Generative adversarial networks (GANs)  
+9 DeepDream and neural style transfer  
+10 Visual embeddings  
 
 
 ## Practical Python and OpenCV, Dr. Adrian Rosebrock
@@ -291,5 +330,19 @@ Auto-Calibration
 Duality  
 Cheirality  
 Degenerate Configurations  
+
+# 3D Vision
+## INTRODUCTOR TECHNIQUES for 3-D COMPUTE VISION, 
+Introduction  
+Digital Snapshots  
+Dealing with Image Noise  
+Image Features  
+More Image Features  
+Camera Calibration  
+Stereopsis  
+Motion  
+Shape from Single-image Cues  
+Recognition  
+Locating Objects in Space  
 
 
