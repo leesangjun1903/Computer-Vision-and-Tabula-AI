@@ -87,6 +87,77 @@ Chapter 6: Motion Analysis and Object Tracking
 7. What Is He Doing? Motion
 8. Advanced Topics
 
+## Image Processing Principles and Applications, Tinku Acharya
+Introduction  
+Image Formation and Representation  
+Color and Color Imagery  
+Image Transformation  
+Discrete Wavelet Transform  
+Image Enhancement and Restoration  
+Image Segmentation  
+Recognition of Image Patterns  
+Texture and Shape Analysis  
+Fuzzy Set Theory in Image Processing  
+Image Mining and Content-Based Image Retrieval  
+Biometric And Biomedical Image Processing  
+Remotely Sensed Multispectral Scene Analysis  
+Dynamic Scene Analysis: Moving Object Detection and Tracking  
+Introduction to Image Compression  
+JPEG: Still Image Compression Standard  
+JPEG2000 Standard For Image Compression  
+Coding Algorithms in JPEG2000 Standard  
+
+## Algorithms for Image Processing and Computer Vision, J.R. Parker
+Chapter 1 Practical Aspects of a Vision System — Image Display, Input/Output, and Library Calls  
+Chapter 2 Edge-Detection Techniques  
+Chapter 3 Digital Morphology  
+Chapter 4 Grey-Level Segmentation  
+Chapter 5 Texture and Color  
+Chapter 6 Thinning  
+Chapter 7 Image Restoration  
+Chapter 8 Classification  
+Chapter 9 Symbol Recognition  
+Chapter 10 Content-Based Search — Finding Images by Example  
+Chapter 11 High-Performance Computing for Vision and Image Processing  
+
+## Deep Learning for Computer Vision, Rajalingappaa Shanmugamani
+Understanding deep learning  
+Deep learning for computer vision  
+Development environment setup  
+Training the MNIST model in TensorFlow  
+Training the MNIST model in Keras  
+Other popular image testing datasets  
+The bigger deep learning models  
+Training a model for cats versus dogs  
+Developing real-world applications  
+Understanding visual features  
+Model inference  
+Content-based image retrieval  
+Detecting objects in an image  
+Localizing algorithms  
+Detecting objects  
+Object detection API  
+The YOLO object detection algorithm  
+Predicting pixels  
+Algorithms for semantic segmentation  
+Ultra-nerve segmentation  
+Segmenting satellite images  
+Algorithms for similarity learning  
+Human face analysis  
+Understanding natural language processing for image captioning  
+Approaches for image captioning and related problems  
+Implementing attention-based image captioning  
+Applications of generative models  
+Neural artistic style transfer  
+Generative Adversarial Networks  
+Visual dialogue model  
+Understanding and classifying videos  
+Extending image-based approaches to videos  
+Performance of models  
+Deployment in the cloud  
+Deployment of models in devices  
+
+
 ## Practical Python and OpenCV, Dr. Adrian Rosebrock
 1 introduction  
 2 python and required packages  
@@ -100,6 +171,41 @@ Chapter 6: Motion Analysis and Object Tracking
 10 gradients and edge detection  
 11 contours  
 12 where to now?  
+
+## Practical Machine Learning for Computer Vision, Valliappa Lakshmanan
+Machine Learning for Computer Vision  
+ML Models for Vision  
+Image Vision  
+Object Detection and Image Segmentation  
+Creating Vision Datasets  
+Preprocessing  
+Training Pipeline  
+Model Quality and Continuous Evaluation  
+Model Predictions  
+Trends in Production ML  
+Advanced Vision Problems  
+Image and Text Generation  
+
+
+## Practical Deep Learning for Cloud, Mobile, and Edge, Anirudh Koul
+Exploring the Landscape of Artificial Intelligence  
+What’s in the Picture: Image Classification with Keras  
+Cats Versus Dogs: Transfer Learning in 30 Lines with Keras  
+Building a Reverse Image Search Engine: Understanding Embeddings  
+From Novice to Master Predictor: Maximizing Convolutional Neural Network Accuracy  
+Maximizing Speed and Performance of TensorFlow: A Handy Checklist  
+Practical Tools, Tips, and Tricks  
+Cloud APIs for Computer Vision: Up and Running in 15 Minutes  
+Scalable Inference Serving on Cloud with TensorFlow Serving and KubeFlow  
+AI in the Browser with TensorFlow.js and ml5.js  
+Real-Time Object Classification on iOS with Core ML  
+Not Hotdog on iOS with Core ML and Create ML  
+Shazam for Food: Developing Android Apps with TensorFlow Lite and ML Kit  
+Building the Purrfect Cat Locator App with TensorFlow Object Detection API  
+Becoming a Maker: Exploring Embedded AI at the Edge  
+Simulating a Self-Driving Car Using End-to-End Deep Learning with Keras  
+Building an Autonomous Car in Under an Hour: Reinforcement Learning with AWS DeepRacer  
+
 
 ## Numerical Algorithms Methods for Computer Vision, Machine Learning, and Graphics, Justin Solomon
 Chapter 1 Mathematics Review  
@@ -138,6 +244,17 @@ Chapter 8: Vision Pipelines and Optimizations
 5 Image Deblurring  
 6 Image Inpainting  
 7 Image Segmentation  
+
+## Hands-On Computer Vision with TensorFlow 2, Benjamin Planche
+Chapter 1: Computer Vision and Neural Networks  
+Chapter 2: TensorFlow Basics and Training a Model Technical requirements  
+Chapter 3: Modern Neural Networks  
+Chapter 4: Influential Classification Tools  
+Chapter 5: Object Detection Models  
+Chapter 6: Enhancing and Segmenting Images  
+Chapter 7: Training on Complex and Scarce Datasets  
+Chapter 8: Video and Recurrent Neural Networks  
+Chapter 9: Optimizing Models and Deploying on Mobile Devices  
 
 ## Programming Computer Vision with Python, Jan Erik Solem
 Basic Image Handling and Processing  
