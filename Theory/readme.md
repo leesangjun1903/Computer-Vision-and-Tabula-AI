@@ -146,6 +146,27 @@ Chapter 16: Combining Computer Vision and Reinforcement Learning
 Chapter 17: Moving a Model to Production  
 Chapter 18: Using OpenCV Utilities for Image Analysis  
 
+## Computer Vision: Models, Learning, and Inference,  Simon J. D. Prince
+1. Introduction  
+2. Introduction to Probability  
+3. Common probability distributions  
+4. Fitting probability models  
+5. The normal distribution  
+6. Learning and inference in vision  
+7. Modeling complex data densities  
+8. Regression models  
+9. Classification models  
+10. Graphical models  
+11. Models for chains and trees  
+12. Models for grids  
+13. Image preprocessing and feature extraction  
+14. The pinhole camera  
+15. Models for transformations  
+16. Multiple cameras  
+17. Models for shape  
+18. Models for style and identity  
+19. Temporal models  
+20. Models for visual words  
 
 ## Deep Learning for Computer Vision, Rajalingappaa Shanmugamani
 Understanding deep learning  
