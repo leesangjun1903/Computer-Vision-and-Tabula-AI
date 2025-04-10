@@ -14,14 +14,14 @@ https://www.kaggle.com/code/fabiobellavia/imc2024-3d-metric-evaluation-example
 https://www.kaggle.com/code/asarvazyan/imc-understanding-the-baseline
 
 ## Code
-# Starter
+## Starter
 https://www.kaggle.com/code/nartaa/imc2024-starter/notebook  
 https://www.kaggle.com/code/nartaa/imc24/notebook
 
-# IMC-2024-Multi models pipeline
+## IMC-2024-Multi models pipeline
 https://www.kaggle.com/code/motono0223/imc-2024-multi-models-pipeline/notebook
 
-# Feature Matching and Image Pair Finding
+## Feature Matching and Image Pair Finding
 https://www.kaggle.com/code/tabassumnova/feature-matching-and-image-pair-finding
 
 ## 39th place solution - SuperGlue + SIFT
@@ -40,24 +40,24 @@ https://www.kaggle.com/code/dschettler8845/image-matching-challenge-2022-eda
 ## superpoint-imc2023-2nd-position
 https://www.kaggle.com/code/mukit0/superpoint-imc2023-2nd-position
 
-# 3rd Place Solution - Significantly Reduced the Fluctuations caused by Randomness!
+## 3rd Place Solution - Significantly Reduced the Fluctuations caused by Randomness!
 https://www.kaggle.com/competitions/image-matching-challenge-2023/discussion/417191
 
-# Data Augmentation for Facial Keypoint Detection 
+## Data Augmentation for Facial Keypoint Detection 
 https://www.kaggle.com/code/balraj98/data-augmentation-for-facial-keypoint-detection
 
-# Image similarity with DINOv2 and FAISS
+## Image similarity with DINOv2 and FAISS
 https://medium.com/aimonks/image-similarity-with-dinov2-and-faiss-741744bc5804
 
-# Efficient LoFTR: Semi-Dense Local Feature Matching
+## Efficient LoFTR: Semi-Dense Local Feature Matching
 https://www.kaggle.com/code/doublej37/efficient-loftr-semi-dense-local-feature-matching
 
-# DINOv2-SALAD image similarity
+## DINOv2-SALAD image similarity
 https://www.kaggle.com/code/oldufo/dinov2-salad-image-similarity
 https://github.com/serizba/salad
 
-## ETC
-### Papers
+# ETC
+## Papers
 Deep Learning of Partial Graph Matching via Differentiable Top-K, Runzhong Wang  
 Structure from Motion with Objects, Marco Crocco  
 ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation, Xiaoming Zhao
