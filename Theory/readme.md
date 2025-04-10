@@ -86,6 +86,22 @@ Stereo Matching
 Feature Detection and Tracking  
 Object Detection
 
+## Computer Vision: Algorithms and Applications, Richard Szeliski
+Introduction  
+Image formation  
+Image processing  
+Model fitting and optimization  
+Deep learning
+Recognition  
+Feature detection and matching  
+Image alignment and stitching  
+Motion estimation  
+Computational photography  
+Structure from motion and SLAM  
+Depth estimation  
+3D reconstruction  
+Image-based rendering  
+
 ## Learn Computer Vision Using OpenCV, Sunila Gollapudi
 Chapter 1: Artificial Intelligence and Computer Vision  
 Chapter 2: OpenCV with Python  
@@ -104,6 +120,17 @@ Chapter 6: Motion Analysis and Object Tracking
 6. Where’s Wally? Object Detection
 7. What Is He Doing? Motion
 8. Advanced Topics
+
+## Feature Extraction and Image Processing for Computer Vision, Mark S. Nixon
+1. Introduction  
+2. Images, Sampling and Frequency Domain Processing  
+3. Basic Image Processing Operations  
+4. Low-Level Feature Extraction (including Edge Detection)  
+5. High-Level Feature Extraction: Fixed Shape Matching  
+6. High-Level Feature Extraction: Deformable Shape Analysis  
+7. Object Description  
+8. Introduction to Texture Description, Segmentation and Classification  
+9. Moving Object Detection and Description  
 
 ## Image Processing Principles and Applications, Tinku Acharya
 Introduction  
