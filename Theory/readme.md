@@ -74,6 +74,18 @@ Part III. Early Vision: One Image
 Part V. Mid-Level Vision  
 Part VII. Applications and Topics  
 
+## Concise Computer Vision, Reinhard Klette
+Image Data  
+Image Processing  
+Image Analysis  
+Dense Motion Analysis  
+Image Segmentation  
+Cameras, Coordinates, and Calibration  
+3D Shape Reconstruction  
+Stereo Matching  
+Feature Detection and Tracking  
+Object Detection
+
 ## Learn Computer Vision Using OpenCV, Sunila Gollapudi
 Chapter 1: Artificial Intelligence and Computer Vision  
 Chapter 2: OpenCV with Python  
