@@ -60,7 +60,8 @@ https://github.com/serizba/salad
 ## Papers
 Deep Learning of Partial Graph Matching via Differentiable Top-K, Runzhong Wang  
 Structure from Motion with Objects, Marco Crocco  
-ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation, Xiaoming Zhao
+ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation, Xiaoming Zhao  
+Evaluating image matching methods for book cover identification, Rabie Hachemi
 
 ## Structure from Motion
 Structure from Motion (SfM) is the name given to the procedure of reconstructing a 3D scene and simultaneously obtaining the camera poses of a camera w.r.t. the given scene. This means that, as the name suggests, we are creating the entire rigid structure from a set of images with different view points (or equivalently a camera in motion).
