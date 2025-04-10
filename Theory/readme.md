@@ -47,14 +47,14 @@ Images and imaging operations
 Image filtering and morphology  
 The role of thresholding  
 Edge detection  
-Corner, interest poi nt, and invariant feature detection  
+Corner, interest point, and invariant feature detection  
 Texture analysis  
 Binary shape analysis  
 Bound ary pattern analysis  
 Line. circle. and ellipse detection  
 The generalized Hough transform  
 Object segmentation and shape models  
-Basic cl assifi cation concepts  
+Basic classification concepts  
 Machine learning: probabilistic methods  
 Deep-learning networks  
 The three-dimensional world  
