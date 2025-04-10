@@ -6,6 +6,7 @@ A survey of the Vision Transformers and its CNN-Transformer based Variants
 - Class-Attention in Image Transformers(CaiT)
 - ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders
+- DINOv2: Learning Robust Visual Features without Supervision
 
 # Diffusion Models
 - DPM
