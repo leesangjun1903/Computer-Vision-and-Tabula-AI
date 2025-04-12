@@ -16,6 +16,8 @@
 - Awesome-Scene-Change-Detection(SCD) : https://github.com/DoongLi/Awesome-Scene-Change-Detection?tab=readme-ov-file
 - Awesome works on Unsupervised Object Localization : https://github.com/valeoai/Awesome-Unsupervised-Object-Localization
 - Awesome-Shadow-Removal : https://github.com/GuoLanqing/Awesome-Shadow-Removal
+- Awesome Decision, Classification, and Regression Tree Research Papers : https://github.com/benedekrozemberczki/awesome-decision-tree-papers
+
 
 ## Papers with name
 - An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
@@ -25,8 +27,3 @@
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
 - satellite-image-deep-learning : https://github.com/satellite-image-deep-learning/techniques
-
-
-# Classification
-## Awesome papers
-- Awesome Decision, Classification, and Regression Tree Research Papers : https://github.com/benedekrozemberczki/awesome-decision-tree-papers
