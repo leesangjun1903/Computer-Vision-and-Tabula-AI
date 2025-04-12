@@ -27,3 +27,5 @@
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
 - satellite-image-deep-learning : https://github.com/satellite-image-deep-learning/techniques
+
+# ETC
