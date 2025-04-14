@@ -300,10 +300,10 @@ During the whole period that computer vision was developing in the way described
 Chapters 2 and 13 form the introductions to the two main branches of the subject—image processing and machine learning. Chapters 2 7 follow the image-processing theme, covering low-level vision and various widely used segmentation techniques, ranging from thresholding, through edge and feature detection to texture analysis. Chapters 8 12 move on to intermediate-level processing, which has developed significantly in the past two decades and is important for the inference of complex objects: to this end, key model-based vision techniques such as the Hough transform and RANSAC are covered in detail (Chapters 10 and 11). Active shape models (Chapter 12) are also important for many practical applications. However, the latter require knowledge of PCA and other machine learning concepts: these are covered in Chapter 14. Chapters 16 19 develop the subject of 3-D vision, while Chapter 20 introduces motion. Chapters 21 23 attend to three key application areas—face detection and recognition; surveillance; and in-vehicle vision systems. Chapter 24 reiterates and highlights some of the lessons and topics dealt with in the book; Appendix A develops the subject of Robust Statistics, which relates to a large proportion of the methods that are covered here; and Appendix B covers a topic that is essential background to a subject such as vision—namely the sampling theorem. Appendix C discusses the representation of color, while Appendix D is relevant to machine learning and contains important material on sampling from distributions.
 
 2장과 13장은 이미지 처리와 기계 학습이라는 두 가지 주요 분야에 대한 소개를 구성합니다.  
-2장~7장은 이미지 처리 주제를 따르며, 저수준 비전과 다양한 널리 사용되는 세분화 기법을 다룹니다. 이는 임계값 설정, 엣지 및 특징 감지, 텍스처 분석에 이르기까지 다양합니다.  
-8장~12절은 지난 20년 동안 크게 발전하여 복잡한 객체의 추론에 중요한 중간 수준 처리로 넘어갑니다. 이를 위해 Hough 변환과 RANSAC와 같은 주요 모델 기반 비전 기술을 자세히 다룹니다(10장과 11장).  
+2장 ~ 7장은 이미지 처리 주제를 따르며, 저수준 비전과 다양한 널리 사용되는 세분화 기법을 다룹니다. 이는 임계값 설정, 엣지 및 특징 감지, 텍스처 분석에 이르기까지 다양합니다.  
+8장 ~ 12절은 지난 20년 동안 크게 발전하여 복잡한 객체의 추론에 중요한 중간 수준 처리로 넘어갑니다. 이를 위해 Hough 변환과 RANSAC와 같은 주요 모델 기반 비전 기술을 자세히 다룹니다(10장과 11장).  
 능동형 형태 모델(12장)도 많은 실용적인 응용 분야에서 중요합니다. 그러나 후자는 PCA 및 기타 기계 학습 개념에 대한 지식이 필요합니다: 이는 14장에서 다룹니다.  
-16장~19장은 3D 비전에 대한 주제를 개발하고, 20장은 동작을 소개합니다.  
+16장 ~ 19장은 3D 비전에 대한 주제를 개발하고, 20장은 동작을 소개합니다.  
 21~23장은 얼굴 감지 및 인식, 감시, 차량 내 비전 시스템 등 세 가지 주요 응용 분야에 대해 다룹니다.  
 24장은 이 책에서 다룬 몇 가지 교훈과 주제를 반복하고 강조합니다;  
 부록 A는 여기서 다루는 방법의 많은 부분과 관련된 강건 통계학 주제를 개발하고, 부록 B는 비전과 같은 주제의 필수적인 배경, 즉 샘플링 정리를 다룹니다. 부록 C는 색상 표현에 대해 논의하고, 부록 D는 기계 학습과 관련이 있으며 분포에서 샘플링하는 중요한 자료를 포함하고 있습니다.
