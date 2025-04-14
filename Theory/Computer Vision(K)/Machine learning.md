@@ -343,11 +343,29 @@ It is common to use the decoder part of a pretrained autoencoder for conditional
 이러한 매핑은 정렬된 데이터만으로 학습된 매핑보다 보이지 않는 데이터에 더 잘 일반화될 가능성이 높습니다.
 
 ### Disentangling of factors
+Under certain circumstances, the latent distribution learned by an autoencoder has some factor disentangling properties so that a certain factor of variation affects all or almost all dimensions in the original space X but only a small subset of dimensions in the latent space Z. For example, when autoencoder is trained for face images, certain latent dimensions may correspond to person identity, while being invariant to expression (and vice versa). Such disentagling is most common to observe in a variational autoencoder (VAE) due to the diagonal covariance structure imposed on the latent distributions within VAE.
 
+특정 상황에서 오토인코더가 학습한 잠재 분포는 원래 공간 X의 모든 또는 거의 모든 차원에 영향을 미치지만 잠재 공간 Z의 일부 차원에만 영향을 미치는 특정 변동 요인의 분리 특성을 가지고 있습니다.  
+예를 들어, 얼굴 이미지에 대해 오토인코더를 학습할 때 특정 잠재 차원은 표현에 불변하면서도 사람의 정체성에 해당할 수 있습니다(그리고 그 반대의 경우도 마찬가지입니다).  
+이러한 분리는 VAE 내의 잠재 분포에 부과되는 대각선 공분산 구조로 인해 변분 오토인코더(VAE)에서 관찰되는 것이 가장 일반적입니다.
 
+### Data manipulation in latent space
+Even if fac- tors of variation are not disentangled in the latent space, it often happens that high-level (semantic) editing is easier in the latent space than in the data space. For example, given a dataset of face images, it often happens that a change of a certain attribute (e.g., changing neutral face expression to smiling expression) can be easily modeled in the latent space. Sometimes, such transformation that is very complex in the data space can be well approximated by a simple translation by a certain vector in the latent space. The parameters of the transformation in the latent space can be learned from a small amount of extra annotation (e.g., in the example above, the translation vector can be learned as a difference between the mean of the latent representations of several smiling faces and the mean of the latent representations of several neutral faces).
 
+변동의 요인들이 잠재 공간에서 분리되지 않더라도, 데이터 공간보다 잠재 공간에서 고수준(의미론적) 편집이 더 쉬운 경우가 종종 발생합니다.  
+예를 들어, 얼굴 이미지 데이터셋이 주어졌을 때, 특정 속성의 변경(예: 중립적인 얼굴 표정을 웃는 표정으로 바꾸는 것)이 잠재 공간에서 쉽게 모델링될 수 있습니다.  
+때때로 데이터 공간에서 매우 복잡한 이러한 변환은 잠재 공간에서 특정 벡터에 의한 간단한 번역으로 잘 근사될 수 있습니다.  
+잠재 공간에서의 변환 매개변수는 소량의 추가 주석(예: 위의 예시에서 번역 벡터는 여러 웃는 얼굴의 잠재 표현 평균과 여러 중립 얼굴의 잠재 표현 평균 간의 차이로 학습될 수 있습니다)을 통해 학습될 수 있습니다.
 
+### Unsupervised restoration and anomaly detection
+The ability of autoencoders to project data on the data manifold can be used to restore corrupted data as well as to identify outlier samples that do not belong to the data manifold [16, 17].
 
+오토인코더가 데이터 매니폴드에 데이터를 투영하는 능력은 손상된 데이터를 복원하고 데이터 매니폴드에 속하지 않는 이상값 샘플을 식별하는 데 사용할 수 있습니다 [16, 17].
+
+```
+16 : Electric power system anomaly detection using neural networks
+17 : Structured Denoising Autoencoder for Fault Detection and Analysis
+```
 
 
 
