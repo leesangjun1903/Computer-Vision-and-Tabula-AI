@@ -410,7 +410,7 @@ Cheirality
 Degenerate Configurations  
 
 # 3D Vision
-## INTRODUCTOR TECHNIQUES for 3-D COMPUTE VISION, 
+## INTRODUCTOR TECHNIQUES for 3-D COMPUTER VISION, 
 Introduction  
 Digital Snapshots  
 Dealing with Image Noise  
