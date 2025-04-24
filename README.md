@@ -24,11 +24,12 @@
 
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
-- satellite-image-deep-learning : https://github.com/satellite-image-deep-learning/techniques
 
+  
 # ETC
 - [계산사진학] What is Computational Photography? : https://velog.io/@claude_ssim/%EA%B3%84%EC%82%B0%EC%82%AC%EC%A7%84%ED%95%99
 - https://computer-vision-talks.com/
 - Fatih Porikli https://paperswithcode.com/search?q=author%3AFatih+Porikli&order_by=stars
 - Computer Vision Foundation open access CVF https://openaccess.thecvf.com/menu
+- satellite-image-deep-learning : https://github.com/satellite-image-deep-learning/techniques
 
