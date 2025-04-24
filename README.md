@@ -24,6 +24,7 @@
 
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
+- Human Protein Atlas Image Classification : https://www.kaggle.com/c/human-protein-atlas-image-classification/code?competitionId=10418&sortBy=voteCount&excludeNonAccessedDatasources=true
 
   
 # ETC
