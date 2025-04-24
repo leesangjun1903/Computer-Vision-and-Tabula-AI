@@ -8,6 +8,8 @@
 - Awesome-Scene-Change-Detection(SCD) : https://github.com/DoongLi/Awesome-Scene-Change-Detection?tab=readme-ov-file
 - Awesome works on Unsupervised Object Localization : https://github.com/valeoai/Awesome-Unsupervised-Object-Localization
 - Awesome-Shadow-Removal : https://github.com/GuoLanqing/Awesome-Shadow-Removal
+- Awesome Remote Sensing Change Detection : https://github.com/wenhwu/awesome-remote-sensing-change-detection?tab=readme-ov-file#code
+- Awesome-Optical-Flow : https://github.com/hzwer/Awesome-Optical-Flow
 - Awesome Decision, Classification, and Regression Tree Research Papers : https://github.com/benedekrozemberczki/awesome-decision-tree-papers
 - Paper with code : Computer Vision https://paperswithcode.com/area/computer-vision
 - Paper with code : Image matching https://paperswithcode.com/task/image-matching
