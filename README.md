@@ -3,6 +3,7 @@
 
 ## Awesome Series
 - Awesome Computer Vision https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file
+- Awesome - Image Classification : https://github.com/weiaicunzai/awesome-image-classification
 - Awesome-Image-Matching https://github.com/ericzzj1989/Awesome-Image-Matching
 - Awesome-Scene-Change-Detection(SCD) : https://github.com/DoongLi/Awesome-Scene-Change-Detection?tab=readme-ov-file
 - Awesome works on Unsupervised Object Localization : https://github.com/valeoai/Awesome-Unsupervised-Object-Localization
