@@ -19,7 +19,7 @@
 - An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders
 - Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
-- Revisiting ResNets: Improved Training and Scaling Strategies : https://arxiv.org/abs/2103.07579
+- Revisiting ResNets: Improved Training and Scaling Strategies : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
 
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
