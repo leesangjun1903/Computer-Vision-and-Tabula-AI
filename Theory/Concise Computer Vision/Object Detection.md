@@ -1,5 +1,5 @@
 # Object Detection
-## 10.1 Localization,Classification,andEvaluation
+## 10.1 Localization, Classification, and Evaluation
 객체 후보는 직사각형 바운딩 박스 안에 위치해 있습니다.  
 바운딩 박스는 관심 영역(region of interest, RoI)의 특별한 예입니다. 그림 10.1을 참조하십시오.  
 
