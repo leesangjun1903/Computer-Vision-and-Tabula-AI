@@ -81,7 +81,11 @@ OpenCV에서는 cv2.cornerHarris() 함수를 사용하여 모서리 감지를 �
 ### Speeded-Up Robust Features
 
 
+### Features from Accelerated Segment Test
+이전의 특징 검출기는 실시간 이미지를 수집하는 비디오 카메라나 로봇과 같은 실시간 애플리케이션에는 유용하지 않습니다.  
+이러한 사용 사례는 런타임에 특징 검출에 지연이 발생하면 실패합니다. FAST 알고리즘은 이미지의 키 포인트를 계산하기 위해 픽셀 이웃을 사용합니다.
 
+### Binary Robust Independent Elementary Features
 
 
 
