@@ -11,6 +11,7 @@
 - Modern Computer Vision with PyTorch https://github.com/PacktPublishing/Modern-Computer-Vision-with-PyTorch
 - 서울대학교 Intelligent Computer Vision https://www.youtube.com/watch?v=Ysbp9wspRGk&list=PLFHgP5PmkZLBS1dguG4_UpVwJFNGoyzX8&index=4
 - 컴퓨터 비전 실습 https://www.boostcourse.org/search/show?searchQuery=%EC%BB%B4%ED%93%A8%ED%84%B0+%EB%B9%84%EC%A0%84+%EC%8B%A4%EC%8A%B5&MAX=20
+- Computer Vision Notes and Exercises : https://github.com/mantasu/uob-cv/tree/master?tab=readme-ov-file
 
 # Theory
 ## Computer Vision, Linda Shapiro
