@@ -56,6 +56,9 @@ https://www.kaggle.com/code/doublej37/efficient-loftr-semi-dense-local-feature-m
 https://www.kaggle.com/code/oldufo/dinov2-salad-image-similarity
 https://github.com/serizba/salad
 
+## Hloc - the hierarchical localization toolbox(image matching and Structure-from-Motion) 
+https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
+
 # ETC
 ## Papers
 Deep Learning of Partial Graph Matching via Differentiable Top-K, Runzhong Wang  
