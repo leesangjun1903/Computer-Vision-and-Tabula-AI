@@ -35,7 +35,7 @@
 - Easy Few-Shot Learning https://github.com/sicara/easy-few-shot-learning/tree/master
 - OpenCV를 활용한 컴퓨터 비전 스터디 https://github.com/engineerjkk/Image_Processing/tree/main
 - Satellite-image-deep-learning https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file  
-- SOTA in Computer vision, two excellent resources https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge/discussion/44102
+- SOTA in Computer vision, two excellent resources(~2018), C-CORE Iceberg Classifier Challenge Discussion : https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge/discussion/44102
 - [Tutorial] Image Feature Extraction and Matching https://www.kaggle.com/code/wesamelshamy/tutorial-image-feature-extraction-and-matching
 - Deep Autoenconder - PyTorch - Image Reconstruction https://www.kaggle.com/code/drvaibhavkumar/deep-autoenconder-pytorch-image-reconstruction
 - Segment Anything https://github.com/facebookresearch/segment-anything/tree/main
