@@ -25,6 +25,7 @@
 - Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
 - Revisiting ResNets: Improved Training and Scaling Strategies : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
 - Hloc - the hierarchical localization toolbox(image matching and Structure-from-Motion) : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
+- Segment Anything(SAM, SAM2) https://github.com/facebookresearch/segment-anything/tree/main
 
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
@@ -36,12 +37,11 @@
 - OpenCV를 활용한 컴퓨터 비전 스터디 https://github.com/engineerjkk/Image_Processing/tree/main
 - Satellite-image-deep-learning https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file  
 - SOTA in Computer vision, two excellent resources(~2018), C-CORE Iceberg Classifier Challenge Discussion : https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge/discussion/44102
-- Deep Autoenconder - PyTorch - Image Reconstruction https://www.kaggle.com/code/drvaibhavkumar/deep-autoenconder-pytorch-image-reconstruction
-- Segment Anything https://github.com/facebookresearch/segment-anything/tree/main
-- Classifying custom image datasets by creating Convolutional Neural Networks and Residual Networks from scratch with PyTorch https://github.com/Rumeysakeskin/EuroSat-Satellite-CNN-and-ResNet/tree/main
-- Deep Learning Tutorials using PyTorch (PseudoLab) https://github.com/Pseudo-Lab/Tutorial-Book?tab=readme-ov-file
-- Joeun Park https://github.com/corazzon
-- Exploring-the-MLP-Mixer-Architecture for Image Classification: Performance Evaluation, Tuning, and Ablation Study on MNIST Dataset https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file
+- Deep Autoenconder (with Linear layer) - PyTorch - Image Reconstruction https://www.kaggle.com/code/drvaibhavkumar/deep-autoenconder-pytorch-image-reconstruction
+- Classifying custom satellite image datasets by creating Convolutional Neural Networks and Residual Networks from scratch with PyTorch https://github.com/Rumeysakeskin/EuroSat-Satellite-CNN-and-ResNet/tree/main
+- PyTorch를 활용한 딥러닝 튜토리얼, Deep Learning Tutorials using PyTorch (PseudoLab) : https://github.com/Pseudo-Lab/Tutorial-Book?tab=readme-ov-file
+- Joeun Park (데이터 분석 실습 자료) https://github.com/corazzon
+- Exploring-the-MLP-Mixer-Architecture for Image Classification: **MLP-Mixer** Performance Evaluation, Tuning, and Ablation Study on MNIST Dataset https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file
 - 논문으로 짚어보는 딥러닝의 맥 : https://www.boostcourse.org/deeplearningchoi/joinLectures/10979
 - image classification with qnn-inference-examples : https://github.com/maltanar/qnn-inference-examples
 - Classifying animals using SOTA Models : https://www.kaggle.com/code/aymenkhouja/classifying-animals-using-sota-models/notebook
