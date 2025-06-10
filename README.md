@@ -24,7 +24,6 @@
 - Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
 - Revisiting ResNets: Improved Training and Scaling Strategies : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
 - Hloc - the hierarchical localization toolbox(image matching and Structure-from-Motion) : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
-- DEEP-IMAGE-MATCHING(Multivew matcher for SfM software) : https://github.com/3DOM-FBK/deep-image-matching  
 
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
