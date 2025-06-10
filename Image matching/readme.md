@@ -56,12 +56,6 @@ https://www.kaggle.com/code/doublej37/efficient-loftr-semi-dense-local-feature-m
 https://www.kaggle.com/code/oldufo/dinov2-salad-image-similarity
 https://github.com/serizba/salad
 
-## Hloc - the hierarchical localization toolbox(image matching and Structure-from-Motion) 
-https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
-
-## DEEP-IMAGE-MATCHING(Multivew matcher for SfM software) 
-https://github.com/3DOM-FBK/deep-image-matching  
-
 # ETC
 ## Papers
 Deep Learning of Partial Graph Matching via Differentiable Top-K, Runzhong Wang  
@@ -83,6 +77,15 @@ In this competition, the important aspect of SfM we are interested in is obtaini
 
 - Dinov2 vs CLiP https://medium.com/aimonks/clip-vs-dinov2-in-image-similarity-6fa5aa7ed8c6
 - Dinov2 https://mvje.tistory.com/143
+
+### 3D Reconstruction using Structure from Motion (personal project)
+https://github.com/harish-vnkt/structure-from-motion
+
+### Hloc - the hierarchical localization toolbox(image matching and Structure-from-Motion) 
+https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
+
+### DEEP-IMAGE-MATCHING(Multivew matcher for SfM software) 
+https://github.com/3DOM-FBK/deep-image-matching  
 
 ## Estimate the Camera Poses
 
