@@ -18,11 +18,12 @@
 - PyTorch Implementations of various state of the art architectures(MLP-Mixer, TransUNet, ViT, Fastformer, Single Image Super-Resolution via a Holistic Attention Network) https://github.com/04RR/SOTA-Vision
 - computer-vision-research-papers https://github.com/maunesh/computer-vision-research-papers?tab=readme-ov-file
 
-## Papers with name
+## Papers with name, Models
 - An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders
 - Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
 - Revisiting ResNets: Improved Training and Scaling Strategies : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
+- Hloc - the hierarchical localization toolbox(image matching and Structure-from-Motion) : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file 
 
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
@@ -32,8 +33,7 @@
 - Mask Verification https://github.com/ddiddu/cs470team1/tree/master   
 - Easy Few-Shot Learning https://github.com/sicara/easy-few-shot-learning/tree/master
 - OpenCV를 활용한 컴퓨터 비전 스터디 https://github.com/engineerjkk/Image_Processing/tree/main
-- Satellite-image-deep-learning https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file
-- Hloc - the hierarchical localization toolbox(image matching and Structure-from-Motion) : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file   
+- Satellite-image-deep-learning https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file  
 - DEEP-IMAGE-MATCHING https://github.com/3DOM-FBK/deep-image-matching  
 - 3D Reconstruction using Structure from Motion https://github.com/harish-vnkt/structure-from-motion
 - Awesome-Local-Feature-Matching https://github.com/vignywang/Awesome-Local-Feature-Matching?tab=readme-ov-file#Detector-based-Models
