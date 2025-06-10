@@ -40,7 +40,6 @@
 - Deep Autoenconder (with Linear layer) - PyTorch - Image Reconstruction https://www.kaggle.com/code/drvaibhavkumar/deep-autoenconder-pytorch-image-reconstruction
 - Classifying custom satellite image datasets by creating Convolutional Neural Networks and Residual Networks from scratch with PyTorch https://github.com/Rumeysakeskin/EuroSat-Satellite-CNN-and-ResNet/tree/main
 - PyTorch를 활용한 딥러닝 튜토리얼, Deep Learning Tutorials using PyTorch (PseudoLab) : https://github.com/Pseudo-Lab/Tutorial-Book?tab=readme-ov-file
-- Joeun Park (데이터 분석 실습 자료) https://github.com/corazzon
 - Exploring-the-MLP-Mixer-Architecture for Image Classification: **MLP-Mixer** Performance Evaluation, Tuning, and Ablation Study on MNIST Dataset https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file
 - 논문으로 짚어보는 딥러닝의 맥 : https://www.boostcourse.org/deeplearningchoi/joinLectures/10979
 - image classification with qnn-inference-examples (Quandized Neural Network) : https://github.com/maltanar/qnn-inference-examples
@@ -62,4 +61,5 @@
 - Fatih Porikli https://paperswithcode.com/search?q=author%3AFatih+Porikli&order_by=stars
 - Computer Vision Foundation open access CVF https://openaccess.thecvf.com/menu
 - satellite-image-deep-learning : https://github.com/satellite-image-deep-learning/techniques
+- Joeun Park (데이터 분석 실습 자료) https://github.com/corazzon
 
