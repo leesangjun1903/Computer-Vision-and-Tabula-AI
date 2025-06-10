@@ -26,6 +26,8 @@
 - Revisiting ResNets: Improved Training and Scaling Strategies : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
 - Hloc - the hierarchical localization toolbox(image matching and Structure-from-Motion) : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
 - Segment Anything(SAM, SAM2) https://github.com/facebookresearch/segment-anything/tree/main
+- Generative AI, Artificial Images(StyleGAN2, Pix2Pix, SinGAN, Super-Resolution(EDSR, EUSR, DBPN, RCAN, MSRN, ESRGAN, CARN, FRSR) , U2-Net : https://github.com/dvschultz/ai/tree/master
+- PyTorch-GAN(Auxiliary Classifier GAN, Adversarial Autoencoder, BEGAN, BicycleGAN, Boundary-Seeking GAN, Cluster GAN, Conditional GAN, Context-Conditional GAN, Context Encoder, Coupled GAN, CycleGAN, Deep Convolutional GAN, DiscoGAN, DRAGAN, DualGAN, Energy-Based GAN, Enhanced Super-Resolution GAN, GAN, InfoGAN, Least Squares GAN, MUNIT, Pix2Pix, PixelDA, Relativistic GAN, Semi-Supervised GAN, Softmax GAN, StarGAN, Super-Resolution GAN, UNIT, Wasserstein GAN, Wasserstein GAN GP(Wasserstein GAN with Gradient Penalty), Wasserstein GAN DIV(Wasserstein Divergence for GANs) : https://github.com/eriklindernoren/PyTorch-GAN/tree/master?tab=readme-ov-file#munit
 
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
@@ -49,11 +51,10 @@
 - Top 10 Open Source Computer Vision Repositories : https://encord.com/blog/open-source-computer-vision-repositories/
 - Understanding and Calculating the number of Parameters in Convolution Neural Networks (CNNs) : https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d
 - object detection 개요 [딥러닝 컴퓨터 비전 완벽가이드 필기] : https://check-this.tistory.com/6
-- Artificial Images : https://github.com/dvschultz/ai/tree/master
 - LearnOpenCV https://github.com/spmallick/learnopencv/tree/master?tab=readme-ov-file
-- PyTorch-GAN : https://github.com/eriklindernoren/PyTorch-GAN/tree/master?tab=readme-ov-file#super-resolution-gan
 - Three Ways of Storing and Accessing Lots of Images in Python : https://realpython.com/storing-images-in-python/
-- Deep Learning Projects : https://github.com/aswintechguy/Deep-Learning-Projects/tree/main
+- Deep Learning Projects(Abstractive Text Summarization Transformer Model, Anime Face Generation, Deep CNN Autoencoder - Image Compression - Denoising Image
+, Cassava Leaf Disease Detection, Colorize Images & Videos - DeOldify, Building an AI Agent for Wikipedia & Calculator using OpenAI, Custom Object Detection Tutorial using YOLOv8, Dogs vs Cats Image Classification - CNN, Face Mask Detection - Object Detection, Fake News Detection Analysis - LSTM Classification, Realtime Human Pose Estimation - OpenCV, Image & Video Segmentation with SAM 2.1, Image Segmentation Tutorial - Unet, LLM Usage and Fine Tuning Llama3, MNIST Handwritten Digits Recognition, Mastering OpenAI GPT-3 & 3.5, Speech Emotion Recognition - Sound Classification, Super Resolution - OpenCV(EDSR, LapSRN), Urban Sound Analysis - Sound Classification)  : https://github.com/aswintechguy/Deep-Learning-Projects/tree/main
   
 # ETC
 - [계산사진학] What is Computational Photography? : https://velog.io/@claude_ssim/%EA%B3%84%EC%82%B0%EC%82%AC%EC%A7%84%ED%95%99
