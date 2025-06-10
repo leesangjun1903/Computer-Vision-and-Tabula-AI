@@ -43,7 +43,7 @@
 - Joeun Park (데이터 분석 실습 자료) https://github.com/corazzon
 - Exploring-the-MLP-Mixer-Architecture for Image Classification: **MLP-Mixer** Performance Evaluation, Tuning, and Ablation Study on MNIST Dataset https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file
 - 논문으로 짚어보는 딥러닝의 맥 : https://www.boostcourse.org/deeplearningchoi/joinLectures/10979
-- image classification with qnn-inference-examples : https://github.com/maltanar/qnn-inference-examples
+- image classification with qnn-inference-examples (Quandized Neural Network) : https://github.com/maltanar/qnn-inference-examples
 - Classifying animals using SOTA Models : https://www.kaggle.com/code/aymenkhouja/classifying-animals-using-sota-models/notebook
 - 365 Days Computer Vision Learning LinkedIn Post : https://github.com/ashishpatel26/365-Days-Computer-Vision-Learning-Linkedin-Post
 - Semantic Segmentation을 위한 U-Net 모델 : https://dacon.io/forum/405807
