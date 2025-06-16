@@ -1,0 +1,21 @@
+# Computer Vision: Models, Learning, and Inference 
+- Introduction
+- Introduction to Probability
+- Common probability distributions
+- Fitting probability models
+- The normal distribution
+- Learning and inference in vision
+- Modeling complex data densities
+- Regression models
+- Classification models
+- Graphical models
+- Models for chains and trees
+- Models for grids
+- Image preprocessing and feature extraction
+- The pinhole camera
+- Models for transformations
+- Multiple cameras
+- Models for shape
+- Models for style and identity
+- Temporal models
+- Models for visual words
