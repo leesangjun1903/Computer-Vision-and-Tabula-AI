@@ -1,5 +1,4 @@
-# ALIKED 논문 쉽게 요약  
-**제목:** ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation
+# ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation
 
 ---
 
