@@ -9,6 +9,9 @@ A survey of the Vision Transformers and its CNN-Transformer based Variants
 - DINOv2: Learning Robust Visual Features without Supervision
 - Depth-Aware Multi-Grid Deep Homography Estimation with Contextual Correlation(Image Stitching, etc)
 
+## 3D
+OmniSplat: Taming Feed-Forward 3D Gaussian Splatting for Omnidirectional Images with Editable Capabilities
+
 ## Awesome Diffusion Categorized
 https://github.com/wangkai930418/awesome-diffusion-categorized?tab=readme-ov-file
 
