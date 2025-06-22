@@ -30,3 +30,12 @@ Binning: 연속 변수를 구간으로 나눠 이산형 변수로 변환합니�
 
 # Reference
 https://www.analyticsvidhya.com/blog/2015/11/8-ways-deal-continuous-variables-predictive-modeling/
+- Binning The Variable
+- Normalization
+- Transformations for Skewed Distribution
+- Use of Business Logic
+- New Features
+- Treating Outliers
+- Principal Component Analysis
+- Factor Analysis
+- Methods to work with Date & Time Variable
