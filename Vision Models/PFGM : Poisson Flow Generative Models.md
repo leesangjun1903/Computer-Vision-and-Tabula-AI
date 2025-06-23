@@ -129,3 +129,70 @@ Poisson Flow Generative Models은 물리학의 전기역학 원리를 생성형 
 [29] https://arxiv.org/pdf/2302.04265.pdf
 [30] https://www.themoonlight.io/ko/review/tomographic-foundation-model-force-flow-oriented-reconstruction-conditioning-engine
 [31] https://m.php.cn/ko/faq/685403.html
+
+# Poisson Flow Generative Models (PFGM) 공식적 설명
+
+## 1. 기본 개념  
+Poisson Flow Generative Models(PFGM)은 데이터를 전기 전하(electric charge)로 간주하고, 포아송 방정식(Poisson equation)을 이용해 이 전하들 주위에 형성된 전기장(electric field)을 학습하여 샘플을 생성하는 물리학 기반 생성 모델이다[1].  
+
+## 2. 포아송 방정식 적용  
+
+- **포아송 방정식**
+
+  $$\nabla^2 \phi(\mathbf{x}, z) = -\rho(\mathbf{x}) / \varepsilon_0$$
+  
+  여기서 $$\phi$$ 는 전위(potential), $$\rho(\mathbf{x})$$ 는 데이터 분포를 표현하는 전하 밀도(charge density), $$\varepsilon_0$$ 는 유전율이다[1].
+
+- **전기장(포아송 장) 정의**
+  
+  $$\mathbf{E}(\mathbf{x}, z) = \nabla \phi(\mathbf{x}, z)$$  
+  이 전기장은 데이터가 위치한 평면(z=0)에서 추가 차원(z)으로 향하는 방향을 제시한다[1].
+
+## 3. 모델 구성 요소  
+
+1. **차원 확장(Dimensional Augmentation)**  
+   원래 N차원 데이터 $$\mathbf{x}\in\mathbb{R}^N$$ 를 N+1차원 공간 $$(\mathbf{x}, z)\in\mathbb{R}^{N+1}$$으로 확장한다. 초기 $$z$$ 값은 반구(hemisphere) 상의 균등 분포에서 샘플링한다[1].  
+
+2. **전기장 학습(Field Learning)**  
+   신경망은 확대된 공간에서 전위 $$\phi$$의 해의 그래디언트를 근사한다. 학습 목표는 실제 전기장과 모델 예측 전기장 간의 L2 손실을 최소화하는 것이다[1].  
+
+3. **역방향 ODE(Backward ODE) 샘플링**  
+   학습된 전기장 $$\mathbf{E}$$를 이용하여 다음 미분 방정식을 풀어 샘플 경로를 생성한다:
+   
+   $$\frac{d(\mathbf{x}, z)}{dt} = -\mathbf{E}(\mathbf{x}, z)$$
+   
+   이 과정은 반구에서 시작해 z=0 평면으로 가면서 최종적으로 데이터 분포를 획득한다[1].  
+
+## 4. PFGM++: 확장된 프레임워크  
+
+- **추가 차원 D**  
+  PFGM++는 $$D$$개의 추가 차원을 사용해 $$\mathbb{R}^{N+D}$$ 공간에서 경로를 정의하며, $$D=1$$일 때 PFGM, $$D\to\infty$$일 때 확산 모델(Diffusion Models)과 일치한다[2].  
+- **하이퍼파라미터 전이**  
+  무한 차원 확산 모델의 하이퍼파라미터를 유한 $$D$$ 값으로 변환하는 직접 정렬(alignment) 방법을 제공한다[2].  
+
+## 5. 성능 및 장점  
+
+- **샘플링 속도**: 확산 모델 대비 10–20배 빠른 이미지 생성 속도[1].  
+- **품질 지표**: CIFAR-10에서 Inception Score 9.68, FID 2.35 달성[1].  
+- **안정성**: 약한 네트워크 구조나 큰 스텝 크기에도 견고함을 보임[1].  
+- **유연성**: $$D$$ 조정을 통해 견고성(robustness)과 경직성(rigidity) 간 균형 설정 가능[2].  
+
+## 6. 한계 및 향후 과제  
+
+- **이론적 복잡성**: 물리학적 직관 이해가 필요하여 학습 곡선이 가파르다[1].  
+- **응용 분야 확대**: 현재 주로 이미지 생성에 적용되었으며, 다른 도메인 확장이 필요하다[1].  
+
+---
+
+PFGM은 포아송 방정식을 창의적으로 이용해 전기장 기반 샘플링 절차를 도입함으로써 기존 흐름 모델 및 확산 모델의 한계를 극복하며, PFGM++를 통해 더 넓은 생성 모델 스펙트럼을 제공한다[1][2].
+
+[1] https://arxiv.org/abs/2209.11178v4
+[2] https://paperswithcode.com/paper/pfgm-unlocking-the-potential-of-physics
+[3] https://proceedings.neurips.cc/paper_files/paper/2022/file/6ad68a54eaa8f9bf6ac698b02ec05048-Supplemental-Conference.pdf
+[4] https://arxiv.org/html/2504.20179v1
+[5] https://par.nsf.gov/biblio/10498689-pfgm++-unlocking-potential-physics-inspired-generative-models
+[6] https://github.com/Newbeeer/pfgmpp
+[7] https://openreview.net/forum?id=voV_TRqcWh
+[8] https://accubits.com/pfgm/
+[9] https://paperswithcode.com/paper/poisson-flow-generative-models
+[10] https://paperswithcode.com/paper/poisson-flow-consistency-models-for-low-dose
