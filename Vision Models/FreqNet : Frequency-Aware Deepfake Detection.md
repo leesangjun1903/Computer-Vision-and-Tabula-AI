@@ -15,7 +15,7 @@ FreqNet은 주파수 도메인(frequency domain) 학습을 핵심으로 하는 �
 1. **High-Frequency Representation (HFR)**  
    - 입력 이미지 $$x$$를 FFT로 변환 후, 중앙 저주파 영역만 제거하는 high-pass filter $$\mathcal{B}_h$$를 적용해 고주파 성분 $$f_h$$을 추출하고, iFFT로 다시 이미지 공간 $$x_h$$로 복원하여 네트워크 입력으로 사용[1].  
 2. **High-Frequency Representation of Feature**  
-   - CNN의 각 컨볼루션 레이어 출력 $$M^k$$에 대해 공간 및 채널 차원별로 FFT→$$\mathcal{B}_h$$→iFFT를 적용하여 고주파 특성 $$M^k_h$$를 강조[1].  
+   - CNN의 각 컨볼루션 레이어 출력 $$M^k$$에 대해 공간 및 채널 차원별로 FFT → $$\mathcal{B}_h$$ → iFFT를 적용하여 고주파 특성 $$M^k_h$$를 강조[1].  
 3. **Frequency Convolutional Layer (FCL)**  
    - 특성 맵 $$M^k$$를 FFT로 변환하여 진폭(amplitude)과 위상(phase) 스펙트럼을 분리한 뒤, 각각에 컨볼루션 레이어 $$L_{conv}$$를 적용하여 학습한 후 iFFT로 복원함으로써 주파수 공간에서 직접 학습하도록 함[1].  
 
