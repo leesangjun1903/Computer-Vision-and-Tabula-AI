@@ -77,7 +77,7 @@ regularizing effect도 있습니다. 그래서 학습에 사용할 데이터셋�
 
 ### **수식으로 보는 DenseNet의 연결 수**
 
-- 레이어가 $$ L $$개라면, DenseNet의 연결 수는
+- 레이어가 $$L$$ 개라면, DenseNet의 연결 수는
 
 $$
 \frac{L(L+1)}{2}
