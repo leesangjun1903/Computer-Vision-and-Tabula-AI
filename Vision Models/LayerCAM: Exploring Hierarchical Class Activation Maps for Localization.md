@@ -48,7 +48,7 @@ $$M^c = \mathrm{ReLU}\Bigl(\sum_k \hat{A}^k\Bigr).$$
 - **요소별 최대값(element-wise max)** 연산으로 융합합니다[1].  
 - 스케일링 식 예시:
 
-$$\tilde{M}^c = \tanh\Bigl(\gamma\,\frac{M^c}{\max(M^c)}\Bigr)$$
+$$\tilde{M}^c = \tanh\Bigl(\gamma\ * \frac{M^c}{\max(M^c)}\Bigr)$$
 
 ---
 
