@@ -9,7 +9,7 @@ https://wikidocs.net/152474
 ### [논문] VAE(Auto-Encoding Variational Bayes) 직관적 이해
 https://taeu.github.io/paper/deeplearning-paper-vae/
 
-# Auto-Encoding Variational Bayes (AEVB) 
+# Auto-Encoding Variational Bayes (AEVB, VAE) 
 
 ## 1. 개요  
 Auto-Encoding Variational Bayes(AEVB)는 2013년 Diederik P. Kingma와 Max Welling이 제안한 알고리즘으로, 연속 잠재 변수(latent variable)를 갖는 확률 모델에서 효율적 추론과 학습을 가능하게 한다[1]. 주요 기여는 두 가지이다. 첫째, 변분 하한(ELBO)의 재파라미터화(reparameterization)를 통해 확률적 경사하강법으로 직접 최적화할 수 있게 한 점이다[1]. 둘째, 인식 모델(recognition model)을 학습시켜 각 데이터 포인트의 복잡한 사후분포(posterior)를 효율적으로 근사하도록 한 점이다[1].
@@ -19,10 +19,12 @@ Auto-Encoding Variational Bayes(AEVB)는 2013년 Diederik P. Kingma와 Max Welli
 ## 2. 배경  
 ### 2.1 변분 추론(Variational Inference)  
 - 실제 사후분포 $$p(z|x)$$는 계산이 어렵기 때문에, 근사분포 $$q_\phi(z|x)$$를 도입하여 $$\mathrm{KL}(q\|p)$$를 최소화한다[1].  
-- 이때 최적화 대상은 Evidence Lower Bound(ELBO)로,  
-  $$
-    \log p(x) \ge \mathbb{E}_{q_\phi}[\log p(x,z) - \log q_\phi(z|x)]
-  $$
+- 이때 최적화 대상은 Evidence Lower Bound(ELBO)로,
+
+$$
+\log p(x) \ge \mathbb{E}\_{q_\phi}[\log p(x,z) - \log q_\phi(z|x)]
+$$
+  
 [1].
 
 ### 2.2 전통적 문제  
@@ -34,12 +36,12 @@ Auto-Encoding Variational Bayes(AEVB)는 2013년 Diederik P. Kingma와 Max Welli
 
 ## 3. 재파라미터화 트릭(Reparameterization Trick)  
 AEVB는 샘플링 연산을 미분 가능한 함수로 변환하여 경사하강법에 적용한다[1].  
-1. 잠재 변수 $$z$$를 인식 네트워크 $$q_\phi(z|x)$$ 대신,  
-   $$
-     z = \mu_\phi(x) + \sigma_\phi(x) \odot \epsilon, \quad \epsilon \sim \mathcal{N}(0,I)
-   $$  
+1. 잠재 변수 $$z$$를 인식 네트워크 $$q_\phi(z|x)$$ 대신,
+   
+$$z = \mu_\phi(x) + \sigma_\phi(x) \odot \epsilon, \quad \epsilon \sim \mathcal{N}(0,I)$$
+   
    와 같이 표준정규분포 $$\epsilon$$와 조합해 생성한다[1].  
-2. 이렇게 하면 ELBO 내 기댓값을 샘플로 근사해도 $$\phi$$에 대한 미분이 가능해진다[1].
+3. 이렇게 하면 ELBO 내 기댓값을 샘플로 근사해도 $$\phi$$에 대한 미분이 가능해진다[1].
 
 ---
 
@@ -47,12 +49,10 @@ AEVB는 샘플링 연산을 미분 가능한 함수로 변환하여 경사하강
 1. **인코더(Encoder)**: 입력 $$x$$를 받아 잠재 변수 분포 파라미터 $$\mu_\phi(x)$$, $$\sigma_\phi(x)$$를 출력한다[1].  
 2. **샘플링**: 재파라미터화 트릭을 통해 $$z$$를 얻는다[1].  
 3. **디코더(Decoder)**: $$z$$로부터 재구성 확률 $$p_\theta(x|z)$$를 계산한다[1].  
-4. **ELBO 최적화**:  
-   $$
-     \mathcal{L}(\theta,\phi;x)
-     = -\mathrm{KL}\bigl(q_\phi(z|x)\,\|\,p(z)\bigr)
-       + \mathbb{E}_{q_\phi}[\log p_\theta(x|z)]
-   $$  
+4. **ELBO 최적화**:
+
+$$\mathcal{L}(\theta,\phi;x) = -\mathrm{KL}\bigl(q_\phi(z|x)\,\|\,p(z)\bigr) + \mathbb{E}\_{q_\phi}[\log p_\theta(x|z)] $$  
+
    를 미니배치 확률적 경사하강법으로 최적화한다[1].
 
 ---
