@@ -20,6 +20,7 @@
 - computer-vision-research-papers https://github.com/maunesh/computer-vision-research-papers?tab=readme-ov-file
 - Top 10 Open Source Computer Vision Repositories : https://encord.com/blog/open-source-computer-vision-repositories/
 - Image-to-Image papers : https://github.com/lzhbrian/image-to-image-papers?tab=readme-ov-file
+- AdversarialNetsPapers : https://github.com/zhangqianhui/AdversarialNetsPapers?tab=readme-ov-file
 
 ## Papers with name, Models
 - An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
