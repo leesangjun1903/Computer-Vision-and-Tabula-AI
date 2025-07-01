@@ -1,7 +1,7 @@
 Tabular data란 산업 현장의 엑셀 시트에서 아주 흔하게 볼 수 있는 형태로, feature는 컬럼에, sample을 row 방향에 위치한 정형데이터 구조이다.
 
 # Dataset
-- OPenML : https://www.openml.org/search?type=data&status=active
+- OpenML : https://www.openml.org/search?type=data&status=active
 
 [Classification]
 (https://wikidocs.net/204186)
