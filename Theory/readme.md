@@ -14,6 +14,8 @@
 - Computer Vision Notes and Exercises : https://github.com/mantasu/uob-cv/tree/master?tab=readme-ov-file
 
 # Theory
+## Intelligent Autonomous Drones with Cognitive Deep Learning, David Allen Blubaugh
+
 ## Computer Vision, Linda Shapiro
 Imaging and Image Representation  
 Binary Image Analysis  
