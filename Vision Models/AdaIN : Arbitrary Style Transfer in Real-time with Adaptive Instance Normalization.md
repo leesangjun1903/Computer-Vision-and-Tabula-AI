@@ -48,6 +48,7 @@ $$ \text{AdaIN}(x, y) = \sigma(y) \left( \frac{x - \mu(x)}{\sigma(x)} \right) + 
 - **디코더**: AdaIN 출력을 이미지 공간으로 역변환[1]
 
 수식으로 표현하면:
+
 $$ t = \text{AdaIN}(f(c), f(s)) $$
 $$ T(c, s) = g(t) $$
 
