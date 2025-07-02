@@ -1,4 +1,4 @@
-# SAM 2: Segment Anything in Images and Videos 요약 보고서
+# SAM 2: Segment Anything in Images and Videos 
 
 ## 핵심 주장 및 주요 기여  
 Segment Anything Model 2 (SAM 2)는 이미지와 비디오 양쪽에서 **프롬프트(promptable) 시각 분할**을 실시간으로 처리하는 범용 파운데이션 모델을 제안한다[1].  
