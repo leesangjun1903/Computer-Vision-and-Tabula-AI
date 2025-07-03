@@ -23,6 +23,7 @@
 - AdversarialNetsPapers : https://github.com/zhangqianhui/AdversarialNetsPapers?tab=readme-ov-file
 - Awesome Image Translation : https://github.com/weihaox/awesome-image-translation/tree/master
 - Awesome Normalizing Flows : https://github.com/janosh/awesome-normalizing-flows?tab=readme-ov-file
+- really-awesome-gan : https://github.com/nightrome/really-awesome-gan
 
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
