@@ -1,4 +1,4 @@
-# CvT : Introducing Convolutions to Vision Transformers
+# CvT : Introducing Convolutions to Vision Transformers | Image classification
 
 ## Abstract
 이 논문에서 Convolution vision Transformer(CvT)라는 새로운 architecture를 소개합니다.  
