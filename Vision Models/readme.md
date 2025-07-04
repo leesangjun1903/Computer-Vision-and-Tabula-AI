@@ -13,6 +13,7 @@
 - BEGAN: Boundary Equilibrium Generative Adversarial Networks | Image generation
 - BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | Image augmentation, Image classification
 - Big Transfer (BiT): General Visual Representation Learning | Image classification
+- CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | Image reconstruction
 
 
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
