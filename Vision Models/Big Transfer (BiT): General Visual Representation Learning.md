@@ -1,4 +1,4 @@
-# Big Transfer (BiT): General Visual Representation Learning 요약 보고서
+# Big Transfer (BiT): General Visual Representation Learning | Image classification
 
 ## 1. 핵심 주장 및 주요 기여
 Big Transfer (BiT) 논문은 **대규모 감독 학습 데이터로 사전 학습한 일반화 가능한 시각 표현**을 단일 모델로 구축·배포하여, 다양한 다운스트림 비전 과제에 효과적으로 전이할 수 있음을 보였다[1]. 주요 기여는 다음과 같다[1]:
