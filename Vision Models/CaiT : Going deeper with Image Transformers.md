@@ -5,7 +5,8 @@
 1. **LayerScale**  
    - 각 트랜스포머 블록(셀프 어텐션 또는 피드포워드 네트워크)의 출력에 학습 가능한 작은 파라미터(초기값 ≈ 0.1)를 곱합니다[2][3].  
    - 깊은 네트워크에서 그래디언트 소실/폭발 문제를 완화하며, **잔차 연결(residual connection)** 의 안정성을 높입니다[3].  
-   - 예시: $$ \text{Output} = \text{Residual} + \lambda \cdot \text{Block}(x) $$, 여기서 $$\lambda$$는 학습된 스칼라 값입니다[2].  
+   - 예시:
+   $$\text{Output} = \text{Residual} + \lambda \cdot \text{Block}(x)$$  여기서 $$\lambda$$ 는 학습된 스칼라 값입니다[2].  
 
 2. **Class-Attention Layers**  
    - 기존 트랜스포머 레이어를 **두 단계로 분리**합니다[3]:  
