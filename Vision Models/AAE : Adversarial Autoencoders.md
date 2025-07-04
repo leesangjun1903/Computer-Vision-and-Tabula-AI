@@ -1,4 +1,4 @@
-# Adversarial Autoencoders 논문 종합 분석
+# Adversarial Autoencoders | Image generation
 
 ## 핵심 주장과 주요 기여
 
