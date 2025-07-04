@@ -1,4 +1,4 @@
-# Class-Attention in Image Transformers | Image classification
+# CaiT : Going deeper with Image Transformers | Image classification
 "Going deeper with Image Transformers" (CaiT) 논문은 이미지 분류를 위해 더 깊은 트랜스포머 아키텍처를 최적화하는 방법을 제안합니다. 기존 트랜스포머는 이미지 분류에서 CNN의 성능을 뛰어넘었지만, 깊은 네트워크로 확장 시 최적화 문제가 발생했습니다. 이 논문은 **LayerScale**과 **Class-Attention**이라는 두 가지 핵심 기술을 도입해 이러한 한계를 해결했습니다.  
 
 ### 🔧 주요 방법론  
