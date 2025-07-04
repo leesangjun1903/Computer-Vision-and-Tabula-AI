@@ -1,4 +1,4 @@
-# Dual Contrastive Learning for Unsupervised Image-to-Image Translation
+# Dual Contrastive Learning for Unsupervised Image-to-Image Translation | Image generation
 
 ## 1. 핵심 주장 및 주요 기여  
 **핵심 주장**: 기존 CycleGAN 계열의 순환 일관성 제약이나 CUT의 단일 인코더 기반 대비, 서로 다른 도메인에 대해 독립된 인코더와 대조 학습을 적용하면 비지도 이미지 변환 품질과 안정성이 크게 향상된다[1].  
