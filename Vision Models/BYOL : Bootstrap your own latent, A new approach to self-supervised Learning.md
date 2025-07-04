@@ -1,4 +1,4 @@
-# BYOL : Bootstrap your own latent, A new approach to self-supervised Learning
+# BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | Image augmentation
 
 ## 1. 핵심 주장과 주요 기여
 
