@@ -10,6 +10,7 @@
 - AdaIN : Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | Image generation
 - AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks | Image generation
 - Auxiliary Classifier GAN : Conditional Image Synthesis with Auxiliary Classifier GANs | Image generation
+- BEGAN: Boundary Equilibrium Generative Adversarial Networks | Image generation
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
 - Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
