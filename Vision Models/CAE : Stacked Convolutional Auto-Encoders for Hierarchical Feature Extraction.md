@@ -1,4 +1,4 @@
-# Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction
+# CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | Image reconstruction
 
 ## 1. 논문의 핵심 주장과 주요 기여
 
