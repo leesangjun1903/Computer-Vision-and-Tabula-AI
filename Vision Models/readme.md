@@ -14,7 +14,7 @@
 - BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | Image augmentation, Image classification
 - Big Transfer (BiT): General Visual Representation Learning | Image classification
 - CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | Image reconstruction
-
+- CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognization, Image generation
 
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
@@ -27,7 +27,6 @@
 - PyTorch-GAN(Auxiliary Classifier GAN, Adversarial Autoencoder, BEGAN, BicycleGAN, Boundary-Seeking GAN, Cluster GAN, Conditional GAN, Context-Conditional GAN, Context Encoder, Coupled GAN, CycleGAN, Deep Convolutional GAN, DiscoGAN, DRAGAN, DualGAN, Energy-Based GAN, Enhanced Super-Resolution GAN, GAN, InfoGAN, Least Squares GAN, MUNIT, Pix2Pix, PixelDA, Relativistic GAN, Semi-Supervised GAN, Softmax GAN, StarGAN, Super-Resolution GAN, UNIT, Wasserstein GAN, Wasserstein GAN GP(Wasserstein GAN with Gradient Penalty), Wasserstein GAN DIV(Wasserstein Divergence for GANs) : https://github.com/eriklindernoren/PyTorch-GAN/tree/master?tab=readme-ov-file#munit
 - Exploring-the-MLP-Mixer-Architecture for Image Classification: **MLP-Mixer** Performance Evaluation, Tuning, and Ablation Study on MNIST Dataset https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file
 
-- CLIP
 - Class-Attention in Image Transformers(CaiT)
 - ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders
