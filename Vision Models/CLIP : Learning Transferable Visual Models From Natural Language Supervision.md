@@ -1,4 +1,4 @@
-# CLIP
+# CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognization, Image generation
 "Learning Transferable Visual Models From Natural Language Supervision" 논문은 이미지와 텍스트 간의 관계를 학습해 범용적인 시각 인식 모델을 구축한 획기적인 연구입니다.
 
 ### 📌 핵심 기여  
