@@ -1,4 +1,4 @@
-# Conditional Image Synthesis with Auxiliary Classifier GANs
+# Conditional Image Synthesis with Auxiliary Classifier GANs | Image generation
 
 ## 1. 논문 한 문장 요약
 
