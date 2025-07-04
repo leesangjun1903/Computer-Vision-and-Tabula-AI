@@ -2,9 +2,8 @@
 A survey of the Vision Transformers and its CNN-Transformer based Variants
 
 # Models(papers)
-## Papers with name, Models
-- ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
-- DeepPainter: Painter Classification Using Deep Convolutional Autoencoders
+- ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | classification
+- DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | classification
 - Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
 - ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
 - Hloc - From Coarse to Fine: Robust Hierarchical Localization at Large Scale : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
