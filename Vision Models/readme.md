@@ -18,6 +18,7 @@
 - CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
 - CaiT : Going deeper with Image Transformers | Image classification
 - ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models | Image generation
+- ConvNeXt : A ConvNet for the 2020s | Image classification, Object detection, Sementic Segmentation
 - ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders | Image classification, Object detection, Sementic segmentation
 
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
