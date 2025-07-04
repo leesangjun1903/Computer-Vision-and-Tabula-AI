@@ -1,4 +1,4 @@
-# A ConvNet for the 2020s: 핵심 주장 및 주요 기여 요약
+# ConvNeXt : A ConvNet for the 2020s | Image classification, Object detection, Sementic Segmentation
 
 ## 1. 핵심 주장 및 주요 기여  
 **핵심 주장**  
