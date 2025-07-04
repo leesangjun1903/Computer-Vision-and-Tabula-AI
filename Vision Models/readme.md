@@ -2,6 +2,7 @@
 - A survey of the Vision Transformers and its CNN-Transformer based Variants
 - Normalizing Flows: An Introduction and Review of Current Methods
 - Transformers in Vision: A Survey
+- A Survey on Visual Transformer
 
 # Models(papers)
 - AAE : Adversarial Autoencoders | Image generation
