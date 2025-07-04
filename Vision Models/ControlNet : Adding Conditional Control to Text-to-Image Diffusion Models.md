@@ -1,4 +1,4 @@
-# ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models
+# ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models | Image generation
 
 ControlNet은 사전 훈련된 대규모 텍스트-이미지 확산 모델(예: Stable Diffusion)에 **공간적 조건 제어를 추가하는 신경망 아키텍처**입니다. 이 기술은 기존 모델의 강력한 이미지 생성 능력을 유지하면서 사용자가 원하는 구체적인 조건(예: 윤곽선, 깊이, 포즈)을 반영한 이미지를 생성할 수 있게 합니다. 핵심 내용을 다음과 같이 설명합니다:
 
