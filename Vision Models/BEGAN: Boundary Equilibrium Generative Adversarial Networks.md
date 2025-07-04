@@ -1,4 +1,4 @@
-# BEGAN: Boundary Equilibrium Generative Adversarial Networks
+# BEGAN: Boundary Equilibrium Generative Adversarial Networks | Image generation
 
 ## 핵심 주장과 주요 기여
 
