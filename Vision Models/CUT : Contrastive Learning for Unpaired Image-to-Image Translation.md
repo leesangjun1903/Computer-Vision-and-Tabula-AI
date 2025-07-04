@@ -1,4 +1,4 @@
-# 핵심 주장 및 주요 기여 요약
+# CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
 
 “Contrastive Learning for Unpaired Image-to-Image Translation” 논문은 **비대응(unpaired) 이미지 변환** 문제에서 기존의 주류 방법인 **사이클 일관성(cycle-consistency)** 손실을 대신하여, **입력과 출력 이미지의 대응되는 패치 간 상호 정보(mutual information)를 최대화**하는 **패치 단위 대조 학습(patchwise contrastive learning)** 프레임워크를 제안한다[1]. 주요 기여는 다음과 같다.
 
