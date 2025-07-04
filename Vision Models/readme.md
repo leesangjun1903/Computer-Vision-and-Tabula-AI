@@ -21,6 +21,7 @@
 - ConvNeXt : A ConvNet for the 2020s | Image classification, Object detection, Sementic Segmentation
 - ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders | Image classification, Object detection, Sementic segmentation
 - CvT : Introducing Convolutions to Vision Transformers | Image classification
+- DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | Image generation
 
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
