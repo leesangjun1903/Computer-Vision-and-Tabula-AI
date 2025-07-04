@@ -9,8 +9,9 @@
 - ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation | Image Matching
 - AdaIN : Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | Image generation
 - AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks | Image generation
-- ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | classification
-- DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | classification
+- Auxiliary Classifier GAN : Conditional Image Synthesis with Auxiliary Classifier GANs | Image generation
+- DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
+- ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
 - Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
 - ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
 - Hloc - From Coarse to Fine: Robust Hierarchical Localization at Large Scale : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
