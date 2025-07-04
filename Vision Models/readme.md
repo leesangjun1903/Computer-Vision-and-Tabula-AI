@@ -17,6 +17,7 @@
 - CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognization, Image generation
 - CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
 - CaiT : Going deeper with Image Transformers | Image classification
+- ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models | Image generation
 
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
