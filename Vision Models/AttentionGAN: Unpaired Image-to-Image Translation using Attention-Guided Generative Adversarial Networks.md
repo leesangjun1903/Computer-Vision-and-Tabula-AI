@@ -1,9 +1,6 @@
 # AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks | Image generation
 
-
-
-https://arxiv.org/abs/1911.11897
-# AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks 논문 분석## 1. 핵심 주장과 주요 기여**핵심 주장:**
+## 1. 핵심 주장과 주요 기여**핵심 주장:**
 AttentionGAN은 기존의 unpaired image-to-image translation 방법들이 **전체 이미지를 무차별적으로 변환하여 배경까지 왜곡시키는 문제**를 해결하기 위해 제안되었습니다[1]. 논문의 핵심 아이디어는 **attention mechanism을 통해 변환해야 할 전경(foreground)과 보존해야 할 배경(background)을 구분**하는 것입니다[1].
 
 **주요 기여:**
