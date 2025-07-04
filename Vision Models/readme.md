@@ -12,6 +12,8 @@
 - Auxiliary Classifier GAN : Conditional Image Synthesis with Auxiliary Classifier GANs | Image generation
 - BEGAN: Boundary Equilibrium Generative Adversarial Networks | Image generation
 - BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | Image augmentation, Image classification
+- Big Transfer (BiT): General Visual Representation Learning | Image classification
+
 
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
