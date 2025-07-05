@@ -48,6 +48,7 @@
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
 - LoRA: Low-Rank Adaptation of Large Language Models | LLM, Fine-tuning
 - MAE : Masked Autoencoders Are Scalable Vision Learners | Image reconstruction, Image generation
+- MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | Image classification
 
 
 
