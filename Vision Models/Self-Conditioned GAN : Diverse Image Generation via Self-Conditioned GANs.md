@@ -1,4 +1,4 @@
-# Diverse Image Generation via Self-Conditioned GANs 요약
+# Self-Conditioned GAN : Diverse Image Generation via Self-Conditioned GANs | Image generation
 
 ## 1. 핵심 주장 및 주요 기여  
 Self-Conditioned GAN(이하 SC-GAN)은 **라벨 없이도** 생성 모델이 데이터 분포의 다양한 모드를 고르게 학습하도록 유도하는 간단하고 효과적인 무감독 학습 기법을 제안한다[1]. 주요 기여는 다음과 같다.  
