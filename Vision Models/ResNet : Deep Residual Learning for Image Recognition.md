@@ -1,4 +1,4 @@
-# Deep Residual Learning for Image Recognition (ResNet)  
+# ResNet : Deep Residual Learning for Image Recognition | Image classification
 “Deep Residual Learning for Image Recognition”는 Kaiming He 등(2015)이 제안한 논문으로, **잔차 학습(residual learning)** 프레임워크를 도입하여 매우 깊은 신경망을 효율적으로 학습할 수 있게 한 연구이다[1].  
 
 ## 1. 연구 배경과 문제 제기  
