@@ -1,6 +1,4 @@
-# LayerCAM: Exploring Hierarchical Class Activation Maps for Localization
-
-이 보고서는 **LayerCAM: Exploring Hierarchical Class Activation Maps for Localization** 논문의 핵심 아이디어와 방법론을 자세하고 이해하기 쉽게 설명합니다.
+# LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
 
 ---
 
