@@ -1,4 +1,4 @@
-# High-Resolution Daytime Translation Without Domain Labels | Image generation
+# HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
 
 ## 1. 핵심 주장 및 주요 기여
 본 논문은 시간대(daytime) 레이블 없이도 고해상도 풍경 사진을 서로 다른 조명(예: 낮→밤)으로 변환하는 **HiDT**(High-Resolution Daytime Translation) 모델을 제안한다[1].  
