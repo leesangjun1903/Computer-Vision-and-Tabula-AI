@@ -1,4 +1,4 @@
-# Depth-Aware Multi-Grid Deep Homography Estimation with Contextual Correlation: 핵심 요약
+# Depth-Aware Multi-Grid Deep Homography Estimation with Contextual Correlation | Image stitching
 
 ## 1. 핵심 주장과 주요 기여  
 “Depth-Aware Multi-Grid Deep Homography Estimation with Contextual Correlation” 논문은 **저중첩(low-overlap)·저질감(low-texture) 환경**에서 단일 호모그래피 추정이 갖는 한계를 극복하고, **패럴랙스(parallax)**가 존재하는 실세계 이미지 정합(stitching) 문제를 해결하기 위해 다음 세 가지 주요 기여를 제시한다[1]:
