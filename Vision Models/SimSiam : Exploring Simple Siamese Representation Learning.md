@@ -1,4 +1,4 @@
-# SimSiam : Exploring Simple Siamese Representation Learning
+# SimSiam : Exploring Simple Siamese Representation Learning | Self-Supervised Image Classification
 
 https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Exploring_Simple_Siamese_Representation_Learning_CVPR_2021_paper.pdf
 
