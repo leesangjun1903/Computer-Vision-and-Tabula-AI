@@ -1,4 +1,4 @@
-# Frequency-Aware Deepfake Detection (FreqNet) 논문 요약 및 설명
+# FreqNet : Frequency-Aware Deepfake Detection | Image detection
 
 ## 1. 배경 및 문제 정의  
 GAN(Generative Adversarial Network)의 발전으로 인해 합성 이미지 생성이 쉬워지면서, 눈으로는 진짜와 가짜를 구분하기 어려운 Deepfake 이미지가 증가하고 있다[1].  
