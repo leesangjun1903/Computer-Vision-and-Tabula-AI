@@ -41,6 +41,9 @@
 - FocalNet : Focal Modulation Networks | Image classification, Object detection, Semantic segmentation
 - FreqNet : Frequency-Aware Deepfake Detection | Image detection
 
+- HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition
+
+
 
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
 - Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
