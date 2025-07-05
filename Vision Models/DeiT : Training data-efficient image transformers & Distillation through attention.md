@@ -1,4 +1,4 @@
-## DeiT(Data-efficient Image Transformers) 개요  
+## DeiT : Training data-efficient image transformers & Distillation through attention | Image classification
 DeiT는 이미지 분류를 위한 **트랜스포머 기반 모델**로, 적은 데이터와 컴퓨팅 자원으로 고성능을 달성하기 위해 설계되었습니다. 기존 Vision Transformer(ViT)는 대규모 데이터(수억 장)와 고사양 인프라가 필요했으나, DeiT는 **ImageNet 데이터만으로 3일 이내** 학습이 가능합니다[1][2][7]. 핵심 혁신은 데이터 증강 기술과 "증류 토큰(distillation token)"을 이용한 지식 증류(distillation)입니다.
 
 ### 핵심 메커니즘  
