@@ -38,6 +38,7 @@
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | Image classification
 - EsViT : Efficient Self-supervised Vision Transformers for Representation Learning | Image classification, Semantic segmentation
 - FVAE : Factorized Variational Autoencoders for Modeling Audience Reactions to Movies | Facial Expression Recognition
+- FocalNet : Focal Modulation Networks | Image classification, Object detection, Semantic segmentation
 
 
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
