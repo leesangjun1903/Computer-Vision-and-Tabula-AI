@@ -1,4 +1,4 @@
-# Swin Transformer: Hierarchical Vision Transformer using Shifted Windows
+# Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | Image classification, Object Detection, Semantic Segmentation
 
 ## Abstract
 이 논문에서는 컴퓨터 비전의 다양한 목적에 맞게 backbone 역할을 할 수 있는 새로운 비전 트랜스포머인 Swin Transformer를 소개합니다.  
