@@ -1,4 +1,4 @@
-# Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data 요약
+# Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data | Depth estimation
 
 ## 1. 핵심 주장 및 주요 기여  
 Depth Anything은 **단일 이미지로부터의 깊이 추정**(Monocular Depth Estimation, MDE)에서 기존의 소규모 고가 레이블링 데이터 의존을 넘어, 인터넷·공개 데이터에서 무라벨(monocular unlabeled) 이미지를 대규모(62M장)로 자동 주석(pseudo-label)하여 활용함으로써 **모델의 제로샷(Zero-Shot) 일반화 성능**을 획기적으로 개선할 수 있음을 입증했다[1]. 주요 기여는 다음과 같다[1]:  
