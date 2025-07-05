@@ -22,6 +22,7 @@
 - ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders | Image classification, Object detection, Sementic segmentation
 - CvT : Introducing Convolutions to Vision Transformers | Image classification
 - DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | Image generation
+- DINO: DETR with Improved DeNoising Anchor Boxes | Object detection
 
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
