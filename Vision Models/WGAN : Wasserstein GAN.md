@@ -1,5 +1,5 @@
 
-# Wasserstein GAN (WGAN) 
+# WGAN : Wasserstein GAN | Image generation
 
 ## 1. 배경 및 동기
 전통적인 GAN(Generative Adversarial Network)은 생성자(Generator)와 구분자(Discriminator)가 서로 경쟁하며 학습하는 구조로, 데이터 분포를 근사하는 데 뛰어난 성능을 보인다[1].  
