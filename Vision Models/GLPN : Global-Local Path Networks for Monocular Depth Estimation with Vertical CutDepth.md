@@ -1,4 +1,4 @@
-# Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth
+# Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth | Depth estimation
 
 ## 핵심 주장 및 주요 기여  
 이 논문은 단일 이미지(monocular)로부터 정확한 깊이(depth) 정보를 예측하기 위해 **글로벌 컨텍스트**(장거리 종속성)와 **로컬 연결성**(단거리 구조 정보)을 동시에 효과적으로 통합하는 새로운 네트워크 구조와, 세로 방향 정보를 보존하는 **Vertical CutDepth** 데이터 증강 기법을 제안한다. 주요 기여는 다음과 같다.  
