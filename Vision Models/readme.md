@@ -23,6 +23,7 @@
 - CvT : Introducing Convolutions to Vision Transformers | Image classification
 - DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | Image generation
 - DINO: DETR with Improved DeNoising Anchor Boxes | Object detection
+- DINO : Emerging Properties in Self-Supervised Vision Transformers | Sementic segmentation, Image classification, Image retrieval, Object detection
 
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
