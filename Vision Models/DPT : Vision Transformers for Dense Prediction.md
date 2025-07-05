@@ -1,4 +1,4 @@
-# Vision Transformers for Dense Prediction: 핵심 요약 및 분석
+# DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
 
 ## 1. 논문의 핵심 주장 및 주요 기여  
 - **핵심 주장**: 전통적인 컨볼루션 기반 백본을 대체해, Vision Transformer(ViT)를 활용한 **Dense Prediction Transformer(DPT)** 구조가 전역 수용 영역(global receptive field)과 고해상도 표현을 유지해, 밀집 예측(dense prediction) 성능을 유의미하게 향상시킨다[1].  
