@@ -43,7 +43,7 @@
 - GAN Dissection: Visualizing and Understanding Generative Adversarial Networks | XAI
 - Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth | Depth estimation
 - HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition
-- High-Resolution Daytime Translation Without Domain Labels | Image generation
+- HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
 
 
 
