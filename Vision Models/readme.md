@@ -50,6 +50,8 @@
 - MAE : Masked Autoencoders Are Scalable Vision Learners | Image reconstruction, Image generation
 - MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | Image classification
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks | Image classification
+- PFGM : Poisson Flow Generative Models | Image generation
+
 
 
 
