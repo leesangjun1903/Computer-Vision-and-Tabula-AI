@@ -18,12 +18,12 @@
 - CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
 - CaiT : Going deeper with Image Transformers | Image classification
 - ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models | Image generation
-- ConvNeXt : A ConvNet for the 2020s | Image classification, Object detection, Sementic Segmentation
-- ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders | Image classification, Object detection, Sementic segmentation
+- ConvNeXt : A ConvNet for the 2020s | Image classification, Object detection, Semantic Segmentation
+- ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders | Image classification, Object detection, Semantic segmentation
 - CvT : Introducing Convolutions to Vision Transformers | Image classification
 - DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | Image generation
 - DINO: DETR with Improved DeNoising Anchor Boxes | Object detection
-- DINO : Emerging Properties in Self-Supervised Vision Transformers | Sementic segmentation, Image classification, Image retrieval, Object detection
+- DINO : Emerging Properties in Self-Supervised Vision Transformers | Semantic segmentation, Image classification, Image retrieval, Object detection
 - DINOv2: Learning Robust Visual Features without Supervision | Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
 - DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
@@ -34,6 +34,7 @@
 - DiNAT : Dilated Neighborhood Attention Transformer | Image classification, Object detection, Semantic segmentation
 - Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | Image classification
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | Image generation
+- EfficientFormer: Vision Transformers at MobileNet Speed | Image classification, Object detection, Instance segmentation, Semantic segmentation
 
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
 - Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
