@@ -1,4 +1,4 @@
-# MobileNetV1
+# MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | Image classification
 - https://ctkim.tistory.com/entry/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EB%84%B7
 - https://blog.firstpenguine.school/45
 
