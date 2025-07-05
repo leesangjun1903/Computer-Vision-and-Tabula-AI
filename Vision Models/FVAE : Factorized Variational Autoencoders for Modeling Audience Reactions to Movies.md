@@ -1,4 +1,4 @@
-# Disney FVAE
+# FVAE : Factorized Variational Autoencoders for Modeling Audience Reactions to Movies | Facial Expression Recognition
 
 ## Factorized Variational Autoencoders (FVAE) 설명  
 
