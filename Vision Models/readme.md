@@ -59,6 +59,8 @@
 - ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | Image classification : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
 - SAM : Segment Anything | Semantic segmentation :  https://github.com/facebookresearch/segment-anything/tree/main
 - SAM 2: Segment Anything in Images and Videos | Semantic segmentation : https://github.com/facebookresearch/sam2
+- SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers | Semantic Segmentation
+
 - SCSNet : An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution | Image Colorization, Image reconstruction, Super-Resolution
 - SimCLR: A Simple Framework for Contrastive Learning of Visual Representations | Image Classification, Object Recognition
 - SimCLRv2 : Big Self-Supervised Models are Strong Semi-Supervised Learners | Self-Supervised Image Classification, Semi-Supervised Image Classification
