@@ -1,4 +1,4 @@
-# Segment Anything 논문 종합 분석
+# SAM : Segment Anything | Semantic segmentation
 
 ## 1. 핵심 주장과 주요 기여
 
