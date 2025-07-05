@@ -1,3 +1,4 @@
+# Normalizing Flows : Variational Inference with Normalizing Flows | Variational Inference, Image generation
 # 핵심 주장 및 주요 기여 요약  
 본 논문은 **정상화 흐름(Normalizing Flows)** 을 통해 변분 추론의 후방 근사 분포를 단순한 초기 분포에서 일련의 가역 변환을 거쳐 **임의의 복잡도**를 갖는 분포로 확장할 수 있음을 제안한다[1].  
 1. 단순 분포 q₀(z)를 일련의 가역 변환 f₁,…,f_K에 적용해 복잡한 분포 q_K(z_K)를 구성  
