@@ -1,4 +1,4 @@
-# DenseNet(2017) : Densely Connected Convolutional Networks
+# DenseNet : Densely Connected Convolutional Networks | Image classification
 
 모든 레이어들을 서로 연결해 레이어간 정보의 흐름량을 최대한으로 한다.  
 feed-forward nature을 보존하기 위해 이전까지 연산을 하며 얻은 모든 feature map을 입력값으로 받는다.  
