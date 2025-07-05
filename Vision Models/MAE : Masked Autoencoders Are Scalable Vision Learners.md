@@ -1,6 +1,4 @@
-# Masked autoencoders
-# Masked Autoencoders Are Scalable Vision Learners (MAE) 
-
+# MAE : Masked Autoencoders Are Scalable Vision Learners | Image reconstruction, Image generation
 ## 개요
 
 **Masked Autoencoders (MAE)**는 2021년 Facebook AI Research(FAIR)에서 Kaiming He를 비롯한 연구진이 발표한 혁신적인 컴퓨터 비전 모델입니다[1][2]. MAE는 자연어 처리 분야에서 큰 성공을 거둔 BERT의 마스킹 기법을 컴퓨터 비전 영역에 성공적으로 적용한 자기지도학습(Self-Supervised Learning) 모델로, 이미지의 일부 패치를 가리고 나머지 부분으로부터 가려진 영역을 복원하는 방식으로 학습합니다[3][4].
