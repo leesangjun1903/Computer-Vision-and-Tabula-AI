@@ -1,4 +1,4 @@
-# 핵심 주장 및 주요 기여 요약  
+# DiNAT : Dilated Neighborhood Attention Transformer | Image classification, Object detection, Semantic segmentation
 Dilated Neighborhood Attention Transformer(DiNAT)는 기존의 국소적 슬라이딩 윈도우 주의(neighborhood attention, NA)가 지닌 장점(선형 복잡도, 병렬화 용이성)을 유지하면서, 희소(sparse) 글로벌 컨텍스트를 포착할 수 있도록 확장한 Dilated Neighborhood Attention(DiNA)를 제안한다. NA와 DiNA를 번갈아 쌓은 계층적 구조를 통해 수용 영역(receptive field)을 지수적으로(expontentially) 확장하면서도 계산 부담을 추가로 늘리지 않아, 이미지 분류·객체 검출·세분화 등 다양한 비전 태스크에서 성능을 유의미하게 향상시킨다[1].  
 
 # 문제 정의  
