@@ -1,4 +1,4 @@
-# DINOv2: Learning Robust Visual Features without Supervision
+# DINOv2: Learning Robust Visual Features without Supervision | Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
 
 DINOv2는 Meta AI에서 제안한 완전 자가 지도 학습(self-supervised) 비전 모델로, 라벨 없이 학습된 범용 비주얼 피처를 생성하여 다양한 다운스트림 태스크에서 뛰어난 성능을 보입니다[1].
 
