@@ -66,6 +66,7 @@
 - SimCLRv2 : Big Self-Supervised Models are Strong Semi-Supervised Learners | Self-Supervised Image Classification, Semi-Supervised Image Classification
 - SimSiam : Exploring Simple Siamese Representation Learning | Self-Supervised Image Classification
 - SinGAN: Learning a Generative Model from a Single Natural Image | Image generation
+- StarGAN v2: Diverse Image Synthesis for Multiple Domains | Image generation
 
 
 
