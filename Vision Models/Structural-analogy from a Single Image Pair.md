@@ -1,4 +1,4 @@
-# Structural-analogy from a Single Image Pair 연구 분석
+# Structural-analogy from a Single Image Pair | Image generation
 
 ## 1. 핵심 주장과 주요 기여
 
