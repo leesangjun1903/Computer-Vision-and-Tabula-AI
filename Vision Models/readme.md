@@ -13,7 +13,7 @@
 - BEGAN: Boundary Equilibrium Generative Adversarial Networks | Image generation
 - BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | Image augmentation, Image classification
 - Big Transfer (BiT): General Visual Representation Learning | Image classification
-- CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | Image reconstruction
+- CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | Image reconstruction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
 - CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognition, Image generation
 - CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
 - CaiT : Going deeper with Image Transformers | Image classification
@@ -42,7 +42,7 @@
 - FreqNet : Frequency-Aware Deepfake Detection | Image detection
 - GAN Dissection: Visualizing and Understanding Generative Adversarial Networks | XAI
 - Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth | Depth estimation
-- HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition
+- HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
 - LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
@@ -55,18 +55,14 @@
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation
 - ResNet : Deep Residual Learning for Image Recognition | Image classification
-- ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | Image classification
+- ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | Image classification : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
 
-
-
+- SAM : Segment Anything :  https://github.com/facebookresearch/segment-anything/tree/main
+- SAM 2: Segment Anything in Images and Videos : https://github.com/facebookresearch/sam2
 
 
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
-- Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
-- ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
-- Hloc - From Coarse to Fine: Robust Hierarchical Localization at Large Scale : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
-- SAM : Segment Anything :  https://github.com/facebookresearch/segment-anything/tree/main
-- SAM 2: Segment Anything in Images and Videos : https://github.com/facebookresearch/sam2
+
 - Generative AI, Artificial Images(StyleGAN2, Pix2Pix, SinGAN, Super-Resolution(EDSR, EUSR, DBPN, RCAN, MSRN, ESRGAN, CARN, FRSR) , U2-Net : https://github.com/dvschultz/ai/tree/master
 - PyTorch-GAN(Auxiliary Classifier GAN, Adversarial Autoencoder, BEGAN, BicycleGAN, Boundary-Seeking GAN, Cluster GAN, Conditional GAN, Context-Conditional GAN, Context Encoder, Coupled GAN, CycleGAN, Deep Convolutional GAN, DiscoGAN, DRAGAN, DualGAN, Energy-Based GAN, Enhanced Super-Resolution GAN, GAN, InfoGAN, Least Squares GAN, MUNIT, Pix2Pix, PixelDA, Relativistic GAN, Semi-Supervised GAN, Softmax GAN, StarGAN, Super-Resolution GAN, UNIT, Wasserstein GAN, Wasserstein GAN GP(Wasserstein GAN with Gradient Penalty), Wasserstein GAN DIV(Wasserstein Divergence for GANs) : https://github.com/eriklindernoren/PyTorch-GAN/tree/master?tab=readme-ov-file#munit
 - Exploring-the-MLP-Mixer-Architecture for Image Classification: **MLP-Mixer** Performance Evaluation, Tuning, and Ablation Study on MNIST Dataset https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file
