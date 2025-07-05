@@ -1,4 +1,4 @@
-# SinGAN: 단일 자연 이미지로부터의 생성 모델 학습
+# SinGAN: Learning a Generative Model from a Single Natural Image | Image generation
 
 **주요 요약**  
 SinGAN은 단일 자연 이미지의 내부 패치 통계를 다중 스케일 GAN 구조로 학습하여, 해당 이미지와 유사한 시각적 특성을 유지하면서도 완전히 새로운 샘플을 무조건적(unconditional)으로 생성할 수 있는 최초의 모델이다[1].
