@@ -1,4 +1,4 @@
-# Personalized Face Inpainting via Parallel Visual Attention
+# Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting
 
 이 보고서에서는 “Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention” 논문의 핵심 아이디어와 방법을 이해하기 쉽게 정리합니다. 본 연구는 개인별 얼굴 정체성을 유지하면서도 언어 제어가 가능한 얼굴 인페인팅 기법을 제안합니다.
 
