@@ -67,6 +67,7 @@
 - SimSiam : Exploring Simple Siamese Representation Learning | Self-Supervised Image Classification
 - SinGAN: Learning a Generative Model from a Single Natural Image | Image generation
 - StarGAN v2: Diverse Image Synthesis for Multiple Domains | Image generation
+- Structural-analogy from a Single Image Pair | Image generation
 
 
 
