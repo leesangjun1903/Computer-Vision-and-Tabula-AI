@@ -31,6 +31,7 @@
 - DenseNet : Densely Connected Convolutional Networks | Image classification
 - Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data | Depth estimation
 - Depth-Aware Multi-Grid Deep Homography Estimation with Contextual Correlation | Image stitching
+- DiNAT : Dilated Neighborhood Attention Transformer | Image classification, Object detection, Semantic segmentation
 
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
 - Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
