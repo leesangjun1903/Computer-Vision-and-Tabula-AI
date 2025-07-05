@@ -1,4 +1,4 @@
-# Emerging Properties in Self-Supervised Vision Transformers (DINO) 논문 분석
+# DINO : Emerging Properties in Self-Supervised Vision Transformers | Sementic segmentation, Image classification, Image retrieval, Object detection
 
 ## 1. 핵심 주장과 주요 기여
 
