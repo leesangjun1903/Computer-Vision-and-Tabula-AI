@@ -1,4 +1,4 @@
-# Efficient Self-supervised Vision Transformers for Representation Learning (EsViT) 논문 설명
+# EsViT : Efficient Self-supervised Vision Transformers for Representation Learning | Image classification, Semantic segmentation
 
 ## 개요
 “Efficient Self-supervised Vision Transformers for Representation Learning” 논문은 비지도 방식으로 비전 트랜스포머(ViT)의 효율성과 표현 학습 능력을 향상시키기 위해 제안된 EsViT(효율적 자체지도 학습 비전 트랜스포머) 방법을 다룹니다[1].  
