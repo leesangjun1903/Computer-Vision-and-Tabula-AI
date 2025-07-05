@@ -1,3 +1,4 @@
+# StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | Image generation
 
 **StyleGAN2** 논문은 기존 StyleGAN의 대표적 이미지 품질 저하 원인을 규명하고, 이를 개선하기 위한 새로운 아키텍처·정규화 기법·학습 방식을 제안하여 무조건적 이미지 생성의 최첨단을 한 단계 끌어올린다[1].
 
