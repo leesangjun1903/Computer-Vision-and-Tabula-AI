@@ -1,4 +1,4 @@
-# PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance
+# PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance | Image restoration, Face restoration
 
 ## 개요  
 PGDiff는 사전 학습된 확산 모델(pre-trained diffusion model)의 강력한 생성(prior)을 활용하여, 기존의 복원 과제에서 필요로 하던 명시적 열화 모델(degradation model)을 배제하고도 다양한 얼굴 복원(face restoration) 작업을 수행할 수 있는 **부분 가이드(Partial Guidance)** 방식을 제안한 연구입니다[1].
