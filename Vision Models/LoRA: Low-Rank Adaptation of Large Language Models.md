@@ -1,4 +1,4 @@
-### LoRA: Low-Rank Adaptation of Large Language Models  
+# LoRA: Low-Rank Adaptation of Large Language Models | LLM, Fine-tuning
 
 LoRA(Low-Rank Adaptation)는 대규모 언어 모델(LLM)을 효율적으로 미세 조정(fine-tuning)하기 위한 혁신적인 기법입니다. 기존의 전체 파라미터 재조정 방식과 달리, 사전 훈련된 모델 가중치를 고정한 상태에서 **저순위 행렬 분해(low-rank decomposition)**를 활용해 적은 수의 파라미터만 업데이트합니다. 이로 인해 GPT-3 175B 같은 초대형 모델의 경우 **훈련 가능 파라미터를 10,000배 이상 감소**시키면서도 동등하거나 더 나은 성능을 달성합니다[1][2].  
 
