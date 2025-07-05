@@ -28,6 +28,7 @@
 - DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - DeiT : Training data-efficient image transformers & Distillation through attention | Image classification
+- DenseNet : Densely Connected Convolutional Networks | Image classification
 
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
 - Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
