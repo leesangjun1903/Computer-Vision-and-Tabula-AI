@@ -1,4 +1,4 @@
-# Your Diffusion Model is Secretly a Zero-Shot Classifier
+# Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | Image classification
 
 ## 1. 배경 및 동기  
 대규모 텍스트-투-이미지(diffusion) 모델은 아름다운 이미지를 생성하지만, 실제로 **분류(classification)**에도 활용할 수 있습니다. 본 논문은 Stable Diffusion과 같은 대규모 확산 모델(diffusion model)의 **조건부 밀도 추정**을 이용해 추가 학습 없이 **제로샷(zero-shot) 분류기**를 구현하는 **Diffusion Classifier**를 제안합니다[1].
