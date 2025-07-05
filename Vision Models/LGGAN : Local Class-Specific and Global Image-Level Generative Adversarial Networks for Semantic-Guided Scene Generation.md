@@ -1,4 +1,4 @@
-# LGGAN (Local Class-Specific and Global Image-Level GAN)
+# LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
 
 ## 1. 핵심 주장 및 주요 기여  
 **핵심 주장**  
