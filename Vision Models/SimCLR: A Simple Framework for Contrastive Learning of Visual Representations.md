@@ -1,4 +1,4 @@
-# SimCLR: A Simple Framework for Contrastive Learning of Visual Representations
+# SimCLR: A Simple Framework for Contrastive Learning of Visual Representations | Image Classification, Object Recognition
 
 A Simple Framework for Contrastive Learning of Visual Representations(SimCLR)은  
 전통적인 **메모리 뱅크나 특수 아키텍처 없이도** 대규모 배치 학습과 강화된 데이터 증강만으로 강력한 시각 표현을 학습할 수 있다는 사실을 실증한다[1].
