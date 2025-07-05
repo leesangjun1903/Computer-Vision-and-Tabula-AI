@@ -1,4 +1,4 @@
-# Poisson Flow Generative Models (PFGM) 
+# PFGM : Poisson Flow Generative Models | Image generation
 
 ## 개요
 
