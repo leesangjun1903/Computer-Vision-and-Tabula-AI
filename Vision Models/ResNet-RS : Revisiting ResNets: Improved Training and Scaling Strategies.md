@@ -1,4 +1,4 @@
-# "Revisiting ResNets: Improved Training and Scaling Strategies" 
+# ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | Image classification
 
 ## 1. 핵심 주장과 주요 기여
 
