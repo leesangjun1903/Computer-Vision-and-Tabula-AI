@@ -46,6 +46,7 @@
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
 - LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
+- LoRA: Low-Rank Adaptation of Large Language Models | LLM, Fine-tuning
 
 
 
