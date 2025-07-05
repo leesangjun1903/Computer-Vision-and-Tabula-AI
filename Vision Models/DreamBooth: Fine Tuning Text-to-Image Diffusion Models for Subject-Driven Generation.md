@@ -1,4 +1,4 @@
-# DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation
+# DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | Image generation
 
 DreamBooth는 텍스트-이미지 확산 모델을 미세 조정(fine-tuning)하여 특정 주체(subject)를 다양한 상황에서 일관되게 생성하는 혁신적인 방법을 제안합니다[2][3]. 기존 대규모 텍스트-이미지 모델(예: Imagen)은 다양한 이미지 생성을 가능하게 했으나, 참조 이미지 집합의 특정 주체를 정확히 모방하고 새로운 맥락에서 재생성하는 데 한계가 있었습니다[2][3]. 이 논문은 2023년 CVPR에서 Best Student Paper Honorable Mention을 수상했으며(0.25% 수상률)[1], 다음과 같은 핵심 기여를 합니다.
 
