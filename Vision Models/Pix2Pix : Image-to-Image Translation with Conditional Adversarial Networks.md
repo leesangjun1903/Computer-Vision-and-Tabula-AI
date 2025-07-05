@@ -1,5 +1,4 @@
-# “Image-to-Image Translation with Conditional Adversarial Networks”
-
+# Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation
 ## 1. 핵심 주장 및 주요 기여  
 - **일반 목적의 이미지 변환 프레임워크 제안**: 종래에 각기 다른 손수 설계된 손실 함수와 네트워크 구조가 필요했던 다양한 이미지-투-이미지 변환 문제(예: 라벨→사진, 엣지→사진, 컬러화 등)에 대해, 단일한 조건부 적대 신경망(cGAN) 구조와 학습 목적만으로 일관되게 적용할 수 있음을 보임[1].  
 - **손실 함수 자동 학습**: cGAN이 단순 회귀 손실(l1)로는 어려웠던 고주파수 디테일과 사실감을, 판별자(discriminator)가 학습한 구조적 손실로 보완함[1].  
