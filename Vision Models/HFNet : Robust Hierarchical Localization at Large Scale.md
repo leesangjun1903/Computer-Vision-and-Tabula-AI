@@ -1,4 +1,4 @@
-# "From Coarse to Fine: Robust Hierarchical Localization at Large Scale" 
+# HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition
 
 ## 핵심 주장과 주요 기여
 
