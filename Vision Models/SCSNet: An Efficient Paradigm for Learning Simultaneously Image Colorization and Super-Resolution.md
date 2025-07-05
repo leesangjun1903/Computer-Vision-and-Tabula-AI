@@ -1,6 +1,4 @@
-# SCSNet : An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution
-
-본 보고서는 “SCSNet: An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution” 논문의 핵심 아이디어와 구조, 주요 모듈, 학습 방식 및 실험 결과를 이해하기 쉽게 정리한 것입니다.
+# SCSNet : An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution | Image Colorization, Image reconstruction, Super-Resolution
 
 ---
 
