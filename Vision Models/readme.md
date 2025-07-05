@@ -14,7 +14,7 @@
 - BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | Image augmentation, Image classification
 - Big Transfer (BiT): General Visual Representation Learning | Image classification
 - CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | Image reconstruction
-- CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognization, Image generation
+- CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognition, Image generation
 - CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
 - CaiT : Going deeper with Image Transformers | Image classification
 - ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models | Image generation
@@ -24,6 +24,7 @@
 - DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | Image generation
 - DINO: DETR with Improved DeNoising Anchor Boxes | Object detection
 - DINO : Emerging Properties in Self-Supervised Vision Transformers | Sementic segmentation, Image classification, Image retrieval, Object detection
+- DINOv2: Learning Robust Visual Features without Supervision | Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
 
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
