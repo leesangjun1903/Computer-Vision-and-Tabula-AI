@@ -69,6 +69,8 @@
 - StarGAN v2: Diverse Image Synthesis for Multiple Domains | Image generation
 - Structural-analogy from a Single Image Pair | Image generation
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | Image generation
+- Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | Image classification, Object Detection, Semantic Segmentation
+
 
 
 
