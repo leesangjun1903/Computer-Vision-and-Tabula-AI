@@ -55,6 +55,7 @@
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation
 - ResNet : Deep Residual Learning for Image Recognition | Image classification
+- ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | Image classification
 
 
 
