@@ -26,9 +26,8 @@
 - DINO : Emerging Properties in Self-Supervised Vision Transformers | Sementic segmentation, Image classification, Image retrieval, Object detection
 - DINOv2: Learning Robust Visual Features without Supervision | Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
 - DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
-
-
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
+
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
 - Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
 - ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
