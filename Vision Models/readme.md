@@ -51,6 +51,7 @@
 - MAE : Masked Autoencoders Are Scalable Vision Learners | Image reconstruction, Image generation
 - MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | Image classification
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks | Image classification
+- Normalizing Flows : Variational Inference with Normalizing Flows | Variational Inference, Image generation
 - PFGM : Poisson Flow Generative Models | Image generation
 - PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance | Image generation, Image restoration, Face restoration
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
