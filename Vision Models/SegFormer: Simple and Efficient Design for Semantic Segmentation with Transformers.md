@@ -1,4 +1,4 @@
-# SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers
+# SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers | Semantic Segmentation
 
 ## 핵심 주장과 주요 기여
 
