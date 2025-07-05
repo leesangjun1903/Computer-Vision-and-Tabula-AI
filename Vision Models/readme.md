@@ -56,7 +56,6 @@
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation
 - ResNet : Deep Residual Learning for Image Recognition | Image classification
 - ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | Image classification : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
-
 - SAM : Segment Anything :  https://github.com/facebookresearch/segment-anything/tree/main
 - SAM 2: Segment Anything in Images and Videos : https://github.com/facebookresearch/sam2
 
