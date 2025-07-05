@@ -1,4 +1,4 @@
-# VAE
+# VAE : Auto-Encoding Variational Bayes | Image generation
 ### Autoencoder 와 Variational Autoencoder의 직관적인 이해 
 https://medium.com/@hugmanskj/autoencoder-%EC%99%80-variational-autoencoder%EC%9D%98-%EC%A7%81%EA%B4%80%EC%A0%81%EC%9D%B8-%EC%9D%B4%ED%95%B4-171b3968f20b
 ### VAE(Varitional Auto-Encoder)를 알아보자
