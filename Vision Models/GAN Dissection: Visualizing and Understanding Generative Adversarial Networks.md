@@ -1,4 +1,4 @@
-# 핵심 주장 및 주요 기여  
+# GAN Dissection: Visualizing and Understanding Generative Adversarial Networks | XAI
 GAN Dissection는 GAN이 내부적으로 시각 세계를 어떻게 표현하는지 탐색하기 위한 **유닛(unit)**, **객체(object)**, **장면(scene)** 수준의 해석적 프레임워크를 제안한다.  
 첫째, **Segmentation 기반 네트워크 디섹션**을 통해 객체 개념과 높은 상관관계를 보이는 해석 가능한 유닛을 자동으로 식별한다.  
 둘째, 네트워크 **개입(intervention)** 기법을 도입하여 특정 유닛 집합을 켜고 끔으로써 객체의 생성 여부를 인과적으로 제어하고, 그 **평균 인과 효과(ACE)**를 정량화한다.  
