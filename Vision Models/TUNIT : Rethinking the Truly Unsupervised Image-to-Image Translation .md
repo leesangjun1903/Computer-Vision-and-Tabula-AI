@@ -1,4 +1,4 @@
-# Rethinking the Truly Unsupervised Image-to-Image Translation  
+# TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | Image generation
 **Kyungjune Baek et al., TUNIT (2021)**
 
 ## 1. 핵심 주장 및 주요 기여  
