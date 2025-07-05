@@ -60,6 +60,7 @@
 - SAM : Segment Anything | Semantic segmentation :  https://github.com/facebookresearch/segment-anything/tree/main
 - SAM 2: Segment Anything in Images and Videos | Semantic segmentation : https://github.com/facebookresearch/sam2
 - SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers | Semantic Segmentation
+- Self-Conditioned GAN : Diverse Image Generation via Self-Conditioned GANs | Image generation
 
 - SCSNet : An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution | Image Colorization, Image reconstruction, Super-Resolution
 - SimCLR: A Simple Framework for Contrastive Learning of Visual Representations | Image Classification, Object Recognition
