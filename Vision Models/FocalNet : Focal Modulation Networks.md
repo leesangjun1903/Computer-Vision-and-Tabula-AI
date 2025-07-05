@@ -1,5 +1,4 @@
-# Focal Modulation Networks
-
+# FocalNet : Focal Modulation Networks | Image classification, Object detection, Semantic segmentation
 ## 1. 핵심 주장과 주요 기여
 
 **Focal Modulation Networks (FocalNets)**는 컴퓨터 비전에서 자기 주의(self-attention) 메커니즘을 완전히 대체하는 새로운 아키텍처를 제안합니다[1].
