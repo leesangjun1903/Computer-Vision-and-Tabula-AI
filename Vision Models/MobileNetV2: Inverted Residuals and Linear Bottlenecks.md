@@ -1,4 +1,4 @@
-# MobileNetV2
+# MobileNetV2: Inverted Residuals and Linear Bottlenecks | Image classification
 mobilenetv2는 ReLU 함수를 거치게 되면 정보가 손실된다는 것에 영감을 받아 이를 최소화하기 위해 Inverted Residuals와 Linear Bottlenecks를 제안함
 
 depthwise convolution연산시 채널별로 쪼개서 계산하는데 relu함수 적용시 0으로 처리될때가 많음. 그래서 채널수가 적을때는 리니어하게해야함
