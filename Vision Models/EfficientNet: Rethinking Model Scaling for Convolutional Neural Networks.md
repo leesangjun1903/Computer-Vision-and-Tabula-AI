@@ -1,4 +1,4 @@
-# EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks - 종합 분석
+# EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | Image classification
 
 ## 핵심 주장과 주요 기여
 
