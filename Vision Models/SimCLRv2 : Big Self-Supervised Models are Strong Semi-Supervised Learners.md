@@ -1,4 +1,4 @@
-# "SIMCLRv2 : Big Self-Supervised Models are Strong Semi-Supervised Learners"
+# SimCLRv2 : Big Self-Supervised Models are Strong Semi-Supervised Learners | Self-Supervised Image Classification, Semi-Supervised Image Classification
 
 ## 1. 핵심 주장과 주요 기여
 
