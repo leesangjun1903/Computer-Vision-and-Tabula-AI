@@ -1,4 +1,4 @@
-# EfficientFormer: Vision Transformers at MobileNet Speed - 모바일 기기에서의 고속 Vision Transformer 연구
+# EfficientFormer: Vision Transformers at MobileNet Speed | Image classification, Object detection, Instance segmentation, Semantic segmentation
 
 ## 개요
 
