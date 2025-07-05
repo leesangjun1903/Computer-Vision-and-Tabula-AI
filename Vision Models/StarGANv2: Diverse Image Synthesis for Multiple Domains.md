@@ -1,4 +1,4 @@
-# StarGAN v2: Diverse Image Synthesis for Multiple Domains 요약보고서
+# StarGAN v2: Diverse Image Synthesis for Multiple Domains | Image generation
 
 ## 1. 핵심 주장 및 주요 기여  
 StarGAN v2는 **하나의 프레임워크**로 여러 도메인 간에 **다양하고 고품질의 이미지 변환**을 동시에 지원하며, 기존 방법 대비 **시각적 품질, 스타일 다양성, 확장성** 면에서 뛰어남[1].  
