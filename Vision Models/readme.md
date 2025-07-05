@@ -44,6 +44,8 @@
 - Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth | Depth estimation
 - HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
+- LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
+
 
 
 
