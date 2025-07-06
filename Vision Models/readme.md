@@ -81,6 +81,9 @@
 
 
 - 수정필 :
+- ResViT: Residual vision transformers for multi-modal medical image synthesis
+- pGAN : Image Synthesis in Multi-Contrast MRI With Conditional Generative Adversarial Networks
+- SAGAN : Self-Attention Generative Adversarial Networks
 - MLP-Mixer: An all-MLP Architecture for Vision | Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
 - ResViT: Residual vision transformers for multi-modal medical image synthesis
 - RetinaNet : Focal Loss for Dense Object Detection
