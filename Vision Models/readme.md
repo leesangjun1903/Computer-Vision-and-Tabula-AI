@@ -59,6 +59,7 @@
 - ResNet : Deep Residual Learning for Image Recognition | Image classification
 - ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | Image classification : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
 - ResViT: Residual Vision Transformers for Multi-Modal Medical Image Synthesis | Image generation
+- RetinaNet : Focal Loss for Dense Object Detection | Object detection
 - SAM : Segment Anything | Semantic segmentation :  https://github.com/facebookresearch/segment-anything/tree/main
 - SAM 2: Segment Anything in Images and Videos | Semantic segmentation : https://github.com/facebookresearch/sam2
 - SCSNet : An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution | Image Colorization, Image reconstruction, Super-Resolution
