@@ -39,6 +39,7 @@
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | Image classification
 - EsViT : Efficient Self-supervised Vision Transformers for Representation Learning | Image classification, Semantic segmentation
 - FVAE : Factorized Variational Autoencoders for Modeling Audience Reactions to Movies | Facial Expression Recognition
+- Fast R-CNN | Object detection
 - FocalNet : Focal Modulation Networks | Image classification, Object detection, Semantic segmentation
 - FreqNet : Frequency-Aware Deepfake Detection | Image detection
 - GAN Dissection: Visualizing and Understanding Generative Adversarial Networks | XAI
