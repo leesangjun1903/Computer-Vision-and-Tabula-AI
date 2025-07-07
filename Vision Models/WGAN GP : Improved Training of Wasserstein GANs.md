@@ -26,8 +26,9 @@
 **WGAN-GP의 핵심 아이디어**는 weight clipping 대신 critic의 gradient norm을 직접 제약하는 것입니다[1]. 
 
 **수학적 정식화**:
+
 $$
-L = \mathbb{E}_{\tilde{x} \sim P_g}[D(\tilde{x})] - \mathbb{E}_{x \sim P_r}[D(x)] + \lambda \mathbb{E}_{\hat{x} \sim P_{\hat{x}}}[(\|\nabla_{\hat{x}}D(\hat{x})\|_2 - 1)^2]
+L = \mathbb{E}\_{\tilde{x} \sim P_g}[D(\tilde{x})] - \mathbb{E}\_{x \sim P_r}[D(x)] + \lambda \mathbb{E}\_{\hat{x} \sim P_{\hat{x}}}[(\|\nabla_{\hat{x}}D(\hat{x})\|_2 - 1)^2]
 $$
 
 여기서[1]:
