@@ -58,6 +58,7 @@
 - PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance | Image generation, Image restoration, Face restoration
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation
+- R-CNN : Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation | Object detection, Semantic segmentation
 - ResNet : Deep Residual Learning for Image Recognition | Image classification
 - ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | Image classification : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
 - ResViT: Residual Vision Transformers for Multi-Modal Medical Image Synthesis | Image generation
@@ -92,8 +93,6 @@
 - SAGAN : Self-Attention Generative Adversarial Networks
 - Attention U-Net: Learning Where to Look for the Pancreas
 - MLP-Mixer: An all-MLP Architecture for Vision | Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
-- SSD: Single Shot MultiBox Detector
-- R-CNN : Rich feature hierarchies for accurate object detection and semantic segmentation
 
 
 ## 3D
