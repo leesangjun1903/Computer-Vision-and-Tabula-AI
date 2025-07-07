@@ -92,7 +92,6 @@
 - SSD: Single Shot MultiBox Detector
 - YOLO : You Only Look Once: Unified, Real-Time Object Detection
 - Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
-- Fast R-CNN
 - R-CNN : Rich feature hierarchies for accurate object detection and semantic segmentation
 
 
