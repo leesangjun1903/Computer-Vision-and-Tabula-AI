@@ -75,6 +75,7 @@
 - VAE : Auto-Encoding Variational Bayes | Image generation
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
 - WGAN : Wasserstein GAN | Image generation
+- WGAN GP : Improved Training of Wasserstein GANs
 
 - Generative AI, Artificial Images(StyleGAN2, Pix2Pix, SinGAN, Super-Resolution(EDSR, EUSR, DBPN, RCAN, MSRN, ESRGAN, CARN, FRSR) , U2-Net : https://github.com/dvschultz/ai/tree/master
 - PyTorch-GAN(Auxiliary Classifier GAN, Adversarial Autoencoder, BEGAN, BicycleGAN, Boundary-Seeking GAN, Cluster GAN, Conditional GAN, Context-Conditional GAN, Context Encoder, Coupled GAN, CycleGAN, Deep Convolutional GAN, DiscoGAN, DRAGAN, DualGAN, Energy-Based GAN, Enhanced Super-Resolution GAN, GAN, InfoGAN, Least Squares GAN, MUNIT, Pix2Pix, PixelDA, Relativistic GAN, Semi-Supervised GAN, Softmax GAN, StarGAN, Super-Resolution GAN, UNIT, Wasserstein GAN, Wasserstein GAN GP(Wasserstein GAN with Gradient Penalty), Wasserstein GAN DIV(Wasserstein Divergence for GANs) : https://github.com/eriklindernoren/PyTorch-GAN/tree/master?tab=readme-ov-file#munit
