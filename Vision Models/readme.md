@@ -87,6 +87,7 @@
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | Image generation
 - Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | Image classification, Object Detection, Semantic Segmentation
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | Image generation
+- Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet | Image classification
 - VAE : Auto-Encoding Variational Bayes | Image generation
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
 - WGAN : Wasserstein GAN | Image generation
