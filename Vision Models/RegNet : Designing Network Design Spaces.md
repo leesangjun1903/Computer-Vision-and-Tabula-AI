@@ -1,4 +1,4 @@
-# Designing Network Design Spaces
+# RegNet : Designing Network Design Spaces | Image classification
 
 **주요 주장 및 기여**  
 Facebook AI Research의 Radosavovic et al.(2020)는 개별 네트워크 구조가 아닌, 네트워크 *디자인 공간*(design space)을 직접 설계함으로써 모델 **모집단**의 일반적 설계 원칙을 도출할 것을 제안한다. 이들은 복잡도와 성능을 동시에 고려해 단순·규칙적 모델군 RegNet을 정립하였으며, 그 핵심은 “좋은 네트워크의 폭(width)과 깊이(depth)는 양자화된 선형 함수로 설명 가능하다”는 **정량적 설계 원칙**이다[1].
