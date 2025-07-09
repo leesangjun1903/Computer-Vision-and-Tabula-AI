@@ -1,4 +1,4 @@
-# Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet
+# Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet | Image classification
 
 ## 1. 핵심 주장 및 주요 기여
 T2T-ViT는 **Vision Transformer(ViT)가 가진 ‘단순 패치 분할(tokenization)로 인한 지역 구조 정보 상실’**과 **주의(attention) 백본의 불필요한 채널 중복** 문제를 해결하고자 한다.  
