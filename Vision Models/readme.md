@@ -64,6 +64,7 @@
 - PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance | Image generation, Image restoration, Face restoration
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation
+- Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | Image classification
 - R-CNN : Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation | Object detection, Semantic segmentation
 - RegNet : Designing Network Design Spaces | Image classification
 - ResNet : Deep Residual Learning for Image Recognition | Image classification
