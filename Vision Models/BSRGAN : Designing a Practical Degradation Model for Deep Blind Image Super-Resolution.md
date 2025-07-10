@@ -1,5 +1,5 @@
 
-# Designing a Practical Degradation Model for Deep Blind Image Super-Resolution
+# BSRGAN : Designing a Practical Degradation Model for Deep Blind Image Super-Resolution | Super resolution
 ![image](https://velog.velcdn.com/images/danielseo/post/362a2f69-c318-4e4c-8206-8389faf6ac12/BSRGAN%20%EC%8D%B8%EB%84%A4%EC%9D%BC.PNG)
 
 # Abs
