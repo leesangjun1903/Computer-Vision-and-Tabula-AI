@@ -1,4 +1,4 @@
-# Designing a Practical Degradation Model for Deep Blind Image Super-Resolution 논문 분석
+# BSRGAN : Designing a Practical Degradation Model for Deep Blind Image Super-Resolution | Super resolution
 
 ## 1. 핵심 주장과 주요 기여
 
@@ -125,7 +125,7 @@
 
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/b32398ec-ca3c-430e-80ea-7bd4ff720be3/2103.14006v2.pdf
 
-# BSRGAN : Designing a Practical Degradation Model for Deep Blind Image Super-Resolution | Super resolution
+
 ![image](https://velog.velcdn.com/images/danielseo/post/362a2f69-c318-4e4c-8206-8389faf6ac12/BSRGAN%20%EC%8D%B8%EB%84%A4%EC%9D%BC.PNG)
 
 # Abs
