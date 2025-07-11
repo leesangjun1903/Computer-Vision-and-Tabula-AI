@@ -123,6 +123,7 @@
 - SinSR: Diffusion-Based Image Super-Resolution in a Single Step | Super resolution
 - StableSR : Exploiting Diffusion Prior for Real-World Image Super-Resolution | Super resolution
 - StableVSR : Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models | Video generation, Super resolution
+- WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | Super resolution
 
 
 
