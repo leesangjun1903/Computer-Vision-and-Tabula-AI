@@ -30,7 +30,8 @@
 - CvT : Introducing Convolutions to Vision Transformers | Image classification
 - DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | Image generation
 - DDIM : Denoising Diffusion Implicit Models | Image generation
-- DINO: DETR with Improved DeNoising Anchor Boxes | Object detection
+- DDPM : Denoising Diffusion Probabilistic Models | Image generation
+- DINO : DETR with Improved DeNoising Anchor Boxes | Object detection
 - DINO : Emerging Properties in Self-Supervised Vision Transformers | Semantic segmentation, Image classification, Image retrieval, Object detection
 - DINOv2: Learning Robust Visual Features without Supervision | Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
 - DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
