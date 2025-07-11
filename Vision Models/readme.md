@@ -125,6 +125,7 @@
 - StableVSR : Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models | Video generation, Super resolution
 - WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | Super resolution
 - Physics-informed deep neural network for image denoising | Image denoising
+- NAFNet: Simple Baselines for Image Restoration | Image restoration, Image denoising
 
 
 
