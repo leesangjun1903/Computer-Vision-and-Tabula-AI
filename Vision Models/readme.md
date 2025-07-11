@@ -113,6 +113,8 @@
 - 수정필 :
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution
 - MAGVIT-v2 : Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation | Video generation, Image generation
+- Multi-Stage Progressive Image Restoration | Image deblurring, Image denoising, Image restoration
+
 
 
 ## 3D
