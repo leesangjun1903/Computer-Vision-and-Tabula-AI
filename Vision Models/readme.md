@@ -119,6 +119,7 @@
 - SR3 : Image Super-Resolution via Iterative Refinement | Super resolution
 - SRGAN : Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network | Super resolution
 - SWAGAN: A Style-based Wavelet-driven Generative Model | Super resolution
+- Score-Based Generative Modeling through Stochastic Differential Equations | Image generation, Density estimation, Image inpainting
 
 
 
