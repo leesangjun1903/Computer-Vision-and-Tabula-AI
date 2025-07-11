@@ -1,4 +1,4 @@
-# Denoising Diffusion Probabilistic Models
+# DDPM : Denoising Diffusion Probabilistic Models | Image generation
 
 # DDPM
 
