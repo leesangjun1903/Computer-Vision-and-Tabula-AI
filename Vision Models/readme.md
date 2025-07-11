@@ -126,6 +126,8 @@
 - WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | Super resolution
 - Physics-informed deep neural network for image denoising | Image denoising
 - NAFNet: Simple Baselines for Image Restoration | Image restoration, Image denoising
+- MWDCNN : Multi-stage image denoising with the wavelet transform | Image denoising
+
 
 
 
