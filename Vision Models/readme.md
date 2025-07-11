@@ -134,6 +134,7 @@
 - MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | Image denoising, Super resolution
 - SwinIR: Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising
 - DIP : Deep Image Prior | Image denoising, Image generation, Super resolution
+- DPSRGAN : Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
 
 
 
