@@ -7,7 +7,7 @@
 - **학습 불안정성:** Discriminator가 너무 빨리 학습하면 Generator에게 전달되는 gradient가 소실(vanishing)된다[1].  
 - **모드 붕괴(mode collapse):** Generator가 일부 패턴만 생성하고 다양한 샘플을 생성하지 못하는 현상이 자주 발생한다[1].
 
-WGAN은 이러한 한계를 극복하기 위해 **Wasserstein 거리(EM 거리)**를 최적화 목표로 제안되었다[2].
+WGAN은 이러한 한계를 극복하기 위해 **Wasserstein 거리(EM 거리, Earth Mover's Distance)**를 최적화 목표로 제안되었다[2].
 
 ## 2. 이론적 개념
 
