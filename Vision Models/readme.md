@@ -44,6 +44,7 @@
 - Depth-Aware Multi-Grid Deep Homography Estimation with Contextual Correlation | Image stitching
 - DiNAT : Dilated Neighborhood Attention Transformer | Image classification, Object detection, Semantic segmentation
 - Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | Image classification
+- DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | Image Denoising, Super resolution
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | Image generation
 - EfficientFormer: Vision Transformers at MobileNet Speed | Image classification, Object detection, Instance segmentation, Semantic segmentation
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | Image classification
