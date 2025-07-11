@@ -72,6 +72,7 @@
 - Normalizing Flows : Variational Inference with Normalizing Flows | Variational Inference, Image generation
 - PFGM : Poisson Flow Generative Models | Image generation
 - PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance | Image generation, Image restoration, Face restoration
+- PGGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation | Image generation
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation
 - Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | Image classification
