@@ -30,8 +30,8 @@ ResViT는 **Encoder-Information Bottleneck-Decoder** 구조를 채택하며, Inf
 
 2. **ART Block의 Transformer 처리:**
    - Downsampling: $$f'_j \in \mathbb{R}^{N'_C,H',W'} = DS(f_j)$$
-   - Patch Embedding: $$z_0 = [f_j^1 PE; f_j^2 PE; ...; f_j^{NP} PE] + P_{pos}^E$$
-   - Multi-head Self-Attention: $$z'_l = MSA(LN(z_{l-1})) + z_{l-1}$$
+   - Patch Embedding: $$z\_0 = [f_j^1 PE; f_j^2 PE; ...; f_j^{NP} PE] + P_{pos}^E$$
+   - Multi-head Self-Attention: $$z'\_l = MSA(LN(z_{l-1})) + z_{l-1}$$
    - MLP: $$z_l = MLP(LN(z'_l)) + z'_l$$
    - Upsampling: $$g_j \in \mathbb{R}^{N_C,H,W} = US(g'_j)$$
 
