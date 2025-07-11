@@ -137,6 +137,7 @@
 - DPSRGAN : Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
 - EdgeSRGAN : Generative Adversarial Super-Resolution at the Edge with Knowledge Distillation | Super resolution
 - PASD : Pixel-Aware Stable Diffusion for Realistic Image Super-resolution and Personalized Stylization | Super resolution
+- PFGM++: Unlocking the Potential of Physics-Inspired Generative Models | Image generation
 
 
 
