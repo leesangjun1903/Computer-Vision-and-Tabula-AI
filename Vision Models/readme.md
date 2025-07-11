@@ -121,6 +121,7 @@
 - SWAGAN: A Style-based Wavelet-driven Generative Model | Super resolution
 - Score-Based Generative Modeling through Stochastic Differential Equations | Image generation, Density estimation, Image inpainting
 - SinSR: Diffusion-Based Image Super-Resolution in a Single Step | Super resolution
+- StableSR : Exploiting Diffusion Prior for Real-World Image Super-Resolution | Super resolution
 
 
 
