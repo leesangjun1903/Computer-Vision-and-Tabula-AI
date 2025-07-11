@@ -20,6 +20,7 @@
 - BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | Image augmentation, Image classification
 - Big Transfer (BiT): General Visual Representation Learning | Image classification
 - CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | Image reconstruction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
+- CAMixerSR: Only Details Need More “Attention” | Super resolution
 - CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognition, Image generation
 - CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
 - CaiT : Going deeper with Image Transformers | Image classification
