@@ -72,7 +72,6 @@
 - Normalizing Flows : Variational Inference with Normalizing Flows | Variational Inference, Image generation
 - PFGM : Poisson Flow Generative Models | Image generation
 - PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance | Image generation, Image restoration, Face restoration
-- PGGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation | Image generation
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation
 - Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | Image classification
@@ -115,6 +114,8 @@
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution
 - MAGVIT-v2 : Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation | Video generation, Image generation
 - Multi-Stage Progressive Image Restoration | Image deblurring, Image denoising, Image restoration
+- PGGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation | Image generation
+- Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | Super resolution
 
 
 
