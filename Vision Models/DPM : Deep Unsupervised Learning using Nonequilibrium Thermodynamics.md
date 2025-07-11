@@ -1,4 +1,4 @@
-# Deep Unsupervised Learning using Nonequilibrium Thermodynamics
+# DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | Image generation
 
 # DPM
 
