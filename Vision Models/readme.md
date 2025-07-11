@@ -127,6 +127,7 @@
 - Physics-informed deep neural network for image denoising | Image denoising
 - NAFNet: Simple Baselines for Image Restoration | Image restoration, Image denoising
 - MWDCNN : Multi-stage image denoising with the wavelet transform | Image denoising
+- EDCNN: Edge enhancement-based Densely Connected Network with Compound Loss for Low-Dose CT Denoising | Image denoising
 
 
 
