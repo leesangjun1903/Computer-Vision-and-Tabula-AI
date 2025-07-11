@@ -132,6 +132,7 @@
 - DBPN : Deep Back-Projection Networks for Single Image Super-resolution | Super resolution
 - Image Denoising Using a Generative Adversarial Network | Image denoising
 - MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | Image denoising, Super resolution
+- SwinIR: Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising
 
 
 
