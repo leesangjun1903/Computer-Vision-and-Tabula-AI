@@ -46,6 +46,7 @@
 - Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | Image classification
 - DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | Image Denoising, Super resolution
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | Image generation
+- ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks | Super resolution
 - EfficientFormer: Vision Transformers at MobileNet Speed | Image classification, Object detection, Instance segmentation, Semantic segmentation
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | Image classification
 - EsViT : Efficient Self-supervised Vision Transformers for Representation Learning | Image classification, Semantic segmentation
