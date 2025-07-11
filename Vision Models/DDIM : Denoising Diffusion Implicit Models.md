@@ -1,4 +1,4 @@
-# DENOISING DIFFUSION IMPLICIT MODELS
+# DDIM : Denoising Diffusion Implicit Models | Image generation
 
 DDPM을 통해 noise를 걷어내며 sample을 생성해가는 형태의 generative Markov Chain Process를 배울 수 있었다.  
 그러나 이 Process는 일일히 sampling을 해야하는 형태로 매우 많은 step이 필요하고 one step에 끝나는 GAN에 비해 크게 느렸다.  
