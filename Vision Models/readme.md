@@ -116,6 +116,7 @@
 - Multi-Stage Progressive Image Restoration | Image deblurring, Image denoising, Image restoration
 - PGGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation | Image generation
 - Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | Super resolution
+- SR3 : Image Super-Resolution via Iterative Refinement | Super resolution
 
 
 
