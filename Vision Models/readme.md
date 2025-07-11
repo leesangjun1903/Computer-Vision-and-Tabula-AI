@@ -117,6 +117,7 @@
 - PGGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation | Image generation
 - Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | Super resolution
 - SR3 : Image Super-Resolution via Iterative Refinement | Super resolution
+- SRGAN : Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network | Super resolution
 
 
 
