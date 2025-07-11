@@ -135,6 +135,7 @@
 - SwinIR: Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising
 - DIP : Deep Image Prior | Image denoising, Image generation, Super resolution
 - DPSRGAN : Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
+- EdgeSRGAN : Generative Adversarial Super-Resolution at the Edge with Knowledge Distillation | Super resolution
 
 
 
