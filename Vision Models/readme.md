@@ -130,6 +130,7 @@
 - EDCNN: Edge enhancement-based Densely Connected Network with Compound Loss for Low-Dose CT Denoising | Image denoising
 - WFEN : Efficient Face Super-Resolution via Wavelet-based Feature Enhancement Network | Super resolution
 - DBPN : Deep Back-Projection Networks for Single Image Super-resolution | Super resolution
+- Image Denoising Using a Generative Adversarial Network | Image denoising
 
 
 
