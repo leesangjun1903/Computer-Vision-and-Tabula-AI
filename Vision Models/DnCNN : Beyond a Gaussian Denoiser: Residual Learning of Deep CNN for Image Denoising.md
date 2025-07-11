@@ -1,4 +1,4 @@
-# Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising
+# DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | Image Denoising, Super resolution
 
 # DnCNN
 
