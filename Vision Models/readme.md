@@ -72,6 +72,7 @@
 - NoisyStudent : Self-training with Noisy Student improves ImageNet classification | Image classification
 - Normalizing Flows : Variational Inference with Normalizing Flows | Variational Inference, Image generation
 - PFGM : Poisson Flow Generative Models | Image generation
+- PFGM++: Unlocking the Potential of Physics-Inspired Generative Models | Image generation
 - PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance | Image generation, Image restoration, Face restoration
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation
