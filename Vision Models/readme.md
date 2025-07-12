@@ -63,6 +63,7 @@
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
 - LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
+- LightGlue: Local Feature Matching at Light Speed | 3D resonstruction, Image matching
 - LoRA: Low-Rank Adaptation of Large Language Models | LLM, Fine-tuning
 - MAE : Masked Autoencoders Are Scalable Vision Learners | Image reconstruction, Image generation
 - MLP-Mixer: An all-MLP Architecture for Vision | Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
