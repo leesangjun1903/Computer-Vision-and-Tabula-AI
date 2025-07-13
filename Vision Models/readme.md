@@ -35,6 +35,7 @@
 - DINO : Emerging Properties in Self-Supervised Vision Transformers | Semantic segmentation, Image classification, Image retrieval, Object detection
 - DINOv2: Learning Robust Visual Features without Supervision | Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
 - DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | Image generation
+- DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
 - DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - DeepViT: Towards Deeper Vision Transformer | Image classification
@@ -138,7 +139,6 @@
 - MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | Image denoising, Super resolution
 - SwinIR: Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising
 - DIP : Deep Image Prior | Image denoising, Image generation, Super resolution
-- DPSRGAN : Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
 
 
 
