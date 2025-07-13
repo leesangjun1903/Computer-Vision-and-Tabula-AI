@@ -28,7 +28,7 @@ MIRNet은 고해상도 공간 정보를 유지하면서 멀티스케일 문맥 �
 ```
 
 ### 2.2 Multi-Scale Residual Block (MRB)  
-- **Parallel Streams**: 해상도 $$1,\tfrac12,\tfrac14$$ 에서 채널 $$$$  
+- **Parallel Streams**: 해상도 $$1,\tfrac12,\tfrac14$$ 에서 채널 $$80, 120, 180$$  
 - 각 스트림간 정보를 교환·융합  
 
 #### 2.2.1 Selective Kernel Feature Fusion (SKFF)  
