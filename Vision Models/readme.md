@@ -47,6 +47,7 @@
 - DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | Image Denoising, Super resolution
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | Image generation
 - ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks | Super resolution
+- EdgeSRGAN : Generative Adversarial Super-Resolution at the Edge with Knowledge Distillation | Super resolution
 - EfficientFormer: Vision Transformers at MobileNet Speed | Image classification, Object detection, Instance segmentation, Semantic segmentation
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | Image classification
 - EsViT : Efficient Self-supervised Vision Transformers for Representation Learning | Image classification, Semantic segmentation
@@ -138,9 +139,6 @@
 - SwinIR: Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising
 - DIP : Deep Image Prior | Image denoising, Image generation, Super resolution
 - DPSRGAN : Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
-- EdgeSRGAN : Generative Adversarial Super-Resolution at the Edge with Knowledge Distillation | Super resolution
-- PASD : Pixel-Aware Stable Diffusion for Realistic Image Super-resolution and Personalized Stylization | Super resolution
-- PFGM++: Unlocking the Potential of Physics-Inspired Generative Models | Image generation
 
 
 
