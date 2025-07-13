@@ -103,6 +103,7 @@
 - Structural-analogy from a Single Image Pair | Image generation
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | Image generation
 - Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | Image classification, Object Detection, Semantic Segmentation
+- SwinIR : Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | Image generation
 - Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet | Image classification
 - VAE : Auto-Encoding Variational Bayes | Image generation
@@ -138,7 +139,6 @@
 - DBPN : Deep Back-Projection Networks for Single Image Super-resolution | Super resolution
 - Image Denoising Using a Generative Adversarial Network | Image denoising
 - MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | Image denoising, Super resolution
-- SwinIR: Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising
 
 
 
