@@ -1,4 +1,4 @@
-# DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks 논문 분석
+# DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
 
 ## 핵심 주장과 주요 기여
 
