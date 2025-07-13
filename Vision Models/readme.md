@@ -110,6 +110,7 @@
 - Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet | Image classification
 - VAE : Auto-Encoding Variational Bayes | Image generation
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
+- WFEN : Efficient Face Super-Resolution via Wavelet-based Feature Enhancement Network | Super resolution
 - WGAN : Wasserstein GAN | Image generation
 - WGAN GP : Improved Training of Wasserstein GANs | Image generation, Optimization
 - YOLO : You Only Look Once: Unified, Real-Time Object Detection | Object detection
@@ -137,9 +138,6 @@
 - NAFNet: Simple Baselines for Image Restoration | Image restoration, Image denoising
 - MWDCNN : Multi-stage image denoising with the wavelet transform | Image denoising
 - EDCNN: Edge enhancement-based Densely Connected Network with Compound Loss for Low-Dose CT Denoising | Image denoising
-- WFEN : Efficient Face Super-Resolution via Wavelet-based Feature Enhancement Network | Super resolution
-- DBPN : Deep Back-Projection Networks for Single Image Super-resolution | Super resolution
-- Image Denoising Using a Generative Adversarial Network | Image denoising
 
 
 
