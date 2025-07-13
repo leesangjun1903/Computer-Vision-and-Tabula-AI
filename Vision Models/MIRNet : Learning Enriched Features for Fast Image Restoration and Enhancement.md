@@ -1,4 +1,4 @@
-# MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement
+# MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | Image deblurring, Image enhancement, Super resolution
 
 **핵심 주장:**  
 MIRNet은 고해상도 공간 정보를 유지하면서 멀티스케일 문맥 정보를 효과적으로 융합해, 이미지 복원 및 향상(task-agnostic)에서 최첨단 성능을 달성하는 **경량‧고속‧고성능** 모델이다.
