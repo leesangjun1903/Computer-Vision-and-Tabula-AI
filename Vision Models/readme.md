@@ -72,6 +72,7 @@
 - MAE : Masked Autoencoders Are Scalable Vision Learners | Image reconstruction, Image generation
 - MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | Image deblurring, Image enhancement, Super resolution
 - MLP-Mixer: An all-MLP Architecture for Vision | Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
+- MWDCNN : Multi-stage image denoising with the wavelet transform | Image Denoising
 - MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | Image classification
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks | Image classification
 - NoisyStudent : Self-training with Noisy Student improves ImageNet classification | Image classification
@@ -136,8 +137,6 @@
 - WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | Super resolution
 - Physics-informed deep neural network for image denoising | Image denoising
 - NAFNet: Simple Baselines for Image Restoration | Image restoration, Image denoising
-- MWDCNN : Multi-stage image denoising with the wavelet transform | Image denoising
-- EDCNN: Edge enhancement-based Densely Connected Network with Compound Loss for Low-Dose CT Denoising | Image denoising
 
 
 
