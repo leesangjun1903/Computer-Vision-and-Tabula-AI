@@ -28,6 +28,7 @@
 - ConvNeXt : A ConvNet for the 2020s | Image classification, Object detection, Semantic Segmentation
 - ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders | Image classification, Object detection, Semantic segmentation
 - CvT : Introducing Convolutions to Vision Transformers | Image classification
+- DBPN : Deep Back-Projection Networks for Single Image Super-resolution | Super resolution
 - DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | Image generation
 - DDIM : Denoising Diffusion Implicit Models | Image generation
 - DDPM : Denoising Diffusion Probabilistic Models | Image generation
