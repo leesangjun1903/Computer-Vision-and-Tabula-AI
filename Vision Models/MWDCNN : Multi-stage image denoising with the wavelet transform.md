@@ -1,4 +1,4 @@
-# Multi-stage image denoising with the wavelet transform | Image Denoising
+# MWDCNN : Multi-stage image denoising with the wavelet transform | Image Denoising
 
 ## 1. 핵심 주장 및 주요 기여  
 본 논문은 **다단계 구조**와 **동적 합성곱(dynamic convolution)**, **웨이블릿 변환(wavelet transform)** 기법을 결합한 경량화된 CNN 기반 이미지 복원 모델(MWDCNN)을 제안한다.  
