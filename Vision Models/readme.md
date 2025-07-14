@@ -4,6 +4,7 @@
 - Transformers in Vision: A Survey
 - A Survey on Visual Transformer
 - Hitchhiker’s Guide to Super-Resolution: Introduction and Recent Advances
+- Deepfake Generation and Detection: A Benchmark and Survey
 - 수정필:
 - Diffusion models and representation learning a survey
 
