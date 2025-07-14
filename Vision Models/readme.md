@@ -77,6 +77,7 @@
 - MWDCNN : Multi-stage image denoising with the wavelet transform | Image Denoising
 - MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | Image classification
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks | Image classification
+- NAFNet: Simple Baselines for Image Restoration | Image restoration, Image denoising
 - NoisyStudent : Self-training with Noisy Student improves ImageNet classification | Image classification
 - Normalizing Flows : Variational Inference with Normalizing Flows | Variational Inference, Image generation
 - PASD : Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization | Super resolution
