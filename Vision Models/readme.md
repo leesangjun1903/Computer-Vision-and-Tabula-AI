@@ -106,6 +106,7 @@
 - SimCLRv2 : Big Self-Supervised Models are Strong Semi-Supervised Learners | Self-Supervised Image Classification, Semi-Supervised Image Classification
 - SimSiam : Exploring Simple Siamese Representation Learning | Self-Supervised Image Classification
 - SinGAN: Learning a Generative Model from a Single Natural Image | Image generation
+- StableVSR : Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models | Super resolution
 - StarGAN v2: Diverse Image Synthesis for Multiple Domains | Image generation
 - Structural-analogy from a Single Image Pair | Image generation
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | Image generation
