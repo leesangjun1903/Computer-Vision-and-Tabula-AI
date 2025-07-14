@@ -106,6 +106,7 @@
 - SimCLRv2 : Big Self-Supervised Models are Strong Semi-Supervised Learners | Self-Supervised Image Classification, Semi-Supervised Image Classification
 - SimSiam : Exploring Simple Siamese Representation Learning | Self-Supervised Image Classification
 - SinGAN: Learning a Generative Model from a Single Natural Image | Image generation
+- SinSR: Diffusion-Based Image Super-Resolution in a Single Step | Super resolution
 - StableVSR : Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models | Super resolution
 - StarGAN v2: Diverse Image Synthesis for Multiple Domains | Image generation
 - Structural-analogy from a Single Image Pair | Image generation
@@ -137,9 +138,6 @@
 - SRGAN : Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network | Super resolution
 - SWAGAN: A Style-based Wavelet-driven Generative Model | Super resolution
 - Score-Based Generative Modeling through Stochastic Differential Equations | Image generation, Density estimation, Image inpainting
-- SinSR: Diffusion-Based Image Super-Resolution in a Single Step | Super resolution
-- StableSR : Exploiting Diffusion Prior for Real-World Image Super-Resolution | Super resolution
-- StableVSR : Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models | Video generation, Super resolution
 
 
 
