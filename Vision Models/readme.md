@@ -99,6 +99,7 @@
 - SAM 2: Segment Anything in Images and Videos | Semantic segmentation : https://github.com/facebookresearch/sam2
 - SCSNet : An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution | Image Colorization, Image reconstruction, Super-Resolution
 - SSD: Single Shot MultiBox Detector | Object detection
+- Score-Based Generative Modeling through Stochastic Differential Equations | Image generation, Density estimation, Image inpainting
 - SeemoRe : See More Details: Efficient Image Super-Resolution by Experts Mining | Super resolution
 - SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers | Semantic Segmentation
 - Self-Conditioned GAN : Diverse Image Generation via Self-Conditioned GANs | Image generation
