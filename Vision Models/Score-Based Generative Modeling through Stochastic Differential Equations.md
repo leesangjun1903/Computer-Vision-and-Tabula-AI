@@ -1,7 +1,5 @@
 # Score-Based Generative Modeling through Stochastic Differential Equations | Image generation, Density estimation, Image inpainting
 
-# Score-Based Generative Modeling through Stochastic Differential Equations
-
 ## 1. 핵심 주장 및 주요 기여  
 Score-based generative modeling을 SDE(확률 미분방정식) 프레임워크로 통합하여,  
 -  데이터 → noise로의 연속적 전환(순방향 SDE)과 noise → 데이터로의 역방향 SDE를 정의  
