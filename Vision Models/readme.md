@@ -115,6 +115,7 @@
 - Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet | Image classification
 - VAE : Auto-Encoding Variational Bayes | Image generation
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
+- WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | Super resolution
 - WFEN : Efficient Face Super-Resolution via Wavelet-based Feature Enhancement Network | Super resolution
 - WGAN : Wasserstein GAN | Image generation
 - WGAN GP : Improved Training of Wasserstein GANs | Image generation, Optimization
@@ -138,7 +139,6 @@
 - SinSR: Diffusion-Based Image Super-Resolution in a Single Step | Super resolution
 - StableSR : Exploiting Diffusion Prior for Real-World Image Super-Resolution | Super resolution
 - StableVSR : Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models | Video generation, Super resolution
-- WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | Super resolution
 
 
 
