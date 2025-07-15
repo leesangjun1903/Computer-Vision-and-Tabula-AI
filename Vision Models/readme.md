@@ -69,6 +69,7 @@
 - HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
 - Image Denoising Using A Generative Adversarial Network | Image denoising
+- ImageGPT : Generative Pretraining from Pixels | Image classification
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution
 - LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
