@@ -84,6 +84,7 @@
 - PFGM : Poisson Flow Generative Models | Image generation
 - PFGM++: Unlocking the Potential of Physics-Inspired Generative Models | Image generation
 - PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance | Image generation, Image restoration, Face restoration
+- PGGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation | Image generation
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
 - Physics-informed deep neural network for image denoising | Image denoising
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation
