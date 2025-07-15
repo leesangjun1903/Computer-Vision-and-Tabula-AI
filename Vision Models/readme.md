@@ -100,6 +100,7 @@
 - SAM 2: Segment Anything in Images and Videos | Semantic segmentation : https://github.com/facebookresearch/sam2
 - SCSNet : An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution | Image Colorization, Image reconstruction, Super-Resolution
 - SR3 : Image Super-Resolution via Iterative Refinement | Super resolution
+- SRGAN : Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network | Super resolution
 - SSD: Single Shot MultiBox Detector | Object detection
 - SWAGAN: A Style-based Wavelet-driven Generative Model | Super resolution
 - Score-Based Generative Modeling through Stochastic Differential Equations | Image generation, Density estimation, Image inpainting
