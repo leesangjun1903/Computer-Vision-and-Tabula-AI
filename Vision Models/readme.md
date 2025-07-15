@@ -72,6 +72,7 @@
 - LightGlue: Local Feature Matching at Light Speed | 3D resonstruction, Image matching
 - LoRA: Low-Rank Adaptation of Large Language Models | LLM, Fine-tuning
 - MAE : Masked Autoencoders Are Scalable Vision Learners | Image reconstruction, Image generation
+- MAGVIT-v2 : Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation | Image generation, Language modeling, Video generation
 - MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | Image deblurring, Image enhancement, Super resolution
 - MLP-Mixer: An all-MLP Architecture for Vision | Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
 - MWDCNN : Multi-stage image denoising with the wavelet transform | Image Denoising
@@ -136,12 +137,7 @@
 
 - 수정필 :
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution
-- MAGVIT-v2 : Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation | Video generation, Image generation
 - Multi-Stage Progressive Image Restoration | Image deblurring, Image denoising, Image restoration
-- PGGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation | Image generation
-- Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | Super resolution
-- SR3 : Image Super-Resolution via Iterative Refinement | Super resolution
-- SRGAN : Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network | Super resolution
 
 
 
