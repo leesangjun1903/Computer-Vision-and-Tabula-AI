@@ -1,5 +1,75 @@
 # Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data
 
+# Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data
+
+## 핵심 주장 및 주요 기여
+Real-ESRGAN은 **순수 합성 데이터만으로 실제 저화질 이미지의 복원을 가능**하게 하는 실용적 블라인드 초해상화 모델을 제안한다.  
+1. **고차(higher-order) 열화 모델링**: 기존의 단일(1차) 열화 과정을 여러 번 반복하여 실제 세계의 복합 열화를 보다 충실히 모사.  
+2. **Sinc 필터 활용**: 과도 샤프닝에 따른 링잉(ringing) 및 오버슈트(overshoot) 아티팩트를 합성 과정에 포함.  
+3. **U-Net 판별자 + 스펙트럴 노멀라이제이션**: 국소 질감 복원에 강인하고 안정적인 학습을 위한 판별자 구조 및 정규화 도입.  
+4. **모두 합성된 훈련 페어**만으로 실제 이미지에 뛰어난 시각 품질을 달성, 기존 실세계 SR 방식 대비 실용성과 성능 우위 입증.  
+
+## 문제 정의
+실세계 저해상도(LR) 이미지는 **알 수 없는 복합 열화(degradations)**를 겪는다.  
+– 카메라 블러, 센서 노이즈, 샤프닝／리사이즈 아티팩트, JPEG 압축, 인터넷 전송 중 반복 압축·노이즈 누적 등  
+– 기존 SR 연구는 이상적인 비큐빅 다운샘플링만 다루거나, 1차 열화 모델로 제한  
+
+## 제안 방법
+
+### 1. 고차 열화 모델 (High-Order Degradation)
+
+$$x = D_n \circ D_{n-1} \circ \cdots \circ D_1(y), \quad D_i(y) = \bigl[(y \otimes k_i)\downarrow_{r_i} + n_i \bigr]_{\text{JPEG},q_i} $$
+
+- $$n=2$$를 기본으로, 각 단계의 블러 커널 $$k_i$$, 노이즈 $$n_i$$, 리사이즈 배율 $$r_i$$, JPEG 품질 $$q_i$$를 독립 샘플링  
+- 블러: 이방성／등방성 가우시안, 일반화 가우시안, 플래토 커널 + 확률적 Sinc 필터(0.1)  
+- 노이즈: 가우시안／포아송, 컬러／그레이, 세기 범위 혼합  
+- 리사이즈: area, bilinear, bicubic 중 무작위  
+- JPEG: 품질 $$q\in$$, 마지막 Sinc 필터는 JPEG 전·후 무작위 순서  
+
+### 2. 네트워크 아키텍처
+- **Generator**: ESRGAN의 RRDB(Residual-in-Residual Dense Block) 기반, 스케일×4／2／1 지원  
+  - 입력 전처리로 Pixel-Unshuffle 적용  
+- **Discriminator**: U-Net 구조 + Spectral Normalization  
+  - 픽셀 단위 실체 판단(realness) 맵 출력→세밀한 그래디언트 피드백  
+
+### 3. 손실 함수 및 학습
+1. PSNR 지향 L1 손실로 예비 학습(Real-ESRNet)  
+2. L1 + Perceptual Loss + GAN Loss 조합으로 Real-ESRGAN 정교화  
+
+$$
+   \mathcal{L}\_\text{total} = \mathcal{L}\_{L1} + \lambda_p\,\mathcal{L}\_\text{perc} + \lambda_g\,\mathcal{L}_\text{GAN},
+$$
+
+   where $$\lambda_p=1, \lambda_g=0.1$$.  
+- VGG19의 conv1–conv5 특징맵 사용  
+- 총 1.4M iteration, Adam optimizer, EMA 적용  
+
+## 성능 향상
+- **정성 비교**: RealSR, BSRGAN 등 대비 링잉·오버슈트 제거, 자연스러운 질감 복원 우수[그림7].  
+- **NIQE 지표**: 다양한 실세계 데이터셋에서 기존 기법 대비 낮은 비참가형 품질 점수 달성(낮을수록 우수).  
+
+| Dataset         | Bicubic | ESRGAN  | BSRGAN  | Real-ESRGAN |
+|-----------------|---------|---------|---------|-------------|
+| RealSR-Canon    | 6.13    | 6.77    | 6.15    | **5.75**    |
+| OST300          | 4.44    | 3.52    | 4.74    | **4.17**    |
+
+## 일반화 성능 향상 가능성
+- **고차 열화**: 훈련 시 다양한 복합 열화 사례를 합성하여, 모델이 실제 분포 밖의 변형에도 강건해짐.  
+- **Sinc 필터**: 과도 샤프닝 아티팩트도 학습되어, 실제 세계의 예측 불가능한 링잉 제거 능력 강화.  
+- **U-Net 판별자**: 지역적 질감 및 경계 복원에 상세한 피드백 제공, 데이터 분포 전반에 대한 일반화 촉진.  
+- **제한**: 여전히 **알 수 없는 극단적 열화**나 **반복 압축으로 인한 에일리어싱**에는 취약.  
+
+## 향후 연구 영향 및 고려사항
+- **데이터 합성 전략**: 더 높은 차수(n>2) 혹은 비정형 순서 조합 연구  
+- **열화 예측 모듈 결합**: 명시적 열화 예측과 고차 합성의 하이브리드  
+- **비참가형 평가 개선**: NIQE 외 인간 주관 평가와 가시화 기반 메트릭 개발  
+- **실시간 적용**: 경량화 모델 및 효율적 온디바이스 학습  
+- **안정성 이슈**: GAN 유도 왜곡 방지, 과도 샤프닝·에일리어싱 대응  
+
+Real-ESRGAN은 **합성 데이터만으로 실세계 SR** 연구에 새로운 패러다임을 제시하며, 복합 열화 모사 및 GAN 기반 복원 기술의 발전 방향을 이끈다.
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/efd8ec27-7490-478e-8112-49deb800b575/2107.10833v2.pdf
+
 ![](https://velog.velcdn.com/images/heaseo/post/862022ac-4820-4de5-94c9-f2b1521c2fc6/Real-ESRGAN%20results.png)
 
 # Abs
