@@ -38,8 +38,9 @@ $$
 3. **RB:** sub-pixel convolution $$S(\cdot)$$ 삽입,  
 
 $$
-     O_{RB} = \mathrm{ReLU}\bigl(S(O_1)+S(O_{17})\bigr)
+O_{RB} = \mathrm{ReLU}\bigl(S(O_1)+S(O_{17})\bigr)
 $$  
+
 4. **IRB (5 layers):**  
 
 $$
