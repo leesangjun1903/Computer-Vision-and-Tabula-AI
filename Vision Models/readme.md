@@ -74,6 +74,7 @@
 - LightGlue: Local Feature Matching at Light Speed | 3D resonstruction, Image matching
 - LoRA: Low-Rank Adaptation of Large Language Models | LLM, Fine-tuning
 - MAE : Masked Autoencoders Are Scalable Vision Learners | Image reconstruction, Image generation
+- MAGVIT: Masked Generative Video Transformer | Video generation, Text-to-video generation
 - MAGVIT-v2 : Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation | Image generation, Language modeling, Video generation
 - MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | Image deblurring, Image enhancement, Super resolution
 - MLP-Mixer: An all-MLP Architecture for Vision | Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
