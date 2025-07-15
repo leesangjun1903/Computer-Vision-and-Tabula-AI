@@ -2,6 +2,94 @@
 
 # Efficient SR + Expert Mining
 
+# 핵심 주장 및 주요 기여
+
+**핵심 주장:** SeemoRe는 협업하는 전문가(Experts)를 저사양 환경에서도 효과적으로 활용해, 기존 CNN 및 경량 Transformer 방식보다 뛰어난 효율성과 화질을 동시에 달성하는 새로운 이미지 초해상도 모델이다.  
+
+**주요 기여:**  
+1. **협업 전문가 구조**  
+   - **Rank Modulating Expert (RME):** 서로 다른 저차원(rank) 전문화 모델(Mixture of Low-Rank Expertise, MoRE)을 동적으로 선택해 전역 텍스처를 효율적으로 복원.  
+   - **Spatial Modulating Expert (SME):** 대규모 스트라이프(depth-wise) 합성곱을 이용해 국소 공간 정보를 보강하는 Spatial Enhancement Expertise(SEE) 도입.  
+
+2. **효율성-화질 균형**  
+   - **실험 결과:** Manga109, Urban100 등 주요 벤치마크에서 기존 경량 모델 대비 GMACS를 최대 51% 절감하면서 PSNR 0.16–0.18dB 상승(×2) (Figure 1).  
+   - **모델 스케일링:** Tiny(Base), Large(scale) 모델 모두 동일 아키텍처로 효율성과 성능을 동시 확보.  
+
+3. **동적 전문가 선택**  
+   - **Top-1 Routing:** 입력 및 네트워크 깊이에 따라 최적의 저차원 전문가를 단일(top-1)으로 선택, 추론 시 불필요 연산 제거.  
+
+4. **간결한 설계**  
+   - 모놀리식 블록 대신 일관된 Residual Group 구성, RME→SME 순서로 배치해 구조적 단순성 유지.  
+
+# 문제 정의, 제안 방법, 모델 구조, 성능 및 한계
+
+## 1. 문제 정의  
+저해상도(LR) 입력으로부터 고해상도(HR) 이미지를 재구성할 때, 제한된 연산 자원(GMACS) 내에서 “전역 문맥”과 “국소 공간” 특징을 모두 효율적으로 모델링하는 것이 어려움.  
+
+## 2. 제안 방법  
+### 2.1 Mixture of Low-Rank Expertise (MoRE)  
+- 입력 피처 $$x\in \mathbb{R}^{H\times W\times C}$$를 두 갈래로 분기:  
+  $$\hat{x}_a$$ (공간 정보)와 $$\hat{x}_b$$ (문맥 피라미드) 생성  
+- 각 전문가 $$E_i$$는 저차원(rank $$R_i$$) 연산으로 두 피처를 결합:  
+
+$$
+    E_i = W_{3}^{R_i \to C}\bigl(W_{1}^{C \to R_i}\hat{x}\_a \;\odot\; W_{2}^{C \to R_i}\hat{x}_b\bigr)
+$$
+
+- 라우터 $$G(\hat{x}_a)$$가 Softmax로 전문가별 가중치 $$g_i$$ 생성, Top-1 전문가만 활성화  
+- 출력  
+
+$$
+    y = \sum_{i=1}^n g_i E_i(\hat{x}_a,\hat{x}_b) + \hat{x}_a
+$$
+
+### 2.2 Spatial Enhancement Expertise (SEE)  
+- 입력 $$x_{in}$$에 대해 두 개의 투영 $$W_4, W_5$$ 후 대형 스트라이프 합성곱 적용  
+- 공간 피처 보강 및 원본 피처와 Hadamard 곱:  
+
+$$
+    x_{out} = \text{DConv}\_{k\times k}(W_4\,x_{in}) \;\odot\; W_5\,x_{in}
+$$
+
+## 3. 모델 구조  
+- **Shallow Feature:** 3×3 Conv → 초기 피처  
+- **Residual Groups (RGs):** 순서대로 RME → GatedFFN → SME → GatedFFN  
+- **Upsampler:** 3×3 Conv + Pixel Shuffle  
+- 스케일별 RG 수: Tiny 6, Base 8, Large 16; 채널 36–48  
+
+## 4. 성능 향상  
+- ×2, ×3, ×4 모든 배율에서 PSNR/SSIM에서 기존 CNN·경량 Transformer 상회 (Table 1–2)  
+- 예: Manga109 ×2에서 Tiny 모델이 PSNR 39.01dB로 SAFMN 대비 +0.30dB, GMACS −37%[1]  
+- 메모리·추론 속도: Tiny 모델이 DDistill-SR 대비 GPU 메모리 −3%, 속도 2배 이상  
+
+## 5. 한계  
+- **블록 수 증가 시** 성능 향상 둔화  
+- **전문가 수 확장 어려움:** 저차원 공간 급증  
+- **실제 블러 현상** 완전 제거 불가(Transformer 대비 여전히 일부 존재)  
+
+# 일반화 성능 향상과 전망
+
+- **동적 전문가 선택**은 입력 복잡도에 유연 대응 가능 → 저조도·노이즈 제거 등 다양한 복원 과제로 확장 여지  
+- **MoRE 구조**는 다른 저정보 도메인(저조도, 압축 해제)에도 활용 가능  
+- **대규모 전문가 집합** 도입 시 더 세분화된 패턴 학습 기대, 다만 연산·메모리 비용 관리 필요  
+- **추가 제약(orthogonality, diversity loss)**을 통해 전문가 간 중복 최소화 및 일반화 강인성 제고  
+
+# 향후 연구 영향 및 고려 사항
+
+- **영향:**  
+  - 효율적 SR 연구에 “저차원 전문가 선택” 패러다임 제시  
+  - CNN 기반 모델의 Transformer 대비 경쟁력 재확인  
+
+- **고려 사항:**  
+  1. 전문가 수·차원 확장에 따른 자원 최적화  
+  2. 훈련 시 전문가 다양성 제약 기법 도입  
+  3. 실제 저해상도 영상(실사, 의료) 일반화 성능 검증  
+  4. 블러·노이즈 대응을 위한 주파수 영역 손실 결합 전략  
+
+[1] Table 1, Figure 1  Table 3
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/a1ebf23a-4051-47fc-9519-4a5a39e1776e/2402.03412v2.pdf
+
 # Abs
 저해상도(LR) 입력에서 고해상도(HR) 이미지를 재구성하는 것은 이미지 초해상도(SR)에서 중요한 과제입니다.  
 최근의 접근 방식은 다양한 목표에 맞게 맞춤화된 복잡한 연산의 효율성을 입증했지만, 이러한 서로 다른 연산을 단순하게 쌓는 것은 상당한 계산 부담을 초래하여 실용성을 방해할 수 있습니다.  
