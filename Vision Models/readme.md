@@ -75,6 +75,7 @@
 - MAGVIT-v2 : Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation | Image generation, Language modeling, Video generation
 - MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | Image deblurring, Image enhancement, Super resolution
 - MLP-Mixer: An all-MLP Architecture for Vision | Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
+- MPRNet : Multi-Stage Progressive Image Restoration | Image deblurring, Image denoising, Image restoration
 - MWDCNN : Multi-stage image denoising with the wavelet transform | Image Denoising
 - MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | Image classification
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks | Image classification
@@ -137,7 +138,6 @@
 
 - 수정필 :
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution
-- Multi-Stage Progressive Image Restoration | Image deblurring, Image denoising, Image restoration
 
 
 
