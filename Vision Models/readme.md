@@ -99,6 +99,7 @@
 - Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | Image classification
 - R-CNN : Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation | Object detection, Semantic segmentation
 - Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | Super resolution
+- Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models | Image generation
 - RegNet : Designing Network Design Spaces | Image classification
 - ResNet : Deep Residual Learning for Image Recognition | Image classification
 - ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | Image classification : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
