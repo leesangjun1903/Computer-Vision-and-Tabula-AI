@@ -1,4 +1,81 @@
-# CAMixerSR: Only Details Need More “Attention”
+# CAMixerSR: Only Details Need More “Attention” | Super resolution
+
+## 1. 핵심 주장 및 주요 기여  
+**핵심 주장**  
+- 서로 다른 복잡도의 이미지 영역에는 **다양한 연산 복잡도**가 요구되므로, 단일 토큰 믹서(self-attention 또는 convolution) 사용은 비효율적이다.  
+- 복잡한 영역에는 **변형 가능 윈도우 self-attention**을, 단순 영역에는 **가벼운 convolution**을 선택적으로 적용하는 **Content-Aware Mixer (CAMixer)** 구조를 제안한다.  
+
+**주요 기여**  
+1. **Content-Aware Mixer (CAMixer)**: 간단한 패치에는 convolution, 복잡한 패치에는 self-attention을 적용하여 연산량 절감과 표현력 향상을 동시에 달성.  
+2. **강력한 predictor 모듈**: 로컬·글로벌·위치 인코딩을 입력으로 offsets, 윈도우 분류 마스크, 공간·채널 attention을 예측하여 CAMixer의 분류 정확도 및 표현 능력을 개선.  
+3. **CAMixerSR**: CAMixer를 SwinIR-light 기반으로 쌓아 만든 SR 네트워크로, 경량 SR·2K–8K 대용량 SR·Omnidirectional SR에서 **최고 수준의 PSNR–FLOPs 트레이드오프**를 달성.
+
+## 2. 해결 문제, 제안 방법, 모델 구조, 성능·한계
+
+### 2.1 해결하고자 하는 문제  
+- **대형(2K–8K) 이미지 SR**와 **경량 SR** 모두에서 전체 이미지에 동일한 연산을 적용하면, 단순 영역의 과잉 연산과 복잡 영역의 표현력 부족 문제가 공존.  
+- 기존의 ClassSR, ARM 같은 콘텐츠 기반 라우팅은 **분류 성능 부족**·**수용 영역 제한** 문제를 가짐.
+
+### 2.2 제안 방법 (수식 포함)  
+- 입력 특징 $$X\in\mathbb{R}^{C\times H\times W}$$에서 값 $$V=f_{\text{PWConv}}(X)$$ 계산  
+- **Predictor**:  
+
+$$
+    F = f_{\text{head}}(C_l,\,C_g,\,C_w),\quad
+    \Delta p = r\cdot f_{\text{offsets}}(F),\quad
+    m = \hat F W_{\text{mask}},\quad
+    A_s = f_{\text{sa}}(F),\quad
+    A_c = f_{\text{ca}}(F)
+$$
+   
+  $$\Delta p$$로 윈도우 왜곡, $$m$$으로 hard/simple 패치 분류, $$A_s,A_c$$로 convolution 보강.  
+- **Attention branch** (복잡 영역, 비율 $$\gamma$$):  
+  1) $$\tilde X = \phi(X, \Delta p)$$로 변형된 특징 생성  
+  2) $$\tilde Q, \tilde K$$ 생성 후  
+  
+$$
+    V_{\text{hard}} = \mathrm{softmax}\bigl(\tfrac{\tilde Q\tilde K^T}{\sqrt d}\bigr)\,V_{\text{hard}}
+$$  
+- **Convolution branch** (단순 영역):  
+
+$$
+    V_{\text{conv}} = \mathrm{DWConv}(V_{\text{attn}})\cdot A_c + V_{\text{attn}}
+$$  
+- **출력**  
+
+$$
+    V_{\text{out}} = f_{\text{PWConv}}(V_{\text{conv}})
+$$  
+- **학습 손실**: $$\ell_1$$ SR 손실 + $$\ell_{\mathrm{ratio}}$$ hard-token 비율 제어 MSE 손실.
+
+### 2.3 모델 구조  
+- SwinIR-light를 기반으로 **20개 CAMixer+FFN 블록**, 채널 수 60, 윈도우 크기 $$16\times16$$.  
+- γ=1.0 원형 모델, γ=0.5 절반 self-attention 모델, 실험에 따라 γ 조정.
+
+### 2.4 성능 향상  
+- **대형 입력 SR**(2K–8K): CAMixerSR-Base(765K 파라미터, 1.96G FLOPs)가 RCAN(15.6M, 32.6G)과 동등 PSNR 유지[8K:33.81dB vs.33.76dB]하며, FLOPs 17× 절감.  
+- **경량 SR**(×4 업스케일): CAMixerSR(765K, 53.8G) PSNR 32.51dB로 SOTA(2위 SwinIR-light 32.44dB) 달성.  
+- **ODI SR**: CAMixerSR(1.32M) SUN360에서 EDSR 대비 +0.26dB 개선.
+
+### 2.5 한계  
+- Predictor 분류 오차에 따른 self-attention 비율 제어 오차(γ′≈γ이지만 완전 일치 않음).  
+- 큰 윈도우($$32\times32$$)에서 partition 성능 저하 관찰.  
+- ClassSR과 결합 시 제한된 수용 영역 문제로 성능 격차 존재.
+
+## 3. 모델 일반화 성능 향상 가능성 집중 논의  
+- **다양한 입력 조건**(로컬·글로벌·위치) 결합으로 Predictor 정확도 향상 → SR뿐 아니라 다른 비전 과제(복합 영역 강조)에도 적용 가능.  
+- **γ 동적 제어**: 학습 중 γref 조정 통해 연산량-성능 트레이드오프를 유연하게 관리.  
+- **Deformable offsets**: 윈도우 attention을 복잡 영역 텍스처에 적응시켜, 단순 SR을 넘어 **객체 검출·분할** 등의 공간적 민감 작업에도 확장 기대.  
+- **모듈형 구조**: CAMixer를 기존 토큰 믹서 기반 모델(SwinIR, ViT 등)에 삽입 가능, 다양한 백본과 호환되어 범용성 우수.
+
+## 4. 향후 연구에 미치는 영향 및 고려 사항  
+- **효율적 토큰 믹싱**: 복잡도 기반 토큰 스파시피케이션 연구 활성화  
+- **다중 조건 Predictor 설계**: 로컬·글로벌·위치 외 추가 정보(ex. 왜곡 맵, depth) 통합 가능성 탐색  
+- **Dynamic γ 스케줄링**: 영상 복잡도 예측에 따른 실시간 연산량 조절 연구  
+- **대형 윈도우 Limit 극복**: 윈도우 크기·모양 최적화, 또는 계층적 윈도우 설계 검토  
+- **응용 확대**: SR 외 객체 검출·세그멘테이션·영상 합성 등에서 CAMixer 기반 경량·고성능 모델 개발 고려
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/904aba87-f337-4c7b-a5e7-083761469079/2402.19289v2.pdf
 
 # Abs
 CAMixerSR은 이미지 초해상도를 위한 content aware mixer로, 다양한 SR 작업에서 우수한 성능을 보입니다.  
