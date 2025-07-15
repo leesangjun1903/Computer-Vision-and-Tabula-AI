@@ -41,6 +41,7 @@
 - DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
 - DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
+- DeepSIM : Image Shape Manipulation from a Single Augmented Training Sample | Image generation, Image manipulation
 - DeepViT: Towards Deeper Vision Transformer | Image classification
 - DeiT : Training data-efficient image transformers & Distillation through attention | Image classification
 - DenseNet : Densely Connected Convolutional Networks | Image classification
