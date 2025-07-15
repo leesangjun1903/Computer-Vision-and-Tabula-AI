@@ -73,6 +73,7 @@
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution
 - LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
+- LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference | Image classification
 - LightGlue: Local Feature Matching at Light Speed | 3D resonstruction, Image matching
 - LoRA: Low-Rank Adaptation of Large Language Models | LLM, Fine-tuning
 - MAE : Masked Autoencoders Are Scalable Vision Learners | Image reconstruction, Image generation
