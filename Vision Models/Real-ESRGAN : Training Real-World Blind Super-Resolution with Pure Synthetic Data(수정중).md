@@ -1,6 +1,4 @@
-# Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data
-
-# Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data
+# Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | Super resolution
 
 ## 핵심 주장 및 주요 기여
 Real-ESRGAN은 **순수 합성 데이터만으로 실제 저화질 이미지의 복원을 가능**하게 하는 실용적 블라인드 초해상화 모델을 제안한다.  
