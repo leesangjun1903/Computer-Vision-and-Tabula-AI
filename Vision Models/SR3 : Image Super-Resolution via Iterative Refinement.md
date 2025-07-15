@@ -1,6 +1,98 @@
 # SR3 : Image Super-Resolution via Iterative Refinement | Super resolution
 
-# SR3
+## 1. 핵심 주장 및 주요 기여  
+**핵심 주장**  
+SR3는 노이즈 제거 확산 확률 모델(Denoising Diffusion Probabilistic Model, DDPM)을 조건부 이미지 생성에 확장하여, 순차적 반복 정제를 통해 고품질 초해상도 이미지를 생성한다.  
+
+**주요 기여**  
+- DDPM을 단일 이미지 초해상도(Conditional SR)에 적용한 SR3 기법 제안.  
+- U-Net 기반 네트워크에 저해상도 입력을 채널 축으로 단순 결합(concatenation)하여 조건부 생성 구현.  
+- 8× 얼굴 SR(16×16→128×128)에서 GAN 계열 최고 성능 대비 휴먼 포얼(fool)율 50%에 근접, 기존 GAN 최대 34% 달성[1].  
+- 다단계(cascaded) 모델 체이닝으로 최대 1024×1024 해상도 생성, ImageNet 256×256에서 FID 11.3 확보.  
+
+## 2. 문제 정의, 제안 기법, 모델 구조, 성능, 한계  
+
+### 2.1 해결하고자 하는 문제  
+- 저해상도 $$x$$로부터 원본 고해상도 $$y$$의 조건부 분포 $$p(y|x)$$를 표현  
+- 다중 해답이 가능한 역문제(inverse problem)로, MSE 기반 회귀식으로는 고주파 세부묘사가 부족  
+
+### 2.2 제안 방법  
+**확산 과정(forward diffusion)**  
+
+$$
+q(y_t \mid y_{t-1}) = \mathcal{N}\bigl(y_t; \sqrt{\alpha_t}\,y_{t-1},\,(1-\alpha_t)\mathbf{I}\bigr)
+$$
+
+$$
+q(y_t \mid y_0) = \mathcal{N}\bigl(y_t; \sqrt{\gamma_t}\,y_0,\,(1-\gamma_t)\mathbf{I}\bigr),\quad \gamma_t=\prod_{i=1}^t\alpha_i
+$$
+
+**역확산 과정(reverse diffusion)**  
+
+$$
+p_\theta(y_{t-1}\mid y_t,x)
+=\mathcal{N}\bigl(y_{t-1};\mu_\theta(x,y_t,\gamma_t),\,(1-\alpha_t)\mathbf{I}\bigr)
+$$
+
+$$
+\mu_\theta(x,y_t,\gamma_t)
+=\frac{1}{\sqrt{\alpha_t}}\Bigl(y_t-\frac{1-\alpha_t}{\sqrt{1-\gamma_t}}\,f_\theta(x,y_t,\gamma_t)\Bigr)
+$$
+
+여기서 $$f_\theta$$는 노이즈 $$\epsilon$$을 예측하도록 학습된 U-Net 모델.  
+
+**학습 손실**  
+
+$$
+\mathcal{L}
+= \mathbb{E}\_{(x,y_0),\gamma,\epsilon}\bigl\|
+f_\theta\bigl(x,\sqrt{\gamma}\,y_0+\sqrt{1-\gamma}\,\epsilon,\gamma\bigr)
+-\epsilon
+\bigr\|_p^p
+$$
+
+주로 $$p=2$$ (MSE) 사용[1].  
+
+### 2.3 모델 구조  
+- **백본**: BigGAN형 residual block이 삽입된 U-Net  
+- **조건부 입력**: 저해상도 이미지를 목표 해상도로 업샘플링 후 고해상도 노이즈 이미지 $$y_t$$와 채널 결합  
+- **스케줄**: 학습 시 $$T=2000$$ 스텝, 추론 시 최대 100 스텝의 효율적 스케줄 선택  
+
+### 2.4 성능 향상  
+- **휴먼 포얼율**  
+  - 16×16→128×128 얼굴 SR에서 SR3: 54.1% vs. FSRGAN 8.9%, PULSE 24.6%[1].  
+  - 64×64→256×256 자연 이미지 SR에서 SR3: 38.8% vs. 회귀 16.8%[1].  
+- **자동 지표**  
+  - 얼굴 SR(8×): PSNR/SSIM은 회귀식에 미치지 못하나, 일관성(consistency) MSE 최고(2.68) 기록[1].  
+  - 자연 SR(4×): FID 5.2, IS 180.1로 회귀(15.2/121.1) 대비 질적 우위[1].  
+- **고해상도 합성**  
+  - 256×256 ImageNet 클래스SR FID 11.3, VQ-VAE-2 38.1, BigGAN(Trunc=1.5) 11.8[1].  
+
+### 2.5 한계  
+- **속도**: DDPM 계열 반복 정제는 여전히 느림 (최대 100 스텝).  
+- **모드 드롭핑**: 동일 입력에 유사 출력 반복, 피부 잡티·문신 등 세부 묘사 부족 관찰.  
+- **편향**: 얼굴 SR에서 특정 소수자 특성 누락 가능성.  
+- **텍스트 복원 실패**: 알파벳 형태 학습 미흡해 자연스러운 문장 재현 어려움[1].  
+
+## 3. 일반화 성능 향상 가능성  
+- **노이즈 스케줄 최적화**: 추론 스텝 감소에도 품질 유지, 저해상도 단계 더 많은 스텝 활용 제안.  
+- **데이터 증강**: Gaussian blur 등 입력 변이 추가 시 FID 13.1→11.3 개선[1].  
+- **목표 함수**: $$L_1$$ vs. $$L_2$$ 비교에서 $$L_1$$ 소폭 우세, 다양한 노이즈 분포로 일반화 강화 가능.  
+- **조건부 방식**: 단순 결합 대안으로 FiLM·어텐션 기반 conditioning 연구해 입력-출력 일관성 강화 여지.  
+- **모드 커버리지**: 스코어 매칭 관점에서 다중 가우시안 혼합 모델로 확장해 다양한 해상도 세부묘사 학습 촉진 가능.  
+
+## 4. 향후 연구 영향 및 고려사항  
+- **확산 모델 응용 확장**: SR 외에도 컬러라이제이션·인페인팅 등 다른 조건부 생성 문제에 확산 기법 적용 가능성.  
+- **추론 효율화**: 스텝 수 감소 알고리즘(예: DDIM, stochastic sampler) 도입 연구 필요.  
+- **편향 완화**: SR3의 세부 누락·편향 문제 분석 후 페어링된 디버깅·공정성 제어 기법 개발 필수.  
+- **일관성 검증**: 자동화된 perceptual 일관성 메트릭 개발로 human evaluation 의존도 감소 방안 모색.  
+- **범용성 검증**: 자연 이미지·의료 영상·위성 영상 등 다양한 도메인에서도 SR3 재학습·미세조정(fine-tuning) 성능 검증 필요.  
+
+---  
+References  
+[1] Saharia et al., “Image Super-Resolution via Iterative Refinement” (arXiv:2104.07636v2)
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/4b557eee-191f-4064-bbf8-2353017ff4a1/2104.07636v2.pdf
 
 # Abs
 
