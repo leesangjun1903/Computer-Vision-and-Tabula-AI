@@ -165,12 +165,14 @@
 
 
 - 수정필 :
-- MR-self Noise2Noise: self-supervised deep learning–based image quality improvement of submillimeter resolution 3D MR images https://link.springer.com/article/10.1007/s00330-022-09243-y
 - Multi-Stage Progressive Image Restoration https://arxiv.org/abs/2102.02808 https://github.com/swz30/MPRNet
-- CycleISP: Real Image Restoration via Improved Data Synthesis https://arxiv.org/abs/2003.07761 https://github.com/swz30/CycleISP
+- CycleISP: Real Image Restoration via Improved Data Synthesis
 - BCRN：A Very Lightweight Network for single Image Super-Resolution(BCRN) https://github.com/kptx666/BCRN/tree/main
 - Generative AI, Artificial Images(StyleGAN2, Pix2Pix, SinGAN, Super-Resolution(EDSR, EUSR, DBPN, RCAN, MSRN, ESRGAN, CARN, FRSR) , U2-Net : https://github.com/dvschultz/ai/tree/master
 - PyTorch-GAN(Auxiliary Classifier GAN, Adversarial Autoencoder, BEGAN, BicycleGAN, Boundary-Seeking GAN, Cluster GAN, Conditional GAN, Context-Conditional GAN, Context Encoder, Coupled GAN, CycleGAN, Deep Convolutional GAN, DiscoGAN, DRAGAN, DualGAN, Energy-Based GAN, Enhanced Super-Resolution GAN, GAN, InfoGAN, Least Squares GAN, MUNIT, Pix2Pix, PixelDA, Relativistic GAN, Semi-Supervised GAN, Softmax GAN, StarGAN, Super-Resolution GAN, UNIT, Wasserstein GAN, Wasserstein GAN GP(Wasserstein GAN with Gradient Penalty), Wasserstein GAN DIV(Wasserstein Divergence for GANs) : https://github.com/eriklindernoren/PyTorch-GAN/tree/master?tab=readme-ov-file#munit
+- BEDMAP2 using a super resolution deep neural network : https://github.com/weiji14/deepbedmap/tree/master?tab=readme-ov-file
+- Deep Learning on Image Denoising An overview : https://github.com/hellloxiaotian/Deep-Learning-on-Image-Denoising-An-overview
+- HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution : https://paperswithcode.com/paper/hmanet-hybrid-multi-axis-aggregation-network#code
 
 ## 3D
 OmniSplat: Taming Feed-Forward 3D Gaussian Splatting for Omnidirectional Images with Editable Capabilities
