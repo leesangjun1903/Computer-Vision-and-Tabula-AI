@@ -15,6 +15,7 @@
 - AdaIN : Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | Image generation
 - Attention U-Net: Learning Where to Look for the Pancreas | Semantic segmentation
 - AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks | Image generation
+- AuXFT : Cross-Architecture Auxiliary Feature Space Translation for Efficient Few-Shot Personalized Object Detection | Object detection
 - Auxiliary Classifier GAN : Conditional Image Synthesis with Auxiliary Classifier GANs | Image generation
 - BEGAN: Boundary Equilibrium Generative Adversarial Networks | Image generation
 - BSRGAN : Designing a Practical Degradation Model for Deep Blind Image Super-Resolution | Super resolution
