@@ -28,6 +28,7 @@
 - Image Denoising State-of-the-art https://github.com/flyywh/Image-Denoising-State-of-the-art
 - reproducible-image-denoising-state-of-the-art https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art?tab=readme-ov-file
 - Awesome 3D Reconstruction Papers https://github.com/bluestyle97/awesome-3d-reconstruction-papers
+- 3D-Reconstruction-with-Deep-Learning-Methods https://github.com/natowi/3D-Reconstruction-with-Deep-Learning-Methods
 
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
@@ -51,7 +52,9 @@
 - LearnOpenCV https://github.com/spmallick/learnopencv/tree/master?tab=readme-ov-file
 - Deep Learning Projects(Abstractive Text Summarization Transformer Model, Anime Face Generation, Deep CNN Autoencoder - Image Compression - Denoising Image
 , Cassava Leaf Disease Detection, Colorize Images & Videos - DeOldify, Building an AI Agent for Wikipedia & Calculator using OpenAI, Custom Object Detection Tutorial using YOLOv8, Dogs vs Cats Image Classification - CNN, Face Mask Detection - Object Detection, Fake News Detection Analysis - LSTM Classification, Realtime Human Pose Estimation - OpenCV, Image & Video Segmentation with SAM 2.1, Image Segmentation Tutorial - Unet, LLM Usage and Fine Tuning Llama3, MNIST Handwritten Digits Recognition, Mastering OpenAI GPT-3 & 3.5, Speech Emotion Recognition - Sound Classification, Super Resolution - OpenCV(EDSR, LapSRN), Urban Sound Analysis - Sound Classification)  : https://github.com/aswintechguy/Deep-Learning-Projects/tree/main
-  
+- 3D Machine Learning Study notes https://github.com/timzhang642/3D-Machine-Learning
+- 3D Reconstruction & visualistaion https://www.kaggle.com/code/aatamikorpi/3d-reconstruction-visualistaion/notebook  
+
 # ETC
 - [계산사진학] What is Computational Photography? : https://velog.io/@claude_ssim/%EA%B3%84%EC%82%B0%EC%82%AC%EC%A7%84%ED%95%99
 - https://computer-vision-talks.com/
