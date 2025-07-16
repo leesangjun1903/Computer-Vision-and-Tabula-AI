@@ -13,3 +13,17 @@ https://pseudo-lab.github.io/Tutorial-Book/chapters/object-detection/Ch1-Object-
 # GAN
 - Generate Fasion Images with Conditional GAN https://github.com/leesangjun1903/Computer-Vision/blob/main/src/Generate%20fashion%20images%20with%20conditional%20GAN.ipynb
 
+## Image reconstruction with Super-resolution
+- pix2pix_super_resolution(pix2pix) https://www.kaggle.com/code/chaimaemoumou/pix2pix-super-resolution/notebook
+- Pix2Pix: Denoising and Super Resolution (x4) : https://github.com/hieuGoku/Pix2Pix-Denoising-and-Super-Resolution/tree/main?tab=readme-ov-file
+- Single Image Super-Resolution(EDSR, WDSR, SRGAN) : https://github.com/krasserm/super-resolution/tree/master?tab=readme-ov-file
+- Image-Super-Resolution(SRCNN) : https://github.com/sharmaroshan/Image-Super-Resolution/tree/master
+- Image Super Resolution Using Deep Convolution Neural Network Computer Science Graduation Project : https://github.com/AmrShaaban99/super-resolution/tree/main?tab=readme-ov-file#abstract
+- BCRN：A Very Lightweight Network for single Image Super-Resolution(BCRN) https://github.com/kptx666/BCRN/tree/main
+- Image Reconstructor that applies fast proximal gradient method (FISTA) to the wavelet transform of an image using L1 and Total Variation (TV) regularizations : https://github.com/EliaFantini/Image-Reconstructor-FISTA-proximal-method-on-wavelets-transform/tree/main
+- BEDMAP2 using a super resolution deep neural network : https://github.com/weiji14/deepbedmap/tree/master?tab=readme-ov-file
+- Training and testing codes for USRNet, DnCNN, FFDNet, SRMD, DPSR, MSRResNet, ESRGAN, BSRGAN, SwinIR, VRT, RVRT : https://github.com/cszn/KAIR/tree/master
+- https://github.com/hellloxiaotian/Deep-Learning-on-Image-Denoising-An-overview
+- Annotated Research Paper Implementations: Transformers, StyleGAN, Stable Diffusion, DDPM/DDIM, LayerNorm, Nucleus Sampling and more https://nn.labml.ai/index.html
+- HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution : https://paperswithcode.com/paper/hmanet-hybrid-multi-axis-aggregation-network#code
+- VDSR(Very-Deep Super-Resolution) 신경망을 사용하여 하나의 저해상도 영상에서 고해상도 영상을 만드는 방법(MatLab) : https://kr.mathworks.com/help/deeplearning/ug/single-image-super-resolution-using-deep-learning.html
