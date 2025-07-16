@@ -56,6 +56,7 @@
 - DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | Image Denoising, Super resolution
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | Image generation
 - Dynamic Convolution: Attention over Convolution Kernels | Image classification
+- EDM : Elucidating the Design Space of Diffusion-Based Generative Models | Image generation
 - ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks | Super resolution
 - EdgeSRGAN : Generative Adversarial Super-Resolution at the Edge with Knowledge Distillation | Super resolution
 - EfficientFormer: Vision Transformers at MobileNet Speed | Image classification, Object detection, Instance segmentation, Semantic segmentation
