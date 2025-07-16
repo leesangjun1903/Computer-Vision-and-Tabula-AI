@@ -167,8 +167,9 @@
 
 
 - 수정필 :
-
-
+- MR-self Noise2Noise: self-supervised deep learning–based image quality improvement of submillimeter resolution 3D MR images https://link.springer.com/article/10.1007/s00330-022-09243-y
+- Multi-Stage Progressive Image Restoration https://arxiv.org/abs/2102.02808 https://github.com/swz30/MPRNet
+- CycleISP: Real Image Restoration via Improved Data Synthesis https://arxiv.org/abs/2003.07761 https://github.com/swz30/CycleISP
 
 ## 3D
 OmniSplat: Taming Feed-Forward 3D Gaussian Splatting for Omnidirectional Images with Editable Capabilities
