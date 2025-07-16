@@ -29,6 +29,7 @@
 - reproducible-image-denoising-state-of-the-art https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art?tab=readme-ov-file
 - Awesome 3D Reconstruction Papers https://github.com/bluestyle97/awesome-3d-reconstruction-papers
 - 3D-Reconstruction-with-Deep-Learning-Methods https://github.com/natowi/3D-Reconstruction-with-Deep-Learning-Methods
+- Benchmark for visual localization on 3D mesh models https://github.com/v-pnk/cadloc?tab=readme-ov-file
 
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
