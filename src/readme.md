@@ -26,11 +26,12 @@ https://pseudo-lab.github.io/Tutorial-Book/chapters/object-detection/Ch1-Object-
 - Image Denoising https://docs.opencv.org/4.x/d5/d69/tutorial_py_non_local_means.html
 - Image Denoising with Autoencoder (as a baseline model), CBDNet, PRIDNet, RIDNet https://github.com/sharathsolomon/ImageDenoising/tree/main?tab=readme-ov-file
 - latent-diffusion-inpainting : https://github.com/nickyisadog/latent-diffusion-inpainting
-- OpenSfM https://github.com/Unity-Technologies/ind-bermuda-opensfm  
 
 
 ## 3D image stitching
 - 🧩Image Stitching 프로젝트 https://velog.io/@davkim1030/Image-Stitching 
 
 ## 3D reconstruction
-- NeRF모델을 이용해 뽑은 3D Model https://github.com/ProtossDragoon/PlankHyundong  
+- NeRF모델을 이용해 뽑은 3D Model https://github.com/ProtossDragoon/PlankHyundong
+- OpenSfM https://github.com/Unity-Technologies/ind-bermuda-opensfm  
+- 2차원 이미지에서 3차원 모델 자동 생성하는 SFM기반 OpenMVG https://daddynkidsmakers.blogspot.com/2019/11/2-3-sfm-openmvg.html https://github.com/openMVG/openMVG/tree/develop
