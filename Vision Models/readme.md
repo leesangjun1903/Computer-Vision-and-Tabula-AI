@@ -38,7 +38,7 @@
 - DINO : DETR with Improved DeNoising Anchor Boxes | Object detection
 - DINO : Emerging Properties in Self-Supervised Vision Transformers | Semantic segmentation, Image classification, Image retrieval, Object detection
 - DINOv2: Learning Robust Visual Features without Supervision | Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
-- Deep Image Prior | Image denoising, Image generation, Super resolution
+- DIP : Deep Image Prior | Image denoising, Image generation, Super resolution
 - DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | Image generation
 - DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
 - DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
