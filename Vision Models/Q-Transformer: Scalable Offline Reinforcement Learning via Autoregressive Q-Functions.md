@@ -1,4 +1,4 @@
-# Q-Transformer: Scalable Offline Reinforcement Learning via Autoregressive Q-Functions | Reinforcement learning
+# Q-Transformer: Scalable Offline Reinforcement Learning via Autoregressive Q-Functions | Imitation learning,  Reinforcement learning
 
 ## 1. 핵심 주장 및 주요 기여  
 **Q-Transformer**는 대규모 오프라인 로봇 데이터(인간 시연＋자율 수집 데이터)를 활용하여 고용량 Transformer 기반 Q-함수를 안정적으로 학습하는 혁신적 프레임워크이다.  
