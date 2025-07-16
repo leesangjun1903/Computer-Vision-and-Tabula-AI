@@ -19,7 +19,6 @@ https://pseudo-lab.github.io/Tutorial-Book/chapters/object-detection/Ch1-Object-
 - Single Image Super-Resolution(EDSR, WDSR, SRGAN) : https://github.com/krasserm/super-resolution/tree/master?tab=readme-ov-file
 - Image-Super-Resolution(SRCNN) : https://github.com/sharmaroshan/Image-Super-Resolution/tree/master
 - Image Super Resolution Using Deep Convolution Neural Network Computer Science Graduation Project : https://github.com/AmrShaaban99/super-resolution/tree/main?tab=readme-ov-file#abstract
-- BCRN：A Very Lightweight Network for single Image Super-Resolution(BCRN) https://github.com/kptx666/BCRN/tree/main
 - Image Reconstructor that applies fast proximal gradient method (FISTA) to the wavelet transform of an image using L1 and Total Variation (TV) regularizations : https://github.com/EliaFantini/Image-Reconstructor-FISTA-proximal-method-on-wavelets-transform/tree/main
 - BEDMAP2 using a super resolution deep neural network : https://github.com/weiji14/deepbedmap/tree/master?tab=readme-ov-file
 - Training and testing codes for USRNet, DnCNN, FFDNet, SRMD, DPSR, MSRResNet, ESRGAN, BSRGAN, SwinIR, VRT, RVRT : https://github.com/cszn/KAIR/tree/master
