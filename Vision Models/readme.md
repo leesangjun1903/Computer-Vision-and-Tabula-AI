@@ -175,7 +175,8 @@
 - HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution : https://paperswithcode.com/paper/hmanet-hybrid-multi-axis-aggregation-network#code
 - SwinIA: Self-Supervised Blind-Spot Image Denoising with Zero Convolutions https://arxiv.org/abs/2305.05651
 - Scientific Computational Imaging Code (SCICO) https://github.com/lanl/scico
-
+- Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network https://github.com/yfeng95/PRNet
+- TripoSR : a state-of-the-art open-source model for fast feedforward 3D reconstruction from a single image https://github.com/vast-ai-research/triposr?tab=readme-ov-file
 
 ## 3D
 OmniSplat: Taming Feed-Forward 3D Gaussian Splatting for Omnidirectional Images with Editable Capabilities
