@@ -29,3 +29,6 @@ https://pseudo-lab.github.io/Tutorial-Book/chapters/object-detection/Ch1-Object-
 
 ## 3D image stitching
 - 🧩Image Stitching 프로젝트 https://velog.io/@davkim1030/Image-Stitching 
+
+## 3D reconstruction
+- NeRF모델을 이용해 뽑은 3D Model https://github.com/ProtossDragoon/PlankHyundong  
