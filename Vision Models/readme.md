@@ -174,6 +174,7 @@
 - Deep Learning on Image Denoising An overview : https://github.com/hellloxiaotian/Deep-Learning-on-Image-Denoising-An-overview
 - HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution : https://paperswithcode.com/paper/hmanet-hybrid-multi-axis-aggregation-network#code
 - SwinIA: Self-Supervised Blind-Spot Image Denoising with Zero Convolutions https://arxiv.org/abs/2305.05651
+- Scientific Computational Imaging Code (SCICO) https://github.com/lanl/scico
 
 
 ## 3D
