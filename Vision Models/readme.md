@@ -39,6 +39,7 @@
 - DINO : Emerging Properties in Self-Supervised Vision Transformers | Semantic segmentation, Image classification, Image retrieval, Object detection
 - DINOv2: Learning Robust Visual Features without Supervision | Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
 - DIP : Deep Image Prior | Image denoising, Image generation, Super resolution
+- DLSM : Denoising Likelihood Score Matching for Conditional Score-Based Data Generation | Image generation
 - DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | Image generation
 - DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
 - DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
