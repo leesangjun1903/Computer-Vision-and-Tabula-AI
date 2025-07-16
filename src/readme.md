@@ -20,9 +20,6 @@ https://pseudo-lab.github.io/Tutorial-Book/chapters/object-detection/Ch1-Object-
 - Image-Super-Resolution(SRCNN) : https://github.com/sharmaroshan/Image-Super-Resolution/tree/master
 - Image Super Resolution Using Deep Convolution Neural Network Computer Science Graduation Project : https://github.com/AmrShaaban99/super-resolution/tree/main?tab=readme-ov-file#abstract
 - Image Reconstructor that applies fast proximal gradient method (FISTA) to the wavelet transform of an image using L1 and Total Variation (TV) regularizations : https://github.com/EliaFantini/Image-Reconstructor-FISTA-proximal-method-on-wavelets-transform/tree/main
-- BEDMAP2 using a super resolution deep neural network : https://github.com/weiji14/deepbedmap/tree/master?tab=readme-ov-file
 - Training and testing codes for USRNet, DnCNN, FFDNet, SRMD, DPSR, MSRResNet, ESRGAN, BSRGAN, SwinIR, VRT, RVRT : https://github.com/cszn/KAIR/tree/master
-- https://github.com/hellloxiaotian/Deep-Learning-on-Image-Denoising-An-overview
 - Annotated Research Paper Implementations: Transformers, StyleGAN, Stable Diffusion, DDPM/DDIM, LayerNorm, Nucleus Sampling and more https://nn.labml.ai/index.html
-- HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution : https://paperswithcode.com/paper/hmanet-hybrid-multi-axis-aggregation-network#code
 - VDSR(Very-Deep Super-Resolution) 신경망을 사용하여 하나의 저해상도 영상에서 고해상도 영상을 만드는 방법(MatLab) : https://kr.mathworks.com/help/deeplearning/ug/single-image-super-resolution-using-deep-learning.html
