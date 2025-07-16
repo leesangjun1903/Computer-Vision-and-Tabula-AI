@@ -27,6 +27,7 @@
 - Awesome Image or Video Denoising Algorithms https://github.com/z-bingo/awesome-image-denoising-state-of-the-art
 - Image Denoising State-of-the-art https://github.com/flyywh/Image-Denoising-State-of-the-art
 - reproducible-image-denoising-state-of-the-art https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art?tab=readme-ov-file
+- Awesome 3D Reconstruction Papers https://github.com/bluestyle97/awesome-3d-reconstruction-papers
 
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
