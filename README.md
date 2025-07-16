@@ -24,6 +24,9 @@
 - Awesome Image Translation : https://github.com/weihaox/awesome-image-translation/tree/master
 - Awesome Normalizing Flows : https://github.com/janosh/awesome-normalizing-flows?tab=readme-ov-file
 - really-awesome-gan : https://github.com/nightrome/really-awesome-gan
+- Awesome Image or Video Denoising Algorithms https://github.com/z-bingo/awesome-image-denoising-state-of-the-art
+- Image Denoising State-of-the-art https://github.com/flyywh/Image-Denoising-State-of-the-art
+- reproducible-image-denoising-state-of-the-art https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art?tab=readme-ov-file
 
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
