@@ -1,4 +1,4 @@
-# simple diffusion: End-to-end diffusion for high resolution images
+# simple diffusion: End-to-end diffusion for high resolution images | Image generation
 
 ## 주요 주장 및 기여
 1. **단일 스테이지(end-to-end) 고해상도 이미지 생성**  
