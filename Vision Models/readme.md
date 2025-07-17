@@ -148,6 +148,7 @@
 - SR3 : Image Super-Resolution via Iterative Refinement | Super resolution
 - SRGAN : Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network | Super resolution
 - SSD: Single Shot MultiBox Detector | Object detection
+- SUPIR : Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild | Super resolution
 - SWAGAN: A Style-based Wavelet-driven Generative Model | Super resolution
 - Score-Based Generative Modeling through Stochastic Differential Equations | Image generation, Density estimation, Image inpainting
 - SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution | Super resolution
