@@ -8,6 +8,8 @@
 - Awesome-Scene-Change-Detection(SCD) : https://github.com/DoongLi/Awesome-Scene-Change-Detection?tab=readme-ov-file
 - Awesome works on Unsupervised Object Localization : https://github.com/valeoai/Awesome-Unsupervised-Object-Localization
 - Awesome-Shadow-Removal : https://github.com/GuoLanqing/Awesome-Shadow-Removal
+- Awesome Diffusion Models in High-Resolution Synthesis : https://github.com/GuoLanqing/Awesome-High-Resolution-Diffusion
+- Awesome Diffusion Models In Low-level Vision : https://github.com/ChunmingHe/awesome-diffusion-models-in-low-level-vision?tab=readme-ov-file
 - Awesome Remote Sensing Change Detection : https://github.com/wenhwu/awesome-remote-sensing-change-detection?tab=readme-ov-file#code
 - Awesome-Optical-Flow : https://github.com/hzwer/Awesome-Optical-Flow
 - Awesome Decision, Classification, and Regression Tree Research Papers : https://github.com/benedekrozemberczki/awesome-decision-tree-papers
@@ -35,7 +37,8 @@
 - Awesome-Super-Resolution https://github.com/ChaofWang/Awesome-Super-Resolution?tab=readme-ov-file
 - Single-Image-Super-Resolution(7 years ago) : https://github.com/YapengTian/Single-Image-Super-Resolution?tab=readme-ov-file
 - Awesome Segment Anything : https://github.com/Hedlen/awesome-segment-anything , https://github.com/dk-liang/Awesome-Segment-Anything , https://github.com/baibizhe/Awesome-SAM
-
+- Awesome-Diffusion-Models : https://github.com/diff-usion/Awesome-Diffusion-Models
+- Awesome-diffusion-model-for-image-processing : https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing?tab=readme-ov-file
 
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
