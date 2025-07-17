@@ -68,6 +68,7 @@
 - Depth-Aware Multi-Grid Deep Homography Estimation with Contextual Correlation | Image stitching
 - DiNAT : Dilated Neighborhood Attention Transformer | Image classification, Object detection, Semantic segmentation
 - DiT : Scalable Diffusion Models with Transformers | Image generation
+- DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior | Image denoising, Super resolution, Image restoration
 - Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | Image classification
 - DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | Image Denoising, Super resolution
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | Image generation
