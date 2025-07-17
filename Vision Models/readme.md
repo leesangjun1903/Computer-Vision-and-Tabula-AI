@@ -28,6 +28,7 @@
 - AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks | Image generation
 - AuXFT : Cross-Architecture Auxiliary Feature Space Translation for Efficient Few-Shot Personalized Object Detection | Object detection
 - Auxiliary Classifier GAN : Conditional Image Synthesis with Auxiliary Classifier GANs | Image generation
+- BCRN : A Very Lightweight Image Super-Resolution Network | Super resolution, Lightweight
 - BEGAN: Boundary Equilibrium Generative Adversarial Networks | Image generation
 - BSRGAN : Designing a Practical Degradation Model for Deep Blind Image Super-Resolution | Super resolution
 - BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | Image augmentation, Image classification
