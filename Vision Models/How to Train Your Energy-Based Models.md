@@ -1,4 +1,4 @@
-# How to Train Your Energy-Based Models
+# How to Train Your Energy-Based Models | Generation, EBM
 
 ## 핵심 주장과 주요 기여
 
