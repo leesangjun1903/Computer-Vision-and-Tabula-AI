@@ -50,6 +50,7 @@
 - DBPN : Deep Back-Projection Networks for Single Image Super-resolution | Super resolution
 - DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | Image generation
 - DDIM : Denoising Diffusion Implicit Models | Image generation
+- DDNM : Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model | Super resolution
 - DDPM : Denoising Diffusion Probabilistic Models | Image generation
 - DINO : DETR with Improved DeNoising Anchor Boxes | Object detection
 - DINO : Emerging Properties in Self-Supervised Vision Transformers | Semantic segmentation, Image classification, Image retrieval, Object detection
