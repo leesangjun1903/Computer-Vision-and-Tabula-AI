@@ -20,6 +20,7 @@
 
 
 # Models(papers)
+- A Theory of Generative ConvNet | Generation, EBM
 - AAE : Adversarial Autoencoders | Image generation
 - ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation | Image Matching
 - AdaIN : Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | Image generation
