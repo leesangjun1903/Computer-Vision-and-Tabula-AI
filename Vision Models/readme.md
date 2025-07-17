@@ -87,6 +87,7 @@
 - GeNeVA-GAN : Tell, Draw, and Repeat: Generating and Modifying Images Based on Continual Linguistic Instruction | Text(Image)-Image generation
 - GhostNet: More Features from Cheap Operations | Image classification
 - HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
+- HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution | Super resolution
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
 - How to Train Your Energy-Based Models | Generation, EBM
 - Image Denoising Using A Generative Adversarial Network | Image denoising
