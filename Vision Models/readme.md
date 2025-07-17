@@ -159,6 +159,7 @@
 - Structural-analogy from a Single Image Pair | Image generation
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | Image generation
 - Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | Image classification, Object Detection, Semantic Segmentation
+- SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | Image denoising
 - SwinIR : Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | Image generation
 - Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet | Image classification
