@@ -14,7 +14,6 @@
 - Real-World Single Image Super-Resolution:A Brief Review
 - Blind Image Super-Resolution: A Survey and Beyond
 - Generative Adversarial Networks for Image Super-Resolution: A Survey
-- Hitchhiker's Guide to Super-Resolution: Introduction and Recent Advances
 - Diffusion Models, Image Super-Resolution And Everything: A Survey
 - (Video Super Resolution Based on Deep Learning: A comprehensive survey)
 
