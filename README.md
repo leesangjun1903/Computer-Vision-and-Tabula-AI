@@ -14,6 +14,8 @@
 - Awesome-Local-Feature-Matching https://github.com/vignywang/Awesome-Local-Feature-Matching?tab=readme-ov-file#Detector-based-Models
 - Paper with code : Computer Vision https://paperswithcode.com/area/computer-vision
 - Paper with code : Image matching https://paperswithcode.com/task/image-matching
+- Paper with code : https://paperswithcode.com/task/super-resolution
+- Paper with code : https://paperswithcode.com/task/image-denoising
 - Image-Matching-Paper-List https://github.com/chicleee/Image-Matching-Paper-List
 - Paper with code list(~2018) https://github.com/zziz/pwc
 - PyTorch Implementations of various state of the art architectures(MLP-Mixer, TransUNet, ViT, Fastformer, Single Image Super-Resolution via a Holistic Attention Network) https://github.com/04RR/SOTA-Vision
@@ -30,6 +32,10 @@
 - Awesome 3D Reconstruction Papers https://github.com/bluestyle97/awesome-3d-reconstruction-papers
 - 3D-Reconstruction-with-Deep-Learning-Methods https://github.com/natowi/3D-Reconstruction-with-Deep-Learning-Methods
 - Benchmark for visual localization on 3D mesh models https://github.com/v-pnk/cadloc?tab=readme-ov-file
+- Awesome-Super-Resolution https://github.com/ChaofWang/Awesome-Super-Resolution?tab=readme-ov-file
+- Single-Image-Super-Resolution(7 years ago) : https://github.com/YapengTian/Single-Image-Super-Resolution?tab=readme-ov-file
+- Awesome Segment Anything : https://github.com/Hedlen/awesome-segment-anything , https://github.com/dk-liang/Awesome-Segment-Anything , https://github.com/baibizhe/Awesome-SAM
+
 
 ## Challenge
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
