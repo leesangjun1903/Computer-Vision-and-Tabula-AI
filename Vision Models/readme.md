@@ -148,6 +148,7 @@
 - SSD: Single Shot MultiBox Detector | Object detection
 - SWAGAN: A Style-based Wavelet-driven Generative Model | Super resolution
 - Score-Based Generative Modeling through Stochastic Differential Equations | Image generation, Density estimation, Image inpainting
+- SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution | Super resolution
 - SeemoRe : See More Details: Efficient Image Super-Resolution by Experts Mining | Super resolution
 - SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers | Semantic Segmentation
 - Self-Conditioned GAN : Diverse Image Generation via Self-Conditioned GANs | Image generation
@@ -180,19 +181,9 @@
 
 
 - 수정필 :
-- Multi-Stage Progressive Image Restoration https://arxiv.org/abs/2102.02808 https://github.com/swz30/MPRNet
-- CycleISP: Real Image Restoration via Improved Data Synthesis
-- BCRN：A Very Lightweight Network for single Image Super-Resolution(BCRN) https://github.com/kptx666/BCRN/tree/main
 - Generative AI, Artificial Images(StyleGAN2, Pix2Pix, SinGAN, Super-Resolution(EDSR, EUSR, DBPN, RCAN, MSRN, ESRGAN, CARN, FRSR) , U2-Net : https://github.com/dvschultz/ai/tree/master
 - PyTorch-GAN(Auxiliary Classifier GAN, Adversarial Autoencoder, BEGAN, BicycleGAN, Boundary-Seeking GAN, Cluster GAN, Conditional GAN, Context-Conditional GAN, Context Encoder, Coupled GAN, CycleGAN, Deep Convolutional GAN, DiscoGAN, DRAGAN, DualGAN, Energy-Based GAN, Enhanced Super-Resolution GAN, GAN, InfoGAN, Least Squares GAN, MUNIT, Pix2Pix, PixelDA, Relativistic GAN, Semi-Supervised GAN, Softmax GAN, StarGAN, Super-Resolution GAN, UNIT, Wasserstein GAN, Wasserstein GAN GP(Wasserstein GAN with Gradient Penalty), Wasserstein GAN DIV(Wasserstein Divergence for GANs) : https://github.com/eriklindernoren/PyTorch-GAN/tree/master?tab=readme-ov-file#munit
-- BEDMAP2 using a super resolution deep neural network : https://github.com/weiji14/deepbedmap/tree/master?tab=readme-ov-file
-- Deep Learning on Image Denoising An overview : https://github.com/hellloxiaotian/Deep-Learning-on-Image-Denoising-An-overview
-- HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution : https://paperswithcode.com/paper/hmanet-hybrid-multi-axis-aggregation-network#code
-- SwinIA: Self-Supervised Blind-Spot Image Denoising with Zero Convolutions https://arxiv.org/abs/2305.05651
-- Scientific Computational Imaging Code (SCICO) https://github.com/lanl/scico
-- Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network https://github.com/yfeng95/PRNet
-- TripoSR : a state-of-the-art open-source model for fast feedforward 3D reconstruction from a single image https://github.com/vast-ai-research/triposr?tab=readme-ov-file
-- 'Lightweight' GAN : Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis : https://github.com/lucidrains/lightweight-gan 
+
 
 ## 3D
 OmniSplat: Taming Feed-Forward 3D Gaussian Splatting for Omnidirectional Images with Editable Capabilities
