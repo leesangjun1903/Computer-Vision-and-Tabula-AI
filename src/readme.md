@@ -27,6 +27,7 @@ https://pseudo-lab.github.io/Tutorial-Book/chapters/object-detection/Ch1-Object-
 - Image Denoising with Autoencoder (as a baseline model), CBDNet, PRIDNet, RIDNet https://github.com/sharathsolomon/ImageDenoising/tree/main?tab=readme-ov-file
 - latent-diffusion-inpainting : https://github.com/nickyisadog/latent-diffusion-inpainting
 - Deep Learning Image Generation with GANs and Diffusion Model : https://github.com/kanru-wang/Udemy_GAN_and_Diffusion_models/tree/main
+- LoRA for Single Image Super Resolution : https://github.com/Gugan0905/LoRA-for-Single-Image-Super-Resolution/tree/main
 
 ## 3D image stitching
 - 🧩Image Stitching 프로젝트 https://velog.io/@davkim1030/Image-Stitching 
