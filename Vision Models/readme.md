@@ -165,6 +165,7 @@
 - WGAN : Wasserstein GAN | Image generation
 - WGAN GP : Improved Training of Wasserstein GANs | Image generation, Optimization
 - YOLO : You Only Look Once: Unified, Real-Time Object Detection | Object detection
+- iDDPM : Improved Denoising Diffusion Probabilistic Models | Image generation, Image denoising
 - pGAN : Image Synthesis in Multi-Contrast MRI with Conditional Generative Adversarial Networks | Image generation
 
 
