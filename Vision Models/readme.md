@@ -141,6 +141,7 @@
 - RegNet : Designing Network Design Spaces | Image classification
 - ResNet : Deep Residual Learning for Image Recognition | Image classification
 - ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | Image classification : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
+- ResShift: Efficient Diffusion Model for Image Super-Resolution by Residual Shifting | Super resolution
 - ResViT: Residual Vision Transformers for Multi-Modal Medical Image Synthesis | Image generation
 - RetinaNet : Focal Loss for Dense Object Detection | Object detection
 - SAGAN : Self-Attention Generative Adversarial Networks | Image generation
