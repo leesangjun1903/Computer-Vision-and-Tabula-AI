@@ -8,6 +8,7 @@
 - Deepfake Generation and Detection: A Benchmark and Survey
 - Diffusion models and representation learning a survey
 - Deep Learning on Image Denoising: An Overview
+- Diffusion Models, Image Super-Resolution And Everything: A Survey
 - 수정필:
 - Deep Learning for Single Image Super-Resolution: A Brief Review
 - A Deep Journey into Super-resolution: A survey
@@ -15,7 +16,6 @@
 - Real-World Single Image Super-Resolution:A Brief Review
 - Blind Image Super-Resolution: A Survey and Beyond
 - Generative Adversarial Networks for Image Super-Resolution: A Survey
-- Diffusion Models, Image Super-Resolution And Everything: A Survey
 - (Video Super Resolution Based on Deep Learning: A comprehensive survey)
 
 
