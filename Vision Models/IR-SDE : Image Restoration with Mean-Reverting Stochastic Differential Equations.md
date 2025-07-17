@@ -2,7 +2,6 @@
 
 # 핵심 요약
 
-**당신은 AI 분야의 연구자입니다.**  
 “Image Restoration with Mean-Reverting Stochastic Differential Equations” 논문은 고품질(HQ) 이미지와 저품질(LQ) 이미지 쌍을 이용해 일반 목적의 이미지 복원 방법을 제안한다.  
 - **핵심 주장:**  
   전통적 확산(diffusion) 모델이 순수 잡음으로 확산한 뒤 역과정을 시뮬레이션하는 대신, **평균 회귀(mean-reverting) SDE**를 전방(forward) 과정으로 사용해 실제 이미지 열화(degradation) 과정을 모델링하고, 이를 역으로 시뮬레이션하여 복원한다.  
