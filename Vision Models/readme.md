@@ -85,6 +85,7 @@
 - GhostNet: More Features from Cheap Operations | Image classification
 - HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
+- How to Train Your Energy-Based Models | Generation, EBM
 - Image Denoising Using A Generative Adversarial Network | Image denoising
 - ImageGPT : Generative Pretraining from Pixels | Image classification
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution
