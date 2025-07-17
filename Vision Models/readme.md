@@ -89,6 +89,7 @@
 - How to Train Your Energy-Based Models | Generation, EBM
 - Image Denoising Using A Generative Adversarial Network | Image denoising
 - ImageGPT : Generative Pretraining from Pixels | Image classification
+- Implicit Generation and Modeling with Energy-Based Models | Image generation, Image reconstruction
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution
 - LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
 - LSGM : Score-based Generative Modeling in Latent Space | Image generation
