@@ -167,6 +167,7 @@
 - YOLO : You Only Look Once: Unified, Real-Time Object Detection | Object detection
 - iDDPM : Improved Denoising Diffusion Probabilistic Models | Image generation, Image denoising
 - pGAN : Image Synthesis in Multi-Contrast MRI with Conditional Generative Adversarial Networks | Image generation
+- simple diffusion: End-to-end diffusion for high resolution images | Image generation
 
 
 
