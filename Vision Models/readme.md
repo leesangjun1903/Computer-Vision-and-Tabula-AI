@@ -96,6 +96,7 @@
 - GhostNet: More Features from Cheap Operations | Image classification
 - HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
 - HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution | Super resolution
+- HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models | Super resolution
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
 - How to Train Your Energy-Based Models | Generation, EBM
 - IR-SDE : Image Restoration with Mean-Reverting Stochastic Differential Equations | Image deblurring, Image denoising, Image generation, Image restoration, Super resolution, Image dehazing
