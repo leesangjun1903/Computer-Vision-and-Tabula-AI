@@ -1,5 +1,232 @@
 # Blind Image Super-Resolution: A Survey and Beyond
 
+## 1. 핵심 주장과 주요 기여  
+본 논문은 **알려지지 않은(degradation unknown) LR(low‐resolution) 이미지**에 대해 고품질 HR(high‐resolution) 영상을 복원하는 **Blind SR** 연구 동향을 체계적으로 정리하고,  
+- **Taxonomy 제안**: Blind SR 기법을 ‘명시적 모델링 vs. 암시적 모델링’ 및 ‘외부 데이터 사용 vs. 단일 이미지 사용’이라는 축으로 분류  
+- **각 분류별 대표 기법 리뷰**: Non-blind 대비 blind SR의 수식적 정의→외부 데이터 기반 explicit methods (SRMD, IKC 등)→단일 이미지 내부 통계 기반 methods (ZSSR, KernelGAN 등)→GAN 기반 implicit methods (CinCGAN, DASR 등)  
+- **데이터셋·경진대회 정리**: Synthetic/Real 제작 방식, NTIRE/AIM 등 Blind SR 트랙 비교  
+- **성능·한계 분석**: 정량·정성 비교를 통해 각 방식의 장·단점을 밝힘  
+
+를 통해 “현재까지 Blind SR이 어디까지 왔고, 무엇이 남아 있는가”를 명확히 제시하였다.
+
+## 2. 해결 문제, 제안 방법, 모델 구조, 성능 및 한계
+
+### 2.1 문제 정의  
+- **기존 Non-blind SR**: $$y = (x\otimes k)\downarrow_s + n$$ 수식에서 $$k$$ (blur kernel) 및 $$n$$ (noise) 가정(보통 bicubic $$k$$, 무시하거나 고정된 Gaussian $$n$$)  
+- **Blind SR**: LR마다 **미지의** $$k,\;n$$ 를 복원→역함수 $$f^{-1}$$ 추정  
+- **도전 과제**: 실제 촬영·저장 과정에서 발생하는 복합 degradations (sensor noise, ISP artifacts, compression, 옛 사진 필름 훼손)  
+
+### 2.2 제안된 Taxonomy  
+1. **Explicit Modelling (수식 기반)**  
+  1.1. 외부 데이터 + degradation map 입력  
+    - SRMD : PCA로 커널압축→$$H\times W$$ map과 concat  
+    - USRNet : MAP 최적화 풀링→non-blind SR 네트워크로 풀기  
+  1.2. 외부 데이터 + kernel estimation 내장  
+    - IKC : **Iterative Kernel Correction** – SR 결과 artifact→kernel corrector 반복  
+    - DAN : IKC end-to-end 학습, non-iterative  
+  1.3. 단일 이미지 내부 통계  
+    - KernelGAN : GAN으로 patch recurrence 분포 학습→커널 복원  
+    - ZSSR : self-supervised CNN, LR 자체 downsample→학습→SR  
+2. **Implicit Modelling (GAN/Distribution Learning)**  
+  - CinCGAN : unpaired LR→bicubic LR→pretrained non-blind SR (CycleGAN×2)  
+  - DASR : High-to-Low generator로 realistic LR 생성 + domain-aware SR 학습  
+  - FSSR : high-frequency만 어드버서리얼 학습  
+
+### 2.3 모델 구조 요약  
+- **SRMD**: shallow/deep feature extraction + degradation map concat + residual blocks  
+- **IKC**: predictor(커널)→SR 네트워크(Spatial Feature Transform)→corrector(잔차 커널) 반복  
+- **KernelGAN**: generator(fully-conv chain)→patch discriminator→학습 후 합성 필터 추출  
+- **CinCGAN**: LR→CleanLR CycleGAN + CleanLR→HR CycleGAN + pretrained SR  
+
+# 6. 명시적 열화 모델링(Explicit Degradation Modelling)
+
+명시적 열화 모델링은 저해상도(LR) 이미지가 어떻게 열화(degradation)되었는지를 **수식(모델)로 명확히 가정**하고, 그 가정에 따라 **학습된 SR 모델**을 이용해 고해상도(HR) 이미지를 복원하는 방식입니다.  
+주로 **블러(blur) 커널** $$k$$와 **잡음(noise)** $$n$$ 두 가지 요인을 다루며, 외부에 준비된 데이터셋(쌍으로 구성된 HR–LR 이미지쌍)으로 학습합니다.
+
+## 6.1 외부 데이터셋 기반 Explicit Modelling
+
+대부분의 방법은 다음의 “클래식” 열화 모델을 가정합니다:  
+
+$$
+y = (x \otimes k)\!\downarrow_s + n
+$$ 
+
+- $$x$$: HR 원본  
+- $$y$$: 생성된 LR 이미지  
+- $$\otimes$$: 컨볼루션(블러)  
+- $$\downarrow_s$$: 축소 비율 $$s$$로 다운샘플링  
+- $$k$$: 미지의 블러 커널  
+- $$n$$: 미지의 잡음
+
+### 6.1.1. 커널·잡음 정보 입력형 (Image-Specific Adaptation without Kernel Estimation)  
+1) SRMD  
+   - **커널+잡음 맵**을 입력 이미지에 “채널로” 붙여 넣고(차원 확장) CNN에 함께 학습  
+   - 단일 네트워크로 **다양한** $$k,n$$ 처리  
+2) UDVD  
+   - **동적 컨볼루션(dynamic conv.)** 적용  
+   - 커널·잡음 맵에 따라 **채널별 가중치**를 학습  
+3) DPSR / USRNet  
+   - MAP(우도+사전) 프레임워크로 **블러 분리**(FFT) ↔ **SR+디노이즈** 단계 반복  
+   - USRNet은 이를 **언폴딩(unfold)** 해 다단계 네트워크로 구현
+
+**장점**  
+- 명확한 수식 기반으로 학습 안정성  
+- 알려진 범위 내 블러·잡음에서 우수한 성능  
+
+**단점**  
+- 실제 추론 시 정확한 $$k,n$$ 추정 필요  
+- 추정 오차 시 심각한 화질 저하  
+
+### 6.1.2. 커널 추정 통합형 (Image-Specific Adaptation with Kernel Estimation)  
+**SR 과정 중에 자동으로 커널을 추정**해, 추정→SR→추정…을 반복하거나  
+단일 네트워크 안에서 **추정기가 곧 SR 입력**이 되도록 설계합니다.
+
+1) IKC (Iterative Kernel Correction)  
+   - 초기 커널 예측 후 SR 수행  
+   - SR 결과에서 생긴 “아티팩트”를 이용해 **커널 보정**  
+   - 이를 **반복(iteration)** 해 점진적 개선  
+
+2) DAN (Deep Alternating Network)  
+   - IKC를 언폴딩(unfold)해 **end-to-end** 학습  
+   - 커널 추정기와 SR 네트워크를 **동시 최적화**  
+
+3) 기타  
+   - VBSR: 판별자(discriminator)로 SR 오류 맵을 학습, 최적 커널 검색  
+   - KOALAnet, AMNet-RL: **대역 학습**·**강화학습** 이용해 커널 인코더와 SR 네트워크 연결  
+
+**장점**  
+- 커널 추정 과정을 네트워크 내부에 통합해 추론 편의성 향상  
+- 반복 학습으로 커널 미스매치 문제 완화  
+
+**단점**  
+- 반복 횟수·종료 조건 설정의 번거로움  
+- 독립적인 블러가 아닌, **복합 열화**(ISP 아티팩트·압축노이즈 등)엔 여전히 취약  
+
+## 6.2 단일 이미지 내부 통계 기반 Explicit Modelling
+
+외부 데이터 없이 **한 장의 LR 이미지** 내에서 **패치 반복성(patch recurrence)** 만으로 SR을 수행하려는 방법들입니다.
+
+- **NPBSR**: 반복되는 패치 간의 통계로 MAP 기반 커널 추정  
+- **KernelGAN**: 작은 네트워크를 “GAN 생성기”로 보고, 다운샘플된 LR과 “원본 LR”의 패치 분포 일치를 통해 **블러 커널** 직접 학습  
+- **ZSSR**: 입력 LR을 HR라 보고, 다시 다운샘플해 생성한 LR을 학습 데이터로 삼아 **Self-supervised CNN** 학습  
+- **DGDML-SR**: depth map 기반으로 HR/LR 패치를 분리해 **CycleGAN** 유사 구조에서 내부 열화 모델과 SR 네트워크를 동시 학습  
+
+**장점**  
+- **외부 데이터 불필요**, 이미지 특화  
+- 심각한 도메인 갭 없이 **유연한** SR 가능  
+
+**단점**  
+- 패치 반복성이 낮은(단조로운) 또는 복잡한(real-world) 장면에서는 **반복 통계가 부족**해 성능 저하  
+- 잡음·압축 아티팩트 등 **복합 열화** 모델링 한계  
+
+## 6.3 요약 및 활용 가이드
+
+- **명시적 모델링**은 블러·잡음 등 **수식화 가능한 열화**에 강하지만, 실제 기기 ISP나 압축 노이즈처럼 **복합적이고 예측불가한** 열화에는 한계가 있습니다.  
+- **외부 데이터 기반**은 다양한 열화 조건을 **학습 범위**로 끌어올 수 있으나, 학습하지 않은 열화에겐 무력합니다.  
+- **단일 이미지 내부 통계 기반**은 외부 데이터 부담이 없지만 **패치 반복성**이 큰 전제 조건이므로 일반 자연 이미지 전반에 적용하기엔 어려움이 있습니다.
+
+**적용 팁**  
+1. 실제 촬영 이미지가 대부분 **Gaussian blur+noise**라면, SRMD·IKC·USRNet 등 외부 데이터 기반 방식을 추천  
+2. **한 장의 이미지**로만 처리해야 하고, 패치 반복성이 높다면 KernelGAN+ZSSR 같은 내부 통계 방식을 고려  
+3. 복합 열화(모바일 ISP·JPG 압축 등)에는 명시적 모델링만으로는 부족하며, **암시적(gan) 모델링**이나 향후 발전할 **단일 이미지 암시적 모델링** 기법 연구 필요  
+
+이처럼 **명시적 열화 모델링**은 수식 가정의 명확성과 학습 안정성이 장점이지만, “모델 가정 밖” 열화엔 취약하다는 특성을 꼭 이해하고 활용해야 합니다.
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/6055dde7-45fe-4156-9d86-d9ded19e3fe2/2107.03055v1.pdf
+
+# 7. 암시적 열화 모델링(Implicit Degradation Modelling)
+
+암시적 열화 모델링은 **열화 과정을 수식으로 정의하지 않고**, 대신 **훈련용 데이터의 분포**를 학습하여 저해상도(LR)→고해상도(HR) 변환 모델을 만드는 접근입니다.  
+즉, 블러 커널 $$k$$나 노이즈 $$n$$ 같은 명시적 파라미터를 추정하지 않고, **실제 LR–HR 쌍** 또는 **LR과 HR 도메인 분포**를 GAN 등의 모델로 직접 연결하여 SR 네트워크를 학습합니다.
+
+## 7.1 주요 방식
+
+### 7.1.1 페어드 데이터 기반 간접 학습  
+- **훈련 데이터**: 실제 촬영한 HR–LR 쌍이 확보된 경우  
+- **학습**: 일반적인 지도학습(Supervised)과 동일하게, LR→HR 매핑망을 직접 최적화  
+- **장점**: 열화를 명시적으로 다루지 않아도 되고, 실제 환경에서 촬영된 다양한 LR 품질을 학습 가능  
+- **단점**: 고품질 HR–LR 쌍을 구축하기 어렵고 비용이 큼  
+
+### 7.1.2 언페어드 데이터 기반 도메인 적응  
+- **훈련 데이터**: HR 도메인(예: 웹 상 고해상도 원본)과 LR 도메인(예: 스마트폰 사진) 두 그룹  
+- **모델 구조**:  
+  1. **High-to-Low Generator**: HR → “실제 같은” LR 생성  
+  2. **Low-to-High SR Generator**: 생성된 LR → SR(고해상도)  
+  3. 두 Generator를 **GAN**과 **Cycle-Consistency**로 연결[1]  
+- **대표 기법**  
+  - CinCGAN: LR→Clean LR→SR의 두 단계 CycleGAN[1]  
+  - Degradation GAN + SRGAN: HR→LR 생성 후, 페어드 학습  
+  - DASR: 생성 LR과 실제 LR을 함께 섞어 학습해 도메인 갭 최소화  
+- **장점**: 실제 LR 도메인에서 수집한 이미지로 훈련하므로 현실 열화를 반영  
+- **단점**:  
+  - GAN 훈련의 불안정성(블링·가짜 텍스처)  
+  - 생성된 LR과 진짜 LR 간 도메인 차이 완전 해소 어려움  
+
+## 7.2 동작 원리
+
+1. **생성 네트워크 학습**  
+   - $$G_d$$: HR 이미지 $$x$$를 받아 “실제 LR”처럼 보이는 $$\hat y = G_d(x)$$ 생성  
+   - **Adversarial Loss**로 $$\hat y$$ 분포를 실제 LR 데이터에 근접하도록 함  
+2. **SR 네트워크 학습**  
+   - 생성된 $$\hat y$$와 대응 HR $$x$$ 쌍을 사용해 $$G_s$$: $$\hat y \mapsto \hat x = G_s(\hat y)$$ 학습  
+   - **Pixel Loss**($$\ell_1$$, $$\ell_2$$) + **Perceptual/GAN Loss** 결합  
+3. **순환 일관성(Cycle)**  
+   - 경우에 따라 $$G_s(G_d(x))\approx x$$ $$\Rightarrow$$ Cycle-Consistency Loss 추가[1]  
+
+## 7.3 장·단점 비교
+
+| 구분           | 장점                                                                 | 단점                                                       |
+|---------------|--------------------------------------------------------------------|------------------------------------------------------------|
+| 명시적 모델링 | – 블러·노이즈 수식화로 안정적 성능– 수학적 해석 가능               | – 복합 열화(ISP, 압축) 표현 불가– 파라미터 추정 필요    |
+| 암시적 모델링 | – 수식 가정 불필요– 실제 LR 분포 반영– 단일 네트워크로 통합 가능| – GAN 훈련 불안정– 가짜 질감·아티팩트 위험– 고품질 데이터 필요 |
+
+## 7.4 활용 팁
+
+1. **실제 LR 데이터가 풍부**하다면 → 암시적 모델링 추천  
+2. **명확한 블러·노이즈 환경**이라면 → 명시적 모델링으로 높은 PSNR/SSIM 확보  
+3. **하이브리드**: 암시적으로 LR 분포 학습 후, 명시적 모델링을 SR 단계에 적용 가능  
+
+## 7.5 결론
+
+암시적 열화 모델링은 실제 환경의 복잡한 열화를 **직접 학습**한다는 점에서 강력하나, **GAN 훈련 안정성**과 **도메인 갭** 문제를 해결하는 것이 핵심 과제입니다. 앞으로는 GAN 대체 기법(예: Diffusion 모델)이나 도메인 적응 기법 고도화가 필수적일 것입니다.
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/6055dde7-45fe-4156-9d86-d9ded19e3fe2/2107.03055v1.pdf
+
+### 2.4 성능 향상 및 한계  
+- **Explicit w/ 외부 데이터**  
+  - Pros: 알려진 $$k,n$$ 범위 내에서 우수한 PSNR/SSIM  
+  - Cons: 범위를 벗어나면 급락. 정확한 $$k,n$$ 추정 필요→실제 이미지엔 부정확  
+- **Explicit w/ 단일 이미지**  
+  - Pros: external data 불필요, self-supervised  
+  - Cons: patch recurrence를 전제로→texture 다양/단순 장면에 취약  
+- **Implicit w/ 외부 데이터**  
+  - Pros: 복합 degradations 실 모델링 가능  
+  - Cons: GAN artifacts (가짜 질감), domain gap 문제, paired data 구성 어려움  
+
+## 3. 일반화 성능 향상 가능성
+
+1. **Implicit + Single Image**  
+   - 본 논문이 지적한 미개척 영역.  
+   - **아이디어**: 단일 이미지에 내재된 **데이터 분포**를 학습(예: human-in-the-loop, modulation networks로 컨트롤 파라미터 제공)  
+2. **Domain-aware 학습**  
+   - DASR처럼 **real LR/distributed generated LR** 모두 사용해 domain gap 최소화  
+3. **Contrastive Degradation Encoding**  
+   - DRL-DASR : degradation encoder의 contrastive 학습으로 일반화 강화  
+4. **Hybrid Approaches**  
+   - explicit + implicit 융합: 내부 통계로 초기 추정→GAN으로 polishing  
+
+## 4. 향후 영향 및 연구 시 고려점
+
+- **Benchmark 구축**: 동일 데이터·평가환경 하에서 각 분류별 fair comparison 필요  
+- **General SR Prior 설계**: 단일 이미지 암시적 모델링을 위한 **강건한 SR prior** 발굴  
+- **Human-in-the-Loop 인터페이스**: 사용자 입력(참조 이미지·조절 파라미터) 활용  
+- **안전한 GAN 대체 모델**: diffusion 모델·flow 기반 prior(NF) 활용  
+- **실제 애플리케이션 맞춤화**: 스마트폰·감시카메라·옛 사진 각각에 특화된 복합 degradations 연구  
+
+이 논문은 Blind SR 분야를 **명쾌한 Taxonomy**와 **깊이 있는 리뷰**로 재정비함으로써, 이후 연구자들이 **현재 위치**를 빠르게 파악하고, **미개척 문제(특히 단일 이미지 암시적 모델링)** 를 향해 나아갈 수 있는 든든한 출발점을 제공한다.
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/6055dde7-45fe-4156-9d86-d9ded19e3fe2/2107.03055v1.pdf
+
 # Abs
 열화를 알 수 없는 저해상도 이미지를 초해상도로 초해상도화하는 것을 목표로 하는 블라인드 이미지 초해상도(SR)는 실제 애플리케이션을 홍보하는 데 있어 중요성 때문에 점점 더 많은 관심을 받고 있습니다.  
 특히 강력한 딥 러닝 기술을 사용하여 최근에 새롭고 효과적인 솔루션이 많이 제안되었습니다.  
