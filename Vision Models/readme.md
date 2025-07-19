@@ -77,6 +77,7 @@
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | Image generation
 - Dynamic Convolution: Attention over Convolution Kernels | Image classification
 - EDM : Elucidating the Design Space of Diffusion-Based Generative Models | Image generation
+- EMDiffuse : Diffusion-based deep learning method for augmenting ultrastructural imaging and volume electron microscopy | Image reconstruction, Electron microscopy
 - ESPCN : Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network | Super resolution
 - ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks | Super resolution
 - EdgeSRGAN : Generative Adversarial Super-Resolution at the Edge with Knowledge Distillation | Super resolution
