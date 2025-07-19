@@ -1,4 +1,4 @@
-# Degradation-Guided One-Step Image Super-Resolution with Diffusion Priors
+# Degradation-Guided One-Step Image Super-Resolution with Diffusion Priors | Super resolution
 
 **Main Takeaway:** Introducing a one-step, degradation-aware fine-tuning strategy for text-to-image diffusion models achieves high-quality real-world super-resolution in a single forward pass, drastically reducing inference time while preserving generative priors.
 
