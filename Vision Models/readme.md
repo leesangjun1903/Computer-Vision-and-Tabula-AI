@@ -9,6 +9,7 @@
 - Diffusion models and representation learning a survey
 - Deep Learning on Image Denoising: An Overview
 - Diffusion Models, Image Super-Resolution And Everything: A Survey
+- Lightweight Deep Learning for Resource-Constrained Environments: A Survey
 - 수정필:
 - Deep Learning for Single Image Super-Resolution: A Brief Review
 - A Deep Journey into Super-resolution: A survey
