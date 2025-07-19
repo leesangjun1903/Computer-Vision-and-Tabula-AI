@@ -149,6 +149,7 @@
 - ResShift: Efficient Diffusion Model for Image Super-Resolution by Residual Shifting | Super resolution
 - ResViT: Residual Vision Transformers for Multi-Modal Medical Image Synthesis | Image generation
 - RetinaNet : Focal Loss for Dense Object Detection | Object detection
+- S3Diff : Degradation-Guided One-Step Image Super-Resolution with Diffusion Priors | Super resolution
 - SAGAN : Self-Attention Generative Adversarial Networks | Image generation
 - SAM-DiffSR: Structure-Modulated Diffusion Model for Image Super-Resolution | Super resolution
 - SAM : Segment Anything | Semantic segmentation :  https://github.com/facebookresearch/segment-anything/tree/main
