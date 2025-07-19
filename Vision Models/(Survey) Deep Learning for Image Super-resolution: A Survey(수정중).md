@@ -1,5 +1,236 @@
 # Deep Learning for Image Super-resolution: A Survey
 
+## 1. 핵심 주장 및 주요 기여  
+이 논문은 **딥러닝 기반 이미지 초해상도(SR)** 연구를 종합적으로 분류·정리하고,  
+새로운 관점에서 주요 기술 요소와 동향을 체계적으로 정리하며, “감독(supervised)·비감독(unsupervised)·도메인 특화”로 대분류하였다.  
+주요 기여는 세 가지로 정리된다:  
+1) 딥러닝 SR 연구를 “문제 정의 – 데이터셋·평가 지표 – 모델 구성 요소(프레임워크, 네트워크 설계, 업샘플링, 손실함수, 학습전략) – 도메인 특화 응용”으로 체계화.  
+2) 각 구성 요소별 장단점을 비교·분석해 모듈 설계 방향 제시.  
+3) 남은 과제(실제 열화·비지도 학습·효율화 등)와 미래 연구 트렌드를 제시.  
+
+## 2. 논문이 해결하고자 하는 문제  
+- LR (low-resolution) 이미지를 HR (high-resolution)로 회복하는 SR은 “본질적으로 비가역적이며 불완전한 정보 복원” 문제.  
+- 기존 통계·패치·예측 기반 기법은 복원가능한 세부묘사가 한계.  
+- 딥러닝이 등장하며 CNN·GAN 등으로 SR 품질이 획기적 향상되었으나 논문별 아키텍처·손실함수·학습전략이 난립.  
+- 이를 “일관된 분류 체계”로 재편해 연구자에게 “모듈 선택 지침”을 제공하고, 미래 과제를 명확히 제시하는 것이 목표.  
+
+## 3. 제안된 방법 및 모델 구성  
+논문은 SR 모델을 네 가지 **프레임워크**로 구분하고, 각각의 **업샘플링**, **네트워크 설계**, **손실함수**, **학습전략**을 모듈별로 분석한다. 
+
+# Supervised Super-Resolution
+
+딥러닝 기반 **Supervised Super-Resolution (SR)**은 저해상도(LR) 이미지를 고해상도(HR) 이미지로 복원하도록 학습된 신경망 모델을 의미합니다. “감독(supervised)”이란 LR–HR 쌍(페어)이 미리 준비된 데이터로 모델을 학습한다는 뜻입니다. 
+
+## 1. 네 가지 주요 프레임워크  
+SR 모델은 **업샘플링(해상도 확장)** 위치와 방식에 따라 네 가지로 분류됩니다. 각 프레임워크의 장단점을 이해하면 모델 설계가 쉬워집니다.
+
+| 프레임워크           | 구조 요약                                                         | 장점                                                      | 단점                                                     |
+|-------------------|-----------------------------------------------------------------|---------------------------------------------------------|--------------------------------------------------------|
+| Pre-upsampling    | LR을 먼저 보간(예: bicubic)→CNN으로 정제 (예: SRCNN)             | 학습 난이도 낮음(보간 후 세부 묘사만 학습)                     | 고차원 연산 많아 계산·메모리 부담 큼                            |
+| Post-upsampling   | CNN으로 LR 특징 추출→학습 가능한 업샘플링 레이어(역컨볼루션 등) 적용 (예: FSRCNN, ESPCN) | 연산 대부분 저차원에서 처리→빠르고 경량                              | 업샘플링 레이어 설계·학습 난이도 존재                              |
+| Progressive       | 단계별로 점진적 해상도 확장(LapSRN)                              | 큰 배율(SR×4×,×8×) 학습 난이도↓, 멀티스케일 대응                   | 구조·학습 절차 복잡, 안정성 이슈                                 |
+| Iterative Up-Down | 업샘플링↔다운샘플링 반복(back-projection, DBPN)                 | LR–HR 상호 보정으로 세부 묘사 우수                                 | 모듈 설계 기준 불명확, 추가 탐구 필요                            |
+
+## 2. 업샘플링 기법  
+딥러닝 SR에서는 **전통적 보간(interpolation)**과 **학습 기반 레이어**를 모두 사용합니다.
+
+- **보간**: Bicubic, Bilinear, Nearest-neighbor  
+  → 구현 쉽지만 블러, 아티팩트 잔존  
+- **Transposed Convolution (역컨볼루션)**  
+  → 학습 가능하나 체커보드 아티팩트 발생 위험  
+- **Sub-pixel Layer**  
+  → 채널→공간 재배치로 업샘플링, 수용 영역 큼  
+- **Meta Upscale Module**  
+  → 메타러닝으로 임의 배율 SR, 유연성 큼
+
+## 3. 네트워크 설계 핵심 전략  
+SR 모델의 **성능**은 주로 아래 디자인 기법들의 조합으로 결정됩니다.
+
+1) **Residual Learning (잔차 학습)**  
+   - Global: LR→HR 전체 맵 대신 잔차 맵 학습  
+   - Local: 내부 ResBlock 이용해 깊이 확장  
+2) **Recursive Learning (재귀 학습)**  
+   - 같은 모듈 반복 적용해 파라미터 절감, 수용 영역↑  
+3) **Dense Connections (밀집 연결)**  
+   - 층 간·블록 간 특징 맵 재사용, 그라디언트 안정화  
+4) **Attention Mechanism**  
+   - 채널(SE block), 공간 및 비국소(Non-local) 어텐션  
+5) **Advanced Convolutions**  
+   - Dilated, Group, Depthwise Separable, xUnit 등  
+6) **Multi-path & Pyramid Fusion**  
+   - 멀티스케일·멀티경로 특징 추출, 구조적 피라미드 풀링  
+7) **Region-recursive Learning**  
+   - PixelCNN류 픽셀 단위 순차 생성(고해상도 디테일 특화)
+
+## 4. 학습 전략  
+고품질 SR 구현을 위해 **다중 손실**, **훈련 기법**이 필수입니다.
+
+- **Loss Functions**  
+  - Pixel Loss (L1/L2/Charbonnier) → PSNR 최적화  
+  - Content Loss (VGG 피처 유사도) → 지각 품질↑  
+  - Texture Loss (Gram Matrix) → 스타일·텍스처↑  
+  - Adversarial Loss (GAN) → 현실감↑, PSNR은↓  
+  - Cycle, TV, Prior-based Loss 등  
+- **Batch Normalization**  
+  - 학습 안정화하지만 SR에서는 제거해 성능↑  
+- **Curriculum Learning**  
+  - 2×→4×→8× 순 점진 학습  
+- **Multi-Supervision**  
+  - 중간 스테이지 출력에 추가 손실로 그라디언트 강화  
+- **Self-Ensemble**  
+  - 입력 회전·대칭 후 평균/중앙값으로 예측 보강
+
+## 5. 대표 모델과 조합 예시  
+많은 SOTA 모델은 위 구성 요소들을 결합합니다.  
+- **SRCNN**: Pre-upsampling + bicubic + pixel L2  
+- **ESPCN**: Post-upsampling + sub-pixel + residual  
+- **LapSRN**: Progressive + bicubic + Charbonnier  
+- **EDSR & MDSR**: Post-upsampling + residual + 대형 네트워크  
+- **RCAN**: Post-upsampling + 채널 어텐션 + residual  
+- **DBPN**: Iterative back-projection + dense connections  
+- **SRGAN/ESRGAN**: Post-upsampling + GAN + content+texture  
+
+## 6. 요약 및 핵심 포인트  
+- **프레임워크** 선택에 따라 계산 비용·학습 난이도가 좌우된다.  
+- **업샘플링**, **네트워크 구조**, **어텐션** 모듈, **손실 조합**이 성능 결정적 요소.  
+- **GAN 기반 손실**은 PSNR 저하에도 주관적 화질 대폭 향상.  
+- **학습 기법**(Curriculum, Multi-supervision)으로 큰 배율·깊은 구조 안정 학습.  
+
+이처럼 **Supervised SR**은 모듈화된 설계 방식을 통해 LR→HR 매핑을 체계적으로 학습하며, 프레임워크 선택, 업샘플링 기법, 네트워크 디자인, 손실 함수 및 훈련 전략의 조합이 최종 화질과 효율성에 직접적인 영향을 미칩니다.
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/460aff95-cd4e-41ba-82d4-79d8ba79f0f6/1902.06068v2.pdf
+
+### 3.1 프레임워크  
+- **Pre-upsampling**: LR을 미리 보간 후 CNN으로 정제 (예: SRCNN)  
+- **Post-upsampling**: CNN으로 저차원 특징 추출 후 학습 가능한 레이어로 업샘플링 (예: ESPCN)  
+- **Progressive upsampling**: 라플라시안 피라미드처럼 단계적 해상도 증가 (예: LapSRN)  
+- **Iterative up-and-down sampling**: 업·다운샘플링 반복해 정보 융합 (예: DBPN)  
+
+### 3.2 업샘플링 기법  
+- **Interpolation (bicubic, bilinear)**  
+- **Transposed convolution**: 역컨볼루션(학습 가능하나 checkerboard)  
+- **Sub-pixel layer**: 채널→공간 재배치(uneven receptive field)  
+- **Meta upscale module**: 임의 배율 SR(메타러닝)  
+
+### 3.3 네트워크 설계  
+- **Residual learning**: 전역·로컬 잔차 연결로 학습 난이도 감소  
+- **Recursive learning**: 모듈 파라미터 공유해 깊이 확장 (DRCN, MemNet)  
+- **Dense connections**: 계층간·블록간 연결(정보 흐름, 파라미터 절감)  
+- **Attention**: 채널(SE block), 비국소(Non-local) 주의집중  
+- **Advanced conv**: dilated, group, depthwise separable, xUnit 등  
+
+### 3.4 손실함수  
+- **Pixel loss (L1/L2/Charbonnier)**: PSNR 최대화 지향  
+- **Content loss**: VGG 특징 유사도  
+- **Texture loss**: Gram matrix 기반 스타일 손실  
+- **Adversarial loss**: GAN으로 분포 일치 유도  
+- **Cycle consistency**, **Total variation**, **Prior-based (e.g., landmarks)**  
+
+### 3.5 학습전략  
+- **Batch normalization** 사용 vs 제거 논쟁  
+- **Curriculum learning**: 쉬운 배율→어려운 배율 순 학습  
+- **Multi-supervision**: 중간 스테이지 출력에 추가 손실  
+- **Network interpolation**: PSNR 모델⇄GAN 모델 파라미터 선형 보간  
+- **Self-ensemble**: 입력 뒤집기·회전 후 평균  
+
+# Unsupervised Super-Resolution
+
+**핵심 개념**  
+지도 학습 기반 SR은 LR(HR로 대응되는 페어)→HR 쌍을 이용해 모델을 학습하지만, 현실에서는 같은 장면에 대한 고·저해상도 쌍을 구하기 어렵습니다.  
+**비지도(Unsupervised) Super-Resolution**은 페어 데이터 없이 LR 이미지들만, 또는 HR과 LR이 *언페어(Unpaired)* 상태로 주어질 때 SR 모델을 학습하는 방법입니다.  
+
+## 1. Zero-Shot Super-Resolution (ZSSR)  
+- **기본 아이디어**  
+  - *한 장의 LR 이미지* 내에서 스스로 반복되는 패턴(self-similarity)을 이용.  
+  - 테스트 시점에 해당 이미지 자체로만 작은 LR–HR 학습셋을 합성하여(내부 예제) 그 자리에서 모델을 훈련한 뒤 SR 수행.  
+- **절차**  
+  1. 주어진 LR 이미지에서 다양한 스케일로 다운샘플링한 여러 LR 예제를 생성  
+  2. 이 예제들로 작은 CNN을 *제로샷*(“한 번만”) 훈련  
+  3. 원본 LR을 같은 모델로 고해상도로 복원  
+- **장점 & 한계**  
+  - 블러·노이즈·비표준 열화(real-world degradation)에도 강인.  
+  - 하지만 이미지마다 별도 학습 필요 → 속도 느림.  
+
+## 2. Learned Degradation + SR (Two-Stage GAN)  
+- **기본 아이디어**  
+  - 현실 LR 데이터의 열화(degradation) 과정을 *학습*해 시뮬레이션 → 그 가짜 LR–HR 쌍으로 SR 모델을 지도 학습.  
+- **절차**  
+  1. **Stage 1:** HR→LR GAN 학습  
+     - HR 이미지를 입력받아 현실 LR 분포와 유사한 LR 이미지를 생성  
+     - Cycle consistency, adversarial loss 등으로 *진짜 LR처럼* 만듦  
+  2. **Stage 2:** 생성된 LR–실제 HR 페어로 SR용 LR→HR GAN 학습  
+- **장점 & 한계**  
+  - 실제 LR 영상에 맞춘 SR 모델 획득.  
+  - GAN 학습 두 번 → 불안정성 증가, 복잡도 상승.  
+
+## 3. Cycle-in-Cycle GAN (CinCGAN)  
+- **기본 아이디어**  
+  - *두 도메인*(LR, HR) 간 쌍 없이도 CycleGAN 구조를 중첩하여 양방향 매핑 학습.  
+- **구성**  
+  - 4개의 Generator, 2개의 Discriminator →  
+    1. **노이즈 LR ⇄ 클린 LR** Cycle  
+    2. **클린 LR ⇄ HR** Cycle  
+  - 각 Cycle에 adversarial loss, cycle consistency loss, identity loss 적용  
+- **장점 & 한계**  
+  - 사전 열화 모델링 없이 현실적 SR 가능.  
+  - 구조·손실 복잡 → 학습 안정화 연구 필요.  
+
+## 4. Deep Image Prior  
+- **기본 아이디어**  
+  - 아무 학습 데이터 없이 *랜덤 초기화된* CNN 구조 그 자체가 이미지 통계(prior)를 담고 있음.  
+  - CNN 입력을 고정된 랜덤 벡터로, 출력 HR ˆI가 주어진 LR Ix를 다운샘플링했을 때 일치하도록 학습.  
+- **절차**  
+  1. 네트워크 $$G(z;θ)$$를 랜덤 가중치로 초기화  
+  2. 목표: $$(G(z;θ)↓_s) ≈ I_x$$ 이 되도록 θ 학습  
+  3. 학습 초기에 나타나는 ‘자연스러운’ 구조를 SR 결과로 사용  
+- **장점 & 한계**  
+  - 어떠한 외부 데이터도 불필요.  
+  - PSNR 기준 지도 학습엔 못 미치나(Bicubic 대비 약 +1 dB) 실제선 의미 있는 향상.  
+
+## 비지도 SR의 공통 도전 과제  
+1. **학습 안정성**: GAN 기반 방법에서 모드 붕괴·불안정  
+2. **속도 vs. 품질**: ZSSR처럼 이미지별 학습이 느리고, Two-Stage GAN은 복잡  
+3. **평가 기준 부재**: 페어 데이터 없을 때 PSNR/SSIM 측정 어려움  
+4. **다양한 열화 대응**: 실제 카메라·환경별 열화 모델을 포괄적 학습 필요  
+
+### 요약  
+비지도 SR은 지도 SR의 한계를 극복하기 위해,  
+- *내부 예제*(ZSSR),  
+- *열화 시뮬레이터 학습*→SR,  
+- *CycleGAN 구조 확장*(CinCGAN),  
+- *CNN 구조 자체 prior*(Deep Image Prior)  
+등을 통해 **페어 데이터 없이** LR→HR 성능을 도모합니다. 각 방식은 데이터 가용성과 학습 안정성, 추론 속도 측면에서 서로 절충점을 가집니다.  
+앞으로는 다양한 현실 열화 모델 대응, 학습 안정성 확보, 비지도 평가 지표 개발이 핵심 연구 과제로 남아 있습니다.
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/460aff95-cd4e-41ba-82d4-79d8ba79f0f6/1902.06068v2.pdf
+
+## 4. 성능 향상 및 한계  
+- 다양한 모듈 조합으로 **PSNR·SSIM** 척도에서 거의 모든 벤치마크 우위 달성.  
+- **GAN 기반 손실**은 PSNR 저하(Pixel loss 중시)에도 **MOS** 지표에서 주관적 품질 크게 향상.  
+- **한계**:  
+  -  **실제 열화(real-world degradation)** 학습 부족.  
+  -  **비지도·제로샷 SR**(ZSSR·CycleGAN) 성능은 지도학습보다 약 1–2 dB 낮음.  
+  -  **모델 규모·추론 속도** 실용적 제약.  
+  -  **평가기준(PSNR/SSIM)**이 지각 품질을 완벽히 반영 못 함.  
+
+## 5. 일반화 성능 향상 가능성  
+- **Attention**, **Non-local**, **Meta upscale** 모듈은 다양한 도메인·배율에 적응력 높아 제로샷·비지도 적용 잠재력.  
+- **Cycle-in-cycle GAN** 방식으로 “데이터 도메인 차이” 보정하며 일반화 가능.  
+- **Deep image prior**와 같은 구조적 사전지식 활용법은 별도 데이터 없이도 모델이 이미지 통계 학습.  
+- **Normalization 대안**(Layer norm, Instance norm) 연구 통해 열화 특성 다양성 대응 여지.  
+
+## 6. 향후 연구 영향 및 고려사항  
+- **실제 촬영 데이터**(RAW→RGB 파이프라인) 기반 SR 데이터셋 구축 필요.  
+- **평가 지표 개발**: PSNR·SSIM 한계 인식하고 “지각 품질ㆍ정보 보존” 양축 모두 반영하는 메트릭 요구.  
+- **효율화**: NAS·경량화(conv factorization, pruning)로 모바일·임베디드 장치 대응.  
+- **비지도/약지도 학습**: CycleGAN, GAN 기반 열화 모델링 강화로 실제 환경 일반화.  
+- **멀티모달·도메인 특화**: 의료·위성·저조도 촬영 등 특정 도메인에 적합한 prior·손실함수 결합.  
+
+이 논문은 딥러닝 SR 연구를 “모듈화된 설계·비교” 관점으로 재정립해, 후속 연구가 원하는 목적에 맞는 전략을 선택·조합할 수 있는 **체계적인 로드맵**을 제공했다. 앞으로는 “실제 열화 대응”과 “일반화·효율화”를 핵심 과제로 삼아, **새로운 메트릭·비지도 학습 기법·모바일 최적화**를 함께 탐구해야 할 것이다.
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/460aff95-cd4e-41ba-82d4-79d8ba79f0f6/1902.06068v2.pdf
+
+
 # Abs
 이미지 초해상도(SR)는 컴퓨터 비전에서 이미지와 비디오의 해상도를 향상시키기 위한 이미지 처리 기술의 중요한 클래스입니다.  
 최근 몇 년 동안 딥 러닝 기술을 사용한 이미지 초해상도의 놀라운 발전을 목격했습니다.  
