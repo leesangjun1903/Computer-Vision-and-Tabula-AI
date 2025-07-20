@@ -1,4 +1,4 @@
-# Perceptual Losses for Real-Time Style Transfer and Super-Resolution
+# Perceptual Losses for Real-Time Style Transfer and Super-Resolution | Image generation
 
 **Main Takeaway:** Training feed-forward image transformation networks with perceptual (feature-based) loss functions yields real-time style transfer and visually superior super-resolution, combining the speed of convolutional networks with the visual fidelity of optimization-based methods.
 
