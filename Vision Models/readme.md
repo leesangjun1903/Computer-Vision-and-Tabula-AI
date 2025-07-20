@@ -140,6 +140,7 @@
 - PGGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation | Image generation
 - PRNet :  Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network | 3D reconstruction, Face alignment, Face reconstruction
 - PSConv: Squeezing Feature Pyramid into One Compact Poly-Scale Convolutional Layer | Image classification
+- Perceptual Losses for Real-Time Style Transfer and Super-Resolution | Image generation
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
 - Physics-informed deep neural network for image denoising | Image denoising
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation
