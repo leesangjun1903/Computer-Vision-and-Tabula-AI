@@ -51,6 +51,7 @@
 - CvT : Introducing Convolutions to Vision Transformers | Image classification
 - CycleISP: Real Image Restoration via Improved Data Synthesis | Image denoising, Image restoration
 - DBPN : Deep Back-Projection Networks for Single Image Super-resolution | Super resolution
+- DCGAN : Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
 - DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | Image generation
 - DDIM : Denoising Diffusion Implicit Models | Image generation
 - DDNM : Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model | Super resolution
