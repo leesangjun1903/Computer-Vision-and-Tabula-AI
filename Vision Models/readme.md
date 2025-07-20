@@ -32,6 +32,7 @@
 - Auxiliary Classifier GAN : Conditional Image Synthesis with Auxiliary Classifier GANs | Image generation
 - BCRN : A Very Lightweight Image Super-Resolution Network | Super resolution, Lightweight
 - BEGAN: Boundary Equilibrium Generative Adversarial Networks | Image generation
+- BSConv : Rethinking Depthwise Separable Convolutions: How Intra-Kernel Correlations Lead to Improved MobileNets | Image classification
 - BSRGAN : Designing a Practical Degradation Model for Deep Blind Image Super-Resolution | Super resolution
 - BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | Image augmentation, Image classification
 - Big Transfer (BiT): General Visual Representation Learning | Image classification
