@@ -187,6 +187,7 @@
 - SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | Image denoising
 - SwinIR : Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | Image generation
+- TinyGAN: Distilling BigGAN for Conditional Image Generation | Image generation
 - Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet | Image classification
 - VAE : Auto-Encoding Variational Bayes | Image generation
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
