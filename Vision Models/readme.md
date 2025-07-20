@@ -189,7 +189,7 @@
 - SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | Image denoising
 - SwinIR : Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | Image generation
-- TerDiT: Ternary Diffusion Models with Transformers
+- TerDiT: Ternary Diffusion Models with Transformers | Image generation
 - TinyGAN: Distilling BigGAN for Conditional Image Generation | Image generation
 - Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet | Image classification
 - VAE : Auto-Encoding Variational Bayes | Image generation
