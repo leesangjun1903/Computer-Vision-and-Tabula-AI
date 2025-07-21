@@ -125,6 +125,7 @@
 - MPRNet : Multi-Stage Progressive Image Restoration | Image deblurring, Image denoising, Image restoration
 - MWDCNN : Multi-stage image denoising with the wavelet transform | Image Denoising
 - Mask2Former : Masked-attention Mask Transformer for Universal Image Segmentation | Semantic segmentation
+- MaskFormer : Per-Pixel Classification is Not All You Need for Semantic Segmentation | Semattic segmentation
 - MaskGIT: Masked Generative Image Transformer | Image generation, Image manipulation, Image reconstruction
 - MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | Image classification
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks | Image classification
