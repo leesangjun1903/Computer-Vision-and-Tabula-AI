@@ -131,6 +131,7 @@
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks | Image classification
 - MobileStyleGAN: A Lightweight Convolutional Neural Network for High-Fidelity Image Synthesis | Image generation
 - MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer | Image classification, Object detection
+- MobileViTv2 : Separable Self-Attention for Mobile Vision Transformers | Image classification
 - NAFNet: Simple Baselines for Image Restoration | Image restoration, Image denoising
 - NCSN : Generative Modeling by Estimating Gradients of the Data Distribution | Image generation, Image inpainting
 - NCSNv2 : Improved Techniques for Training Score-Based Generative Models | Image generation
