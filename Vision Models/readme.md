@@ -124,6 +124,7 @@
 - MLP-Mixer: An all-MLP Architecture for Vision | Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
 - MPRNet : Multi-Stage Progressive Image Restoration | Image deblurring, Image denoising, Image restoration
 - MWDCNN : Multi-stage image denoising with the wavelet transform | Image Denoising
+- Marigold : Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation | Depth estimation
 - Mask2Former : Masked-attention Mask Transformer for Universal Image Segmentation | Semantic segmentation
 - MaskFormer : Per-Pixel Classification is Not All You Need for Semantic Segmentation | Semattic segmentation
 - MaskGIT: Masked Generative Image Transformer | Image generation, Image manipulation, Image reconstruction
