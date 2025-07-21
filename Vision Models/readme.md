@@ -133,6 +133,7 @@
 - MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer | Image classification, Object detection
 - MobileViTv2 : Separable Self-Attention for Mobile Vision Transformers | Image classification
 - NAFNet: Simple Baselines for Image Restoration | Image restoration, Image denoising
+- NAT : Neighborhood Attention Transformer | Image classification, Object detection, Semantic segmentation
 - NCSN : Generative Modeling by Estimating Gradients of the Data Distribution | Image generation, Image inpainting
 - NCSNv2 : Improved Techniques for Training Score-Based Generative Models | Image generation
 - NoisyStudent : Self-training with Noisy Student improves ImageNet classification | Image classification
