@@ -204,6 +204,7 @@
 - TerDiT: Ternary Diffusion Models with Transformers | Image generation
 - TinyGAN: Distilling BigGAN for Conditional Image Generation | Image generation
 - Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet | Image classification
+- UDIS++ : Parallax-Tolerant Unsupervised Deep Image Stitching | Image stitching
 - VAE : Auto-Encoding Variational Bayes | Image generation
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
 - WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | Super resolution
