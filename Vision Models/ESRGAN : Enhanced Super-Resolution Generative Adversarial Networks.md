@@ -1,5 +1,79 @@
 # ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks | Super resolution
 
+## 1. 핵심 주장 및 주요 기여  
+Enhanced SRGAN(ESRGAN)은 단일 이미지 초해상도(SISR)에서 현실감 있고 자연스러운 텍스처를 생성하는 것을 목표로 한 SRGAN의 한계를 극복한다.  
+- Residual-in-Residual Dense Block(RRDB) 기반 네트워크 구조 도입으로 용량과 학습 안정성 향상  
+- Relativistic average GAN(RaGAN)을 discriminator에 적용해 “상대적 실재성” 학습  
+- VGG 특징의 활성화 전(feature-before-activation) 기반 지각 손실(perceptual loss)로 밝기 일관성과 세부 묘사 강화  
+
+이 세 가지 개선을 통해 ESRGAN은 SRGAN 대비 선명도와 텍스처 자연성이 모두 향상되며, PIRM2018-SR 챌린지(Region 3)에서 최고 지각 지수(perceptual index)를 기록했다.
+
+## 2. 문제 정의 및 제안 방법  
+### 2.1 해결하고자 하는 문제  
+- PSNR 최적화 방식은 픽셀 단위 평균 제곱 오차를 줄이나 주관적 화질(고주파 디테일)을 희생하여 과도하게 부드러운 결과만 생성  
+- SRGAN은 GAN 기반으로 자연스러운 텍스처를 생성하지만 잔여(replica) 노이즈 및 아티팩트 발생  
+
+### 2.2 네트워크 구조  
+ESRGAN의 Generator는 SRResNet 기본 틀을 따르되, 기본 블록을 RRDB로 교체하고 모든 Batch Normalization(BN)층을 제거한다.  
+- RRDB: 다중 수준 잔차 학습(residual-in-residual) + Dense connections  
+- 잔차 스케일링(residual scaling)과 작은 초기화(small-scale initialization)로 안정적 학습  
+
+모델 전체 구조:  
+LR → Conv → 23× RRDB → Conv → Upsampling × 2 → Conv → SR 출력  
+
+### 2.3 손실 함수  
+총 손실:  
+
+$$
+L_G = L_{\text{percep}} + \lambda\,L_{G}^{\text{RaGAN}} + \eta\,L_{1}
+$$  
+
+- $$L_{1} = \mathbb{E}\_{x,y}\|G(x)-y\|_{1}$$  
+- Relativistic adversarial loss :  
+
+$$
+    D_{\text{Ra}}(x_r,x_f) = \sigma\bigl(C(x_r)-\mathbb{E}_{x_f}[C(x_f)]\bigr),
+  $$  
+
+$$
+    L_{D}^{\text{Ra}} = -\mathbb{E}\_{x_r}[\log D_{\text{Ra}}(x_r,x_f)] - \mathbb{E}\_{x_f}[\log(1-D_{\text{Ra}}(x_f,x_r))],
+  $$  
+
+$$
+    L_{G}^{\text{RaGAN}} = -\mathbb{E}\_{x_r}[\log(1-D_{\text{Ra}}(x_r,x_f))] - \mathbb{E}\_{x_f}[\log D_{\text{Ra}}(x_f,x_r)].
+  $$  
+
+- 지각 손실(perceptual loss): VGG 특징망에서 **활성화 전** feature 차이를 최소화해 밝기 왜곡 완화 및 경계 선명도 강화  
+
+### 2.4 성능 향상  
+- PIRM2018-SR 챌린지 Region 3에서 최저 지각 지수 달성  
+- 기존 SRGAN 대비 평균 지각 지수 개선 및 PSNR ≈ 0.2 dB 소폭 손실로 밸런스 최적화  
+- 정성 평가에서 동물 모피·건축 구조 등 복합 텍스처 재현력 대폭 향상  
+
+### 2.5 한계  
+- PSNR/SSIM 등 왜곡도 척도의 손실이 불가피하여 화질 지표 상 소폭 후퇴  
+- GAN 기반 특유의 불안정 학습 문제(아티팩트, 모드 붕괴) 완전 제거는 미흡  
+- 대규모 고해상도 데이터 및 연산 자원 소모 큼  
+
+## 3. 일반화 성능 향상 관련 고찰  
+- **BN 제거**: 테스트 시 배치 통계 불일치로 인한 아티팩트 억제, 도메인 전이력 강화  
+- **작은 초기화·잔차 스케일링**: 매우 깊은 RRDB 네트워크 학습 안정화  
+- **다양한 텍스처 데이터 활용**: DIV2K·Flickr2K·OST 병합 훈련으로 복합 도메인에 대한 복원력 증대  
+- **상대적 판별자**: 더 일반적인 ‘실재성 비교’ 학습으로 과적합 억제 및 세부 텍스처 학습 강화  
+
+이들 기법은 도메인 차이나 아웃오브분포(OOD) LR 입력에 대해 보다 견고한 초해상도 모델을 가능케 한다.
+
+## 4. 향후 연구 영향 및 고려 사항  
+- **새로운 perceptual loss 설계**: MINC 손실 등 텍스처 특화 특징망으로의 확장 가능  
+- **경량화·효율화**: 모바일·엣지 환경용 경량 RRDB 및 지각 손실 근사 연구 필요  
+- **안정적 GAN 학습**: 모드 붕괴 방지 및 학습 안정성 개선을 위한 advanced regularization  
+- **다중 도메인 SISR**: 의료·위성·과학 이미지 등 범용화 및 분할별 맞춤 손실함수 탐색  
+- **신뢰성·해석성 확보**: 생성 결과에 대한 uncertainty estimation과 왜곡 분석 기법  
+
+ESRGAN은 GAN 기반 SR 연구의 새로운 표준으로 자리매김했으며, 텍스처 재현과 학습 안정성 측면에서 후속 연구 방향을 제시한다.
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/f28c012c-e72d-4920-8949-5c771bcec94e/1809.00219v2.pdf
+
 # ESRGAN
 
 # Abs
