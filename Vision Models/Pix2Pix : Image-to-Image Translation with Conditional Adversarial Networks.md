@@ -14,7 +14,7 @@
 최종 목적 함수:
 
 $$
-G^* = \arg\min_{G}\max_{D}\; \mathcal{L}\_{cGAN}(G,D)\;+\;\lambda\,\mathcal{L}_{L1}(G),
+G^* = \arg\min_{G}\max_{D} \mathcal{L}\_{cGAN}(G,D) + \lambda\,\mathcal{L}_{L1}(G),
 $$
 
 where  
