@@ -154,6 +154,7 @@
 - Pix2PixHD : High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | Image generation, Semantic segmentation
 - PromptSR : Image Super-Resolution with Text Prompt Diffusion | Super resolution
 - PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | Image classification, Semantic segmenation, Object detection
+- PVTv2: Improved Baselines with Pyramid Vision Transformer | Image classification, Object detection, Semantic segmentation
 - R-CNN : Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation | Object detection, Semantic segmentation
 - ReACGAN : Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training | Image generation, Data diversity
 - Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | Super resolution
