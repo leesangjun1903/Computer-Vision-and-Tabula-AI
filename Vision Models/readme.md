@@ -117,6 +117,7 @@
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
 - How to Train Your Energy-Based Models | Generation, EBM
 - IR-SDE : Image Restoration with Mean-Reverting Stochastic Differential Equations | Image deblurring, Image denoising, Image generation, Image restoration, Super resolution, Image dehazing
+- Image Blind Denoising With Generative Adversarial Network Based Noise Modeling | Image denoising
 - Image Denoising Using A Generative Adversarial Network | Image denoising
 - ImageGPT : Generative Pretraining from Pixels | Image classification
 - Implicit Generation and Modeling with Energy-Based Models | Image generation, Image reconstruction
