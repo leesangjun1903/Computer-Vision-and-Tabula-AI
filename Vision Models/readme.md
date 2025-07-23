@@ -148,6 +148,7 @@
 - NCSN : Generative Modeling by Estimating Gradients of the Data Distribution | Image generation, Image inpainting
 - NCSNv2 : Improved Techniques for Training Score-Based Generative Models | Image generation
 - NeRF: Neural Radiance Fields for View Synthesis | 3D reconstruction, Neural rendering, Novel view synthesis
+- Noise2Noise: Learning Image Restoration without Clean Data | Image denoising
 - Noise2Void - Learning Denoising from Single Noisy Images | Image denoising
 - NoisyStudent : Self-training with Noisy Student improves ImageNet classification | Image classification
 - Normalizing Flows : Variational Inference with Normalizing Flows | Variational Inference, Image generation
