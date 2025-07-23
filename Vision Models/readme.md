@@ -42,6 +42,7 @@
 - CDM : Cascaded Diffusion Models for High Fidelity Image Generation | Image generation, Super resolution
 - CFG : Classifier-Free Diffusion Guidance | Data diversity, Optimization
 - CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognition, Image generation
+- CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders | Image generation
 - CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
 - CaiT : Going deeper with Image Transformers | Image classification
 - Classifier guidance : Diffusion Models Beat GANs on Image Synthesis | Image generation
