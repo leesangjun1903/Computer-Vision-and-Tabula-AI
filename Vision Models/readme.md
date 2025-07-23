@@ -149,6 +149,7 @@
 - NeRF: Neural Radiance Fields for View Synthesis | 3D reconstruction, Neural rendering, Novel view synthesis
 - NoisyStudent : Self-training with Noisy Student improves ImageNet classification | Image classification
 - Normalizing Flows : Variational Inference with Normalizing Flows | Variational Inference, Image generation
+- On Distillation of Guided Diffusion Models | Image generation
 - PASD : Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization | Super resolution
 - PFGM : Poisson Flow Generative Models | Image generation
 - PFGM++: Unlocking the Potential of Physics-Inspired Generative Models | Image generation
