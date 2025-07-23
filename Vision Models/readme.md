@@ -18,6 +18,7 @@
 - Recent progress in image denoising: A training strategy perspective
 - Deep learning for image super-resolution: A survey
 - Blind Image Super-Resolution: A Survey and Beyond
+- Unleashing the Power of Self-Supervised Image Denoising: A Comprehensive Review
 
 - 수정필:
 
