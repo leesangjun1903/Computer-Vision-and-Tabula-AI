@@ -100,6 +100,7 @@
 - EsViT : Efficient Self-supervised Vision Transformers for Representation Learning | Image classification, Semantic segmentation
 - FBCNN : Towards Flexible Blind JPEG Artifacts Removal | Image compression, JPEG Artifact correlation, Image restoration
 - FVAE : Factorized Variational Autoencoders for Modeling Audience Reactions to Movies | Facial Expression Recognition
+- Face-SPARNet : Learning Spatial Attention for Face Super-Resolution | Super resolution
 - Fast R-CNN | Object detection
 - FastGAN : Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis | Image generation
 - Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | Object detection
