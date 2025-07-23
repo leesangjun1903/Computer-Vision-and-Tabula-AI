@@ -65,6 +65,7 @@
 - DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | Image generation
 - DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
 - DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
+- Deep Generator Priors for Bayesian Seismic Inversion | Image generation, Seismic Imaging, Uncertainty Quantification
 - DeepBedMap: a deep neural network for resolving the bed topography of Antarctica | Super resolution, GAN
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - DeepSIM : Image Shape Manipulation from a Single Augmented Training Sample | Image generation, Image manipulation
