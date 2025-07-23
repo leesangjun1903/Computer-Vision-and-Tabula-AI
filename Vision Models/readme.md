@@ -15,6 +15,7 @@
 - Real-World Single Image Super-Resolution:A Brief Review
 - Generative Adversarial Networks for Image Super-Resolution: A Survey
 - (Video Super Resolution Based on Deep Learning: A comprehensive survey)
+- Recent progress in image denoising: A training strategy perspective
 
 - 수정필:
 - Deep learning for image super-resolution: A survey
