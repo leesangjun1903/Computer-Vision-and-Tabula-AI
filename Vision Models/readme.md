@@ -161,6 +161,7 @@
 - Physics-informed deep neural network for image denoising | Image denoising
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation
 - Pix2PixHD : High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | Image generation, Semantic segmentation
+- Progressive Distillation for Fast Sampling of Diffusion Models | Image generation
 - PromptSR : Image Super-Resolution with Text Prompt Diffusion | Super resolution
 - PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | Image classification, Semantic segmenation, Object detection
 - PVTv2: Improved Baselines with Pyramid Vision Transformer | Image classification, Object detection, Semantic segmentation
