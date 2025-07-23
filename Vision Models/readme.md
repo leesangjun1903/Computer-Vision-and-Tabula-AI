@@ -64,6 +64,7 @@
 - DIP : Deep Image Prior | Image denoising, Image generation, Super resolution
 - DLSM : Denoising Likelihood Score Matching for Conditional Score-Based Data Generation | Image generation
 - DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | Image generation
+- DPSR : Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels | Super resolution
 - DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
 - DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
 - Deep Generator Priors for Bayesian Seismic Inversion | Image generation, Seismic Imaging, Uncertainty Quantification
