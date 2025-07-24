@@ -26,6 +26,7 @@
 # Models(papers)
 - A Theory of Generative ConvNet | Generation, EBM
 - AAE : Adversarial Autoencoders | Image generation
+- ADM : Diffusion Models Beat GANs on Image Synthesis | Image generation
 - ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation | Image Matching
 - AdaIN : Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | Image generation
 - Attention U-Net: Learning Where to Look for the Pancreas | Semantic segmentation
