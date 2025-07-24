@@ -192,6 +192,7 @@
 - SAM 2: Segment Anything in Images and Videos | Semantic segmentation : https://github.com/facebookresearch/sam2
 - SAN : Second-order Attention Network for Single Image Super-Resolution | Super resolution
 - SCSNet : An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution | Image Colorization, Image reconstruction, Super-Resolution
+- SFT-GAN : Recovering Realistic Texture in Image Super-resolution by Deep Spatial Feature Transform | Super resolution
 - SPADE : Semantic Image Synthesis with Spatially-Adaptive Normalization | Image generation
 - SR3 : Image Super-Resolution via Iterative Refinement | Super resolution
 - SR3+ : Denoising Diffusion Probabilistic Models for Robust Image Super-Resolution in the Wild | Super resolution
