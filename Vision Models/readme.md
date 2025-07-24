@@ -190,6 +190,7 @@
 - SAM-DiffSR: Structure-Modulated Diffusion Model for Image Super-Resolution | Super resolution
 - SAM : Segment Anything | Semantic segmentation :  https://github.com/facebookresearch/segment-anything/tree/main
 - SAM 2: Segment Anything in Images and Videos | Semantic segmentation : https://github.com/facebookresearch/sam2
+- SAN : Second-order Attention Network for Single Image Super-Resolution | Super resolution
 - SCSNet : An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution | Image Colorization, Image reconstruction, Super-Resolution
 - SPADE : Semantic Image Synthesis with Spatially-Adaptive Normalization | Image generation
 - SR3 : Image Super-Resolution via Iterative Refinement | Super resolution
