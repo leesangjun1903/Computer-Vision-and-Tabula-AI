@@ -1,4 +1,4 @@
-# Diffusion Models Beat GANs on Image Synthesis | Image generation
+# ADM : Diffusion Models Beat GANs on Image Synthesis | Image generation
 
 # Classifier Guidance in Diffusion Models
 
