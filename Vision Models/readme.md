@@ -47,7 +47,6 @@
 - CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders | Image generation
 - CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
 - CaiT : Going deeper with Image Transformers | Image classification
-- Classifier guidance : Diffusion Models Beat GANs on Image Synthesis | Image generation
 - CoSeR: Bridging Image and Language for Cognitive Super-Resolution | Super resolution
 - Contrastive Feature Loss for Image Prediction | Image generation
 - ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models | Image generation
