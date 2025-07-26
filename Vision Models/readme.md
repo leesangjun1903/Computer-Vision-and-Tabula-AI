@@ -210,6 +210,7 @@
 - SeemoRe : See More Details: Efficient Image Super-Resolution by Experts Mining | Super resolution
 - SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers | Semantic Segmentation
 - Self-Conditioned GAN : Diverse Image Generation via Self-Conditioned GANs | Image generation
+- Siamese Neural Networks for One-shot Image Recognition | Meta-learning
 - SimCLR: A Simple Framework for Contrastive Learning of Visual Representations | Image Classification, Object Recognition
 - SimCLRv2 : Big Self-Supervised Models are Strong Semi-Supervised Learners | Self-Supervised Image Classification, Semi-Supervised Image Classification
 - SimSiam : Exploring Simple Siamese Representation Learning | Self-Supervised Image Classification
