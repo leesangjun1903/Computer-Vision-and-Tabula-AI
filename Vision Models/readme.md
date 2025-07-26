@@ -126,7 +126,7 @@
 - KernelGAN : Blind Super-Resolution Kernel Estimation using an Internal-GAN | Super resolution
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution
 - LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
-- LMAR : Empowering Resampling Operation for Ultra-High-Definition Image Enhancement with Model-Aware Guidance | Super resolution
+- LMAR : Empowering Resampling Operation for Ultra-High-Definition Image Enhancement with Model-Aware Guidance | Super resolution, Image enhancement
 - LSGM : Score-based Generative Modeling in Latent Space | Image generation
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
 - LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference | Image classification
