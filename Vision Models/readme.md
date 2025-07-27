@@ -67,6 +67,7 @@
 - DINOv2: Learning Robust Visual Features without Supervision | Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
 - DIP : Deep Image Prior | Image denoising, Image generation, Super resolution
 - DLSM : Denoising Likelihood Score Matching for Conditional Score-Based Data Generation | Image generation
+- DMTRL : Deep Multi-task Representation Learning: A Tensor Factorisation Approach | Domain adaption
 - DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | Image generation
 - DPSR : Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels | Super resolution
 - DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
