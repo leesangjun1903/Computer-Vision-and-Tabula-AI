@@ -116,6 +116,7 @@
 - HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
 - HLLHGAN : To learn image super-resolution, use a GAN to learn how to do image degradation first | Super resolution
 - HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution | Super resolution
+- HO-CPConv : Factorized Higher-Order CNNs with an Application to Spatio-Temporal Emotion Estimation | Emotion estimation
 - HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models | Super resolution
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
 - How to Train Your Energy-Based Models | Generation, EBM
