@@ -104,6 +104,7 @@
 - FVAE : Factorized Variational Autoencoders for Modeling Audience Reactions to Movies | Facial Expression Recognition
 - Face-SPARNet : Learning Spatial Attention for Face Super-Resolution | Super resolution
 - Fast R-CNN | Object detection
+- Feature-Critic Networks for Heterogeneous Domain Generalization | Domain Generalization, Meta-Learning, Feature-Critic Network
 - FastGAN : Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis | Image generation
 - Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | Object detection
 - Fine-Tuning Image-Conditional Diffusion Models Is Easier than You Think | Depth estimation
