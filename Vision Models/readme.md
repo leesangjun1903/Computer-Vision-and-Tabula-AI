@@ -94,6 +94,7 @@
 - ESPCN : Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network | Super resolution
 - ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks | Super resolution
 - EdgeSRGAN : Generative Adversarial Super-Resolution at the Edge with Knowledge Distillation | Super resolution
+- Efficient Parametrization of Multi-Domain Deep Neural Networks | Domain apaption
 - EfficientFormer: Vision Transformers at MobileNet Speed | Image classification, Object detection, Instance segmentation, Semantic segmentation
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | Image classification
 - EluCD : Elucidating The Design Space of Classifier-Guided Diffusion Generation | Image generation, Image denoising
