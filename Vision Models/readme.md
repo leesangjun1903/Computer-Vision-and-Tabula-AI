@@ -22,7 +22,6 @@
 
 - 수정필:
 
-
 # Models(papers)
 - A Theory of Generative ConvNet | Generation, EBM
 - AAE : Adversarial Autoencoders | Image generation
@@ -130,6 +129,7 @@
 - LSGM : Score-based Generative Modeling in Latent Space | Image generation
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
 - LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference | Image classification
+- Learning multiple visual domains with residual adapters | Domain adaption, residual apapters
 - LightGlue: Local Feature Matching at Light Speed | 3D resonstruction, Image matching
 - LoRA: Low-Rank Adaptation of Large Language Models | LLM, Fine-tuning
 - MAE : Masked Autoencoders Are Scalable Vision Learners | Image reconstruction, Image generation
