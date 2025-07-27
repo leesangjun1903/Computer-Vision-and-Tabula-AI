@@ -53,6 +53,7 @@
 - ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models | Image generation
 - ConvNeXt : A ConvNet for the 2020s | Image classification, Object detection, Semantic Segmentation
 - ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders | Image classification, Object detection, Semantic segmentation
+- Cross-Domain Few-Shot Classification via Learned Feature-Wise Transformation | Few-Shot Learning, Learning-to-Learn Approach (Meta-Learning)
 - CvT : Introducing Convolutions to Vision Transformers | Image classification
 - CycleISP: Real Image Restoration via Improved Data Synthesis | Image denoising, Image restoration
 - DBPN : Deep Back-Projection Networks for Single Image Super-resolution | Super resolution
