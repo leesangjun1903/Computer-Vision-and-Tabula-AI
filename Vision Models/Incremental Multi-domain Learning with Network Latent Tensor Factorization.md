@@ -1,4 +1,4 @@
-# Incremental Multi-domain Learning with Network Latent Tensor Factorization
+# Incremental Multi-domain Learning with Network Latent Tensor Factorization | Domain adaption
 
 ## 핵심 주장과 주요 기여
 
