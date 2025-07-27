@@ -1,4 +1,4 @@
-# Reparameterizing Convolutions for Incremental Multi-Task Learning without Task Interference | Image classification, Semantic segmentation
+# Reparameterizing Convolutions for Incremental Multi-Task Learning without Task Interference | Image classification, Semantic segmentation, Multi-Task Learning
 
 # 논문의 핵심 주장과 기여 요약  
 * **주장**: 표준 CNN의 각 합성곱을 (1) *학습이 불가능한* 공유터 뱅크 $$W_s$$와 (2) *학습 가능한* 작업별 모듈레이터 $$W_t^{(i)}$$로 재매개화(reparameterization) 하면,  
