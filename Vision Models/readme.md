@@ -131,6 +131,7 @@
 - LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
 - LMAR : Empowering Resampling Operation for Ultra-High-Definition Image Enhancement with Model-Aware Guidance | Super resolution, Image enhancement
 - LSGM : Score-based Generative Modeling in Latent Space | Image generation
+- Latent Domain Learning with Dynamic Residual Adapters | Domain adaption, Dynamic Residual Adapters
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
 - LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference | Image classification
 - Learning multiple visual domains with residual adapters | Domain adaption, residual apapters
