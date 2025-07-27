@@ -149,6 +149,7 @@
 - MaskFormer : Per-Pixel Classification is Not All You Need for Semantic Segmentation | Semattic segmentation
 - MaskGIT: Masked Generative Image Transformer | Image generation, Image manipulation, Image reconstruction
 - MetaFormer : MetaFormer Is Actually What You Need for Vision | Image classification, Object detection, Semantic segmentation
+- MetaReg: Towards Domain Generalization using Meta-Regularization | Domain Generalization, Meta-Learning
 - MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | Image classification
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks | Image classification
 - MobileStyleGAN: A Lightweight Convolutional Neural Network for High-Fidelity Image Synthesis | Image generation
