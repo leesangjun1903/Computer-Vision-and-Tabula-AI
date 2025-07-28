@@ -134,6 +134,7 @@
 - Image Denoising Using A Generative Adversarial Network | Image denoising
 - ImageGPT : Generative Pretraining from Pixels | Image classification
 - Implicit Generation and Modeling with Energy-Based Models | Image generation, Image reconstruction
+- Incremental Learning Through Deep Adaptation | Incremental Learning
 - Incremental Multi-domain Learning with Network Latent Tensor Factorization | Domain adaption
 - KernelGAN : Blind Super-Resolution Kernel Estimation using an Internal-GAN | Super resolution
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution
