@@ -1,4 +1,4 @@
-# Facial Landmark Detection by Deep Multi-task Learning | Image detection
+# Facial Landmark Detection by Deep Multi-task Learning | Facial Landmark Detection
 
 # 핵심 요약
 
