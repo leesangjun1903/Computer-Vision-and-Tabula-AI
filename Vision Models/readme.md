@@ -185,6 +185,7 @@
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
 - Physics-informed deep neural network for image denoising | Image denoising
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation
+- Pix2Pix-zero : Zero-shot Image-to-Image Translation | Image generation
 - Pix2PixHD : High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | Image generation, Semantic segmentation
 - Progressive Distillation for Fast Sampling of Diffusion Models | Image generation
 - PromptSR : Image Super-Resolution with Text Prompt Diffusion | Super resolution
