@@ -138,6 +138,7 @@
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution
 - LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
 - LMAR : Empowering Resampling Operation for Ultra-High-Definition Image Enhancement with Model-Aware Guidance | Super resolution, Image enhancement
+- LSGAN : Least Squares Generative Adversarial Networks | Image generation
 - LSGM : Score-based Generative Modeling in Latent Space | Image generation
 - LU-NeRF: Scene and Pose Estimation by Synchronizing Local Unposed NeRFs | Pose Estimation, global-optimization
 - Latent Domain Learning with Dynamic Residual Adapters | Domain adaption, Dynamic Residual Adapters
