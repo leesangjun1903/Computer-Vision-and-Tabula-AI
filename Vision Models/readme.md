@@ -110,6 +110,7 @@
 - FBCNN : Towards Flexible Blind JPEG Artifacts Removal | Image compression, JPEG Artifact correlation, Image restoration
 - FVAE : Factorized Variational Autoencoders for Modeling Audience Reactions to Movies | Facial Expression Recognition
 - Face-SPARNet : Learning Spatial Attention for Face Super-Resolution | Super resolution
+- Facial Landmark Detection by Deep Multi-task Learning | Facial Landmark Detection
 - Fast R-CNN | Object detection
 - Feature-Critic Networks for Heterogeneous Domain Generalization | Domain Generalization, Meta-Learning, Feature-Critic Network
 - FastGAN : Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis | Image generation
