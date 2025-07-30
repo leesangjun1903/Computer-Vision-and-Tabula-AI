@@ -193,7 +193,7 @@
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
 - Physics-informed deep neural network for image denoising | Image denoising
 - Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask Weights | Domain adaption
-- Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation
+- Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation : https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix?tab=readme-ov-file
 - Pix2Pix-zero : Zero-shot Image-to-Image Translation | Image generation
 - Pix2PixHD : High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | Image generation, Semantic segmentation
 - Progressive Distillation for Fast Sampling of Diffusion Models | Image generation
