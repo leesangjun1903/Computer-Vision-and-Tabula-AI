@@ -1,4 +1,4 @@
-# Matching Networks for One Shot Learning
+# Matching Networks for One Shot Learning | Image classification, One shot learning, Meta-Learning
 
 ## 1. 논문 핵심 주장과 주요 기여
 
