@@ -160,6 +160,7 @@
 - Mask2Former : Masked-attention Mask Transformer for Universal Image Segmentation | Semantic segmentation
 - MaskFormer : Per-Pixel Classification is Not All You Need for Semantic Segmentation | Semattic segmentation
 - MaskGIT: Masked Generative Image Transformer | Image generation, Image manipulation, Image reconstruction
+- Matching Networks for One Shot Learning | Image classification, One shot learning, Meta-Learning
 - MetaFormer : MetaFormer Is Actually What You Need for Vision | Image classification, Object detection, Semantic segmentation
 - MetaReg: Towards Domain Generalization using Meta-Regularization | Domain Generalization, Meta-Learning
 - MixDL : Few-shot Image Generation with Mixup-based Distance Learning | Image generation
