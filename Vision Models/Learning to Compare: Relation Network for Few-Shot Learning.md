@@ -85,7 +85,7 @@ Relation Network는 두 개의 주요 모듈로 구성됩니다[1]:
 
 **One-shot 설정에서의 관계 점수 계산:**
 
-$$ r_{i,j} = g_\phi(C(f_\phi(x_i), f_\phi(x_j))), \quad i = 1, 2, \ldots, C $$ [1]
+$$r\_{i,j} = g_\phi(C(f_\phi(x_i), f_\phi(x_j))), \quad i = 1, 2, \ldots, C $$ [1]
 
 여기서:
 - $$C(\cdot, \cdot)$$는 특징 맵의 깊이 방향 연결(concatenation)
