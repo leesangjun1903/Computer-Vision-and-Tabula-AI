@@ -177,6 +177,7 @@
 - NCSN : Generative Modeling by Estimating Gradients of the Data Distribution | Image generation, Image inpainting
 - NCSNv2 : Improved Techniques for Training Score-Based Generative Models | Image generation
 - Natural Image Denoising with Convolutional Networks | Image denoising
+- NeRF--: Neural Radiance Fields Without Known Camera Parameters | 3D reconstruction, photometric reconstruction
 - NeRF: Neural Radiance Fields for View Synthesis | 3D reconstruction, Neural rendering, Novel view synthesis
 - Noise2Noise: Learning Image Restoration without Clean Data | Image denoising
 - Noise2Void - Learning Denoising from Single Noisy Images | Image denoising
