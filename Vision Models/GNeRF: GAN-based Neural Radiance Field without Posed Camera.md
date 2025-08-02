@@ -34,6 +34,7 @@ GNeRF는 정확한 카메라 포즈 정보 없이도 Neural Radiance Field(NeRF)
 1. **분포 거리 최소화**:
 
 $$ \Theta^* = \arg\min_\Theta \text{Dist}(P_g(I|\Theta) || P_d(I)) $$
+
 여기서 $$P_g(I|\Theta)$$는 생성된 이미지 패치 분포, $$P_d(I)$$는 실제 이미지 패치 분포입니다[3].
 
 2. **Adversarial Loss**:
