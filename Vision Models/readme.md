@@ -202,6 +202,7 @@
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation : https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix?tab=readme-ov-file
 - Pix2Pix-zero : Zero-shot Image-to-Image Translation | Image generation
 - Pix2PixHD : High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | Image generation, Semantic segmentation
+- PlenOctrees for Real-time Rendering of Neural Radiance Fields | 3D reconstruction
 - Progressive Distillation for Fast Sampling of Diffusion Models | Image generation
 - PromptSR : Image Super-Resolution with Text Prompt Diffusion | Super resolution
 - PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | Image classification, Semantic segmenation, Object detection
