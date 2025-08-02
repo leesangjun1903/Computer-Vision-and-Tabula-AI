@@ -261,6 +261,7 @@
 - Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution | Image classification, Facial emotion recognition
 - UDIS++ : Parallax-Tolerant Unsupervised Deep Image Stitching | Image stitching
 - VAE : Auto-Encoding Variational Bayes | Image generation
+- VMRF: View Matching Neural Radiance Fields | 3D reconstruction
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
 - WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | Super resolution
 - WFEN : Efficient Face Super-Resolution via Wavelet-based Feature Enhancement Network | Super resolution
