@@ -34,6 +34,7 @@
 - AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks | Image generation
 - AuXFT : Cross-Architecture Auxiliary Feature Space Translation for Efficient Few-Shot Personalized Object Detection | Object detection
 - Auxiliary Classifier GAN : Conditional Image Synthesis with Auxiliary Classifier GANs | Image generation
+- BARF: Bundle-Adjusting Neural Radiance Fields | 3D reconstruction
 - BCRN : A Very Lightweight Image Super-Resolution Network | Super resolution, Lightweight
 - BEGAN: Boundary Equilibrium Generative Adversarial Networks | Image generation
 - BEIT: BERT Pre-Training of Image Transformers | Image classification, Semantic segmentation
