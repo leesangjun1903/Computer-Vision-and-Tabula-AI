@@ -120,7 +120,8 @@
 - FocalNet : Focal Modulation Networks | Image classification, Object detection, Semantic segmentation
 - FreqNet : Frequency-Aware Deepfake Detection | Image detection
 - GAN Dissection: Visualizing and Understanding Generative Adversarial Networks | XAI
-- Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth | Depth estimation
+- GLPN : Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth | Depth estimation
+- GNeRF: GAN-based Neural Radiance Field without Posed Camera | 3D reconstruction
 - GeNeVA-GAN : Tell, Draw, and Repeat: Generating and Modifying Images Based on Continual Linguistic Instruction | Text(Image)-Image generation
 - GhostNet: More Features from Cheap Operations | Image classification
 - HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
