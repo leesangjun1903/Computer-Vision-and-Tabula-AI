@@ -1,4 +1,4 @@
-# SegGPT: Segmenting Everything In Context 
+# SegGPT: Segmenting Everything In Context | Image segmentation
 
 ## 1. 핵심 주장과 주요 기여
 
