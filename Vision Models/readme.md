@@ -141,6 +141,7 @@
 - Image Denoising Using A Generative Adversarial Network | Image denoising
 - ImageGPT : Generative Pretraining from Pixels | Image classification
 - Implicit Generation and Modeling with Energy-Based Models | Image generation, Image reconstruction
+- Inceptionv2, 3 : Rethinking the Inception Architecture for Computer Vision | Image classification
 - Incremental Learning Through Deep Adaptation | Incremental Learning
 - Incremental Multi-domain Learning with Network Latent Tensor Factorization | Domain adaption
 - Instant-NGP : Instant Neural Graphics Primitives with a Multiresolution Hash Encoding | 3D reconstruction
