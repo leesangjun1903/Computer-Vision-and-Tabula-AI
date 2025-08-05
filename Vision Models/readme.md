@@ -242,6 +242,7 @@
 - SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution | Super resolution
 - SeemoRe : See More Details: Efficient Image Super-Resolution by Experts Mining | Super resolution
 - SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers | Semantic Segmentation
+- SegGPT: Segmenting Everything In Context | Image segmentation
 - Self-Conditioned GAN : Diverse Image Generation via Self-Conditioned GANs | Image generation
 - Siamese Neural Networks for One-shot Image Recognition | Meta-learning
 - SimCLR: A Simple Framework for Contrastive Learning of Visual Representations | Image Classification, Object Recognition
