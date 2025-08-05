@@ -255,6 +255,7 @@
 - StarGAN v2: Diverse Image Synthesis for Multiple Domains | Image generation
 - Structural-analogy from a Single Image Pair | Image generation
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | Image generation
+- SuperPoint: Self-Supervised Interest Point Detection and Description | Image matching, 3D reconstruction, Point detection
 - Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | Image classification, Object Detection, Semantic Segmentation
 - SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | Image denoising
 - SwinIR : Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising
