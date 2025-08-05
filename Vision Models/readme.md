@@ -87,6 +87,7 @@
 - DeepSIM : Image Shape Manipulation from a Single Augmented Training Sample | Image generation, Image manipulation
 - DeepViT: Towards Deeper Vision Transformer | Image classification
 - DeiT : Training data-efficient image transformers & Distillation through attention | Image classification
+- Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification | Image classification
 - DenseNet : Densely Connected Convolutional Networks | Image classification
 - Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data | Depth estimation
 - Depth-Aware Multi-Grid Deep Homography Estimation with Contextual Correlation | Image stitching
