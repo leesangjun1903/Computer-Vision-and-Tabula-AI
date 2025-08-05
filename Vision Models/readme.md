@@ -126,6 +126,7 @@
 - GNeRF: GAN-based Neural Radiance Field without Posed Camera | 3D reconstruction
 - GeNeVA-GAN : Tell, Draw, and Repeat: Generating and Modifying Images Based on Continual Linguistic Instruction | Text(Image)-Image generation
 - GhostNet: More Features from Cheap Operations | Image classification
+- GoogLeNet : Going Deeper with Convolutions | Image classification
 - HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
 - HLLHGAN : To learn image super-resolution, use a GAN to learn how to do image degradation first | Super resolution
 - HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution | Super resolution
