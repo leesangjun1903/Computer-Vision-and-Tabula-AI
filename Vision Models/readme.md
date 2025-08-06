@@ -283,6 +283,7 @@
 - WFEN : Efficient Face Super-Resolution via Wavelet-based Feature Enhancement Network | Super resolution
 - WGAN : Wasserstein GAN | Image generation
 - WGAN GP : Improved Training of Wasserstein GANs | Image generation, Optimization
+- WRN : Wide Residual Networks | Image classification
 - YOLO : You Only Look Once: Unified, Real-Time Object Detection | Object detection
 - ZSSR : "Zero-Shot" Super-Resolution using Deep Internal Learning | Image generation, zero shot learning
 - cGAN : Conditional Generative Adversarial Nets | Image generation
