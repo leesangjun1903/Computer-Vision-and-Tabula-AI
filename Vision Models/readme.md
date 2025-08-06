@@ -226,6 +226,7 @@
 - ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | Image classification : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
 - ResShift: Efficient Diffusion Model for Image Super-Resolution by Residual Shifting | Super resolution
 - ResViT: Residual Vision Transformers for Multi-Modal Medical Image Synthesis | Image generation
+- Resnet in Resnet: Generalizing Residual Architectures | Image classification
 - RetinaNet : Focal Loss for Dense Object Detection | Object detection
 - S3Diff : Degradation-Guided One-Step Image Super-Resolution with Diffusion Priors | Super resolution
 - SAGAN : Self-Attention Generative Adversarial Networks | Image generation
