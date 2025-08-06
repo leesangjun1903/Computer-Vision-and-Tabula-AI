@@ -1,4 +1,4 @@
-# Genetic CNN
+# Genetic CNN | Image classification
 
 ## 1. 핵심 주장 및 주요 기여  
 **Genetic CNN** 논문은 *딥 CNN 구조를 수동 설계가 아닌 유전 알고리즘을 통해 자동으로 탐색*할 수 있음을 입증한다. 주요 기여는 다음과 같다.  
