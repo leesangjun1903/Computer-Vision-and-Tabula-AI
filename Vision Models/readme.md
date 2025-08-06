@@ -261,6 +261,7 @@
 - SinGAN: Learning a Generative Model from a Single Natural Image | Image generation
 - SinSR: Diffusion-Based Image Super-Resolution in a Single Step | Super resolution
 - Spectral Regularization for Combating Mode Collapse in GANs | Improve techniques for GANs, Image generation
+- SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size | Image classification
 - StableVSR : Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models | Super resolution
 - StarGAN v2: Diverse Image Synthesis for Multiple Domains | Image generation
 - Structural-analogy from a Single Image Pair | Image generation
