@@ -1,4 +1,4 @@
-# Deep Networks with Stochastic Depth
+# Deep Networks with Stochastic Depth | Image classification
 
 ## 1. 핵심 주장과 주요 기여
 
