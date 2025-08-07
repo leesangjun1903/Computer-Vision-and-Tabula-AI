@@ -55,6 +55,7 @@
 - Co-Mod GAN : Large Scale Image Completion via Co-Modulated Generative Adversarial Networks | Image generation, Image inpainting
 - CoSeR: Bridging Image and Language for Cognitive Super-Resolution | Super resolution
 - CodeFormer : Towards Robust Blind Face Restoration with Codebook Lookup Transformer | Image restoration, Blind Face restoration
+- CondenseNet: An Efficient DenseNet using Learned Group Convolutions | Image classification
 - Contrastive Feature Loss for Image Prediction | Image generation
 - ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models | Image generation
 - ConvNeXt : A ConvNet for the 2020s | Image classification, Object detection, Semantic Segmentation
