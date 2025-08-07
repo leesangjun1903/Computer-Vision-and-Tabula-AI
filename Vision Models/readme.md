@@ -76,6 +76,7 @@
 - DLSM : Denoising Likelihood Score Matching for Conditional Score-Based Data Generation | Image generation
 - DMTRL : Deep Multi-task Representation Learning: A Tensor Factorisation Approach | Domain adaption
 - DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | Image generation
+- DPN : Dual Path Networks | Image classification
 - DPSR : Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels | Super resolution
 - DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
 - DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
