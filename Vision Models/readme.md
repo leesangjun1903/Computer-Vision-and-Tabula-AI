@@ -263,6 +263,7 @@
 - SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers | Semantic Segmentation
 - SegGPT: Segmenting Everything In Context | Image segmentation
 - Self-Conditioned GAN : Diverse Image Generation via Self-Conditioned GANs | Image generation
+- Sharing Residual Units Through Collective Tensor Factorization in Deep Neural Networks | Image classification
 - Siamese Neural Networks for One-shot Image Recognition | Meta-learning
 - SimCLR: A Simple Framework for Contrastive Learning of Visual Representations | Image Classification, Object Recognition
 - SimCLRv2 : Big Self-Supervised Models are Strong Semi-Supervised Learners | Self-Supervised Image Classification, Semi-Supervised Image Classification
