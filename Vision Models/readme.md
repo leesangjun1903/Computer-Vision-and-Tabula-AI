@@ -139,6 +139,7 @@
 - HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models | Super resolution
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
 - How to Train Your Energy-Based Models | Generation, EBM
+- IGCNet : Interleaved Group Convolutions for Deep Neural Networks | Image classification
 - IR-SDE : Image Restoration with Mean-Reverting Stochastic Differential Equations | Image deblurring, Image denoising, Image generation, Image restoration, Super resolution, Image dehazing
 - Identity Mappings in Deep Residual Networks | Image classification
 - Image Blind Denoising With Generative Adversarial Network Based Noise Modeling | Image denoising
