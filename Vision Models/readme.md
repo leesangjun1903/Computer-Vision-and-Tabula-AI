@@ -123,6 +123,7 @@
 - Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | Object detection
 - Fine-Tuning Image-Conditional Diffusion Models Is Easier than You Think | Depth estimation
 - FocalNet : Focal Modulation Networks | Image classification, Object detection, Semantic segmentation
+- FractalNet: Ultra-Deep Neural Networks without Residuals | Image classification
 - FreqNet : Frequency-Aware Deepfake Detection | Image detection
 - GAN Dissection: Visualizing and Understanding Generative Adversarial Networks | XAI
 - GLPN : Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth | Depth estimation
