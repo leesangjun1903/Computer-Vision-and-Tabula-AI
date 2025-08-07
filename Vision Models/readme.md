@@ -192,6 +192,7 @@
 - MobileViTv2 : Separable Self-Attention for Mobile Vision Transformers | Image classification
 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks | Model-Agnostic, Gradient-Based Meta-Learning
 - NAFNet: Simple Baselines for Image Restoration | Image restoration, Image denoising
+- NASNet : Learning Transferable Architectures for Scalable Image Recognition | Image classification, NAS
 - MultiGen: Zero-shot Image Generation from Multi-modal Prompts | Image generation
 - NAT : Neighborhood Attention Transformer | Image classification, Object detection, Semantic segmentation
 - NCSN : Generative Modeling by Estimating Gradients of the Data Distribution | Image generation, Image inpainting
