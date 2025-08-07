@@ -83,6 +83,7 @@
 - DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
 - DSD : Diffusion Self-Distillation for Zero-Shot Customized Image Generation | Image generation
 - Deep Generator Priors for Bayesian Seismic Inversion | Image generation, Seismic Imaging, Uncertainty Quantification
+- Deep Layer Aggregation | Image classification, Fine-grained Recognition, Semantic Segmentation
 - Deep Learning of Partial Graph Matching via Differentiable Top-K | Graph matching, Image matching
 - Deep Networks with Stochastic Depth | Image classification
 - Deep Pyramidal Residual Networks | Image classification
