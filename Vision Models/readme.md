@@ -292,6 +292,7 @@
 - WGAN : Wasserstein GAN | Image generation
 - WGAN GP : Improved Training of Wasserstein GANs | Image generation, Optimization
 - WRN : Wide Residual Networks | Image classification
+- Xception: Deep Learning with Depthwise Separable Convolutions | Image classification
 - YOLO : You Only Look Once: Unified, Real-Time Object Detection | Object detection
 - ZSSR : "Zero-Shot" Super-Resolution using Deep Internal Learning | Image generation, zero shot learning
 - cGAN : Conditional Generative Adversarial Nets | Image generation
