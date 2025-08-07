@@ -1,4 +1,4 @@
-# FractalNet: Ultra-Deep Neural Networks without Residuals 
+# FractalNet: Ultra-Deep Neural Networks without Residuals | Image classification
 
 ## 핵심 주장과 주요 기여
 
