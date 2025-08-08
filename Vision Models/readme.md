@@ -129,6 +129,7 @@
 - FastGAN : Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis | Image generation
 - Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | Object detection
 - Fine-Tuning Image-Conditional Diffusion Models Is Easier than You Think | Depth estimation
+- FixEfficientNet : Fixing the Train–Test Resolution Discrepancy | Image classification, Data augmentation, preprocessing
 - FocalNet : Focal Modulation Networks | Image classification, Object detection, Semantic segmentation
 - FractalNet: Ultra-Deep Neural Networks without Residuals | Image classification
 - FreqNet : Frequency-Aware Deepfake Detection | Image detection
