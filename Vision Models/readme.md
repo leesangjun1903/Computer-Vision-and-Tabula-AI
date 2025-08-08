@@ -141,6 +141,7 @@
 - HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution | Super resolution
 - HO-CPConv : Factorized Higher-Order CNNs with an Application to Spatio-Temporal Emotion Estimation | Emotion estimation
 - HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models | Super resolution
+- Hierarchical Representations for Efficient Architecture Search | NAS
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
 - How to Train Your Energy-Based Models | Generation, EBM
 - IGCNet : Interleaved Group Convolutions for Deep Neural Networks | Image classification
