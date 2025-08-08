@@ -45,6 +45,7 @@
 - BlockQNN : Practical Block-wise Neural Network Architecture Generation | Image classification, Reinforcement Learning
 - CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | Image reconstruction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
 - CAMixerSR: Only Details Need More “Attention” | Super resolution
+- CBAM: Convolutional Block Attention Module | Image classification, Object detection
 - CDM : Cascaded Diffusion Models for High Fidelity Image Generation | Image generation, Super resolution
 - CFG : Classifier-Free Diffusion Guidance | Data diversity, Optimization
 - CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognition, Image generation
