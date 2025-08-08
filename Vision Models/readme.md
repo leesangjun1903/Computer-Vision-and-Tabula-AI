@@ -65,6 +65,7 @@
 - Cross-Domain Few-Shot Classification via Learned Feature-Wise Transformation | Few-Shot Learning, Learning-to-Learn Approach (Meta-Learning)
 - CvT : Introducing Convolutions to Vision Transformers | Image classification
 - CycleISP: Real Image Restoration via Improved Data Synthesis | Image denoising, Image restoration
+- DARTS: Differentiable Architecture Search | NAS
 - DBPN : Deep Back-Projection Networks for Single Image Super-resolution | Super resolution
 - DCGAN : Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
 - DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | Image generation
