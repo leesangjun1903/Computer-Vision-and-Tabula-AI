@@ -237,6 +237,7 @@
 - Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models | Image generation
 - Refusion: Enabling Large-Size Realistic Image Restoration with Latent-Space Diffusion Models | Image denoising, Image dehazing, Image restoration, Super resolution
 - RegNet : Designing Network Design Spaces | Image classification
+- Regularized Evolution for Image Classifier Architecture Search | NAS
 - Reparameterizing Convolutions for Incremental Multi-Task Learning without Task Interference | Image classification, Semantic segmentation, Multi-Task Learning
 - ResNeXt: Aggregated Residual Transformations for Deep Neural Networks | Image classification
 - ResNet : Deep Residual Learning for Image Recognition | Image classification
