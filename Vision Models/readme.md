@@ -226,6 +226,7 @@
 - PlenOctrees for Real-time Rendering of Neural Radiance Fields | 3D reconstruction
 - PolyNet: A Pursuit of Structural Diversity in Very Deep Networks | Image classification
 - Progressive Distillation for Fast Sampling of Diffusion Models | Image generation
+- Progressive Neural Architecture Search | NAS
 - PromptSR : Image Super-Resolution with Text Prompt Diffusion | Super resolution
 - PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | Image classification, Semantic segmenation, Object detection
 - PVTv2: Improved Baselines with Pyramid Vision Transformer | Image classification, Object detection, Semantic segmentation
