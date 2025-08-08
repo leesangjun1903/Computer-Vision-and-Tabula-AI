@@ -147,6 +147,7 @@
 - How to Train Your Energy-Based Models | Generation, EBM
 - IGCNet : Interleaved Group Convolutions for Deep Neural Networks | Image classification
 - IGCv2: Interleaved Structured Sparse Convolutional Neural Networks | Image classification
+- IGCv3: Interleaved Low-Rank Group Convolutions for Efficient Deep Neural Networks | Image classification, Object detection
 - IR-SDE : Image Restoration with Mean-Reverting Stochastic Differential Equations | Image deblurring, Image denoising, Image generation, Image restoration, Super resolution, Image dehazing
 - Identity Mappings in Deep Residual Networks | Image classification
 - Image Blind Denoising With Generative Adversarial Network Based Noise Modeling | Image denoising
