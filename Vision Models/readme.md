@@ -179,6 +179,7 @@
 - MAGVIT-v2 : Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation | Image generation, Language modeling, Video generation
 - MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | Image deblurring, Image enhancement, Super resolution
 - MLP-Mixer: An all-MLP Architecture for Vision | Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
+- MnasNet: Platform-Aware Neural Architecture Search for Mobile | NAS
 - MPRNet : Multi-Stage Progressive Image Restoration | Image deblurring, Image denoising, Image restoration
 - MWDCNN : Multi-stage image denoising with the wavelet transform | Image Denoising
 - Marigold : Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation | Depth estimation
