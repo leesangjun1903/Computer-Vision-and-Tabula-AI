@@ -246,6 +246,7 @@
 - RegNet : Designing Network Design Spaces | Image classification
 - Regularized Evolution for Image Classifier Architecture Search | NAS
 - Reparameterizing Convolutions for Incremental Multi-Task Learning without Task Interference | Image classification, Semantic segmentation, Multi-Task Learning
+- Res2Net: A New Multi-scale Backbone Architecture | Image classification
 - ResNeXt: Aggregated Residual Transformations for Deep Neural Networks | Image classification
 - ResNet : Deep Residual Learning for Image Recognition | Image classification
 - ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | Image classification : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
