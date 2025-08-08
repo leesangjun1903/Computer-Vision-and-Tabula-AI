@@ -260,6 +260,7 @@
 - SENet : Squeeze-and-Excitation Networks | Image classification, Object detection
 - SFG : Stochastic Filter Groups for Multi-Task CNNs: Learning Specialist and Generalist Convolution Kernels | Image classification, Image regression, Image segmentation
 - SFT-GAN : Recovering Realistic Texture in Image Super-resolution by Deep Spatial Feature Transform | Super resolution
+- SKNet : Selective Kernel Networks | Image classification
 - SPADE : Semantic Image Synthesis with Spatially-Adaptive Normalization | Image generation
 - SR3 : Image Super-Resolution via Iterative Refinement | Super resolution
 - SR3+ : Denoising Diffusion Probabilistic Models for Robust Image Super-Resolution in the Wild | Super resolution
