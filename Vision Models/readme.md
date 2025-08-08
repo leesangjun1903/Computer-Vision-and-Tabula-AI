@@ -164,6 +164,7 @@
 - KernelGAN : Blind Super-Resolution Kernel Estimation using an Internal-GAN | Super resolution
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution
 - LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
+- LIP: Local Importance-based Pooling | Image classification, Pooling technique, Object detection
 - LMAR : Empowering Resampling Operation for Ultra-High-Definition Image Enhancement with Model-Aware Guidance | Super resolution, Image enhancement
 - LSGAN : Least Squares Generative Adversarial Networks | Image generation
 - LSGM : Score-based Generative Modeling in Latent Space | Image generation
