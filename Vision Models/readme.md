@@ -194,6 +194,7 @@
 - MixDL : Few-shot Image Generation with Mixup-based Distance Learning | Image generation
 - MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | Image classification
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks | Image classification
+- MobileNetV3 : Searching for MobileNetV3 | Image classification, Object detection, Semantic segmenation
 - MobileStyleGAN: A Lightweight Convolutional Neural Network for High-Fidelity Image Synthesis | Image generation
 - MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer | Image classification, Object detection
 - MobileViTv2 : Separable Self-Attention for Mobile Vision Transformers | Image classification
