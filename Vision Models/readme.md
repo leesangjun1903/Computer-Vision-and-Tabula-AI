@@ -233,6 +233,7 @@
 - Progressive Distillation for Fast Sampling of Diffusion Models | Image generation
 - Progressive Neural Architecture Search | NAS
 - PromptSR : Image Super-Resolution with Text Prompt Diffusion | Super resolution
+- ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware | NAS
 - PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | Image classification, Semantic segmenation, Object detection
 - PVTv2: Improved Baselines with Pyramid Vision Transformer | Image classification, Object detection, Semantic segmentation
 - R-CNN : Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation | Object detection, Semantic segmentation
