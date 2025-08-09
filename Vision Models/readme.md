@@ -228,7 +228,7 @@
 - PGGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation | Image generation
 - PRNet :  Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network | 3D reconstruction, Face alignment, Face reconstruction
 - PSConv: Squeezing Feature Pyramid into One Compact Poly-Scale Convolutional Layer | Image classification
-- Perceptual Losses for Real-Time Style Transfer and Super-Resolution | Image generation
+- Perceptual Losses for Real-Time Style Transfer and Super-Resolution | Image generation, Optimization
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
 - Physics-informed deep neural network for image denoising | Image denoising
 - Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask Weights | Domain adaption
@@ -250,6 +250,7 @@
 - Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models | Image generation
 - Refusion: Enabling Large-Size Realistic Image Restoration with Latent-Space Diffusion Models | Image denoising, Image dehazing, Image restoration, Super resolution
 - RegNet : Designing Network Design Spaces | Image classification
+- Region Mutual Information Loss for Semantic Segmentation | Semantic segmentation, Optimization
 - Regularized Evolution for Image Classifier Architecture Search | NAS
 - Reparameterizing Convolutions for Incremental Multi-Task Learning without Task Interference | Image classification, Semantic segmentation, Multi-Task Learning
 - Res2Net: A New Multi-scale Backbone Architecture | Image classification
