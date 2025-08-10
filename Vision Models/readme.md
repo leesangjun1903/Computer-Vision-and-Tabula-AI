@@ -168,6 +168,7 @@
 - Incremental Multi-domain Learning with Network Latent Tensor Factorization | Domain adaption
 - Instant-NGP : Instant Neural Graphics Primitives with a Multiresolution Hash Encoding | 3D reconstruction
 - KernelGAN : Blind Super-Resolution Kernel Estimation using an Internal-GAN | Super resolution
+- LDM : High-Resolution Image Synthesis with Latent Diffusion Models | Image generation, Super resolution
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution
 - LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
 - LIP: Local Importance-based Pooling | Image classification, Pooling technique, Object detection
