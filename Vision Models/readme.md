@@ -93,6 +93,7 @@
 - Deep Learning of Partial Graph Matching via Differentiable Top-K | Graph matching, Image matching
 - Deep Networks with Stochastic Depth | Image classification
 - Deep Pyramidal Residual Networks | Image classification
+- Deep Residual Learning for Image Recognition | Optimization, Object Detection/Localization, Image classification
 - DeepBedMap: a deep neural network for resolving the bed topography of Antarctica | Super resolution, GAN
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - DeepSIM : Image Shape Manipulation from a Single Augmented Training Sample | Image generation, Image manipulation
