@@ -52,6 +52,7 @@
 - CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognition, Image generation
 - CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders | Image generation
 - COLMAP : Structure-from-Motion Revisited | 3D reconstruction
+- CPVT : Conditional Positional Encodings for Vision Transformers | Image classification, Transformer technique
 - CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
 - CaiT : Going deeper with Image Transformers | Image classification
 - Co-Mod GAN : Large Scale Image Completion via Co-Modulated Generative Adversarial Networks | Image generation, Image inpainting
