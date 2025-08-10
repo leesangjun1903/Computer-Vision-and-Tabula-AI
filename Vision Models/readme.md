@@ -311,6 +311,7 @@
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | Image generation
 - SuperPoint: Self-Supervised Interest Point Detection and Description | Image matching, 3D reconstruction, Point detection
 - Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | Image classification, Object Detection, Semantic Segmentation
+- Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration | Super resolution, Image restoration
 - SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | Image denoising
 - SwinIR : Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | Image generation
