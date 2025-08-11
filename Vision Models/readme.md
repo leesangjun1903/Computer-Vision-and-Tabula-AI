@@ -59,6 +59,7 @@
 - CaiT : Going deeper with Image Transformers | Image classification
 - Co-Mod GAN : Large Scale Image Completion via Co-Modulated Generative Adversarial Networks | Image generation, Image inpainting
 - CoSeR: Bridging Image and Language for Cognitive Super-Resolution | Super resolution
+- CoaT : Co-Scale Conv-Attentional Image Transformers | Object detection, Semantic segmentation
 - CodeFormer : Towards Robust Blind Face Restoration with Codebook Lookup Transformer | Image restoration, Blind Face restoration
 - CondenseNet: An Efficient DenseNet using Learned Group Convolutions | Image classification
 - Conditional DETR for Fast Training Convergence | Object detection
