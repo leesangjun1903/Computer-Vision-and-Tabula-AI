@@ -180,6 +180,7 @@
 - LSGAN : Least Squares Generative Adversarial Networks | Image generation
 - LSGM : Score-based Generative Modeling in Latent Space | Image generation
 - LU-NeRF: Scene and Pose Estimation by Synchronizing Local Unposed NeRFs | Pose Estimation, global-optimization
+- LassoNet: Deep Lasso-Selection of 3D Point Clouds | 3D Point Cloud Preparation, Lasso-Selection
 - Latent Domain Learning with Dynamic Residual Adapters | Domain adaption, Dynamic Residual Adapters
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
 - LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference | Image classification
