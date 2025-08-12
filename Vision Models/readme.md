@@ -149,6 +149,7 @@
 - GLAM : All the attention you need: Global-local, spatial-channel attention for image retrieval | Image retrieval
 - GLPN : Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth | Depth estimation
 - GNeRF: GAN-based Neural Radiance Field without Posed Camera | 3D reconstruction
+- GeM : Fine-tuning CNN Image Retrieval with No Human Annotation | Image retrieval
 - GeNeVA-GAN : Tell, Draw, and Repeat: Generating and Modifying Images Based on Continual Linguistic Instruction | Text(Image)-Image generation
 - Genetic CNN | Image classification
 - GhostNet: More Features from Cheap Operations | Image classification
