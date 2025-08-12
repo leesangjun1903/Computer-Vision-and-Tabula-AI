@@ -97,6 +97,7 @@
 - DPSR : Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels | Super resolution
 - DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
 - DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
+- DRAW: A Recurrent Neural Network For Image Generation | Image generation
 - DSD : Diffusion Self-Distillation for Zero-Shot Customized Image Generation | Image generation
 - Deep Generator Priors for Bayesian Seismic Inversion | Image generation, Seismic Imaging, Uncertainty Quantification
 - Deep Layer Aggregation | Image classification, Fine-grained Recognition, Semantic Segmentation
