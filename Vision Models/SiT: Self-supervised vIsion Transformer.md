@@ -1,4 +1,4 @@
-# SiT: Self-supervised vIsion Transformer
+# SiT: Self-supervised vIsion Transformer | Image classification, Semantic segmentation
 
 ## 1. 핵심 주장 및 주요 기여  
 SiT는 **Vision Transformer(ViT)를 위한 최초의 완전 자율(self-supervised) 사전학습 프레임워크**로, 그룹 마스킹된 패치 복원을 통해 비지도(masked image modeling) 방식이 지도(supervised) 사전학습을 능가할 수 있음을 입증했다. 주요 기여는 다음과 같다:  
