@@ -340,6 +340,7 @@
 - VAE : Auto-Encoding Variational Bayes | Image generation
 - VGG : Very Deep Convolutional Networks for Large-Scale Image Recognition | Image classification
 - VMRF: View Matching Neural Radiance Fields | 3D reconstruction
+- VPD : Unleashing Text-to-Image Diffusion Models for Visual Perception | Semantic segmentation, Depth estimation
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
 - WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | Super resolution
 - WFEN : Efficient Face Super-Resolution via Wavelet-based Feature Enhancement Network | Super resolution
