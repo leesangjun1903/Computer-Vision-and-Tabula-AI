@@ -1,4 +1,4 @@
-# That’s BAD: Blind Anomaly Detection by Implicit Local Feature Clustering
+# That’s BAD: Blind Anomaly Detection by Implicit Local Feature Clustering | Anomaly detection
 # 핵심 요약
 
 **That’s BAD** 논문은 인간의 정상(비이상) 데이터 없이도 이미지 집합 내에서 이상(anomaly)을 검출하고 국소화하는 새로운 **Blind Anomaly Detection (BAD)** 설정을 제안한다.  
