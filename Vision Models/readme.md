@@ -53,6 +53,7 @@
 - CFG : Classifier-Free Diffusion Guidance | Data diversity, Optimization
 - CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognition, Image generation
 - CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders | Image generation
+- CNN Image Retrieval Learns from BoW: Unsupervised Fine-Tuning with Hard Examples | Image retrieval
 - COLMAP : Structure-from-Motion Revisited | 3D reconstruction
 - CPVT : Conditional Positional Encodings for Vision Transformers | Image classification, Transformer technique
 - CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
