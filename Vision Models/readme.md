@@ -83,6 +83,7 @@
 - DDNM : Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model | Super resolution
 - DDPM : Denoising Diffusion Probabilistic Models | Image generation
 - DDPN-PA : Few-shot Image Generation with Diffusion Models | Image generation
+- DIFFGUARD: Semantic Mismatch-Guided Out-of-Distribution Detection using Pre-trained Diffusion Models | Out of distribution(OOD) detection
 - DINO : DETR with Improved DeNoising Anchor Boxes | Object detection
 - DINO : Emerging Properties in Self-Supervised Vision Transformers | Semantic segmentation, Image classification, Image retrieval, Object detection
 - DINOv2: Learning Robust Visual Features without Supervision | Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
