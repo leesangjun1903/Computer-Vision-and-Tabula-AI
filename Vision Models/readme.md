@@ -184,6 +184,7 @@
 - Latent Domain Learning with Dynamic Residual Adapters | Domain adaption, Dynamic Residual Adapters
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
 - LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference | Image classification
+- Learning Fine-grained Image Similarity with Deep Ranking | Similarity precision
 - Learning multiple visual domains with residual adapters | Domain adaption, residual apapters
 - Learning to Compare: Relation Network for Few-Shot Learning | Image classification, Few-shot learning, Zero-shot learning
 - LightGlue: Local Feature Matching at Light Speed | 3D resonstruction, Image matching
