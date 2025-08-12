@@ -101,6 +101,7 @@
 - Deep Pyramidal Residual Networks | Image classification
 - Deep Residual Learning for Image Recognition | Optimization, Object Detection/Localization, Image classification
 - DeepBedMap: a deep neural network for resolving the bed topography of Antarctica | Super resolution, GAN
+- DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations | Image classification
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - DeepSIM : Image Shape Manipulation from a Single Augmented Training Sample | Image generation, Image manipulation
 - DeepViT: Towards Deeper Vision Transformer | Image classification
