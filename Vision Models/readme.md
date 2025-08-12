@@ -332,6 +332,7 @@
 - Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution | Image classification, Facial emotion recognition
 - Transformer in Transformer | Image classification
 - Twins: Revisiting the Design of Spatial Attention in Vision Transformers | Image classification, Semantic segmentation, Object detection
+- Two-stage Discriminative Re-ranking for Large-scale Landmark Retrieval | Image retrieval
 - UDIS++ : Parallax-Tolerant Unsupervised Deep Image Stitching | Image stitching
 - VAE : Auto-Encoding Variational Bayes | Image generation
 - VGG : Very Deep Convolutional Networks for Large-Scale Image Recognition | Image classification
