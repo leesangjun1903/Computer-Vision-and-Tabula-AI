@@ -258,6 +258,7 @@
 - PolyNet: A Pursuit of Structural Diversity in Very Deep Networks | Image classification
 - Progressive Distillation for Fast Sampling of Diffusion Models | Image generation
 - Progressive Neural Architecture Search | NAS
+- Prompt-to-Prompt Image Editing with Cross Attention Control | Image editing, Image generation
 - PromptSR : Image Super-Resolution with Text Prompt Diffusion | Super resolution
 - ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware | NAS
 - PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | Image classification, Semantic segmenation, Object detection
