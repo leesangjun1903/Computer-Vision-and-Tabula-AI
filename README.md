@@ -59,3 +59,4 @@
 - Intuitive Guide to Understanding KL Divergence : https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-understanding-kl-divergence-2b382ca2b2a8/
 - Understanding and Calculating the number of Parameters in Convolution Neural Networks (CNNs) : https://medium.com/data-science/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d
 - Three Ways of Storing and Accessing Lots of Images in Python : https://realpython.com/storing-images-in-python/
+- Convnet calculator : https://madebyollin.github.io/convnet-calculator/  
