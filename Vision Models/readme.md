@@ -240,6 +240,7 @@
 - Natural Image Denoising with Convolutional Networks | Image denoising
 - NeRF--: Neural Radiance Fields Without Known Camera Parameters | 3D reconstruction, photometric reconstruction
 - NeRF: Neural Radiance Fields for View Synthesis | 3D reconstruction, Neural rendering, Novel view synthesis
+- NetVLAD: CNN architecture for weakly supervised place recognition | Image retrieval, Visual localization
 - Neural Architecture Search with Reinforcement Learning | NAS
 - Noise Flow: Noise Modeling with Conditional Normalizing Flows | Image denoising
 - Noise2Noise: Learning Image Restoration without Clean Data | Image denoising
