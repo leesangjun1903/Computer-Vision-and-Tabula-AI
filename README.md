@@ -42,6 +42,7 @@
 - Awesome Segment Anything : https://github.com/Hedlen/awesome-segment-anything , https://github.com/dk-liang/Awesome-Segment-Anything , https://github.com/baibizhe/Awesome-SAM
 - Awesome-Diffusion-Models : https://github.com/diff-usion/Awesome-Diffusion-Models
 - Awesome-diffusion-model-for-image-processing : https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing?tab=readme-ov-file
+- awesome-object-detection : https://github.com/amusi/awesome-object-detection
 - List of all Regression, Classification and Clustering models : https://www.kaggle.com/discussions/general/309745
 
 # ETC
