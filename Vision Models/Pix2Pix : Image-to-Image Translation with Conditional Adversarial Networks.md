@@ -367,3 +367,5 @@ Pix2Pix에서 지적한 문제점:
 [91] https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_Style_Quantization_for_Data-Efficient_GAN_Training_CVPR_2025_paper.pdf
 [92] https://developers.google.com/machine-learning/gan/problems
 [93] https://openaccess.thecvf.com/content_CVPR_2019/papers/Jenni_On_Stabilizing_Generative_Adversarial_Training_With_Noise_CVPR_2019_paper.pdf
+
+- 이미지 변환의 새 지평: Pix2Pix 논문 구조와 응용 사례 분석 : https://yourhouse-sh-lh-gh.tistory.com/entry/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B3%80%ED%99%98%EC%9D%98-%EC%83%88-%EC%A7%80%ED%8F%89-Pix2Pix-%EB%85%BC%EB%AC%B8-%EA%B5%AC%EC%A1%B0%EC%99%80-%EC%9D%91%EC%9A%A9-%EC%82%AC%EB%A1%80-%EB%B6%84%EC%84%9D
