@@ -274,6 +274,7 @@
 - PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | Image classification, Semantic segmenation, Object detection
 - PVTv2: Improved Baselines with Pyramid Vision Transformer | Image classification, Object detection, Semantic segmentation
 - R-CNN : Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation | Object detection, Semantic segmentation
+- R-MAC : Particular Object Retrieval with Integral Max-Pooling of CNN Activations | Image retrieval
 - RAN : Residual Attention Network for Image Classification | Image classification
 - ReACGAN : Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training | Image generation, Data diversity
 - Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | Super resolution
