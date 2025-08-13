@@ -43,6 +43,7 @@
 - List of all Regression, Classification and Clustering models : https://www.kaggle.com/discussions/general/309745
 
 ## Challenge
+- 데이콘 : https://dacon.io/  
 - 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
 - Human Protein Atlas Image Classification : https://www.kaggle.com/c/human-protein-atlas-image-classification/code?competitionId=10418&sortBy=voteCount&excludeNonAccessedDatasources=true
 - AI 양재 허브 인공지능 오픈소스 경진대회 : https://dacon.io/en/competitions/official/235977/codeshare?page=1&dtype=view&ptype=pub&keyword
