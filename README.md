@@ -44,13 +44,6 @@
 - Awesome-diffusion-model-for-image-processing : https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing?tab=readme-ov-file
 - List of all Regression, Classification and Clustering models : https://www.kaggle.com/discussions/general/309745
 
-## Challenge
-- 데이콘 : https://dacon.io/  
-- 모션 키포인트 검출 AI 경진대회 : https://dacon.io/en/competitions/open/235701/codeshare
-- Human Protein Atlas Image Classification : https://www.kaggle.com/c/human-protein-atlas-image-classification/code?competitionId=10418&sortBy=voteCount&excludeNonAccessedDatasources=true
-- AI 양재 허브 인공지능 오픈소스 경진대회 : https://dacon.io/en/competitions/official/235977/codeshare?page=1&dtype=view&ptype=pub&keyword
-- 카메라 이미지 품질 향상 AI 경진대회 : https://dacon.io/en/competitions/official/235746/codeshare?page=1&dtype=view&ptype=pub&keyword
-
 # ETC
 - [계산사진학] What is Computational Photography? : https://velog.io/@claude_ssim/%EA%B3%84%EC%82%B0%EC%82%AC%EC%A7%84%ED%95%99
 - https://computer-vision-talks.com/
