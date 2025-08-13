@@ -229,7 +229,6 @@
 - MobileStyleGAN: A Lightweight Convolutional Neural Network for High-Fidelity Image Synthesis | Image generation
 - MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer | Image classification, Object detection
 - MobileViTv2 : Separable Self-Attention for Mobile Vision Transformers | Image classification
-- Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks | Model-Agnostic, Gradient-Based Meta-Learning
 - Multi-Scale Vision Longformer: A New Vision Transformer for High-Resolution Image Encoding | Image classification, Object detection, Semantic segmentation
 - NAFNet: Simple Baselines for Image Restoration | Image restoration, Image denoising
 - NAFSSR: Stereo Image Super-Resolution Using NAFNet | Super resolution
