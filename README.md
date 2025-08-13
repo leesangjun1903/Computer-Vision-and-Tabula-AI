@@ -1,7 +1,7 @@
 
 # Computer Vision  
 - Computer Vision 학회 논문 : https://rollingpig.tistory.com/26
-- CVPR, WACV, ICCV, etc papers : https://github.com/52CV?tab=repositories
+- CVPR, WACV, ICCV, etc journal papers : https://github.com/52CV?tab=repositories
 
 ## Awesome Series
 - Awesome Computer Vision https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file
