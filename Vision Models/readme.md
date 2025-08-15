@@ -231,7 +231,7 @@
 - MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer | Image classification, Object detection
 - MobileViTv2 : Separable Self-Attention for Mobile Vision Transformers | Image classification
 - Multi-Scale Vision Longformer: A New Vision Transformer for High-Resolution Image Encoding | Image classification, Object detection, Semantic segmentation
-- NAFNet: Simple Baselines for Image Restoration | Image restoration, Image denoising
+- NAFNet: Simple Baselines for Image Restoration | Image restoration, Image denoising : https://github.com/megvii-research/NAFNet
 - NAFSSR: Stereo Image Super-Resolution Using NAFNet | Super resolution
 - NASNet : Learning Transferable Architectures for Scalable Image Recognition | Image classification, NAS
 - MultiGen: Zero-shot Image Generation from Multi-modal Prompts | Image generation
