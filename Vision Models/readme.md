@@ -52,7 +52,7 @@
 - Big Transfer (BiT): General Visual Representation Learning | Image classification
 - BlockQNN : Practical Block-wise Neural Network Architecture Generation | Image classification, Reinforcement Learning
 - CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | Image reconstruction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
-- CAMixerSR: Only Details Need More “Attention” | Super resolution
+- CAMixerSR: Only Details Need More “Attention” | Super resolution : https://github.com/icandle/CAMixerSR/tree/main?tab=readme-ov-file
 - CBAM: Convolutional Block Attention Module | Image classification, Object detection
 - CDM : Cascaded Diffusion Models for High Fidelity Image Generation | Image generation, Super resolution
 - CFG : Classifier-Free Diffusion Guidance | Data diversity, Optimization
@@ -78,25 +78,25 @@
 - CvT : Introducing Convolutions to Vision Transformers | Image classification
 - CycleISP: Real Image Restoration via Improved Data Synthesis | Image denoising, Image restoration
 - DARTS: Differentiable Architecture Search | NAS
-- DBPN : Deep Back-Projection Networks for Single Image Super-resolution | Super resolution
+- DBPN : Deep Back-Projection Networks for Single Image Super-resolution | Super resolution : https://github.com/Lornatang/DBPN-PyTorch?tab=readme-ov-file
 - DCGAN : Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
 - DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | Image generation
 - DDGANs : Tackling the Generative Learning Trilemma with Denoising Diffusion GANs | Image generation
 - DDIM : Denoising Diffusion Implicit Models | Image generation
 - DDNM : Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model | Super resolution
-- DDPM : Denoising Diffusion Probabilistic Models | Image generation
+- DDPM : Denoising Diffusion Probabilistic Models | Image generation : https://github.com/lucidrains/denoising-diffusion-pytorch?tab=readme-ov-file
 - DDPN-PA : Few-shot Image Generation with Diffusion Models | Image generation
 - DIFFGUARD: Semantic Mismatch-Guided Out-of-Distribution Detection using Pre-trained Diffusion Models | Out of distribution(OOD) detection
 - DINO : DETR with Improved DeNoising Anchor Boxes | Object detection
 - DINO : Emerging Properties in Self-Supervised Vision Transformers | Semantic segmentation, Image classification, Image retrieval, Object detection
 - DINOv2: Learning Robust Visual Features without Supervision | Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
-- DIP : Deep Image Prior | Image denoising, Image generation, Super resolution
+- DIP : Deep Image Prior | Image denoising, Image generation, Super resolution : https://github.com/DmitryUlyanov/deep-image-prior/tree/master
 - DLSM : Denoising Likelihood Score Matching for Conditional Score-Based Data Generation | Image generation
 - DMTRL : Deep Multi-task Representation Learning: A Tensor Factorisation Approach | Domain adaption
-- DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | Image generation
+- DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | Image generation : https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models
 - DPN : Dual Path Networks | Image classification
 - DPSR : Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels | Super resolution
-- DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution
+- DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution : https://github.com/kushalchordiya216/DPSRGAN/tree/master?tab=readme-ov-file
 - DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
 - DRAW: A Recurrent Neural Network For Image Generation | Image generation
 - DSD : Diffusion Self-Distillation for Zero-Shot Customized Image Generation | Image generation
@@ -121,7 +121,7 @@
 - DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior | Image denoising, Super resolution, Image restoration
 - DiffTSR : Diffusion-based Blind Text Image Super-Resolution | Super resolution
 - Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | Image classification
-- DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | Image Denoising, Super resolution
+- DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | Image Denoising, Super resolution : https://github.com/anushkayadav/Denoising_cifar10
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | Image generation
 - Dynamic Convolution: Attention over Convolution Kernels | Image classification
 - EDM : Elucidating the Design Space of Diffusion-Based Generative Models | Image generation
@@ -130,7 +130,7 @@
 - ESPCN : Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network | Super resolution
 - ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks | Super resolution
 - EdgeConnect: Generative Image Inpainting with Adversarial Edge Learning | Image generation
-- EdgeSRGAN : Generative Adversarial Super-Resolution at the Edge with Knowledge Distillation | Super resolution
+- EdgeSRGAN : Generative Adversarial Super-Resolution at the Edge with Knowledge Distillation | Super resolution : https://github.com/PIC4SeR/EdgeSRGAN?tab=readme-ov-file
 - Efficient Parametrization of Multi-Domain Deep Neural Networks | Domain apaption
 - EfficientFormer: Vision Transformers at MobileNet Speed | Image classification, Object detection, Instance segmentation, Semantic segmentation
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | Image classification
@@ -176,7 +176,7 @@
 - IR-SDE : Image Restoration with Mean-Reverting Stochastic Differential Equations | Image deblurring, Image denoising, Image generation, Image restoration, Super resolution, Image dehazing
 - Identity Mappings in Deep Residual Networks | Image classification
 - Image Blind Denoising With Generative Adversarial Network Based Noise Modeling | Image denoising
-- Image Denoising Using A Generative Adversarial Network | Image denoising
+- Image Denoising Using A Generative Adversarial Network | Image denoising : https://github.com/manumathewthomas/ImageDenoisingGAN/tree/master?tab=readme-ov-file
 - ImageGPT : Generative Pretraining from Pixels | Image classification
 - Implicit Generation and Modeling with Energy-Based Models | Image generation, Image reconstruction
 - Improved Techniques for Training GANs | GAN technique, Image generation
@@ -189,7 +189,7 @@
 - KernelGAN : Blind Super-Resolution Kernel Estimation using an Internal-GAN | Super resolution
 - LAVT: Language-Aware Vision Transformer for Referring Image Segmentation | Semantic segmentation
 - LDM : High-Resolution Image Synthesis with Latent Diffusion Models | Image generation, Super resolution
-- LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution
+- LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution : https://github.com/hellloxiaotian/LESRCNN/tree/master?tab=readme-ov-file
 - LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
 - LIP: Local Importance-based Pooling | Image classification, Pooling technique, Object detection
 - LMAR : Empowering Resampling Operation for Ultra-High-Definition Image Enhancement with Model-Aware Guidance | Super resolution, Image enhancement
@@ -210,7 +210,7 @@
 - MAE : Masked Autoencoders Are Scalable Vision Learners | Image reconstruction, Image generation
 - MAGVIT: Masked Generative Video Transformer | Video generation, Text-to-video generation
 - MAGVIT-v2 : Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation | Image generation, Language modeling, Video generation
-- MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | Image deblurring, Image enhancement, Super resolution
+- MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | Image deblurring, Image enhancement, Super resolution : https://github.com/swz30/MIRNetv2/tree/main
 - MLP-Mixer: An all-MLP Architecture for Vision | Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
 - MnasNet: Platform-Aware Neural Architecture Search for Mobile | NAS
 - MPRNet : Multi-Stage Progressive Image Restoration | Image deblurring, Image denoising, Image restoration
@@ -278,7 +278,7 @@
 - R-MAC : Particular Object Retrieval with Integral Max-Pooling of CNN Activations | Image retrieval
 - RAN : Residual Attention Network for Image Classification | Image classification
 - ReACGAN : Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training | Image generation, Data diversity
-- Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | Super resolution
+- Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | Super resolution : https://github.com/xinntao/Real-ESRGAN
 - Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models | Image generation
 - Refusion: Enabling Large-Size Realistic Image Restoration with Latent-Space Diffusion Models | Image denoising, Image dehazing, Image restoration, Super resolution
 - RegNet : Designing Network Design Spaces | Image classification
@@ -310,7 +310,7 @@
 - SR3+ : Denoising Diffusion Probabilistic Models for Robust Image Super-Resolution in the Wild | Super resolution
 - SRCNN : Image Super-Resolution Using Deep Convolutional Networks | Super resolution
 - SRDiff: Single Image Super-Resolution with Diffusion Probabilistic Models | Super resolution
-- SRGAN : Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network | Super resolution
+- SRGAN : Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network | Super resolution : https://github.com/manumathewthomas/ImageDenoisingGAN/tree/master?tab=readme-ov-file
 - SSD: Single Shot MultiBox Detector | Object detection
 - SUPIR : Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild | Super resolution
 - SWAGAN: A Style-based Wavelet-driven Generative Model | Super resolution
@@ -343,7 +343,7 @@
 - Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | Image classification, Object Detection, Semantic Segmentation
 - Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration | Super resolution, Image restoration
 - SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | Image denoising
-- SwinIR : Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising
+- SwinIR : Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising : https://github.com/JingyunLiang/SwinIR/tree/main
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | Image generation
 - TerDiT: Ternary Diffusion Models with Transformers | Image generation
 - That’s BAD: Blind Anomaly Detection by Implicit Local Feature Clustering | Anomaly detection
