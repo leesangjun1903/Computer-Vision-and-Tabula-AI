@@ -339,6 +339,7 @@
 - Structural-analogy from a Single Image Pair | Image generation
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | Image generation
 - SuperPoint: Self-Supervised Interest Point Detection and Description | Image matching, 3D reconstruction, Point detection
+- SwiftSRGAN : Rethinking Super-Resolution for Efficient and Real-time Inference | Super-resolution
 - Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | Image classification, Object Detection, Semantic Segmentation
 - Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration | Super resolution, Image restoration
 - SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | Image denoising
