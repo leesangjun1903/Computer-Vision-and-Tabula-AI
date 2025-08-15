@@ -214,7 +214,7 @@
 - MLP-Mixer: An all-MLP Architecture for Vision | Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
 - MnasNet: Platform-Aware Neural Architecture Search for Mobile | NAS
 - MPRNet : Multi-Stage Progressive Image Restoration | Image deblurring, Image denoising, Image restoration
-- MWDCNN : Multi-stage image denoising with the wavelet transform | Image Denoising
+- MWDCNN : Multi-stage image denoising with the wavelet transform | Image Denoising : https://github.com/hellloxiaotian/MWDCNN
 - Marigold : Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation | Depth estimation
 - Mask2Former : Masked-attention Mask Transformer for Universal Image Segmentation | Semantic segmentation
 - MaskFormer : Per-Pixel Classification is Not All You Need for Semantic Segmentation | Semattic segmentation
@@ -362,7 +362,7 @@
 - VPD : Unleashing Text-to-Image Diffusion Models for Visual Perception | Semantic segmentation, Depth estimation
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
 - WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | Super resolution
-- WFEN : Efficient Face Super-Resolution via Wavelet-based Feature Enhancement Network | Super resolution
+- WFEN : Efficient Face Super-Resolution via Wavelet-based Feature Enhancement Network | Super resolution : https://github.com/pris-cv/wfen?tab=readme-ov-file
 - WGAN : Wasserstein GAN | Image generation
 - WGAN GP : Improved Training of Wasserstein GANs | Image generation, Optimization
 - WRN : Wide Residual Networks | Image classification
