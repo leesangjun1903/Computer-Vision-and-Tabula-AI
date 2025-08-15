@@ -259,7 +259,7 @@
 - PSConv: Squeezing Feature Pyramid into One Compact Poly-Scale Convolutional Layer | Image classification
 - Perceptual Losses for Real-Time Style Transfer and Super-Resolution | Image generation, Optimization
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
-- Physics-informed deep neural network for image denoising | Image denoising
+- Physics-informed deep neural network for image denoising | Image denoising : https://codeocean.com/capsule/9043085/tree/v1
 - Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask Weights | Domain adaption
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation : https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix?tab=readme-ov-file
 - Pix2Pix-zero : Zero-shot Image-to-Image Translation | Image generation
