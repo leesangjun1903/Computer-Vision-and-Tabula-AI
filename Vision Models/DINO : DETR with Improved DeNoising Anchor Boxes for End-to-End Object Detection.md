@@ -1,4 +1,4 @@
-# DINO: DETR with Improved DeNoising Anchor Boxes | Object detection
+# DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection | Object detection
 
 ## 1. 핵심 주장과 주요 기여
 
