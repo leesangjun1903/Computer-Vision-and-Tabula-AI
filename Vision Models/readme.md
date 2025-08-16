@@ -376,6 +376,7 @@
 - YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors | Object detection
 - YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information | Object detection
 - YOLOv10: Real-Time End-to-End Object Detection | Object detection
+- YOLOv11: An Overview of the Key Architectural Enhancements | Object detection
 - ZSSR : "Zero-Shot" Super-Resolution using Deep Internal Learning | Image generation, zero shot learning
 - cGAN : Conditional Generative Adversarial Nets | Image generation
 - iDDPM : Improved Denoising Diffusion Probabilistic Models | Super resolution, Image generation, Image denoising
