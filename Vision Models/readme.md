@@ -378,6 +378,7 @@
 - YOLOv10: Real-Time End-to-End Object Detection | Object detection
 - YOLOv11: An Overview of the Key Architectural Enhancements | Object detection
 - YOLOv12: Attention-Centric Real-Time Object Detectors | Object detection
+- YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception | Object detection
 - ZSSR : "Zero-Shot" Super-Resolution using Deep Internal Learning | Image generation, zero shot learning
 - cGAN : Conditional Generative Adversarial Nets | Image generation
 - iDDPM : Improved Denoising Diffusion Probabilistic Models | Super resolution, Image generation, Image denoising
