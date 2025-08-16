@@ -342,6 +342,7 @@
 - SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications | Image classification
 - SwiftSRGAN : Rethinking Super-Resolution for Efficient and Real-time Inference | Super-resolution
 - Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | Image classification, Object Detection, Semantic Segmentation
+- Swin Transformer V2: Scaling Up Capacity and Resolution | Image classification, Object Detection, Semantic Segmentation
 - Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration | Super resolution, Image restoration
 - SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | Image denoising
 - SwinIR : Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising : https://github.com/JingyunLiang/SwinIR/tree/main
