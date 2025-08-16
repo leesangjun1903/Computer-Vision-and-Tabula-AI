@@ -366,6 +366,7 @@
 - WGAN : Wasserstein GAN | Image generation
 - WGAN GP : Improved Training of Wasserstein GANs | Image generation, Optimization
 - WRN : Wide Residual Networks | Image classification
+- What is YOLOv8: An In-Depth Exploration of the Internal Features of the Next-Generation Object Detector
 - Xception: Deep Learning with Depthwise Separable Convolutions | Image classification
 - YOLO : You Only Look Once: Unified, Real-Time Object Detection | Object detection
 - YOLOV2 : YOLO9000: Better, Faster, Stronger | Object detection
