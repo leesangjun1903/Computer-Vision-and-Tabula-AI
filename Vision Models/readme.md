@@ -370,6 +370,7 @@
 - YOLO : You Only Look Once: Unified, Real-Time Object Detection | Object detection
 - YOLOV2 : YOLO9000: Better, Faster, Stronger | Object detection
 - YOLOv3: An Incremental Improvement | Object detection
+- YOLOv4: Optimal Speed and Accuracy of Object Detection | Object detection
 - ZSSR : "Zero-Shot" Super-Resolution using Deep Internal Learning | Image generation, zero shot learning
 - cGAN : Conditional Generative Adversarial Nets | Image generation
 - iDDPM : Improved Denoising Diffusion Probabilistic Models | Super resolution, Image generation, Image denoising
