@@ -368,6 +368,7 @@
 - ViTDet : Exploring Plain Vision Transformer Backbones for Object Detection | Object detection
 - ViTMAE : Masked Autoencoders Are Scalable Vision Learners | Object detection, Semantic segmentation
 - ViTMSN : Masked Siamese Networks for Label-Efficient Learning | Image classification
+- ViTMatte: Boosting Image Matting with Pretrained Plain Vision Transformers | Image matting
 - WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | Super resolution
 - WFEN : Efficient Face Super-Resolution via Wavelet-based Feature Enhancement Network | Super resolution : https://github.com/pris-cv/wfen?tab=readme-ov-file
 - WGAN : Wasserstein GAN | Image generation
