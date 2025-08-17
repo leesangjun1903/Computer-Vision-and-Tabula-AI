@@ -365,6 +365,7 @@
 - VMRF: View Matching Neural Radiance Fields | 3D reconstruction
 - VPD : Unleashing Text-to-Image Diffusion Models for Visual Perception | Semantic segmentation, Depth estimation
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
+- ViTDet : Exploring Plain Vision Transformer Backbones for Object Detection | Object detection
 - WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | Super resolution
 - WFEN : Efficient Face Super-Resolution via Wavelet-based Feature Enhancement Network | Super resolution : https://github.com/pris-cv/wfen?tab=readme-ov-file
 - WGAN : Wasserstein GAN | Image generation
