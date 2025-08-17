@@ -358,6 +358,7 @@
 - Two-stage Discriminative Re-ranking for Large-scale Landmark Retrieval | Image retrieval
 - U-Net: Convolutional Networks for Biomedical Image Segmentation | Semantic segmentation
 - UDIS++ : Parallax-Tolerant Unsupervised Deep Image Stitching | Image stitching
+- UPerNet : Unified Perceptual Parsing for Scene Understanding | Semantic segementation
 - VAE : Auto-Encoding Variational Bayes | Image generation
 - VGG : Very Deep Convolutional Networks for Large-Scale Image Recognition | Image classification
 - VMRF: View Matching Neural Radiance Fields | 3D reconstruction
