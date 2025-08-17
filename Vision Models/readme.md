@@ -360,6 +360,7 @@
 - UDIS++ : Parallax-Tolerant Unsupervised Deep Image Stitching | Image stitching
 - UPerNet : Unified Perceptual Parsing for Scene Understanding | Semantic segementation
 - VAE : Auto-Encoding Variational Bayes | Image generation
+- VAN : Visual Attention Network | Image classification, Object detection, Semantic segmentation, Pose estimation
 - VGG : Very Deep Convolutional Networks for Large-Scale Image Recognition | Image classification
 - VMRF: View Matching Neural Radiance Fields | 3D reconstruction
 - VPD : Unleashing Text-to-Image Diffusion Models for Visual Perception | Semantic segmentation, Depth estimation
