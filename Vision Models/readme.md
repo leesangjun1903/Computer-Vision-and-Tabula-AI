@@ -161,6 +161,7 @@
 - GeNeVA-GAN : Tell, Draw, and Repeat: Generating and Modifying Images Based on Continual Linguistic Instruction | Text(Image)-Image generation
 - Genetic CNN | Image classification
 - GhostNet: More Features from Cheap Operations | Image classification
+- Gold-YOLO: Efficient Object Detector via Gather-and-Distribute Mechanism | Object detection
 - GoogLeNet : Going Deeper with Convolutions | Image classification
 - HAT : Activating More Pixels in Image Super-Resolution Transformer | Super-resolution
 - HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
