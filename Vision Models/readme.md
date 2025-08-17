@@ -61,6 +61,7 @@
 - CNN Image Retrieval Learns from BoW: Unsupervised Fine-Tuning with Hard Examples | Image retrieval
 - COLMAP : Structure-from-Motion Revisited | 3D reconstruction
 - CPVT : Conditional Positional Encodings for Vision Transformers | Image classification, Transformer technique
+- CSPNet: A New Backbone that can Enhance Learning Capability of CNN | Image classification, Object detection
 - CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
 - CaiT : Going deeper with Image Transformers | Image classification
 - Co-Mod GAN : Large Scale Image Completion via Co-Modulated Generative Adversarial Networks | Image generation, Image inpainting
