@@ -367,6 +367,7 @@
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Image classification
 - ViTDet : Exploring Plain Vision Transformer Backbones for Object Detection | Object detection
 - ViTMAE : Masked Autoencoders Are Scalable Vision Learners | Object detection, Semantic segmentation
+- ViTMSN : Masked Siamese Networks for Label-Efficient Learning | Image classification
 - WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | Super resolution
 - WFEN : Efficient Face Super-Resolution via Wavelet-based Feature Enhancement Network | Super resolution : https://github.com/pris-cv/wfen?tab=readme-ov-file
 - WGAN : Wasserstein GAN | Image generation
