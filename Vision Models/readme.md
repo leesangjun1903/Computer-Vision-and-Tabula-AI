@@ -114,6 +114,7 @@
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - DeepSIM : Image Shape Manipulation from a Single Augmented Training Sample | Image generation, Image manipulation
 - DeepViT: Towards Deeper Vision Transformer | Image classification
+- Deformable DETR: Deformable Transformers for End-to-End Object Detection | Object detection
 - DeiT : Training data-efficient image transformers & Distillation through attention | Image classification
 - Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification | Image classification
 - DenseNet : Densely Connected Convolutional Networks | Image classification
