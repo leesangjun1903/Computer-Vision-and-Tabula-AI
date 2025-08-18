@@ -23,6 +23,7 @@
 - Lightweight Image Super-Resolution Based on Deep Learning: State-of-the-Art and Future Directions
 - Deep Visual Domain Adaptation: A Survey
 - Deep Learning for Anomaly Detection: A Survey
+- Image Matching from Handcrafted to Deep Features: A Survey
 
 - 수정필:
 
