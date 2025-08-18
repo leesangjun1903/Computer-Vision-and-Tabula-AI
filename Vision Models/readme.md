@@ -88,6 +88,7 @@
 - DDNM : Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model | Super resolution
 - DDPM : Denoising Diffusion Probabilistic Models | Image generation : https://github.com/lucidrains/denoising-diffusion-pytorch?tab=readme-ov-file
 - DDPN-PA : Few-shot Image Generation with Diffusion Models | Image generation
+- DETR : End-to-End Object Detection with Transformers | Object detection
 - DIFFGUARD: Semantic Mismatch-Guided Out-of-Distribution Detection using Pre-trained Diffusion Models | Out of distribution(OOD) detection
 - DINO : DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection | Object detection
 - DINO : Emerging Properties in Self-Supervised Vision Transformers | Semantic segmentation, Image classification, Image retrieval, Object detection
