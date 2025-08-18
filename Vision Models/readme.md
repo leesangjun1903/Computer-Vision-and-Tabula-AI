@@ -136,6 +136,7 @@
 - ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks | Super resolution
 - EdgeConnect: Generative Image Inpainting with Adversarial Edge Learning | Image generation
 - EdgeSRGAN : Generative Adversarial Super-Resolution at the Edge with Knowledge Distillation | Super resolution : https://github.com/PIC4SeR/EdgeSRGAN?tab=readme-ov-file
+- Efficient DETR: Improving End-to-End Object Detector with Dense Prior | Object detection
 - Efficient Parametrization of Multi-Domain Deep Neural Networks | Domain apaption
 - EfficientFormer: Vision Transformers at MobileNet Speed | Image classification, Object detection, Instance segmentation, Semantic segmentation
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | Image classification
