@@ -35,6 +35,7 @@
 - ADM : Diffusion Models Beat GANs on Image Synthesis | Image generation
 - ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation | Image Matching
 - AdaIN : Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | Image generation
+- AdaMixer: A Fast-Converging Query-Based Object Detector | Object detection
 - Aggregating Deep Convolutional Features for Image Retrieval | Image retrieval
 - AnomalySD: Few-Shot Multi-Class Anomaly Detection with Stable Diffusion Model | Anomaly detection
 - ArcFace: Additive Angular Margin Loss for Deep Face Recognition | Image classification, Face recognition
