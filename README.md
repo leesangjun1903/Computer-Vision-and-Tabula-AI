@@ -10,7 +10,7 @@
 - Awesome-Scene-Change-Detection(SCD)(-ing 2020) : https://github.com/DoongLi/Awesome-Scene-Change-Detection?tab=readme-ov-file
 - Awesome works on Unsupervised Object Localization(E) : https://github.com/valeoai/Awesome-Unsupervised-Object-Localization
 - Awesome-Shadow-Removal(-ing 2021) : https://github.com/GuoLanqing/Awesome-Shadow-Removal
-- Awesome Diffusion Models in High-Resolution Synthesis : https://github.com/GuoLanqing/Awesome-High-Resolution-Diffusion
+- Awesome Diffusion Models in High-Resolution Synthesis(-ing End-to-End Model) : https://github.com/GuoLanqing/Awesome-High-Resolution-Diffusion
 - Awesome Diffusion Models In Low-level Vision : https://github.com/ChunmingHe/awesome-diffusion-models-in-low-level-vision?tab=readme-ov-file
 - Awesome Diffusion Categorized models : https://github.com/wangkai930418/awesome-diffusion-categorized?tab=readme-ov-file#image-restoration
 - Awesome Remote Sensing Change Detection : https://github.com/wenhwu/awesome-remote-sensing-change-detection?tab=readme-ov-file#code
