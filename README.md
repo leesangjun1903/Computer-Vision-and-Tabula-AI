@@ -5,7 +5,7 @@
 
 ## Awesome Series
 - Awesome Computer Vision https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file
-- Awesome - Image Classification : https://github.com/weiaicunzai/awesome-image-classification
+- Awesome - Image Classification(E) : https://github.com/weiaicunzai/awesome-image-classification
 - Awesome-Image-Matching https://github.com/ericzzj1989/Awesome-Image-Matching
 - Awesome-Scene-Change-Detection(SCD) : https://github.com/DoongLi/Awesome-Scene-Change-Detection?tab=readme-ov-file
 - Awesome works on Unsupervised Object Localization : https://github.com/valeoai/Awesome-Unsupervised-Object-Localization
@@ -44,6 +44,9 @@
 - Awesome-diffusion-model-for-image-processing : https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing?tab=readme-ov-file
 - awesome-object-detection : https://github.com/amusi/awesome-object-detection
 - List of all Regression, Classification and Clustering models : https://www.kaggle.com/discussions/general/309745
+
+(E) : Already read paper
+(-ing ~) : -ing paper
 
 # ETC
 - [계산사진학] What is Computational Photography? : https://velog.io/@claude_ssim/%EA%B3%84%EC%82%B0%EC%82%AC%EC%A7%84%ED%95%99
