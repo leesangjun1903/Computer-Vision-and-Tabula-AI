@@ -391,6 +391,7 @@
 - What is YOLOv8: An In-Depth Exploration of the Internal Features of the Next-Generation Object Detector
 - Xception: Deep Learning with Depthwise Separable Convolutions | Image classification
 - YOLO : You Only Look Once: Unified, Real-Time Object Detection | Object detection
+- YOLOS : You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection | Object detection
 - YOLOV2 : YOLO9000: Better, Faster, Stronger | Object detection
 - YOLOv3: An Incremental Improvement | Object detection
 - YOLOv4: Optimal Speed and Accuracy of Object Detection | Object detection
