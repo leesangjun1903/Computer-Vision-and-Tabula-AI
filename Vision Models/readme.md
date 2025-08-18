@@ -375,6 +375,7 @@
 - U-Net: Convolutional Networks for Biomedical Image Segmentation | Semantic segmentation
 - UDIS++ : Parallax-Tolerant Unsupervised Deep Image Stitching | Image stitching
 - UPerNet : Unified Perceptual Parsing for Scene Understanding | Semantic segementation
+- V-MoE : Scaling Vision with Sparse Mixture of Experts | Image classification
 - VAE : Auto-Encoding Variational Bayes | Image generation
 - VAN : Visual Attention Network | Image classification, Object detection, Semantic segmentation, Pose estimation
 - VGG : Very Deep Convolutional Networks for Large-Scale Image Recognition | Image classification
