@@ -358,6 +358,7 @@
 - Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration | Super resolution, Image restoration
 - SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | Image denoising
 - SwinIR : Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising : https://github.com/JingyunLiang/SwinIR/tree/main
+- TSP-DETR : Rethinking Transformer-based Set Prediction for Object Detection | Object detection
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | Image generation
 - TerDiT: Ternary Diffusion Models with Transformers | Image generation
 - That’s BAD: Blind Anomaly Detection by Implicit Local Feature Clustering | Anomaly detection
