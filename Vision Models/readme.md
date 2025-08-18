@@ -69,6 +69,7 @@
 - CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
 - CaiT : Going deeper with Image Transformers | Image classification
 - Co-Mod GAN : Large Scale Image Completion via Co-Modulated Generative Adversarial Networks | Image generation, Image inpainting
+- CoAtNet: Marrying Convolution and Attention for All Data Sizes | Image classification
 - CoSeR: Bridging Image and Language for Cognitive Super-Resolution | Super resolution
 - CoaT : Co-Scale Conv-Attentional Image Transformers | Image classification, Object detection, Semantic segmentation
 - CodeFormer : Towards Robust Blind Face Restoration with Codebook Lookup Transformer | Image restoration, Blind Face restoration
