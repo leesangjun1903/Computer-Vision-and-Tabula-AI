@@ -316,6 +316,7 @@
 - SFT-GAN : Recovering Realistic Texture in Image Super-resolution by Deep Spatial Feature Transform | Super resolution
 - SIFT : Distinctive Image Features from Scale-Invariant Keypoints | Image retrieval
 - SKNet : Selective Kernel Networks | Image classification
+- SMCA-DETR : Fast Convergence of DETR with Spatially Modulated Co-Attention | Object detection
 - SPADE : Semantic Image Synthesis with Spatially-Adaptive Normalization | Image generation
 - SR3 : Image Super-Resolution via Iterative Refinement | Super resolution
 - SR3+ : Denoising Diffusion Probabilistic Models for Robust Image Super-Resolution in the Wild | Super resolution
