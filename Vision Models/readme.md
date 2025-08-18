@@ -58,6 +58,7 @@
 - CAMixerSR: Only Details Need More “Attention” | Super resolution : https://github.com/icandle/CAMixerSR/tree/main?tab=readme-ov-file
 - CBAM: Convolutional Block Attention Module | Image classification, Object detection
 - CDM : Cascaded Diffusion Models for High Fidelity Image Generation | Image generation, Super resolution
+- CF-DETR: Coarse-to-Fine Transformers for End-to-End Object Detection | Object detection
 - CFG : Classifier-Free Diffusion Guidance | Data diversity, Optimization
 - CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognition, Image generation
 - CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders | Image generation
