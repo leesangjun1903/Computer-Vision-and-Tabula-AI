@@ -304,6 +304,7 @@
 - SAM : Segment Anything | Semantic segmentation :  https://github.com/facebookresearch/segment-anything/tree/main
 - SAM 2: Segment Anything in Images and Videos | Semantic segmentation : https://github.com/facebookresearch/sam2
 - SAN : Second-order Attention Network for Single Image Super-Resolution | Super resolution
+- SASCNet : Change Detection in Images Using Shape-Aware Siamese Convolutional Network | Change detection
 - SCSNet : An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution | Image Colorization, Image reconstruction, Super-Resolution
 - SENet : Squeeze-and-Excitation Networks | Image classification, Object detection
 - SFG : Stochastic Filter Groups for Multi-Task CNNs: Learning Specialist and Generalist Convolution Kernels | Image classification, Image regression, Image segmentation
