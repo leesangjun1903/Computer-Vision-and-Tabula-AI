@@ -397,6 +397,7 @@
 - Xception: Deep Learning with Depthwise Separable Convolutions | Image classification
 - YOLO : You Only Look Once: Unified, Real-Time Object Detection | Object detection
 - YOLOS : You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection | Object detection
+- YOLOr : You Only Learn One Representation: Unified Network for Multiple Tasks | Object detection, Semantic segmentation, Keypoint detection, Image classification
 - YOLOV2 : YOLO9000: Better, Faster, Stronger | Object detection
 - YOLOv3: An Incremental Improvement | Object detection
 - YOLOv4: Optimal Speed and Accuracy of Object Detection | Object detection
