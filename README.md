@@ -8,7 +8,7 @@
 - Awesome - Image Classification(E) : https://github.com/weiaicunzai/awesome-image-classification
 - Awesome-Image-Matching https://github.com/ericzzj1989/Awesome-Image-Matching
 - Awesome-Scene-Change-Detection(SCD)(-ing 2020) : https://github.com/DoongLi/Awesome-Scene-Change-Detection?tab=readme-ov-file
-- Awesome works on Unsupervised Object Localization : https://github.com/valeoai/Awesome-Unsupervised-Object-Localization
+- Awesome works on Unsupervised Object Localization(E) : https://github.com/valeoai/Awesome-Unsupervised-Object-Localization
 - Awesome-Shadow-Removal : https://github.com/GuoLanqing/Awesome-Shadow-Removal
 - Awesome Diffusion Models in High-Resolution Synthesis : https://github.com/GuoLanqing/Awesome-High-Resolution-Diffusion
 - Awesome Diffusion Models In Low-level Vision : https://github.com/ChunmingHe/awesome-diffusion-models-in-low-level-vision?tab=readme-ov-file
