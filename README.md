@@ -9,7 +9,7 @@
 - Awesome-Image-Matching https://github.com/ericzzj1989/Awesome-Image-Matching
 - Awesome-Scene-Change-Detection(SCD)(-ing 2020) : https://github.com/DoongLi/Awesome-Scene-Change-Detection?tab=readme-ov-file
 - Awesome works on Unsupervised Object Localization(E) : https://github.com/valeoai/Awesome-Unsupervised-Object-Localization
-- Awesome-Shadow-Removal : https://github.com/GuoLanqing/Awesome-Shadow-Removal
+- Awesome-Shadow-Removal(-ing 2021) : https://github.com/GuoLanqing/Awesome-Shadow-Removal
 - Awesome Diffusion Models in High-Resolution Synthesis : https://github.com/GuoLanqing/Awesome-High-Resolution-Diffusion
 - Awesome Diffusion Models In Low-level Vision : https://github.com/ChunmingHe/awesome-diffusion-models-in-low-level-vision?tab=readme-ov-file
 - Awesome Diffusion Categorized models : https://github.com/wangkai930418/awesome-diffusion-categorized?tab=readme-ov-file#image-restoration
@@ -46,7 +46,7 @@
 - List of all Regression, Classification and Clustering models : https://www.kaggle.com/discussions/general/309745
 
 (E) : Already read paper
-(-ing ~) : -ing paper
+(-ing ~) : -ing paper (~ : 까지 진행됨)
 
 # ETC
 - [계산사진학] What is Computational Photography? : https://velog.io/@claude_ssim/%EA%B3%84%EC%82%B0%EC%82%AC%EC%A7%84%ED%95%99
