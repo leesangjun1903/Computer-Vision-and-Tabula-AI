@@ -83,6 +83,7 @@
 - CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification | Image classification
 - CvT : Introducing Convolutions to Vision Transformers | Image classification
 - CycleISP: Real Image Restoration via Improved Data Synthesis | Image denoising, Image restoration
+- DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR | Object detection
 - DARTS: Differentiable Architecture Search | NAS
 - DBPN : Deep Back-Projection Networks for Single Image Super-resolution | Super resolution : https://github.com/Lornatang/DBPN-PyTorch?tab=readme-ov-file
 - DCGAN : Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
