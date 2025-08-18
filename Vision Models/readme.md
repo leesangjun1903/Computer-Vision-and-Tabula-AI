@@ -297,6 +297,7 @@
 - ResViT: Residual Vision Transformers for Multi-Modal Medical Image Synthesis | Image generation
 - Resnet in Resnet: Generalizing Residual Architectures | Image classification
 - RetinaNet : Focal Loss for Dense Object Detection | Object detection
+- Robust and Efficient Object Change Detection by Combining Global Semantic Information and Local Geometric Verification | 3D object detection
 - S3Diff : Degradation-Guided One-Step Image Super-Resolution with Diffusion Priors | Super resolution
 - SAGAN : Self-Attention Generative Adversarial Networks | Image generation
 - SAM-DiffSR: Structure-Modulated Diffusion Model for Image Super-Resolution | Super resolution
