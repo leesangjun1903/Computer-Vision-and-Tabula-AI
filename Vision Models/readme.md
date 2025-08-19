@@ -384,6 +384,7 @@
 - Two-stage Discriminative Re-ranking for Large-scale Landmark Retrieval | Image retrieval
 - U-Net: Convolutional Networks for Biomedical Image Segmentation | Semantic segmentation
 - UDIS++ : Parallax-Tolerant Unsupervised Deep Image Stitching | Image stitching
+- UP-DETR : Unsupervised Pre-training for Detection Transformers | Object detection
 - UPerNet : Unified Perceptual Parsing for Scene Understanding | Semantic segementation
 - V-MoE : Scaling Vision with Sparse Mixture of Experts | Image classification
 - VAE : Auto-Encoding Variational Bayes | Image generation
