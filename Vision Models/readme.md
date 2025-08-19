@@ -233,6 +233,7 @@
 - MLP-Mixer: An all-MLP Architecture for Vision | Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
 - MnasNet: Platform-Aware Neural Architecture Search for Mobile | NAS
 - MPRNet : Multi-Stage Progressive Image Restoration | Image deblurring, Image denoising, Image restoration
+- MS-DETR: Efficient DETR Training with Mixed Supervision | Object detection
 - MWDCNN : Multi-stage image denoising with the wavelet transform | Image Denoising : https://github.com/hellloxiaotian/MWDCNN
 - Marigold : Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation | Depth estimation
 - Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation | Object detection, Semantic segmentation
