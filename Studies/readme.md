@@ -1,8 +1,7 @@
 # Computer Vision Studies
 
 - Easy Few-Shot Learning https://github.com/sicara/easy-few-shot-learning/tree/master
-- OpenCV를 활용한 컴퓨터 비전 스터디 https://github.com/engineerjkk/Image_Processing/tree/main
-- Satellite-image-deep-learning https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file  
+- OpenCV를 활용한 컴퓨터 비전 스터디 https://github.com/engineerjkk/Image_Processing/tree/main 
 - SOTA in Computer vision, two excellent resources(~2018), C-CORE Iceberg Classifier Challenge Discussion : https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge/discussion/44102
 - Deep Autoenconder (with Linear layer) - PyTorch - Image Reconstruction https://www.kaggle.com/code/drvaibhavkumar/deep-autoenconder-pytorch-image-reconstruction
 - Classifying custom satellite image datasets by creating Convolutional Neural Networks and Residual Networks from scratch with PyTorch https://github.com/Rumeysakeskin/EuroSat-Satellite-CNN-and-ResNet/tree/main
