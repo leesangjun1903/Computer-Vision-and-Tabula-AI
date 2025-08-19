@@ -318,6 +318,7 @@
 - SAGAN : Self-Attention Generative Adversarial Networks | Image generation
 - SAM-DiffSR: Structure-Modulated Diffusion Model for Image Super-Resolution | Super resolution
 - SAM : Segment Anything | Semantic segmentation :  https://github.com/facebookresearch/segment-anything/tree/main
+- SAM-DETR : Accelerating DETR Convergence via Semantic-Aligned Matching | Object detection
 - SAM 2: Segment Anything in Images and Videos | Semantic segmentation : https://github.com/facebookresearch/sam2
 - SAN : Second-order Attention Network for Single Image Super-Resolution | Super resolution
 - SASCNet : Change Detection in Images Using Shape-Aware Siamese Convolutional Network | Change detection
