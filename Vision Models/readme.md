@@ -136,6 +136,7 @@
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | Image generation
 - Dynamic Convolution: Attention over Convolution Kernels | Image classification
 - Dynamic DETR: End-to-End Object Detection with Dynamic Attention | Object detection
+- D²ETR: Decoder-Only DETR with Computationally Efficient Cross-Scale Attention | Object detection
 - EDM : Elucidating the Design Space of Diffusion-Based Generative Models | Image generation
 - EDSR : Enhanced Deep Residual Networks for Single Image Super-Resolution
 - EMDiffuse : Diffusion-based deep learning method for augmenting ultrastructural imaging and volume electron microscopy | Image reconstruction, Electron microscopy
