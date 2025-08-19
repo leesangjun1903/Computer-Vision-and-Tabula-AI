@@ -223,6 +223,7 @@
 - Learning multiple visual domains with residual adapters | Domain adaption, residual apapters
 - Learning to Compare: Relation Network for Few-Shot Learning | Image classification, Few-shot learning, Zero-shot learning
 - LightGlue: Local Feature Matching at Light Speed | 3D resonstruction, Image matching
+- Lite DETR: An Interleaved Multi-Scale Encoder for Efficient DETR | Object detection
 - LoRA: Low-Rank Adaptation of Large Language Models | LLM, Fine-tuning
 - MAE : Masked Autoencoders Are Scalable Vision Learners | Image reconstruction, Image generation
 - MAGVIT: Masked Generative Video Transformer | Video generation, Text-to-video generation
