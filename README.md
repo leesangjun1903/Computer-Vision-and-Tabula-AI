@@ -44,6 +44,7 @@
 - Awesome-diffusion-model-for-image-processing : https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing?tab=readme-ov-file
 - awesome-object-detection : https://github.com/amusi/awesome-object-detection
 - List of all Regression, Classification and Clustering models : https://www.kaggle.com/discussions/general/309745
+- Satellite-image-deep-learning https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file 
 
 (E) : Already read paper
 (-ing ~) : -ing paper (~ : 까지 진행됨)
