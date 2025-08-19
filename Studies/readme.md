@@ -1,6 +1,5 @@
 # Computer Vision Studies
 
-- Mask Verification https://github.com/ddiddu/cs470team1/tree/master
 - Easy Few-Shot Learning https://github.com/sicara/easy-few-shot-learning/tree/master
 - OpenCV를 활용한 컴퓨터 비전 스터디 https://github.com/engineerjkk/Image_Processing/tree/main
 - Satellite-image-deep-learning https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file  
@@ -20,3 +19,7 @@
 - 3D Machine Learning Study notes https://github.com/timzhang642/3D-Machine-Learning
 - 3D Reconstruction & visualistaion https://www.kaggle.com/code/aatamikorpi/3d-reconstruction-visualistaion/notebook
 - 머신 러닝, 딥러닝, 데이터 사이언스 공부, 개발에 도움되는 사이트 모음 : https://ahnjg.tistory.com/m/42  
+
+
+
+- Mask Verification https://github.com/ddiddu/cs470team1/tree/master
