@@ -102,6 +102,7 @@
 - DIP : Deep Image Prior | Image denoising, Image generation, Super resolution : https://github.com/DmitryUlyanov/deep-image-prior/tree/master
 - DLSM : Denoising Likelihood Score Matching for Conditional Score-Based Data Generation | Image generation
 - DMTRL : Deep Multi-task Representation Learning: A Tensor Factorisation Approach | Domain adaption
+- DN-DETR: Accelerate DETR Training by Introducing Query DeNoising | Object detection
 - DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | Image generation : https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models
 - DPN : Dual Path Networks | Image classification
 - DPSR : Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels | Super resolution
