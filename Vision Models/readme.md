@@ -214,6 +214,7 @@
 - LSGAN : Least Squares Generative Adversarial Networks | Image generation
 - LSGM : Score-based Generative Modeling in Latent Space | Image generation
 - LU-NeRF: Scene and Pose Estimation by Synchronizing Local Unposed NeRFs | Pose Estimation, global-optimization
+- LW-DETR: A Transformer Replacement to YOLO for Real-Time Detection | Object detection
 - Label-Efficient Semantic Segmentation with Diffusion Models | Semantic segmentation
 - LassoNet: Deep Lasso-Selection of 3D Point Clouds | 3D Point Cloud Preparation, Lasso-Selection
 - Latent Domain Learning with Dynamic Residual Adapters | Domain adaption, Dynamic Residual Adapters
