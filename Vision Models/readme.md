@@ -232,6 +232,7 @@
 - MPRNet : Multi-Stage Progressive Image Restoration | Image deblurring, Image denoising, Image restoration
 - MWDCNN : Multi-stage image denoising with the wavelet transform | Image Denoising : https://github.com/hellloxiaotian/MWDCNN
 - Marigold : Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation | Depth estimation
+- Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation | Object detection, Semantic segmentation
 - Mask2Former : Masked-attention Mask Transformer for Universal Image Segmentation | Semantic segmentation
 - MaskFormer : Per-Pixel Classification is Not All You Need for Semantic Segmentation | Semattic segmentation
 - MaskGIT: Masked Generative Image Transformer | Image generation, Image manipulation, Image reconstruction
