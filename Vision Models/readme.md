@@ -177,6 +177,7 @@
 - GhostNet: More Features from Cheap Operations | Image classification
 - Gold-YOLO: Efficient Object Detector via Gather-and-Distribute Mechanism | Object detection
 - GoogLeNet : Going Deeper with Convolutions | Image classification
+- Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection | Object detection
 - HAT : Activating More Pixels in Image Super-Resolution Transformer | Super-resolution
 - HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
 - HLLHGAN : To learn image super-resolution, use a GAN to learn how to do image degradation first | Super resolution
