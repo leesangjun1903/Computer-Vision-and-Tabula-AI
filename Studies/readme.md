@@ -18,7 +18,7 @@
 - 3D Machine Learning Study notes https://github.com/timzhang642/3D-Machine-Learning
 - 3D Reconstruction & visualistaion https://www.kaggle.com/code/aatamikorpi/3d-reconstruction-visualistaion/notebook
 - 머신 러닝, 딥러닝, 데이터 사이언스 공부, 개발에 도움되는 사이트 모음 : https://ahnjg.tistory.com/m/42  
-
+- 500 + 𝗔𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹 𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗟𝗶𝘀𝘁 𝘄𝗶𝘁𝗵 𝗰𝗼𝗱𝗲 https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code?tab=readme-ov-file
 
 
 - Mask Verification https://github.com/ddiddu/cs470team1/tree/master
