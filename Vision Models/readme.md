@@ -31,6 +31,7 @@
 - 3D Object Representations for Fine-Grained Categorization | 3D estimation
 - 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks | Semantic segmentation
 - 3DiM : Novel View Synthesis with Diffusion Models | Novel View Synthesis, 3D generation
+- A Closer Look at Few-Shot Classification | Image classification
 - A Theory of Generative ConvNet | Generation, EBM
 - AAE : Adversarial Autoencoders | Image generation
 - ADM : Diffusion Models Beat GANs on Image Synthesis | Image generation
