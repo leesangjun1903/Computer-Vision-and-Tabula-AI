@@ -295,6 +295,7 @@
 - Progressive Neural Architecture Search | NAS
 - Prompt-to-Prompt Image Editing with Cross Attention Control | Image editing, Image generation
 - PromptSR : Image Super-Resolution with Text Prompt Diffusion | Super resolution
+- Prototypical Networks for Few-Shot Learning | Image classification, Few-shot Learning
 - ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware | NAS
 - PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | Image classification, Semantic segmenation, Object detection
 - PVTv2: Improved Baselines with Pyramid Vision Transformer | Image classification, Object detection, Semantic segmentation
