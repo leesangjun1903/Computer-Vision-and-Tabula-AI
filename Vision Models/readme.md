@@ -429,6 +429,7 @@
 - iDDPM : Improved Denoising Diffusion Probabilistic Models | Super resolution, Image generation, Image denoising
 - pGAN : Image Synthesis in Multi-Contrast MRI with Conditional Generative Adversarial Networks | Image generation
 - simple diffusion: End-to-end diffusion for high resolution images | Image generation
+- 출입 통제에 활용 가능한 딥러닝 기반 마스크 착용 판별 | Image classification, Face recognization
 
 
 
