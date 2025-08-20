@@ -359,6 +359,7 @@
 - SimCLR: A Simple Framework for Contrastive Learning of Visual Representations | Image Classification, Object Recognition
 - SimCLRv2 : Big Self-Supervised Models are Strong Semi-Supervised Learners | Self-Supervised Image Classification, Semi-Supervised Image Classification
 - SimSiam : Exploring Simple Siamese Representation Learning | Self-Supervised Image Classification
+- SimpleShot: Revisiting Nearest-Neighbor Classification for Few-Shot Learning | Image classification
 - simple diffusion: End-to-end diffusion for high resolution images | Image generation
 - SinGAN: Learning a Generative Model from a Single Natural Image | Image generation
 - SinSR: Diffusion-Based Image Super-Resolution in a Single Step | Super resolution
