@@ -409,6 +409,7 @@
 - TinyGAN: Distilling BigGAN for Conditional Image Generation | Image generation
 - TokenCut: Segmenting Objects in Images and Videos with Self-supervised Transformer and Normalized Cut | Unsupervised object discovery
 - Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet | Image classification
+- Towards Ghost-free Shadow Removal via Dual Hierarchical Aggregation Network and Shadow Matting GAN | Shadow removal, Shadow matting
 - Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution | Image classification, Facial emotion recognition
 - Transductive Information Maximization for Few-Shot Learning | Image classificaiton
 - Transformer in Transformer | Image classification
