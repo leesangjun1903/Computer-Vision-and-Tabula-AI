@@ -50,7 +50,11 @@ https://github.com/Rumeysakeskin/EuroSat-Satellite-CNN-and-ResNet/tree/main
 - image classification with qnn-inference-examples (Quandized Neural Network) : https://github.com/maltanar/qnn-inference-examples
 - Classifying animals using SOTA Models : https://www.kaggle.com/code/aymenkhouja/classifying-animals-using-sota-models/notebook
 - 365 Days Computer Vision Learning LinkedIn Post : https://github.com/ashishpatel26/365-Days-Computer-Vision-Learning-Linkedin-Post
-- Semantic Segmentation을 위한 U-Net 모델 : https://dacon.io/forum/405807
+
+### Semantic Segmentation을 위한 U-Net 모델 : https://dacon.io/forum/405807
+
+> Semantic Segmentation을 위한 U-Net 모델.md
+
 - object detection 개요 [딥러닝 컴퓨터 비전 완벽가이드 필기] : https://check-this.tistory.com/6
 - LearnOpenCV https://github.com/spmallick/learnopencv/tree/master?tab=readme-ov-file
 - Deep Learning Projects(Abstractive Text Summarization Transformer Model, Anime Face Generation, Deep CNN Autoencoder - Image Compression - Denoising Image
