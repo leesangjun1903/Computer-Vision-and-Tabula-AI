@@ -135,6 +135,7 @@
 - DenseNet : Densely Connected Convolutional Networks | Image classification
 - Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data | Depth estimation
 - Depth-Aware Multi-Grid Deep Homography Estimation with Contextual Correlation | Image stitching
+- DeshadowNet: A Multi-context Embedding Deep Network for Shadow Removal | Shadow removal
 - DiNAT : Dilated Neighborhood Attention Transformer | Image classification, Object detection, Semantic segmentation
 - DiT : Scalable Diffusion Models with Transformers | Image generation
 - DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior | Image denoising, Super resolution, Image restoration
