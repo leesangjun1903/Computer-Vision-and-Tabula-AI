@@ -369,6 +369,7 @@
 - SegGPT: Segmenting Everything In Context | Image segmentation
 - Self-Conditioned GAN : Diverse Image Generation via Self-Conditioned GANs | Image generation
 - Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut | Object detection
+- Shadow Removal via Shadow Image Decomposition | Shadow removal
 - Sharing Residual Units Through Collective Tensor Factorization in Deep Neural Networks | Image classification
 - ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices | Image classification, Object detection
 - ShuffleNetV2: Practical Guidelines for Efficient CNN Architecture Design
