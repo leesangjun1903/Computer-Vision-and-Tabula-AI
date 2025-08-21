@@ -1,4 +1,4 @@
-# TokenCut : Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut | Object detection
+# Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut | Object detection
 # 핵심 주장 및 주요 기여 요약
 
 **TokenCut**은 DINO로 학습된 Self-Supervised Vision Transformer의 패치 토큰들을 그래프의 노드로 보고, 노드 간 코사인 유사도를 엣지 가중치로 하는 완전 연결 그래프를 구성한다. 그래프의 노드 분할을 위해 Normalized Cut(Ncut)을 스펙트럴 클러스터링으로 풀고, 제2최소 고유벡터(λ₂)의 값 절댓값이 클수록 전경일 확률이 높다고 가정하여 객체를 분리한다.  
