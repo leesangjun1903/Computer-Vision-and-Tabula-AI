@@ -33,6 +33,7 @@
 - 3DiM : Novel View Synthesis with Diffusion Models | Novel View Synthesis, 3D generation
 - A Baseline for Few-Shot Image Classification | Image classification
 - A Closer Look at Few-Shot Classification | Image classification
+- A Performance Evaluation of Local Descriptors | local descriptors, interest points, interest regions, invariance, Image matching, Image recognition
 - A Theory of Generative ConvNet | Generation, EBM
 - AAE : Adversarial Autoencoders | Image generation
 - ADM : Diffusion Models Beat GANs on Image Synthesis | Image generation
