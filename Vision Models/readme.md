@@ -61,6 +61,7 @@
 - Boosting Robustness of Image Matting with Context Assembling and Strong Data Augmentation | Image matting
 - CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | Image reconstruction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
 - CAMixerSR: Only Details Need More “Attention” | Super resolution : https://github.com/icandle/CAMixerSR/tree/main?tab=readme-ov-file
+- CANet: A Context-Aware Network for Shadow Removal | Shadow removal
 - CBAM: Convolutional Block Attention Module | Image classification, Object detection
 - CDM : Cascaded Diffusion Models for High Fidelity Image Generation | Image generation, Super resolution
 - CF-DETR: Coarse-to-Fine Transformers for End-to-End Object Detection | Object detection
