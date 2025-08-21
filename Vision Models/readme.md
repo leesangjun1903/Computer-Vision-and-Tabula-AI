@@ -394,7 +394,6 @@
 - That’s BAD: Blind Anomaly Detection by Implicit Local Feature Clustering | Anomaly detection
 - Three things everyone should know to improve object retrieval | Image retrieval
 - TinyGAN: Distilling BigGAN for Conditional Image Generation | Image generation
-- TokenCut : Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut | Object detection
 - Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet | Image classification
 - Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution | Image classification, Facial emotion recognition
 - Transductive Information Maximization for Few-Shot Learning | Image classificaiton
