@@ -72,6 +72,7 @@
 - CSPNet: A New Backbone that can Enhance Learning Capability of CNN | Image classification, Object detection
 - CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
 - CaiT : Going deeper with Image Transformers | Image classification
+- ChangeNet: A Deep Learning Architecture for Visual Change Detection | Change detection, Semantic segmentation
 - Co-Mod GAN : Large Scale Image Completion via Co-Modulated Generative Adversarial Networks | Image generation, Image inpainting
 - CoAtNet: Marrying Convolution and Attention for All Data Sizes | Image classification
 - CoSeR: Bridging Image and Language for Cognitive Super-Resolution | Super resolution
