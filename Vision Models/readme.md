@@ -260,6 +260,7 @@
 - MetaReg: Towards Domain Generalization using Meta-Regularization | Domain Generalization, Meta-Learning
 - MixDL : Few-shot Image Generation with Mixup-based Distance Learning | Image generation
 - MoCov2 : Improved Baselines with Momentum Contrastive Learning | Image classification, Object detection
+- MoCov3 : An Empirical Study of Training Self-Supervised Vision Transformers | Image classification
 - MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | Image classification
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks | Image classification
 - MobileNetV3 : Searching for MobileNetV3 | Image classification, Object detection, Semantic segmenation
