@@ -258,6 +258,7 @@
 - MetaQNN : Designing Neural Network Architectures using Reinforcement Learning | Image classification, Reinforcement Learning
 - MetaReg: Towards Domain Generalization using Meta-Regularization | Domain Generalization, Meta-Learning
 - MixDL : Few-shot Image Generation with Mixup-based Distance Learning | Image generation
+- MoCov2 : Improved Baselines with Momentum Contrastive Learning | Image classification, Object detection
 - MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | Image classification
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks | Image classification
 - MobileNetV3 : Searching for MobileNetV3 | Image classification, Object detection, Semantic segmenation
