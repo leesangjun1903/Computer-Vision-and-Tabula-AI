@@ -5,6 +5,8 @@
 - OpenCV를 활용한 컴퓨터 비전 스터디 https://github.com/engineerjkk/Image_Processing/tree/main 
 
 - SOTA in Computer vision, two excellent resources(~2018), C-CORE Iceberg Classifier Challenge Discussion : https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge/discussion/44102
+-> A Year in Computer Vision.md
+-> SOTA on git : https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems#computer-vision
 
 - Deep Autoenconder (with Linear layer) - PyTorch - Image Reconstruction https://www.kaggle.com/code/drvaibhavkumar/deep-autoenconder-pytorch-image-reconstruction
 ->
