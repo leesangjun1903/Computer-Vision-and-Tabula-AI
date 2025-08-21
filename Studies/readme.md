@@ -3,12 +3,20 @@
 ### Easy Few-Shot Learning : 
 https://github.com/sicara/easy-few-shot-learning/tree/master
 
->
+> Prototypical_Network_Image_classification.ipynb
 
 ### OpenCV를 활용한 컴퓨터 비전 스터디 
 https://github.com/engineerjkk/Image_Processing/tree/main 
 
-> 이미지 열기 :
+> 이미지 열기 : Open_Image.ipynb
+> 이미지 밝기 조절하기 : Adjust_brightness_of_an_image.ipynb
+> 기본 이미지 생성 : Default_image_generation.ipynb
+> 특정 영역 색상 추출 : Extract_color_from_a_specific_region.ipynb
+> 그레이스케일 전처리 : Gray_scale_color_image_processing.ipynb
+> HSV 분리 : HSV_split.ipynb
+> Histogram_Equalization.ipynb
+> Histogram_Stretching.ipynb
+> Histogram_analysis.ipynb
 > 
 
 ### SOTA in Computer vision, two excellent resources(~2018), C-CORE Iceberg Classifier Challenge Discussion : 
