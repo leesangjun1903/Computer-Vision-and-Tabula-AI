@@ -359,6 +359,7 @@
 - SRDiff: Single Image Super-Resolution with Diffusion Probabilistic Models | Super resolution
 - SRGAN : Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network | Super resolution : https://github.com/manumathewthomas/ImageDenoisingGAN/tree/master?tab=readme-ov-file
 - SSD: Single Shot MultiBox Detector | Object detection
+- ST-CGAN : Stacked Conditional Generative Adversarial Networks for Jointly Learning Shadow Detection and Shadow Removal | Shadow detection, Shadow removal
 - SUPIR : Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild | Super resolution
 - SWAGAN: A Style-based Wavelet-driven Generative Model | Super resolution
 - Score-Based Generative Modeling through Stochastic Differential Equations | Image generation, Density estimation, Image inpainting
