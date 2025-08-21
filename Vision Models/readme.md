@@ -86,6 +86,7 @@
 - ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders | Image classification, Object detection, Semantic segmentation
 - Cross-Domain Few-Shot Classification via Learned Feature-Wise Transformation | Few-Shot Learning, Learning-to-Learn Approach (Meta-Learning)
 - CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification | Image classification
+- CutLER: Cut and Learn for Unsupervised Object Detection and Instance Segmentation | Object detection, Semantic segmentation
 - CvT : Introducing Convolutions to Vision Transformers | Image classification
 - CycleISP: Real Image Restoration via Improved Data Synthesis | Image denoising, Image restoration
 - DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR | Object detection
