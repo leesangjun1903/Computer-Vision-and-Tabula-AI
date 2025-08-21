@@ -217,6 +217,7 @@
 - LIP: Local Importance-based Pooling | Image classification, Pooling technique, Object detection
 - LMAR : Empowering Resampling Operation for Ultra-High-Definition Image Enhancement with Model-Aware Guidance | Super resolution, Image enhancement
 - LMD : Unsupervised Out-of-Distribution Detection with Diffusion Inpainting | Image inpainting, Out of distribution(OOD)
+- LOST : Localizing Objects with Self-Supervised Transformers and No Labels | Image localization
 - LSGAN : Least Squares Generative Adversarial Networks | Image generation
 - LSGM : Score-based Generative Modeling in Latent Space | Image generation
 - LU-NeRF: Scene and Pose Estimation by Synchronizing Local Unposed NeRFs | Pose Estimation, global-optimization
