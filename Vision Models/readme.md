@@ -320,6 +320,7 @@
 - R-MAC : Particular Object Retrieval with Integral Max-Pooling of CNN Activations | Image retrieval
 - RAN : Residual Attention Network for Image Classification | Image classification
 - REGO-DETR : Recurrent Glimpse-based Decoder for Detection with Transformer | Object detection
+- RIS-GAN: Explore Residual and Illumination with Generative Adversarial Networks for Shadow Removal | Shadow removal
 - RT-DETR : DETRs Beat YOLOs on Real-time Object Detection | Object detection
 - ReACGAN : Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training | Image generation, Data diversity
 - Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | Super resolution : https://github.com/xinntao/Real-ESRGAN
