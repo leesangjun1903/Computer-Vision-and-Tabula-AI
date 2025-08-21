@@ -126,6 +126,7 @@
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
 - DeepSIM : Image Shape Manipulation from a Single Augmented Training Sample | Image generation, Image manipulation
 - DeepViT: Towards Deeper Vision Transformer | Image classification
+- Deep Spectral Methods: A Surprisingly Strong Baseline for Unsupervised Semantic Segmentation and Localization | Image localization, Semantic segmentation
 - Deformable DETR: Deformable Transformers for End-to-End Object Detection | Object detection
 - DeiT : Training data-efficient image transformers & Distillation through attention | Image classification
 - Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification | Image classification
