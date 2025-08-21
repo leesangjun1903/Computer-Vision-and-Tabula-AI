@@ -46,6 +46,7 @@
 - Attention U-Net: Learning Where to Look for the Pancreas | Semantic segmentation
 - AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks | Image generation
 - AuXFT : Cross-Architecture Auxiliary Feature Space Translation for Efficient Few-Shot Personalized Object Detection | Object detection
+- Auto-Exposure Fusion for Single-Image Shadow Removal | Shadow removal
 - Auxiliary Classifier GAN : Conditional Image Synthesis with Auxiliary Classifier GANs | Image generation
 - BAM : Bottleneck Attention Module | Image classification, Object detection
 - BARF: Bundle-Adjusting Neural Radiance Fields | 3D reconstruction
