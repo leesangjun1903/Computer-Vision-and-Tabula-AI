@@ -369,3 +369,15 @@ Pix2Pix에서 지적한 문제점:
 [93] https://openaccess.thecvf.com/content_CVPR_2019/papers/Jenni_On_Stabilizing_Generative_Adversarial_Training_With_Noise_CVPR_2019_paper.pdf
 
 - 이미지 변환의 새 지평: Pix2Pix 논문 구조와 응용 사례 분석 : https://yourhouse-sh-lh-gh.tistory.com/entry/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B3%80%ED%99%98%EC%9D%98-%EC%83%88-%EC%A7%80%ED%8F%89-Pix2Pix-%EB%85%BC%EB%AC%B8-%EA%B5%AC%EC%A1%B0%EC%99%80-%EC%9D%91%EC%9A%A9-%EC%82%AC%EB%A1%80-%EB%B6%84%EC%84%9D
+
+- Pix2Pix – Image-to-Image Translation Neural Network : https://neurohive.io/en/popular-networks/pix2pix-image-to-image-translation/
+
+- PatchGAN 에 대한 설명 : https://brstar96.github.io/devlog/mldlstudy/2019-05-13-what-is-patchgan-D/
+
+Pix2Pix 논문에서는 256 x 256 크기의 입력 영상과 입력 영상을 G에 넣어 만든 Fake 256 x 256 이미지를 concat한 후 최종적으로 30 x 30 x 1 크기의 feature map을 얻어냅니다. 이 feature map의 1픽셀은 입력 영상에 대한 70 x 70 사이즈의 Receptive field에 해당합니다.
+
+이후 30 x 30 x 1 feature map의 모든 값을 평균낸 후 Discriminator의 output으로 합니다. (‘We run this discriminator convolutionally across the image, averaging all responses to provide the ultimate output of D.’ - Pix2Pix 논문 3.2.2절)
+여기서 ‘모든 패치의 평균을 구하는 것’인지, ‘레이어들을 거치며 최종적으로 1개의 scalar값을 뽑아내는 것’인지 해석의 논란이 생깁니다. 저자들은 이에 대해 어떤 방식을 사용하던 결과물은 수학적으로 동일하다고 이야기합니다.
+왜 동일한지 :
+- https://github.com/phillipi/pix2pix/issues/120
+- 70x70 패치 처리가 어디에서 이루어지는지 : https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/issues/39
