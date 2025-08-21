@@ -291,6 +291,7 @@
 - NoisyStudent : Self-training with Noisy Student improves ImageNet classification | Image classification
 - Normalizing Flows : Variational Inference with Normalizing Flows | Variational Inference, Image generation
 - On Distillation of Guided Diffusion Models | Image generation
+- On the Importance of Noise Scheduling for Diﬀusion Models | Image generation
 - P2 weighting : Perception Prioritized Training of Diffusion Models | Image generation
 - PASD : Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization | Super resolution
 - PFGM : Poisson Flow Generative Models | Image generation
