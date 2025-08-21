@@ -386,6 +386,7 @@
 - Structural-analogy from a Single Image Pair | Image generation
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | Image generation
 - SuperPoint: Self-Supervised Interest Point Detection and Description | Image matching, 3D reconstruction, Point detection
+- SwAV : Unsupervised Learning of Visual Features by Contrasting Cluster Assignments | Image classification
 - SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications | Image classification
 - SwiftSRGAN : Rethinking Super-Resolution for Efficient and Real-time Inference | Super-resolution
 - Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | Image classification, Object Detection, Semantic Segmentation
