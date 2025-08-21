@@ -51,7 +51,8 @@ https://github.com/Rumeysakeskin/EuroSat-Satellite-CNN-and-ResNet/tree/main
 - Classifying animals using SOTA Models : https://www.kaggle.com/code/aymenkhouja/classifying-animals-using-sota-models/notebook
 - 365 Days Computer Vision Learning LinkedIn Post : https://github.com/ashishpatel26/365-Days-Computer-Vision-Learning-Linkedin-Post
 
-### Semantic Segmentation을 위한 U-Net 모델 : https://dacon.io/forum/405807
+### Semantic Segmentation을 위한 U-Net 모델 : 
+https://dacon.io/forum/405807
 
 > Semantic Segmentation을 위한 U-Net 모델.md
 
