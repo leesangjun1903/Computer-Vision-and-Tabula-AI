@@ -173,6 +173,7 @@
 - Focal Self-attention for Local-Global Interactions in Vision Transformers | Image classification, Object detection, Semantic segmentation
 - FocalNet : Focal Modulation Networks | Image classification, Object detection, Semantic segmentation
 - FractalNet: Ultra-Deep Neural Networks without Residuals | Image classification
+- FreeSOLO: Learning to Segment Objects without Annotations | Object detection, Semantic segmentation
 - FreqNet : Frequency-Aware Deepfake Detection | Image detection
 - GAN Dissection: Visualizing and Understanding Generative Adversarial Networks | XAI
 - GLAM : All the attention you need: Global-local, spatial-channel attention for image retrieval | Image retrieval
