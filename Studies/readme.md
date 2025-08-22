@@ -56,6 +56,8 @@ https://dacon.io/forum/405807
 
 > Semantic Segmentation을 위한 U-Net 모델.md
 
+> UNet_Semantic_Segmentation.ipynb
+
 - object detection 개요 [딥러닝 컴퓨터 비전 완벽가이드 필기] : https://check-this.tistory.com/6
 - LearnOpenCV https://github.com/spmallick/learnopencv/tree/master?tab=readme-ov-file
 - Deep Learning Projects(Abstractive Text Summarization Transformer Model, Anime Face Generation, Deep CNN Autoencoder - Image Compression - Denoising Image
