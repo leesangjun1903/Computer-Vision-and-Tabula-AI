@@ -214,6 +214,7 @@
 - ImageGPT : Generative Pretraining from Pixels | Image classification
 - Implicit Generation and Modeling with Energy-Based Models | Image generation, Image reconstruction
 - Improved Techniques for Training GANs | GAN technique, Image generation
+- Improving Foreground Segmentations with Probabilistic Superpixel Markov Random Fields | Change detection
 - Inceptionv2, 3 : Rethinking the Inception Architecture for Computer Vision | Image classification
 - Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning | Image classification
 - Incremental Learning Through Deep Adaptation | Incremental Learning
