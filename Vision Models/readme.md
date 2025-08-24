@@ -169,6 +169,7 @@
 - Episodic Training for Domain Generalization | Domain Generalization, Episodic Training, Meta-Learning
 - EsViT : Efficient Self-supervised Vision Transformers for Representation Learning | Image classification, Semantic segmentation
 - FBCNN : Towards Flexible Blind JPEG Artifacts Removal | Image compression, JPEG Artifact correlation, Image restoration
+- FCN : Fully Convolutional Networks for Semantic Segmentation | Semantic segmentation
 - FEAT : Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions | Image classification
 - FP-DETR: Detection Transformer Advanced by Fully Pre-training | Object detection
 - FVAE : Factorized Variational Autoencoders for Modeling Audience Reactions to Movies | Facial Expression Recognition
