@@ -58,6 +58,7 @@
 - BSRGAN : Designing a Practical Degradation Model for Deep Blind Image Super-Resolution | Super resolution
 - BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | Image augmentation, Image classification
 - Big Transfer (BiT): General Visual Representation Learning | Image classification
+- Background Segmentation with Feedback: The Pixel-Based Adaptive Segmenter | Change detection
 - BlockQNN : Practical Block-wise Neural Network Architecture Generation | Image classification, Reinforcement Learning
 - Boosting Robustness of Image Matting with Context Assembling and Strong Data Augmentation | Image matting
 - CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | Image reconstruction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
