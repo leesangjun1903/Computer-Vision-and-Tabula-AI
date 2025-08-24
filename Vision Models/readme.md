@@ -438,6 +438,7 @@
 - ViTMSN : Masked Siamese Networks for Label-Efficient Learning | Image classification
 - ViTMatte: Boosting Image Matting with Pretrained Plain Vision Transformers | Image matting
 - ViViT: A Video Vision Transformer | Video classification, Action recognition
+- VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training | Video reconstruction
 - WB-DETR: Transformer-Based Detector without Backbone | Object detection
 - WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | Super resolution
 - WFEN : Efficient Face Super-Resolution via Wavelet-based Feature Enhancement Network | Super resolution : https://github.com/pris-cv/wfen?tab=readme-ov-file
