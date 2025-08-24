@@ -400,6 +400,7 @@
 - SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size | Image classification
 - StableVSR : Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models | Super resolution
 - StarGAN v2: Diverse Image Synthesis for Multiple Domains | Image generation
+- Static and Moving Object Detection Using Flux Tensor with Split Gaussian Models | Change detection
 - Structural-analogy from a Single Image Pair | Image generation
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | Image generation
 - SuperPoint: Self-Supervised Interest Point Detection and Description | Image matching, 3D reconstruction, Point detection
