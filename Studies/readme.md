@@ -63,6 +63,11 @@ https://github.com/maltanar/qnn-inference-examples
 : https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial8/Deep_Energy_Models.html
 > Deep Energy Based Generative Models.ipynb
 
+### Generate Fasion Images with Conditional GAN :
+https://www.kaggle.com/code/arturlacerda/pytorch-conditional-gan
+> Generate fashion images with conditional GAN (1).ipynb
+> MLP GAN, DCGAN 응용 : Generate_MNIST_Fasion_Images_with_Conditional_GAN.ipynb
+
 ### Studies
 - PyTorch를 활용한 딥러닝 튜토리얼, Deep Learning Tutorials using PyTorch (PseudoLab) : https://github.com/Pseudo-Lab/Tutorial-Book?tab=readme-ov-file
 - 논문으로 짚어보는 딥러닝의 맥 : https://www.boostcourse.org/deeplearningchoi/joinLectures/10979
@@ -94,7 +99,6 @@ https://pseudo-lab.github.io/Tutorial-Book/chapters/object-detection/Ch1-Object-
 - SIIM-FISABIO-RSNA COVID-19 Detection
 
 # GAN
-- Generate Fasion Images with Conditional GAN https://github.com/leesangjun1903/Computer-Vision/blob/main/src/Generate%20fashion%20images%20with%20conditional%20GAN.ipynb
 
 ## Image reconstruction with Super-resolution
 - pix2pix_super_resolution(pix2pix) https://www.kaggle.com/code/chaimaemoumou/pix2pix-super-resolution/notebook
