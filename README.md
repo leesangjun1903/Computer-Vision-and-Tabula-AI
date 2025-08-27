@@ -4,6 +4,10 @@
 - CVPR, WACV, ICCV, etc journal papers : https://github.com/52CV?tab=repositories
 
 ## Awesome Series
+> ## 현재 paperswithcode 사이트가 터진 상태입니다. (복원될지 미정) 아카이브로 우회접속가능. : https://github.com/World-Snapshot/papers-with-code?tab=readme-ov-file
+> https://web.archive.org/web/20250616051252/https://paperswithcode.com/
+> https://web.archive.org/web/20240416020926/https://paperswithcode.com/task/conditional-image-generation/latest?page=3
+
 - Awesome Computer Vision https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file
 - Awesome - Image Classification(E) : https://github.com/weiaicunzai/awesome-image-classification
 - Awesome-Image-Matching(-ing 2005) https://github.com/ericzzj1989/Awesome-Image-Matching
