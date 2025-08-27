@@ -60,6 +60,7 @@ https://github.com/maltanar/qnn-inference-examples
 > Image_classification_with_Quantized_neural_networks.ipynb
 
 ### Deep Energy Based Generative Models
+: https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial8/Deep_Energy_Models.html
 > Deep Energy Based Generative Models.ipynb
 
 ### Studies
