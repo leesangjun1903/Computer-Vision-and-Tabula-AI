@@ -45,18 +45,23 @@ https://github.com/Rumeysakeskin/EuroSat-Satellite-CNN-and-ResNet/tree/main
 
 > EuroSAT_with_CNN_and_ResNet.ipynb
 
-- PyTorch를 활용한 딥러닝 튜토리얼, Deep Learning Tutorials using PyTorch (PseudoLab) : https://github.com/Pseudo-Lab/Tutorial-Book?tab=readme-ov-file
-- 논문으로 짚어보는 딥러닝의 맥 : https://www.boostcourse.org/deeplearningchoi/joinLectures/10979
-- image classification with qnn-inference-examples (Quandized Neural Network) : https://github.com/maltanar/qnn-inference-examples
-- Classifying animals using SOTA Models : https://www.kaggle.com/code/aymenkhouja/classifying-animals-using-sota-models/notebook
-- 365 Days Computer Vision Learning LinkedIn Post : https://github.com/ashishpatel26/365-Days-Computer-Vision-Learning-Linkedin-Post
-
 ### Semantic Segmentation을 위한 U-Net 모델 : 
 https://dacon.io/forum/405807
 
 > Semantic Segmentation을 위한 U-Net 모델.md
 
 > UNet_Semantic_Segmentation.ipynb
+
+### 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks
+> 3D_Semantic_Segmentation_with_Submanifold_Sparse_Convolutional_Networks.ipynb
+
+
+### Studies
+- PyTorch를 활용한 딥러닝 튜토리얼, Deep Learning Tutorials using PyTorch (PseudoLab) : https://github.com/Pseudo-Lab/Tutorial-Book?tab=readme-ov-file
+- 논문으로 짚어보는 딥러닝의 맥 : https://www.boostcourse.org/deeplearningchoi/joinLectures/10979
+- image classification with qnn-inference-examples (Quandized Neural Network) : https://github.com/maltanar/qnn-inference-examples
+- Classifying animals using SOTA Models : https://www.kaggle.com/code/aymenkhouja/classifying-animals-using-sota-models/notebook
+- 365 Days Computer Vision Learning LinkedIn Post : https://github.com/ashishpatel26/365-Days-Computer-Vision-Learning-Linkedin-Post
 
 - object detection 개요 [딥러닝 컴퓨터 비전 완벽가이드 필기] : https://check-this.tistory.com/6
 - LearnOpenCV https://github.com/spmallick/learnopencv/tree/master?tab=readme-ov-file
