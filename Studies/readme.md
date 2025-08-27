@@ -59,6 +59,9 @@ https://dacon.io/forum/405807
 https://github.com/maltanar/qnn-inference-examples
 > Image_classification_with_Quantized_neural_networks.ipynb
 
+### Deep Energy Based Generative Models
+> Deep Energy Based Generative Models.ipynb
+
 ### Studies
 - PyTorch를 활용한 딥러닝 튜토리얼, Deep Learning Tutorials using PyTorch (PseudoLab) : https://github.com/Pseudo-Lab/Tutorial-Book?tab=readme-ov-file
 - 논문으로 짚어보는 딥러닝의 맥 : https://www.boostcourse.org/deeplearningchoi/joinLectures/10979
