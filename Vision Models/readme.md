@@ -150,6 +150,7 @@
 - Direction-aware Spatial Context Features for Shadow Detection and Removal | Shadow detection, Shadow removal
 - DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | Image Denoising, Super resolution : https://github.com/anushkayadav/Denoising_cifar10
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | Image generation
+- Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution | Image classification, Video action recognition
 - Dynamic Convolution: Attention over Convolution Kernels | Image classification
 - Dynamic DETR: End-to-End Object Detection with Dynamic Attention | Object detection
 - D²ETR: Decoder-Only DETR with Computationally Efficient Cross-Scale Attention | Object detection
