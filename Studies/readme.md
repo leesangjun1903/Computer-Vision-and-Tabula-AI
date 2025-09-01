@@ -32,7 +32,7 @@ https://www.kaggle.com/competitions/statoil-iceberg-classifier-challenge/discuss
 
 > A Year in Computer Vision.md
   
-> SOTA on git : https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems#computer-vision
+> SOTA on git(E) : https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems#computer-vision
 
 >>
 
