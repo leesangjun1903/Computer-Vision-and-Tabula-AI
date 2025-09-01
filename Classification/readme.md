@@ -13,12 +13,13 @@ Tabular data란 산업 현장의 엑셀 시트에서 아주 흔하게 볼 수 �
 정형데이터(tabular data)는 머신러닝을 이용한 트리기반의 모델들이 딥러닝만큼 좋은 성능을 내고 있어 주목받지 못하는 경우가 많다고 한다.
 그래서 정형데이터를 딥러닝 장점을 활용한 모델들도 계속해서 연구되어 지고 있다. 그 중 Tabnet이라는 모델에 대해서 다음 기회에 포스팅 해보려고 한다.
 
+- https://velog.io/@parkchansaem/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-Tabular-data
+
 # Dataset
 - OpenML : https://www.openml.org/search?type=data&status=active
 
 ## [Classification]
 (https://wikidocs.net/204186)
-- https://velog.io/@parkchansaem/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-Tabular-data
 
 ## Metrics
 On Getting Confidence Estimates from Neural Networks : https://bharathpbhat.github.io/2021/04/04/getting-confidence-estimates-from-neural-networks.html
