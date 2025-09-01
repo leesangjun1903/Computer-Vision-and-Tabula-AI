@@ -285,6 +285,125 @@ as.POSIXct("080406 10:11", format = "%y%m%d %H:%M")  # 시간 변환
 
 이론을 실제로 적용해볼 수 있는 완전한 파이프라인을 제공합니다:
 
+```python
+
+# 연속변수 처리 완전 가이드 - 실습 코드
+
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# 1. 샘플 데이터 생성
+np.random.seed(42)
+n_samples = 1000
+
+data = {
+    'age': np.random.gamma(4, 8, n_samples),  # 나이 (편중된 분포)
+    'income': np.random.exponential(50000, n_samples),  # 수입 (매우 편중)
+    'height': np.random.normal(170, 10, n_samples),  # 키 (정규분포)
+    'weight': np.random.normal(70, 15, n_samples),  # 몸무게 (정규분포)
+    'score': np.random.beta(7, 2, n_samples) * 100  # 점수 (베타분포)
+}
+
+df = pd.DataFrame(data)
+
+print("=== 1. 원본 데이터 분석 ===")
+print(df.describe())
+
+# 2. 빈닝 (Binning) 예시
+print("\n=== 2. 빈닝 (Binning) 예시 ===")
+
+# 나이 데이터 빈닝
+age_bins_equal = pd.cut(df['age'], bins=5, labels=['청소년', '청년', '중년', '장년', '노년'])
+age_bins_quantile = pd.qcut(df['age'], q=5, labels=['하위20%', '20-40%', '40-60%', '60-80%', '상위20%'])
+
+print("Equal Width Binning 결과:")
+print(age_bins_equal.value_counts().sort_index())
+print("\nQuantile Binning 결과:")
+print(age_bins_quantile.value_counts().sort_index())
+
+# 3. 정규화 vs 표준화
+print("\n=== 3. 정규화 vs 표준화 ===")
+
+# MinMax Scaler (정규화)
+minmax_scaler = MinMaxScaler()
+df_normalized = pd.DataFrame(
+    minmax_scaler.fit_transform(df), 
+    columns=df.columns
+)
+
+# Standard Scaler (표준화) 
+standard_scaler = StandardScaler()
+df_standardized = pd.DataFrame(
+    standard_scaler.fit_transform(df),
+    columns=df.columns
+)
+
+print("정규화 후 범위:")
+print(f"최솟값: {df_normalized.min().min():.3f}")
+print(f"최댓값: {df_normalized.max().max():.3f}")
+
+print("\n표준화 후 통계:")
+print(f"평균: {df_standardized.mean().mean():.3f}")
+print(f"표준편차: {df_standardized.std().mean():.3f}")
+
+# 4. 로그 변환
+print("\n=== 4. 로그 변환 ===")
+df_log = df.copy()
+df_log['income_log'] = np.log1p(df['income'])  # log(1+x)
+df_log['age_log'] = np.log1p(df['age'])
+
+print("변환 전후 왜도(skewness) 비교:")
+from scipy.stats import skew
+print(f"Income 원본 왜도: {skew(df['income']):.3f}")
+print(f"Income 로그변환 후 왜도: {skew(df_log['income_log']):.3f}")
+
+# 5. PCA 차원 축소
+print("\n=== 5. PCA 차원 축소 ===")
+pca = PCA()
+pca_result = pca.fit_transform(df_standardized)
+
+explained_var = pca.explained_variance_ratio_
+cumulative_var = np.cumsum(explained_var)
+
+print("주성분별 설명 분산 비율:")
+for i, var in enumerate(explained_var):
+    print(f"PC{i+1}: {var:.3f} ({var*100:.1f}%)")
+
+print(f"\n95% 분산 설명에 필요한 주성분: {np.argmax(cumulative_var >= 0.95) + 1}개")
+
+# 6. 이상치 처리
+print("\n=== 6. 이상치 처리 ===")
+def detect_outliers_iqr(data):
+    Q1 = data.quantile(0.25)
+    Q3 = data.quantile(0.75)
+    IQR = Q3 - Q1
+    lower_bound = Q1 - 1.5 * IQR
+    upper_bound = Q3 + 1.5 * IQR
+    return (data < lower_bound) | (data > upper_bound)
+
+income_outliers = detect_outliers_iqr(df['income'])
+print(f"Income 이상치 개수: {income_outliers.sum()}개 ({income_outliers.mean()*100:.1f}%)")
+
+# 7. 피처 엔지니어링
+print("\n=== 7. 피처 엔지니어링 ===")
+df_engineered = df.copy()
+df_engineered['bmi'] = df['weight'] / (df['height']/100)**2  # BMI 계산
+df_engineered['income_per_age'] = df['income'] / df['age']  # 연령 대비 수입
+
+print("새로 생성된 피처:")
+print(f"BMI 평균: {df_engineered['bmi'].mean():.2f}")
+print(f"연령 대비 수입 평균: {df_engineered['income_per_age'].mean():.0f}")
+
+print("\n=== 8. 종합 분석 완료 ===")
+print("모든 연속변수 처리 기법을 성공적으로 적용했습니다!")
+
+
+```
+
 이 코드는 실제 데이터에서 자주 마주치는 상황들을 시뮬레이션하고, 8가지 연속변수 처리 기법을 모두 적용해볼 수 있도록 구성되었습니다.
 
 ## 마무리
