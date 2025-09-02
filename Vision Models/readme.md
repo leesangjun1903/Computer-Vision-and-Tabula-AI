@@ -178,6 +178,7 @@
 - Facial Landmark Detection by Deep Multi-task Learning | Facial Landmark Detection
 - Fast R-CNN | Object detection
 - Feature-Critic Networks for Heterogeneous Domain Generalization | Domain Generalization, Meta-Learning, Feature-Critic Network
+- Few-Example Object Detection with Model Communication | Object detection
 - FastGAN : Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis | Image generation
 - Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | Object detection
 - Fine-Tuning Image-Conditional Diffusion Models Is Easier than You Think | Depth estimation
