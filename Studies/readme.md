@@ -72,7 +72,7 @@ https://www.kaggle.com/code/arturlacerda/pytorch-conditional-gan
 https://teddylee777.github.io/pytorch/custom-image-loader/
 > Cat_and_Dog_classification_with_ResNet101.ipynb
 
-### Studies
+# Studies
 - PyTorch를 활용한 딥러닝 튜토리얼, Deep Learning Tutorials using PyTorch (PseudoLab) : https://github.com/Pseudo-Lab/Tutorial-Book?tab=readme-ov-file
 - 논문으로 짚어보는 딥러닝의 맥 : https://www.boostcourse.org/deeplearningchoi/joinLectures/10979
 - Classifying animals using SOTA Models : https://www.kaggle.com/code/aymenkhouja/classifying-animals-using-sota-models/notebook
@@ -95,9 +95,8 @@ https://teddylee777.github.io/pytorch/custom-image-loader/
 - CNN with technique https://dacon.io/codeshare/1856
 
 - Pytorch animal face classification with cnns 
-## Object Detection
-- 의료용 마스크 탐지 모델 구축  
-https://pseudo-lab.github.io/Tutorial-Book/chapters/object-detection/Ch1-Object-Detection.html
+
+- 의료용 마스크 탐지 모델 구축  : https://pseudo-lab.github.io/Tutorial-Book/chapters/object-detection/Ch1-Object-Detection.html
 
 - SIIM-FISABIO-RSNA COVID-19 Detection
 
