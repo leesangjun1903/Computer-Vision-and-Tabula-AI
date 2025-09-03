@@ -137,6 +137,8 @@ DDIM은 확산 모델의 실용성을 크게 향상시킨 중요한 연구로, �
 
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/0b710288-cb87-4332-90e2-2d19aea07e3d/2010.02502v4.pdf
 
+- [Paper Review] DDIM: Denoising Diffusion Implicit Models 논문 리뷰 : https://happy-jihye.github.io/diffusion/diffusion-2/
+
 # DDIM : Denoising Diffusion Implicit Models | Image generation
 
 DDPM을 통해 noise를 걷어내며 sample을 생성해가는 형태의 generative Markov Chain Process를 배울 수 있었다.  
