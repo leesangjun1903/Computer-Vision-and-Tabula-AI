@@ -40,3 +40,5 @@
 [10] https://paperswithcode.com/paper/learning-transferable-visual-models-from
 
 https://ffighting.net/deep-learning-paper-review/multimodal-model/clip/
+
+https://github.com/openai/CLIP/tree/main
