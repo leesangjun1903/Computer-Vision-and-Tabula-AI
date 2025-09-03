@@ -94,6 +94,8 @@ References
 
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/4b557eee-191f-4064-bbf8-2353017ff4a1/2104.07636v2.pdf
 
+- SR3: Explained and Implemented in PyTorch (from scratch) : https://medium.com/@adityanutakki/sr3-explained-and-implemented-in-pytorch-from-scratch-b43b9742c232
+
 # Abs
 
 # Introduction
