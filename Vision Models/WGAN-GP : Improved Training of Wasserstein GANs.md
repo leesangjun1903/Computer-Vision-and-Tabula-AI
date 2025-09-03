@@ -153,3 +153,5 @@ WGAN-GP는 GAN 학습 불안정성 문제에 대한 **패러다임 전환**을 �
 이 논문은 GAN 연구 분야에서 매우 중요한 이정표를 제시했으며, 안정적이고 실용적인 생성 모델 개발의 새로운 방향을 제시했습니다[1].
 
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/cc818afe-f3ec-4a04-8b4c-f237aebf25ab/1704.00028v3.pdf
+
+https://aijyh0725.tistory.com/m/15
