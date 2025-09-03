@@ -87,14 +87,13 @@ https://teddylee777.github.io/pytorch/custom-image-loader/
 - 머신 러닝, 딥러닝, 데이터 사이언스 공부, 개발에 도움되는 사이트 모음 : https://ahnjg.tistory.com/m/42  
 - 500 + 𝗔𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹 𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗟𝗶𝘀𝘁 𝘄𝗶𝘁𝗵 𝗰𝗼𝗱𝗲 https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code?tab=readme-ov-file
 
+- Multi scale discriminator
 
 - Mask Verification https://github.com/ddiddu/cs470team1/tree/master
 
-# CNN
 - Common CNN architectures https://colab.research.google.com/github/MatchLab-Imperial/deep-learning-course/blob/master/04_Common_CNN_architectures.ipynb#scrollTo=dRB4GcuJxbp_  
 - CNN with technique https://dacon.io/codeshare/1856
 
-## Classification
 - Pytorch animal face classification with cnns 
 ## Object Detection
 - 의료용 마스크 탐지 모델 구축  
@@ -102,9 +101,6 @@ https://pseudo-lab.github.io/Tutorial-Book/chapters/object-detection/Ch1-Object-
 
 - SIIM-FISABIO-RSNA COVID-19 Detection
 
-# GAN
-
-## Image reconstruction with Super-resolution
 - pix2pix_super_resolution(pix2pix) https://www.kaggle.com/code/chaimaemoumou/pix2pix-super-resolution/notebook
 - Pix2Pix: Denoising and Super Resolution (x4) : https://github.com/hieuGoku/Pix2Pix-Denoising-and-Super-Resolution/tree/main?tab=readme-ov-file
 - Image to Image Translation (pix2pix, CycleGAN) : https://velog.io/@tobigs-gm1/Image-to-Image-Translation
