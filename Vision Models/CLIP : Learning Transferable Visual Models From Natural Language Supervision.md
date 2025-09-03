@@ -44,3 +44,4 @@ https://ffighting.net/deep-learning-paper-review/multimodal-model/clip/
 https://github.com/openai/CLIP/tree/main
 
 - How is the dataset collected? #23 : https://github.com/openai/CLIP/issues/23
+- https://xoft.tistory.com/67
