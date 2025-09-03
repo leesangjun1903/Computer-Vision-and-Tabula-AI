@@ -88,6 +88,7 @@ https://teddylee777.github.io/pytorch/custom-image-loader/
 - 500 + 𝗔𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹 𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗟𝗶𝘀𝘁 𝘄𝗶𝘁𝗵 𝗰𝗼𝗱𝗲 https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code?tab=readme-ov-file
 
 - Multi scale discriminator
+- Techniques improving the performance of Generative Adversarial Networks (GANs) : https://kavitaanant.medium.com/gan-performance-improvement-ea0a4059ee59
 
 - Mask Verification https://github.com/ddiddu/cs470team1/tree/master
 
