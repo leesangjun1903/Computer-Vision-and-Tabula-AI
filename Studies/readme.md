@@ -80,6 +80,10 @@ https://inside-machinelearning.com/en/easy-pytorch-to-load-image-and-volume-from
 https://soki.tistory.com/m/62
 > Denoising AutoEncoder.ipynb
 
+### Denoising Diffusion Probabilistic Model, in Pytorch
+https://github.com/lucidrains/denoising-diffusion-pytorch
+> Denoising_Diffusion_Probabilistic_Model.ipynb
+
 # Studies
 - PyTorch를 활용한 딥러닝 튜토리얼, Deep Learning Tutorials using PyTorch (PseudoLab) : https://github.com/Pseudo-Lab/Tutorial-Book?tab=readme-ov-file
 - 논문으로 짚어보는 딥러닝의 맥 : https://www.boostcourse.org/deeplearningchoi/joinLectures/10979
