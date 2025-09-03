@@ -102,6 +102,7 @@ https://teddylee777.github.io/pytorch/custom-image-loader/
 
 - SIIM-FISABIO-RSNA COVID-19 Detection
 
+- Image-super-resolution using Enhanced Deep Residual Networks for Single Image Super-Resolution(EDSR) and Wide Activation for Efficient and Accurate Image Super-Resolution(WDSR) : https://github.com/sumittagadiya/Image-super-resolution/tree/main
 - pix2pix_super_resolution(pix2pix) https://www.kaggle.com/code/chaimaemoumou/pix2pix-super-resolution/notebook
 - Pix2Pix: Denoising and Super Resolution (x4) : https://github.com/hieuGoku/Pix2Pix-Denoising-and-Super-Resolution/tree/main?tab=readme-ov-file
 - Image to Image Translation (pix2pix, CycleGAN) : https://velog.io/@tobigs-gm1/Image-to-Image-Translation
