@@ -103,3 +103,7 @@ $$
 **주요 인사이트**: 다양한 안정화·평가 기법의 결합이 GAN의 실용적 적용 범위를 크게 확장했으며, 특히 반지도 학습과 고해상도 이미지 생성에서 획기적 성과를 제시하였다. 앞으로는 이론적 수렴 보장과 계산 효율 최적화에 초점을 맞춘 연구가 요구된다.
 
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/bd752838-f158-426c-be5e-1b7702efe8c1/1606.03498v1.pdf
+
+https://kavitaanant.medium.com/gan-performance-improvement-ea0a4059ee59
+
+https://velog.io/@conel77/%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0Improved-Techniques-for-Training-GANs-Improved-GAN
