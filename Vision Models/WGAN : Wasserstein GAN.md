@@ -88,3 +88,5 @@ WGAN은 기존 GAN의 학습 불안정성과 모드 붕괴 문제를 효과적�
 https://ahjeong.tistory.com/7
 
 https://aijyh0725.tistory.com/m/15
+
+https://velog.io/@lee9843/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%98%A4%EC%8A%B9%EC%83%81%EA%B5%90%EC%88%98%EB%8B%98-44.-Wasserstein-GAN-2
