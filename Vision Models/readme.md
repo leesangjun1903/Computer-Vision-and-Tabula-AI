@@ -432,6 +432,7 @@
 - Transformer in Transformer | Image classification
 - Twins: Revisiting the Design of Spatial Attention in Vision Transformers | Image classification, Semantic segmentation, Object detection
 - Two-stage Discriminative Re-ranking for Large-scale Landmark Retrieval | Image retrieval
+- U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation | Image generation
 - U-Net: Convolutional Networks for Biomedical Image Segmentation | Semantic segmentation
 - UDIS++ : Parallax-Tolerant Unsupervised Deep Image Stitching | Image stitching
 - UP-DETR : Unsupervised Pre-training for Detection Transformers | Object detection
