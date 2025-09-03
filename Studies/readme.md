@@ -107,6 +107,7 @@ https://pseudo-lab.github.io/Tutorial-Book/chapters/object-detection/Ch1-Object-
 ## Image reconstruction with Super-resolution
 - pix2pix_super_resolution(pix2pix) https://www.kaggle.com/code/chaimaemoumou/pix2pix-super-resolution/notebook
 - Pix2Pix: Denoising and Super Resolution (x4) : https://github.com/hieuGoku/Pix2Pix-Denoising-and-Super-Resolution/tree/main?tab=readme-ov-file
+- Image to Image Translation (pix2pix, CycleGAN) : https://velog.io/@tobigs-gm1/Image-to-Image-Translation
 - Single Image Super-Resolution(EDSR, WDSR, SRGAN) : https://github.com/krasserm/super-resolution/tree/master?tab=readme-ov-file
 - Image-Super-Resolution(SRCNN) : https://github.com/sharmaroshan/Image-Super-Resolution/tree/master
 - Image Super Resolution Using Deep Convolution Neural Network Computer Science Graduation Project : https://github.com/AmrShaaban99/super-resolution/tree/main?tab=readme-ov-file#abstract
