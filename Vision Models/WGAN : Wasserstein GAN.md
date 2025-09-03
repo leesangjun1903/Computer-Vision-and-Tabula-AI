@@ -86,3 +86,5 @@ WGAN은 기존 GAN의 학습 불안정성과 모드 붕괴 문제를 효과적�
 [30] http://papers.neurips.cc/paper/7159-improved-training-of-wasserstein-gans.pdf
 
 https://ahjeong.tistory.com/7
+
+https://aijyh0725.tistory.com/m/15
