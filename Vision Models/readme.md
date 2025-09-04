@@ -321,6 +321,7 @@
 - PlenOctrees for Real-time Rendering of Neural Radiance Fields | 3D reconstruction
 - PnP-DETR: Towards Efficient Visual Analysis with Transformers | Object detection
 - PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation | 3D classification, 3D Segmentation
+- PointRend: Image Segmentation as Rendering | Semantic segementation
 - PolyNet: A Pursuit of Structural Diversity in Very Deep Networks | Image classification
 - Progressive Distillation for Fast Sampling of Diffusion Models | Image generation
 - Progressive Neural Architecture Search | NAS
