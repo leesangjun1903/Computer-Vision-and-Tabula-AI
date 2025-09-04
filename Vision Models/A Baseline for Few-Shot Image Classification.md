@@ -31,7 +31,7 @@
    - 최종 손실 함수:  
 
 $$  
-       Θ^* = \arg\min_Θ \Bigl[\frac1{N_s}\sum_{(x,y)\in D_s} -\log p_Θ(y|x)\;+\;\frac1{N_q}\sum_{x\in D_q} H(p_Θ(·|x))\Bigr]  
+       Θ^* = \arg\min_Θ \Bigl[\frac1{N_s}\sum_{(x,y)\in D_s} -\log p_Θ(y|x)+\frac1{N_q}\sum_{x\in D_q} H(p_Θ(·|x))\Bigr]  
      $$  
 
 4) **미세조정 프로세스**  
