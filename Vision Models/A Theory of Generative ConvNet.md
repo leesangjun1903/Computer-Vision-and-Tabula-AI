@@ -20,7 +20,7 @@
 - **분류용 점수 함수**  
   
 $$
-    f_c(I;w)\;=\;\sum_{k=1}^{N_L}w_{c,k}\,[F^{(L)}_k*I]\;+\;b_c
+    f_c(I;w)=\sum_{k=1}^{N_L}w_{c,k}\,[F^{(L)}_k*I]\;+\;b_c
 $$  
 
 - **분류 모델↔생성 모델**  
@@ -48,7 +48,7 @@ $$
 - **오토인코더 평균**  
   
 $$
-    B_{w,\delta}\;=\;\text{top-down deconv}\bigl(\delta;\,w\bigr)
+    B_{w,\delta}=\text{top-down deconv}\bigl(\delta;\,w\bigr)
   $$  
 
 - **Langevin Dynamics**  
@@ -64,7 +64,7 @@ $$
     \nabla_w\log p(I;w)
     \approx \tfrac1M\sum_{m}\nabla_w f(I_m;w)
     -\tfrac1{\tilde M}\sum_{\tilde I}\nabla_w f(\tilde I;w)
-    \;\propto\;\nabla_w\|I - B_{w,\delta}\|^2
+    \propto \nabla_w\|I - B_{w,\delta}\|^2
 $$
 
 ## 3. 모델 구조  
