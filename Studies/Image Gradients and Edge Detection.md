@@ -1,4 +1,4 @@
-# Image Filtering
+# Image Gradients and Edge Detection
 
 딥러닝에서 이미지의 특징을 뽑아내는 첫걸음은 **엣지(edge)**, 즉 픽셀 강도가 크게 변하는 지점을 찾는 것입니다. 이 글에서는 이미지에서 엣지를 검출하기 위해 사용하는 그래디언트(gradient) 개념부터 대표 필터인 소벨(Sobel), DoG(Derivative of Gaussian), LoG(Laplacian of Gaussian) 필터를 차례로 살펴보겠습니다. 마지막으로 필터를 이미지 경계에 적용할 때 생기는 문제와 해결 방법까지 정리합니다.
 
