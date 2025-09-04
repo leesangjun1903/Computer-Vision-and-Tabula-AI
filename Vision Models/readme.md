@@ -217,6 +217,7 @@
 - Identity Mappings in Deep Residual Networks | Image classification
 - Image Blind Denoising With Generative Adversarial Network Based Noise Modeling | Image denoising
 - Image Denoising Using A Generative Adversarial Network | Image denoising : https://github.com/manumathewthomas/ImageDenoisingGAN/tree/master?tab=readme-ov-file
+- Image Style Transfer Using Convolutional Neural Networks | Image generation
 - ImageGPT : Generative Pretraining from Pixels | Image classification
 - Implicit Generation and Modeling with Energy-Based Models | Image generation, Image reconstruction
 - Improved Techniques for Training GANs | GAN technique, Image generation
