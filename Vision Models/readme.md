@@ -216,6 +216,7 @@
 - IR-SDE : Image Restoration with Mean-Reverting Stochastic Differential Equations | Image deblurring, Image denoising, Image generation, Image restoration, Super resolution, Image dehazing
 - Identity Mappings in Deep Residual Networks | Image classification
 - Image Blind Denoising With Generative Adversarial Network Based Noise Modeling | Image denoising
+- Image Denoising Based on Non-Local Means Filter and Its Method Noise Thresholding | Image denoising
 - Image Denoising Using A Generative Adversarial Network | Image denoising : https://github.com/manumathewthomas/ImageDenoisingGAN/tree/master?tab=readme-ov-file
 - Image Style Transfer Using Convolutional Neural Networks | Image generation
 - ImageGPT : Generative Pretraining from Pixels | Image classification
