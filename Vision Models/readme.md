@@ -419,6 +419,7 @@
 - StarGAN v2: Diverse Image Synthesis for Multiple Domains | Image generation
 - Static and Moving Object Detection Using Flux Tensor with Split Gaussian Models | Change detection
 - Structural-analogy from a Single Image Pair | Image generation
+- Structure from Motion with Objects | 3D reconstruction
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | Image generation
 - SuperPoint: Self-Supervised Interest Point Detection and Description | Image matching, 3D reconstruction, Point detection
 - SwAV : Unsupervised Learning of Visual Features by Contrasting Cluster Assignments | Image classification
