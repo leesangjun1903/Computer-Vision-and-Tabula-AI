@@ -173,6 +173,7 @@
 - End-to-End Learning of Deep Visual Representations for Image Retrieval | Image retrieval
 - Episodic Training for Domain Generalization | Domain Generalization, Episodic Training, Meta-Learning
 - EsViT : Efficient Self-supervised Vision Transformers for Representation Learning | Image classification, Semantic segmentation
+- Evaluating image matching methods for book cover identification | Image matching
 - FBCNN : Towards Flexible Blind JPEG Artifacts Removal | Image compression, JPEG Artifact correlation, Image restoration
 - FCN : Fully Convolutional Networks for Semantic Segmentation | Semantic segmentation
 - FEAT : Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions | Image classification
