@@ -94,6 +94,7 @@
 - CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification | Image classification
 - CutLER: Cut and Learn for Unsupervised Object Detection and Instance Segmentation | Object detection, Semantic segmentation
 - CvT : Introducing Convolutions to Vision Transformers | Image classification
+- CycleGAN: Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks | Image generation
 - CycleISP: Real Image Restoration via Improved Data Synthesis | Image denoising, Image restoration
 - DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR | Object detection
 - DARTS: Differentiable Architecture Search | NAS
