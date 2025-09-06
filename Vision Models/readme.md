@@ -256,6 +256,7 @@
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
 - LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference | Image classification
 - Learning Fine-grained Image Similarity with Deep Ranking | Similarity precision
+- Learning Unsupervised Hierarchical Part Decomposition of 3D Objects from a Single RGB Image | 3D Segmentation, 3D reconstruction
 - Learning multiple visual domains with residual adapters | Domain adaption, residual apapters
 - Learning to Compare: Relation Network for Few-Shot Learning | Image classification, Few-shot learning, Zero-shot learning
 - Learning to Measure Changes: Fully Convolutional Siamese Metric Networks for Scene Change Detection | Change detection, Semantic segmentation
