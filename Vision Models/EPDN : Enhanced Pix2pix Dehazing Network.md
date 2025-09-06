@@ -1,4 +1,4 @@
-# EPDN : Enhanced Pix2pix Dehazing Network | Image generation
+# EPDN : Enhanced Pix2pix Dehazing Network | Image Dehazing
 
 **핵심 주장**  
 Enhanced Pix2pix Dehazing Network(EPDN)는 전통적 물리 기반 산란 모델에 의존하지 않고, 조건부 생성 적대 신경망(GAN)을 이용해 “이미지→이미지 번역” 방식으로 단일 이미지 디헤이징을 수행함으로써 색 왜곡과 디테일 손실 문제를 동시에 극복한다.
