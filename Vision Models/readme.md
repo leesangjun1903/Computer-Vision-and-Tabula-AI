@@ -229,6 +229,7 @@
 - Incremental Multi-domain Learning with Network Latent Tensor Factorization | Domain adaption
 - Instant-NGP : Instant Neural Graphics Primitives with a Multiresolution Hash Encoding | 3D reconstruction
 - Intriguing Properties of Vision Transformers | Image classification
+- InvSR : Arbitrary-steps Image Super-resolution via Diffusion Inversion | Super-Resolution
 - Is Space-Time Attention All You Need for Video Understanding? | Action recognition
 - KernelGAN : Blind Super-Resolution Kernel Estimation using an Internal-GAN | Super resolution
 - LAVT: Language-Aware Vision Transformer for Referring Image Segmentation | Semantic segmentation
