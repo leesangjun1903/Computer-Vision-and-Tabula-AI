@@ -1,4 +1,4 @@
-# CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognization, Image generation
+# CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognization, Image classification
 
 ## 1. 핵심 주장 및 주요 기여  
 - **핵심 주장**  
@@ -80,7 +80,7 @@ CLIP은 자연어-이미지 대비 학습이 비전 모델의 일반화·강건�
 [1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/50553017-dab0-4a11-9c7b-be689fc0e114/2103.00020v1.pdf)
 
 
-# CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognization, Image generation
+# CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognization
 "Learning Transferable Visual Models From Natural Language Supervision" 논문은 이미지와 텍스트 간의 관계를 학습해 범용적인 시각 인식 모델을 구축한 획기적인 연구입니다.
 
 ### 📌 핵심 기여  
