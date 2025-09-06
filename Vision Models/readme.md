@@ -149,6 +149,7 @@
 - DiffTSR : Diffusion-based Blind Text Image Super-Resolution | Super resolution
 - Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | Image classification
 - Direction-aware Spatial Context Features for Shadow Detection and Removal | Shadow detection, Shadow removal
+- DiscoGAN : Learning to Discover Cross-Domain Relations with Generative Adversarial Networks | Image generation
 - DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | Image Denoising, Super resolution : https://github.com/anushkayadav/Denoising_cifar10
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | Image generation
 - Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution | Image classification, Video action recognition
