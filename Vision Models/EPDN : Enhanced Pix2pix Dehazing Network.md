@@ -16,7 +16,7 @@ Enhanced Pix2pix Dehazing Network(EPDN)는 전통적 물리 기반 산란 모델
 기존 단일 이미지 디헤이징 방법은 대체로 물리적 산란 모델  
 
 $$
-I(z) = J(z)\,t(z) \;+\; A(z)\,\bigl(1 - t(z)\bigr)
+I(z) = J(z)\,t(z) + A(z)\,\bigl(1 - t(z)\bigr)
 $$  
 
 에 의존하며, 전이 맵 $$t(z)$$과 대기광 $$A(z)$$ 추정의 정확도가 결과 화질을 좌우한다. 모델 기반·사전 기반(prior-based) 접근법은 실제 환경에서 쉽게 위배되는 한계가 있고, 많은 딥러닝 기법조차 물리 모델을 전제로 한다.  
@@ -44,15 +44,15 @@ EPDN은 세 파트로 구성된다 (그림 2 참조).
 
 ### 2.2 손실 함수  
 
-$$
+```math
 L_{\text{EPDN}}
 = L_{A}
 + \lambda\,L_{\text{FM}}
 + \lambda\,L_{\text{VGG}}
 + L_{F}
-$$
+```
 
-- **Adversarial loss** $$L_A$$: $$\sum_{k=1}^2 \mathbb{E}_{X}\bigl[\log D_k(X)\bigr] + \mathbb{E}_{\hat X}\bigl[\log(1 - D_k(G(\hat X)))\bigr]$$.  
+- **Adversarial loss** $$L_A$$: $$\sum_{k=1}^2 \mathbb{E}\_{X}\bigl[\log D_k(X)\bigr] + \mathbb{E}_{\hat X}\bigl[\log(1 - D_k(G(\hat X)))\bigr]$$.  
 - **Feature Matching loss** $$L_{\text{FM}}$$: 판별기 내부 피처 맵 간 L1 차이.  
 - **Perceptual loss** $$L_{\text{VGG}}$$: VGGNet i층 활성화 차이 L1.  
 - **Fidelity loss** $$L_F = \lVert X - \hat Y\rVert_2^2$$.  
