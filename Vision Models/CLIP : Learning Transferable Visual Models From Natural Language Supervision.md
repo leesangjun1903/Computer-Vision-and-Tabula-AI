@@ -1,4 +1,4 @@
-# CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognization, Image classification
+# CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognization, Image classification, Multi-Model
 
 ## 1. 핵심 주장 및 주요 기여  
 - **핵심 주장**  
