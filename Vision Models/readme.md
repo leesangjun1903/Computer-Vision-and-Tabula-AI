@@ -159,7 +159,7 @@
 - EDM : Elucidating the Design Space of Diffusion-Based Generative Models | Image generation
 - EDSR : Enhanced Deep Residual Networks for Single Image Super-Resolution
 - EMDiffuse : Diffusion-based deep learning method for augmenting ultrastructural imaging and volume electron microscopy | Image reconstruction, Electron microscopy
-- EPDN : Enhanced Pix2pix Dehazing Network | Image generation
+- EPDN : Enhanced Pix2pix Dehazing Network | Image Dehazing
 - ESPCN : Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network | Super resolution
 - ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks | Super resolution
 - EdgeConnect: Generative Image Inpainting with Adversarial Edge Learning | Image generation
