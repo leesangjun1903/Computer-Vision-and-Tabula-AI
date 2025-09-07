@@ -379,7 +379,9 @@ $$
 $$
 \tilde{W}_{h,i}=\frac{\exp(W_{h,i})}{\sum_{j}\exp(W_{h,j})}
 $$  
+
 그룹당 채널 수 $$d/H$$이고, 입력 $$(B,d,T)$$ 시퀀스에 대해  
+
 $$
 Y^{(g)}_{b,c,t}
 =\sum_{i=1}^{K}\tilde{W}_{g,i}\,X_{b,\,g\cdot\frac{d}{H}+c,\,t+i'}
@@ -390,6 +392,110 @@ $$
 **특징**  
 - 연산량·파라미터를 크게 줄이면서도 **컨텍스트** 정보를 확보합니다.  
 - NLP의 시퀀스 모델, 실시간 세그멘테이션 등에서 사용됩니다.
+
+## 11. Dynamic Convolution
+# Dynamic Convolution 완전 가이드
+
+Dynamic Convolution은 **Lightweight Convolution**을 확장한 기법입니다. 입력 시퀀스의 각 타임스텝마다 **커널 가중치**를 **동적으로 생성**해, 시퀀스 특성에 맞춘 유연한 필터링을 수행합니다. NLP와 시계열 모델에 특히 유용합니다.
+
+## 1. 개념 정리
+
+1. **Lightweight Convolution 복습**  
+   - 채널을 $$H$$그룹으로 나누고, 각 그룹마다 하나의 1D 커널을 공유합니다.  
+   - 커널 가중치는 Softmax 정규화로 안정적 학습을 돕습니다.
+
+2. **Dynamic Convolution 확장**  
+   - 각 타임스텝의 **중심 단어**나 피처를 **선형 변환**해 커널 가중치를 생성합니다.  
+   - 생성된 커널을 그룹별로 적용해, 시퀀스의 문맥 정보를 동적으로 반영합니다.
+
+## 2. 수학적 정의
+
+입력 $$\mathbf{X}\in\mathbb{R}^{B\times C\times T}$$에서,  
+타임스텝 $$t$$의 중심 피처 $$\mathbf{x}_t$$를 선형 투영해 그룹별 커널 $$\mathbf{w}_t\in\mathbb{R}^{H\times K}$$을 만듭니다:
+
+$$
+\mathbf{w}_t = \text{Softmax}\bigl(\mathbf{W}_\text{proj}\,\mathbf{x}_t + \mathbf{b}\bigr)
+$$
+
+여기서 $$\mathbf{W}_\text{proj}\in\mathbb{R}^{(H\times K)\times C}$$는 학습 가능한 투영 행렬입니다.  
+각 그룹 $$g$$의 출력은:
+
+$$
+Y_{b,\,g,\,t}
+=\sum_{i=1}^{K}
+w_{t,\,g,\,i} \times
+X_{b,\,g\cdot\frac{C}{H}+c,\,t+i-\lceil\frac{K}{2}\rceil}
+$$
+
+로 계산합니다.
+
+## 3. 특징과 장점
+
+- **동적 문맥 반영**: 시퀀스 위치마다 커널이 달라져, 문맥 변화에 민감하게 대응합니다.  
+- **파라미터 효율성**: Lightweight Convolution 대비 소폭 증가한 파라미터로 더 큰 표현력을 얻습니다.  
+- **실시간 처리**: 1D 연산만 사용해 연산 부담이 적습니다.
+
+## 4. 활용 분야
+
+- **자연어 처리**: RNN·Transformer 대체 또는 보조 모듈로 사용해 어텐션 비용 절감  
+- **음성·오디오 처리**: 시계열 패턴에 따라 필터를 동적으로 조정  
+- **실시간 시그널 처리**: 입력 특성에 민감한 필터링이 필요한 경우
+
+## 5. PyTorch 예시 코드
+
+```python
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+class DynamicConv1D(nn.Module):
+    def __init__(self, channels, kernel_size, groups):
+        super().__init__()
+        assert channels % groups == 0
+        self.channels = channels
+        self.kernel_size = kernel_size
+        self.groups = groups
+        self.proj = nn.Linear(channels, groups * kernel_size)
+    
+    def forward(self, x):
+        # x: (B, C, T)
+        B, C, T = x.size()
+        # 중심 피처: 시간 차원을 평균으로 요약
+        context = x.mean(dim=2)            # (B, C)
+        # 동적 커널 생성
+        w = self.proj(context)             # (B, G*K)
+        w = w.view(B, self.groups, self.kernel_size)
+        w = F.softmax(w, dim=-1)           # (B, G, K)
+        
+        # 패딩
+        pad = self.kernel_size // 2
+        x_pad = F.pad(x, (pad, pad), mode='reflect')
+        
+        # 그룹별 컨볼루션
+        x_grp = x_pad.view(B, self.groups, -1, T + 2*pad)
+        # (B, G, C/G, T+2p)
+        
+        out = []
+        for i in range(self.kernel_size):
+            out.append(x_grp[:, :, :, i:i+T] * w[:, :, i:i+1])
+        out = sum(out)                      # (B, G, C/G, T)
+        out = out.view(B, C, T)
+        return out
+
+# 사용 예시
+x = torch.randn(8, 64, 100)  # (batch, channels, seq_len)
+dyn_conv = DynamicConv1D(channels=64, kernel_size=5, groups=8)
+y = dyn_conv(x)                # (8, 64, 100)
+```
+
+- `proj` 레이어가 **중심 피처 → 커널 가중치**를 만듭니다.  
+- 그룹별로 잘라서 연산한 뒤, 다시 합쳐 최종 출력을 얻습니다.
+
+***
+
+Dynamic Convolution은 **가변적 문맥 처리**가 필요한 모든 시퀀스 모델에 강력한 옵션이 됩니다. 어텐션보다 가볍고, 상황에 맞춰 필터를 생성하는 능력을 활용해 보세요.
+
+[1](https://ankle96.tistory.com/59)
 
 ***
 
