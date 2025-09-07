@@ -1,4 +1,4 @@
-# Image Gradients와 Edge Detection 가이드
+# Image Gradients와 Edge Detection, Edge Enhancement 가이드
 
 결론부터 말하면, 에지는 픽셀 밝기의 큰 변화로 정의되며, 이를 계산하는 가장 기본 도구는 이미지의 **gradient**이며, 노이즈에 강인하게 검출하려면 가우시안 스무딩과 **DoG/LoG** 또는 **Canny** 파이프라인을 활용하는 것이 효과적입니다.[1][2][3][4][5][6]
 
@@ -389,3 +389,180 @@ Otsu algorithm은 이미지 이진화 방법으로, 픽셀의 명암 분포(히�
 [1](https://velog.io/@claude_ssim/%EA%B3%84%EC%82%B0%EC%82%AC%EC%A7%84%ED%95%99-Image-Filtering-Image-Gradients-and-Edge-Detection)
 
 https://velog.io/@claude_ssim/%EA%B3%84%EC%82%B0%EC%82%AC%EC%A7%84%ED%95%99-Image-Filtering-Image-Gradients-and-Edge-Detection
+
+# Edge Enhancement
+
+핵심만 먼저: Edge Enhancement는 이미지의 고주파 성분(경계·세부)을 강조해 선명도를 높이는 기법이며, 딥러닝에서는 데이터 전처리·증강으로 분류 정확도와 학습 효율을 개선하는 데 유용합니다.[1][2][3]
+
+## Edge Enhancement란?
+Edge Enhancement는 이미지의 경계(에지) 정보를 선택적으로 강조해 시각적 선명도와 세부 묘사를 높이는 이미지 처리 기법입니다. 전통적으로는 언샤프 마스킹과 같은 방식으로 고주파 성분을 증폭해 구현하며, 과도한 강화 시 링잉(overshoot/undershoot)이 생겨 인공적인 느낌이 날 수 있습니다.[4][5][3]
+
+## 언샤프 마스킹 원리
+언샤프 마스킹은 원본에서 블러(저주파)를 뺀 고주파 성분을 다시 원본에 더해 선명도를 높이는 방법입니다. 수식으로는 $$I_{\text{sharp}} = I + k(I - G_{\sigma} * I)$$로 표현되며, 여기서 $$G_{\sigma}$$는 가우시안 블러, $$k$$는 증폭 계수입니다. 이 방식은 사진·출판에서 널리 쓰였고, 디지털 워크플로우에서도 Amount/Radius/Threshold를 조절해 가장자리 대비를 증가시킵니다.[6][7][5][8]
+
+## 딥러닝과 Edge Enhancement
+최근 연구는 에지 강화가 분류 모델의 일반화와 학습 속도를 개선할 수 있음을 보고합니다. 핵심 아이디어는 Canny 등으로 추출한 에지를 원본과 융합해 정보가 풍부한 학습 샘플을 만들거나, 원본과 에지강화 이미지를 함께 배치에 넣어 특징 학습을 유도하는 것입니다. CIFAR-10, Caltech101에서 ResNet-18 등으로 검증해 정확도 향상과 빠른 수렴을 보고했습니다.[2][1]
+
+## 언제 유리한가
+- 텍스처와 경계가 중요한 분류·검출 과제: 물체 윤곽이 식별 단서일 때 유리합니다.[1][2]
+- 저조도·저대비 이미지의 전처리: 대비 부족 상황에서 구조 정보를 부각해 다운스트림 성능을 돕습니다.[9][1]
+- 데이터 증강 다양화: 간단하고 계산 효율적인 변환으로 오버피팅을 줄이는 데 기여합니다.[2][1]
+
+## 주의할 점
+- 노이즈 증폭: 평탄 영역의 잡음이 강화될 수 있어 Threshold·마스크로 제어해야 합니다.[10][11]
+- 과도한 샤프닝: 링잉 등 아티팩트로 실제 성능 저하 가능, 하이부스트 계수 $$k$$를 보수적으로 설정합니다.[7][3]
+- 컬러 시프트: 밝기 채널만 강화하거나 Luminosity 블렌딩으로 색 왜곡을 줄입니다.[5][6]
+
+## 구현 레시피(전처리·증강)
+다음은 PyTorch에서 “E2(Edge Enhancement)” 아이디어를 적용하는 간단 예시입니다.[1][2]
+
+- 파이프라인 개요  
+  1) 입력 정규화 및 리사이즈 → 2) Canny로 채널별 에지 추출 → 3) 원본과 가중합 → 4) 원본·강화본 둘 다 학습에 사용.[2][1]
+  5) 배치에서 원본과 강화본을 함께 섞어 모델이 경계·텍스처 표현을 고르게 학습하도록 유도합니다.[1][2]
+
+- 의사 코드  
+  - 에지 추출: Canny(또는 Sobel)로 고주파 성분을 얻습니다.[2][1]
+  - 언샤프/하이부스트: $$I_{\text{enh}} = I + k\cdot \text{Edges}$$ 혹은 $$I + k(I - G_{\sigma}*I)$$를 적용합니다.[8][7]
+  - 색 보존: YCbCr/HSV에서 밝기 채널에만 적용하거나, 후처리로 색 편이 최소화합니다.[6][5]
+
+## PyTorch 예시 코드
+- 목적: CIFAR-10에 대해 Edge Enhancement 증강을 추가하고, ResNet-18 학습 시 원본+강화본 혼합 배치를 구성합니다.[1][2]
+- 원리: Canny 기반 에지와 언샤프 마스킹 중 하나를 선택적으로 적용하는 커스텀 Transform입니다.[7][2]
+
+```python
+import torch
+import torchvision as tv
+import torchvision.transforms as T
+import torch.nn.functional as F
+import cv2
+import numpy as np
+from PIL import Image
+
+class EdgeEnhanceTransform:
+    def __init__(self, method="canny_fuse", k=0.7, sigma=1.0, p=0.5):
+        self.method = method
+        self.k = k
+        self.sigma = sigma
+        self.p = p
+
+    def _to_np(self, img):
+        arr = np.array(img.convert("RGB"))  # HWC, uint8
+        return arr
+
+    def _from_np(self, arr):
+        arr = np.clip(arr, 0, 255).astype(np.uint8)
+        return Image.fromarray(arr)
+
+    def _canny_edges_rgb(self, arr):
+        edges = []
+        for c in range(3):
+            e = cv2.Canny(arr[:,:,c], 100, 200)  # 하이/로우 임계는 데이터에 맞게 조정
+            edges.append(e)
+        edges = np.stack(edges, axis=2)  # HWC
+        return edges
+
+    def _unsharp(self, arr, sigma, k):
+        blurred = cv2.GaussianBlur(arr, (0,0), sigmaX=sigma, sigmaY=sigma)
+        high = arr.astype(np.float32) - blurred.astype(np.float32)
+        return arr.astype(np.float32) + k * high
+
+    def __call__(self, img):
+        if np.random.rand() > self.p:
+            return img
+        arr = self._to_np(img)
+        if self.method == "canny_fuse":
+            edges = self._canny_edges_rgb(arr)
+            edges = (edges > 0).astype(np.float32) * 255.0
+            enh = arr.astype(np.float32) + self.k * edges
+            return self._from_np(enh)
+        elif self.method == "unsharp":
+            enh = self._unsharp(arr, self.sigma, self.k)
+            return self._from_np(enh)
+        else:
+            return img
+
+# 원본 변환
+base_tf = T.Compose([
+    T.Resize((224,224)),
+    T.ToTensor(),
+    T.Normalize(mean=[0.485,0.456,0.406], std=[0.229,0.224,0.225]),
+])
+
+# 강화본 생성용 변환 (전처리 전에 이미지 도메인에서 수행)
+enhancer = EdgeEnhanceTransform(method="canny_fuse", k=0.6, p=1.0)
+
+class DualViewDataset(torch.utils.data.Dataset):
+    def __init__(self, ds):
+        self.ds = ds
+    def __len__(self):
+        return len(self.ds)
+    def __getitem__(self, i):
+        img, y = self.ds[i]
+        img_enh = enhancer(img)
+        return base_tf(img), base_tf(img_enh), y
+
+train_raw = tv.datasets.CIFAR10(root="./data", train=True, download=True)
+train_ds = DualViewDataset(train_raw)
+
+train_loader = torch.utils.data.DataLoader(train_ds, batch_size=128, shuffle=True, num_workers=4, pin_memory=True)
+
+# 모델: ResNet-18
+model = tv.models.resnet18(num_classes=10)
+model = model.cuda()
+opt = torch.optim.AdamW(model.parameters(), lr=3e-4)
+sched = torch.optim.lr_scheduler.CosineAnnealingLR(opt, T_max=100)
+
+for epoch in range(100):
+    model.train()
+    for x_orig, x_enh, y in train_loader:
+        x = torch.cat([x_orig, x_enh], dim=0).cuda(non_blocking=True)
+        y = torch.cat([y, y], dim=0).cuda(non_blocking=True)
+        logits = model(x)
+        loss = F.cross_entropy(logits, y)
+        opt.zero_grad()
+        loss.backward()
+        opt.step()
+    sched.step()
+```
+이 코드는 E2 연구의 “원본+에지강화 병행 학습” 개념을 따라, 한 배치에 두 뷰를 결합해 경계 민감도를 높이는 학습을 구현합니다. Canny 임계값·k·sigma는 데이터 특성에 맞게 스윕해 최적화를 권장합니다.[7][2][1]
+
+## 하이퍼파라미터 가이드
+- k(하이부스트 계수): 0.3–0.8 범위로 시작, 과도하면 링잉·노이즈 증가.[3][7]
+- Canny 임계: (low, high) = (50–150, 100–250)에서 탐색, 채널별 감도 차이 고려.[2][1]
+- Unsharp sigma: 0.8–2.0 범위, 데이터 해상도에 따라 조정.[8][7]
+
+## 평가와 모범 사례
+- A/B 테스트: 원본 파이프라인 대비 Top-1 정확도, 수렴 에폭, 과적합 정도 비교.[1][2]
+- 아티팩트 점검: 검증 세트의 에지 과강조로 인한 오분류 패턴을 점검하고 k·Threshold를 낮춥니다.[3][10]
+- 색안정성: 밝기 채널만 처리하거나, 후처리로 Luminosity 블렌딩 개념을 적용해 컬러 왜곡 최소화합니다.[5][6]
+
+## 확장 아이디어
+- 태스크별 커스텀: 검출·세그멘테이션에서는 경계 지도 보조 손실(edge-aware loss)과 병행해 효과 상승을 기대할 수 있습니다.[2][1]
+- 주파수 도메인 혼합: 공간-주파수 혼합 증강과 결합해 다양한 고주파 패턴을 노출하면 일반화가 향상됩니다.[1][2]
+- 저조도 특화: Edge Vision 과제에서 저조도 개선과 에지 보존을 공동 최적화하는 접근을 참고할 수 있습니다.[9][1]
+
+## 마무리 체크리스트
+- 목표 명확화: 경계 정보가 중요한 태스크인가를 먼저 판단합니다.[2][1]
+- 안전한 시작값: k를 보수적으로, Canny 임계는 중간값에서 시작해 점차 조정합니다.[3][7]
+- 검증 기반 튜닝: 성능과 아티팩트를 함께 모니터링하며 하이퍼파라미터를 결정합니다.[10][2]
+- 파이프라인 위치: 색 안정성과 노이즈 관리를 위해 “이미지 도메인→정규화” 순서를 유지합니다.[6][5]
+
+참고 자료  
+- Edge Enhancement 개요와 언샤프 마스킹의 효과 및 주의점.[5][7][3]
+- E2 방식의 데이터 증강과 분류 정확도·수렴 개선 보고.[1][2]
+- 실무 가이드: Unsharp 설정과 컬러 보호 팁.[8][6]
+- 노이즈·평탄 영역에 대한 적응형 처리 아이디어.[11][10]
+
+[1](https://arxiv.org/html/2401.07028v1)
+[2](https://www.scitepress.org/Papers/2024/123649/123649.pdf)
+[3](https://en.wikipedia.org/wiki/Edge_enhancement)
+[4](https://www.sciencedirect.com/topics/engineering/edge-enhancement)
+[5](https://en.wikipedia.org/wiki/Unsharp_masking)
+[6](https://www.adobe.com/kw_en/creativecloud/photography/discover/unsharp-masking.html)
+[7](https://homepages.inf.ed.ac.uk/rbf/HIPR2/unsharp.htm)
+[8](https://www.sciencedirect.com/topics/computer-science/unsharp-masking)
+[9](https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Sharif_Learning_Optimized_Low-Light_Image_Enhancement_for_Edge_Vision_Tasks_CVPRW_2024_paper.pdf)
+[10](https://pmc.ncbi.nlm.nih.gov/articles/PMC9691745/)
+[11](https://journal.kci.go.kr/jksci/archive/articleView?artiId=ART001537774)
+[12](https://www.activeloop.ai/resources/image-enhancement-in-machine-learning-the-ultimate-guide/)
+[13](https://www.cognex.com/ko-kr/what-is/edge-learning/choosing-between-edge-learning-deep-learning)
