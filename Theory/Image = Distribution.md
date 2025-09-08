@@ -179,3 +179,6 @@ print('Wrote ald_samples.csv')
 [19](https://link.aps.org/doi/10.1103/PhysRevE.111.045304)
 [20](http://alvarestech.com/temp/deep/Deep%20Learning%20by%20Ian%20Goodfellow,%20Yoshua%20Bengio,%20Aaron%20Courville%20(z-lib.org).pdf)
 [21](https://arxiv.org/html/2411.17006v1)
+
+https://www.eungbean.com/59220575-32d4-44e5-9f5d-f403cb8034fa
+
