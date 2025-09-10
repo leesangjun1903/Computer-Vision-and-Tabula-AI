@@ -55,6 +55,7 @@
 - Awesome Self-Supervised Learning for Non-Sequential Tabular Data : https://github.com/wwweiwei/awesome-self-supervised-learning-for-tabular-data
 - Awesome random forest : https://github.com/kjw0612/awesome-random-forest?tab=readme-ov-file
 - Awesome Self-Supervised Learning for Non-Sequential Tabular Data (SSL4NSTD) : https://github.com/wwweiwei/awesome-self-supervised-learning-for-tabular-data?tab=readme-ov-file
+- Transformer-in-Vision : https://github.com/Yangzhangcst/Transformer-in-Computer-Vision/tree/main
 
 
 (E) : Already read paper
