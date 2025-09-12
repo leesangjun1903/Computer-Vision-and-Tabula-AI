@@ -488,6 +488,7 @@
 - YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception | Object detection
 - ZSSR : "Zero-Shot" Super-Resolution using Deep Internal Learning | Image generation, zero shot learning
 - cGAN : Conditional Generative Adversarial Nets | Image generation
+- f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization | Image generation
 - iDDPM : Improved Denoising Diffusion Probabilistic Models | Super resolution, Image generation, Image denoising
 - pGAN : Image Synthesis in Multi-Contrast MRI with Conditional Generative Adversarial Networks | Image generation
 - simple diffusion: End-to-end diffusion for high resolution images | Image generation
