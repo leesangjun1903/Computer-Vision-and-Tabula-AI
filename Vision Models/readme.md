@@ -55,6 +55,7 @@
 - BEGAN: Boundary Equilibrium Generative Adversarial Networks | Image generation
 - BEIT: BERT Pre-Training of Image Transformers | Image classification, Semantic segmentation
 - BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion | Image generation
+- BRDNet : Image Denoising Using Deep CNN with Batch Renormalization | Image denoising
 - BSConv : Rethinking Depthwise Separable Convolutions: How Intra-Kernel Correlations Lead to Improved MobileNets | Image classification
 - BSRGAN : Designing a Practical Degradation Model for Deep Blind Image Super-Resolution | Super resolution
 - BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | Image augmentation, Image classification
