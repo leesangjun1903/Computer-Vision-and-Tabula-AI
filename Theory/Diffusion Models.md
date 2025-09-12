@@ -1,18 +1,25 @@
 # Diffusion models
-- DPM, DDPM
-- DDIM
-- SR3
-- Latent Diffusion(Stable Diffusion)
-- SRDiff
-- Score Based Diffusion
-- DDNM
+- DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics
+- DDPM : Denoising Diffusion Probabilistic Models
+- DDIM : Denoising Diffusion Implicit Models
+- SR3 : Image Super-Resolution via Iterative Refinement
+- Latent Diffusion(Stable Diffusion) : High-Resolution Image Synthesis with Latent Diffusion Models
+- Score Based Diffusion : Score-Based Generative Modeling through Stochastic Differential Equations
+- DDNM : Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model
 - 
 
+## SR
+- SRDiff : Single Image Super-Resolution with Diffusion Probabilistic Models
+- StableSR : Exploiting Diffusion Prior for Real-World Image Super-Resolution
+- PASD : Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization
+- IR-SDE : Image Restoration with Mean-Reverting Stochastic Differential Equations
+
+# Introduction
 - What are Diffusion Models? : https://lilianweng.github.io/posts/2021-07-11-diffusion-models/
 - Diffusion Model 설명 – 기초부터 응용까지 : https://ffighting.net/deep-learning-paper-review/diffusion-model/diffusion-model-basic/
 - Super resolution with diffusion models https://www.youtube.com/watch?v=h-t6QNUBL8o&list=PLpIPLT0Pf7IoTAvBJ6FX1vAi-PIeSw9xK&index=2
 
-- 
+
 # DPM
 - https://dongwoo-im.github.io/papers/review/2023-10-02-DPM/
 - https://kimjy99.github.io/%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0/dul-nt/
@@ -77,7 +84,7 @@ https://kimjy99.github.io/%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0/sr3/
 - Stable Diffusion 원리 : https://ai-designer-allan.tistory.com/entry/%EB%88%84%EA%B5%AC%EB%82%98-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%94%94%ED%93%A8%EC%A0%84-%EC%9B%90%EB%A6%AC1-Diffusion-%EB%AA%A8%EB%8D%B8
 - An Introduction to Diffusion Models and Stable Diffusion : https://blog.marvik.ai/2023/11/28/an-introduction-to-diffusion-models-and-stable-diffusion/
 
-## (Fine-Tuned Latent Diffusion : Stable Diffusion)
+## LDM : (Fine-Tuned Latent Diffusion : Stable Diffusion)
 - The Illustrated Stable Diffusion : https://jalammar.github.io/illustrated-stable-diffusion/
 - ADM, LDM, Stable Diffusion : https://tkayyoo.tistory.com/167#tktag4
 - Stable Diffusion 에 대한 기초 이론 : https://www.internetmap.kr/m/entry/Basic-Theory-of-Stable-Diffusion#vae
@@ -91,7 +98,7 @@ https://kimjy99.github.io/%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0/sr3/
 - How to Modified LDM? : Progressive Distillation for Fast Sampling of Diffusion Models https://kimjy99.github.io/%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0/progressive-distillation/
 - Stable Diffusion 그 이후 : https://tkayyoo.tistory.com/183
 
-# Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model (DDNM)
+# DDNM
 - https://ostin.tistory.com/132
 - https://kimjy99.github.io/%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0/ddnm/
 
