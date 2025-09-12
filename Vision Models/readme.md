@@ -149,6 +149,7 @@
 - DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior | Image denoising, Super resolution, Image restoration
 - DiffTSR : Diffusion-based Blind Text Image Super-Resolution | Super resolution
 - Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | Image classification
+- Diffusion-GAN: Training GANs with Diffusion | Image generation
 - Direction-aware Spatial Context Features for Shadow Detection and Removal | Shadow detection, Shadow removal
 - DiscoGAN : Learning to Discover Cross-Domain Relations with Generative Adversarial Networks | Image generation
 - DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | Image Denoising, Super resolution : https://github.com/anushkayadav/Denoising_cifar10
