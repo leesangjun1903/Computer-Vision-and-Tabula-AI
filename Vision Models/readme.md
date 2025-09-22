@@ -283,6 +283,7 @@
 - MaskFormer : Per-Pixel Classification is Not All You Need for Semantic Segmentation | Semattic segmentation
 - MaskGIT: Masked Generative Image Transformer | Image generation, Image manipulation, Image reconstruction
 - Matching Networks for One Shot Learning | Image classification, One shot learning, Meta-Learning
+- Mesh R-CNN | 3D segmentation
 - MetaFormer : MetaFormer Is Actually What You Need for Vision | Image classification, Object detection, Semantic segmentation
 - MetaQNN : Designing Neural Network Architectures using Reinforcement Learning | Image classification, Reinforcement Learning
 - MetaReg: Towards Domain Generalization using Meta-Regularization | Domain Generalization, Meta-Learning
