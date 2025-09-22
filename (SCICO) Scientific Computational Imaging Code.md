@@ -2,7 +2,7 @@
 # 핵심 요약 및 기여
 
 **핵심 주장**  
-Scientific Computational Imaging Code (SCICO)는 과학적 영상 응용에서 발생하는 비유보 역문제를 효과적으로 풀기 위해, 모듈화된 연산자(operator), 비용 함수(functional), 정규화 기법(regularizer), 최적화 알고리즘을 결합한 파이썬 기반 패키지를 제안한다. JAX를 기반으로 GPU/TPU 가속, JIT 컴파일, 자동 미분을 지원하여, 역연산자(adjoint) 구성과 대규모 반복 솔버 구현을 간소화한다.
+Scientific Computational Imaging Code (SCICO)는 과학적 영상 응용에서 발생하는 Inverse Problems 를 효과적으로 풀기 위해, 모듈화된 연산자(operator), 비용 함수(functional), 정규화 기법(regularizer), 최적화 알고리즘을 결합한 파이썬 기반 패키지를 제안한다. JAX를 기반으로 GPU/TPU 가속, JIT 컴파일, 자동 미분을 지원하여, 역연산자(adjoint) 구성과 대규모 반복 솔버 구현을 간소화한다.
 
 **주요 기여**  
 - 모듈형 빌딩 블록(Forward 모델, 데이터 충실도, 정규화, 최적화)을 제공하여 다양한 역문제에 재사용 가능  
