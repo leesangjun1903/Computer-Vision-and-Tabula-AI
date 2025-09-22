@@ -140,6 +140,7 @@
 - Deformable DETR: Deformable Transformers for End-to-End Object Detection | Object detection
 - DeiT : Training data-efficient image transformers & Distillation through attention | Image classification
 - Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification | Image classification
+- Denoising Diffusion Bridge Models | Image generation
 - DenseCL : Dense Contrastive Learning for Self-Supervised Visual Pre-Training | Image classification
 - DenseNet : Densely Connected Convolutional Networks | Image classification
 - Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data | Depth estimation
