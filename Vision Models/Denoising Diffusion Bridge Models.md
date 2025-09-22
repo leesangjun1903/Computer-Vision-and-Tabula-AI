@@ -1,4 +1,4 @@
-## Denoising Diffusion Bridge Models
+# Denoising Diffusion Bridge Models | Image generation
 
 ### 1. 핵심 주장과 주요 기여
 
