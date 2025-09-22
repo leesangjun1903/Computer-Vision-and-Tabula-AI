@@ -1,13 +1,4 @@
 # Diffusion models
-- DPM, DDPM
-- DDIM
-- SR3
-- Latent Diffusion(Stable Diffusion)
-- SRDiff
-- Score Based Diffusion
-- DDNM
-- 
-
 - What are Diffusion Models? : https://lilianweng.github.io/posts/2021-07-11-diffusion-models/
 - Diffusion Model 설명 – 기초부터 응용까지 : https://ffighting.net/deep-learning-paper-review/diffusion-model/diffusion-model-basic/
 - Super resolution with diffusion models https://www.youtube.com/watch?v=h-t6QNUBL8o&list=PLpIPLT0Pf7IoTAvBJ6FX1vAi-PIeSw9xK&index=2
