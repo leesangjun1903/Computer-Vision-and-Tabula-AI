@@ -275,6 +275,8 @@ NeRF의 영향은 단순히 새로운 시점 합성을 넘어서, 로보틱스, 
 
 NeRF는 암시적 신경 표현의 새로운 패러다임을 제시했으며, 이는 향후 3D 인공지능 발전의 중요한 기초가 될 것으로 전망된다[18][42]. 지속적인 기술 발전과 함께 더욱 실용적이고 강건한 3D 장면 이해 시스템의 구현이 기대된다.
 
+https://www.liuxiao.org/ko/2021/11/%EB%85%BC%EB%AC%B8-%EB%85%B8%ED%8A%B8-nerf-%EC%8B%A0%EA%B2%BD-%EB%B0%A9%EC%82%AC-%ED%95%84%EB%93%9C%EB%A1%9C-%EC%9E%A5%EB%A9%B4%EC%9D%84-%ED%91%9C%ED%98%84%ED%95%98%EC%97%AC-%EB%B7%B0-%ED%95%A9/
+
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/22370781/d42e6539-f9fa-437b-a747-fe1ce75738ec/2003.08934v2.pdf
 [2] https://linkinghub.elsevier.com/retrieve/pii/S026288562400177X
 [3] https://dl.acm.org/doi/10.1145/3664647.3681482
