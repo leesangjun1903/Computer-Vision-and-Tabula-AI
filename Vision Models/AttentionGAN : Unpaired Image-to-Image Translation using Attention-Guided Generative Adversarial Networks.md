@@ -83,7 +83,8 @@ AttentionGAN은 **8개의 서로 다른 도메인**에서 검증되어 높은 �
 - **다양한 데이터셋 평가**: 단일 데이터셋이 아닌 다양한 시나리오에서의 종합 평가 필요성[1]
 - **정량적 + 정성적 평가**: FID, KID, AMT 등 다각적 평가 방법 제시[1]
 
-### 향후 연구 고려사항**기술적 개선 방향:**
+### 향후 연구 고려사항
+**기술적 개선 방향:**
 - **Instance-level attention**: 객체 단위의 더 정교한 attention mechanism 개발[1]
 - **Occlusion handling**: 가려진 객체나 복잡한 장면에서의 성능 개선[1]
 - **Training stability**: End-to-end 학습의 안정성 향상 방법 연구[1]
