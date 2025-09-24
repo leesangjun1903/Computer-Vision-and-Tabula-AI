@@ -248,11 +248,10 @@
 - Label-Efficient Semantic Segmentation with Diffusion Models | Semantic segmentation
 - LaplacianShot : Laplacian Regularized Few-Shot Learning | 2020 · 250회 인용, Image classification
 - LassoNet: Deep Lasso-Selection of 3D Point Clouds | 2019 · 60회 인용, 3D Point Cloud Preparation, Lasso-Selection
-- LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
-- LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference | Image classification
-- Learning Fine-grained Image Similarity with Deep Ranking | Similarity precision
-- Learning Unsupervised Hierarchical Part Decomposition of 3D Objects from a Single RGB Image | 3D Segmentation, 3D reconstruction
-- Learning multiple visual domains with residual adapters | Domain adaption, residual apapters
+- LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | 2021 · 1158회 인용, XAI
+- LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference | 2021 · 932회 인용 , Image classification
+- Learning Fine-grained Image Similarity with Deep Ranking | 2014 · 1774회 인용, Similarity precision
+- hierarchical_primitives : Learning Unsupervised Hierarchical Part Decomposition of 3D Objects from a Single RGB Image | 2020 · 140회 인용, 3D Segmentation, 3D reconstruction
 - Learning to Compare: Relation Network for Few-Shot Learning | Image classification, Few-shot learning, Zero-shot learning
 - Learning to Measure Changes: Fully Convolutional Siamese Metric Networks for Scene Change Detection | Change detection, Semantic segmentation
 - Leveraging the Feature Distribution in Transfer-based Few-Shot Learning | Image classification
