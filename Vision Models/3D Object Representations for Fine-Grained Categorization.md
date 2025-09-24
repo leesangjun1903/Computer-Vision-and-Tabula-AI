@@ -1,5 +1,5 @@
 # 3D Object Representations for Fine-Grained Categorization | 3D estimation
-
+## 2013 · 5280회 인용
 ## 1. 핵심 주장 및 주요 기여  
 이 논문은 **2D 기반의 미세 분류(fine-grained categorization)** 기법이 **시점 변화(viewpoint variation)**에 취약하고, 대규모로 다양한 시점의 학습 데이터를 필요로 한다는 한계를 지적한다.  
 이를 극복하기 위해 기존의 2D 특징 표현(Spatial Pyramid Matching, BubbleBank)을 **3D 객체 공간** 위로 확장하여  
