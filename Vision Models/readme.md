@@ -169,65 +169,64 @@
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | 2019 · 30645회 인용, Image classification
 - EluCD : Elucidating The Design Space of Classifier-Guided Diffusion Generation | 2023 · 16회 인용, Image generation, Image denoising
 - End-to-End Learning of Deep Visual Representations for Image Retrieval | 2016 · 711회 인용, Image retrieval
-- EsViT : Efficient Self-supervised Vision Transformers for Representation Learning | Image classification, Semantic segmentation
-- Evaluating image matching methods for book cover identification | Image matching
-- FBCNN : Towards Flexible Blind JPEG Artifacts Removal | Image compression, JPEG Artifact correlation, Image restoration
-- FCN : Fully Convolutional Networks for Semantic Segmentation | Semantic segmentation
-- FEAT : Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions | Image classification
-- FP-DETR: Detection Transformer Advanced by Fully Pre-training | Object detection
-- FVAE : Factorized Variational Autoencoders for Modeling Audience Reactions to Movies | Facial Expression Recognition
-- Face-SPARNet : Learning Spatial Attention for Face Super-Resolution | Super resolution
-- Facial Landmark Detection by Deep Multi-task Learning | Facial Landmark Detection
-- Fast R-CNN | Object detection
-- Feature-Critic Networks for Heterogeneous Domain Generalization | Domain Generalization, Meta-Learning, Feature-Critic Network
-- Few-Example Object Detection with Model Communication | Object detection
-- FastGAN : Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis | Image generation
-- Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | Object detection
-- Fine-Tuning Image-Conditional Diffusion Models Is Easier than You Think | Depth estimation
-- FixEfficientNet : Fixing the Train–Test Resolution Discrepancy | Image classification, Data augmentation, preprocessing
-- Flexible Background Subtraction With Self-Balanced Local Sensitivity | Change detection
-- Focal Self-attention for Local-Global Interactions in Vision Transformers | Image classification, Object detection, Semantic segmentation
-- FocalNet : Focal Modulation Networks | Image classification, Object detection, Semantic segmentation
-- FractalNet: Ultra-Deep Neural Networks without Residuals | Image classification
-- FreeSOLO: Learning to Segment Objects without Annotations | Object detection, Semantic segmentation
-- FreqNet : Frequency-Aware Deepfake Detection | Image detection
-- GAN Dissection: Visualizing and Understanding Generative Adversarial Networks | XAI
-- GLAM : All the attention you need: Global-local, spatial-channel attention for image retrieval | Image retrieval
-- GLPN : Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth | Depth estimation
-- GNeRF: GAN-based Neural Radiance Field without Posed Camera | 3D reconstruction
-- GeM : Fine-tuning CNN Image Retrieval with No Human Annotation | Image retrieval
-- GeNeVA-GAN : Tell, Draw, and Repeat: Generating and Modifying Images Based on Continual Linguistic Instruction | Text(Image)-Image generation
-- Genetic CNN | Image classification
-- GhostNet: More Features from Cheap Operations | Image classification
-- Gold-YOLO: Efficient Object Detector via Gather-and-Distribute Mechanism | Object detection
-- GoogLeNet : Going Deeper with Convolutions | Image classification
-- Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection | Object detection
-- HAT : Activating More Pixels in Image Super-Resolution Transformer | Super-resolution
-- HF-Net : Robust Hierarchical Localization at Large Scale | Visual Localization, Visual Place Recognition : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
-- HLLHGAN : To learn image super-resolution, use a GAN to learn how to do image degradation first | Super resolution
-- HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution | Super resolution
-- HO-CPConv : Factorized Higher-Order CNNs with an Application to Spatio-Temporal Emotion Estimation | Emotion estimation
-- HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models | Super resolution
-- Hierarchical Representations for Efficient Architecture Search | NAS
-- HiDT : High-Resolution Daytime Translation Without Domain Labels | Image generation
-- How to Train Your Energy-Based Models | Generation, EBM
-- I-ViT: Integer-only Quantization for Efficient Vision Transformer Inference | Image classification
-- IGCNet : Interleaved Group Convolutions for Deep Neural Networks | Image classification
-- IGCv2: Interleaved Structured Sparse Convolutional Neural Networks | Image classification
-- IGCv3: Interleaved Low-Rank Group Convolutions for Efficient Deep Neural Networks | Image classification, Object detection
-- IR-SDE : Image Restoration with Mean-Reverting Stochastic Differential Equations | Image deblurring, Image denoising, Image generation, Image restoration, Super resolution, Image dehazing
-- Identity Mappings in Deep Residual Networks | Image classification
-- Image Blind Denoising With Generative Adversarial Network Based Noise Modeling | Image denoising
-- Image Denoising Based on Non-Local Means Filter and Its Method Noise Thresholding | Image denoising
-- Image Denoising Using A Generative Adversarial Network | Image denoising : https://github.com/manumathewthomas/ImageDenoisingGAN/tree/master?tab=readme-ov-file
-- Image Style Transfer Using Convolutional Neural Networks | Image generation
-- ImageGPT : Generative Pretraining from Pixels | Image classification
-- Implicit Generation and Modeling with Energy-Based Models | Image generation, Image reconstruction
-- Improved Techniques for Training GANs | GAN technique, Image generation
-- Improving Foreground Segmentations with Probabilistic Superpixel Markov Random Fields | Change detection
-- Inceptionv2, 3 : Rethinking the Inception Architecture for Computer Vision | Image classification
-- Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning | Image classification
-- Incremental Learning Through Deep Adaptation | Incremental Learning
+- EsViT : Efficient Self-supervised Vision Transformers for Representation Learning | 2021 · 259회 인용, Image classification, Semantic segmentation
+- Evaluating image matching methods for book cover identification | 2020, Image matching
+- FBCNN : Towards Flexible Blind JPEG Artifacts Removal | 2021 · 156회 인용, Image compression, JPEG Artifact correlation, Image restoration
+- FCN : Fully Convolutional Networks for Semantic Segmentation | 2014 · 58727회 인용, Semantic segmentation
+- FEAT : Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions | 2018 · 1000회 인용, Image classification
+- FP-DETR: Detection Transformer Advanced by Fully Pre-training | 2023 . 46회 인용, Object detection
+- FVAE : Factorized Variational Autoencoders for Modeling Audience Reactions to Movies | 2017 · 71회 인용, Facial Expression Recognition
+- Face-SPARNet : Learning Spatial Attention for Face Super-Resolution | 2020 · 231회 인용, Super resolution
+- Facial Landmark Detection by Deep Multi-task Learning | 2014 · 1941회 인용, Facial Landmark Detection
+- Fast R-CNN | 2015 · 42594회 인용, Object detection
+- Feature-Critic Networks for Heterogeneous Domain Generalization | 2019 · 340회 인용, Domain Generalization, Meta-Learning, Feature-Critic Network
+- Few-Example Object Detection with Model Communication | 2017 · 212회 인용, Object detection
+- FastGAN : Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis | 2021 · 357회 인용, Image generation
+- Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | 2015 · 55990회 인용, Object detection
+- Fine-Tuning Image-Conditional Diffusion Models Is Easier than You Think | 2024 · 47회 인용, Depth estimation
+- FixEfficientNet : Fixing the Train–Test Resolution Discrepancy | 2020 · 713회 인용, Image classification, Data augmentation, preprocessing
+- Flexible Background Subtraction With Self-Balanced Local Sensitivity | 2014 · 158회 인용, Change detection
+- Focal Transformer : Focal Self-attention for Local-Global Interactions in Vision Transformers | 2021 · 600회 인용, Image classification, Object detection, Semantic segmentation
+- FocalNet : Focal Modulation Networks | 2022 · 445회 인용, Image classification, Object detection, Semantic segmentation
+- FractalNet: Ultra-Deep Neural Networks without Residuals | 2016 · 1355회 인용, Image classification
+- FreeSOLO: Learning to Segment Objects without Annotations | 2022 · 160회 인용, Object detection, Semantic segmentation
+- FreqNet : Frequency-Aware Deepfake Detection | 2024 · 134회 인용, Image detection
+- GAN Dissection: Visualizing and Understanding Generative Adversarial Networks | 2018 · 710회 인용, XAI
+- GLAM : All the attention you need: Global-local, spatial-channel attention for image retrieval | 2021 · 106회 인용, Image retrieval
+- GLPN : Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth | 2022 · 194회 인용, Depth estimation
+- GNeRF: GAN-based Neural Radiance Field without Posed Camera | 2021 · 234회 인용, 3D reconstruction
+- GeM : Fine-tuning CNN Image Retrieval with No Human Annotation | 2017 · 1719회 인용, Image retrieval
+- GeNeVA-GAN : Tell, Draw, and Repeat: Generating and Modifying Images Based on Continual Linguistic Instruction | 2018 · 91회 인용, Text(Image)-Image generation
+- Genetic CNN | 2017 · 1242회 인용, Image classification
+- GhostNet: More Features from Cheap Operations | 2019 · 5193회 인용, Image classification
+- Gold-YOLO: Efficient Object Detector via Gather-and-Distribute Mechanism | 2023 · 535회 인용, Object detection
+- GoogLeNet : Going Deeper with Convolutions | 2014 · 69113회 인용, Image classification
+- Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection | 2023 · 2950회 인용, Object detection
+- HAT : Activating More Pixels in Image Super-Resolution Transformer | 2022 · 1157회 인용, Super-resolution
+- HF-Net : Robust Hierarchical Localization at Large Scale | 2018 · 1210회 인용, Visual Localization, Visual Place Recognition : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
+- HLLHGAN : To learn image super-resolution, use a GAN to learn how to do image degradation first | 2018 · 526회 인용, Super resolution
+- HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution | 2024 · 14회 인용, Super resolution
+- HO-CPConv : Factorized Higher-Order CNNs with an Application to Spatio-Temporal Emotion Estimation | 2019 · 114회 인용, Emotion estimation
+- HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models | 2023 · 8회 인용, Super resolution
+- Hierarchical Representations for Efficient Architecture Search | 2017 · 1237회 인용, NAS
+- HiDT : High-Resolution Daytime Translation Without Domain Labels | 2020 · 116회 인용, Image generation
+- How to Train Your Energy-Based Models | 2021 · 360회 인용, Generation, EBM
+- I-ViT: Integer-only Quantization for Efficient Vision Transformer Inference | 2022 · 156회 인용, Image classification
+- IGCNet : Interleaved Group Convolutions for Deep Neural Networks | 2017 · 434회 인용, Image classification
+- IGCv2: Interleaved Structured Sparse Convolutional Neural Networks | 2018 · 165회 인용, Image classification
+- IGCv3: Interleaved Low-Rank Group Convolutions for Efficient Deep Neural Networks | 2018 · 148회 인용, Image classification, Object detection
+- IR-SDE : Image Restoration with Mean-Reverting Stochastic Differential Equations | 2023 · 275회 인용, Image deblurring, Image denoising, Image generation, Image restoration, Super resolution, Image dehazing
+- ResNet-1K-layer : Identity Mappings in Deep Residual Networks | 2016 · 14315회 인용, Image classification
+- Image Blind Denoising With Generative Adversarial Network Based Noise Modeling | 2018 · 749회 인용, Image denoising
+- Image Denoising Based on Non-Local Means Filter and Its Method Noise Thresholding | 2013 . 207회 인용, Image denoising
+- Image Denoising Using A Generative Adversarial Network | 2019 · 83회 인용, Image denoising : https://github.com/manumathewthomas/ImageDenoisingGAN/tree/master?tab=readme-ov-file
+- Image Style Transfer Using Convolutional Neural Networks | 2016 · 7513회 인용, Image generation
+- ImageGPT : Generative Pretraining from Pixels | 2020 · 2122회 인용, Image classification
+- Implicit Generation and Modeling with Energy-Based Models | 2019 · 896회 인용, Image generation, Image reconstruction
+- Improved Techniques for Training GANs | 2016 · 12624회 인용, GAN technique, Image generation
+- Improving Foreground Segmentations with Probabilistic Superpixel Markov Random Fields | 2012 · 200회 인용, Change detection
+- Inceptionv2, 3 : Rethinking the Inception Architecture for Computer Vision | 2015 · 40956회 인용, Image classification
+- Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning | 2016 · 19858회 인용, Image classification
 - Incremental Multi-domain Learning with Network Latent Tensor Factorization | Domain adaption
 - Instant-NGP : Instant Neural Graphics Primitives with a Multiresolution Hash Encoding | 3D reconstruction
 - Intriguing Properties of Vision Transformers | Image classification
