@@ -227,28 +227,27 @@
 - Improving Foreground Segmentations with Probabilistic Superpixel Markov Random Fields | 2012 · 200회 인용, Change detection
 - Inceptionv2, 3 : Rethinking the Inception Architecture for Computer Vision | 2015 · 40956회 인용, Image classification
 - Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning | 2016 · 19858회 인용, Image classification
-- Instant-NGP : Instant Neural Graphics Primitives with a Multiresolution Hash Encoding | 3D reconstruction
-- Intriguing Properties of Vision Transformers | Image classification
-- InvSR : Arbitrary-steps Image Super-resolution via Diffusion Inversion | Super-Resolution
-- Is Space-Time Attention All You Need for Video Understanding? | Action recognition
-- KernelGAN : Blind Super-Resolution Kernel Estimation using an Internal-GAN | Super resolution
-- LAVT: Language-Aware Vision Transformer for Referring Image Segmentation | Semantic segmentation
-- LDM : High-Resolution Image Synthesis with Latent Diffusion Models | Image generation, Super resolution
-- LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | Super resolution : https://github.com/hellloxiaotian/LESRCNN/tree/master?tab=readme-ov-file
-- LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | Image reconstruction, Image generation
-- LIP: Local Importance-based Pooling | Image classification, Pooling technique, Object detection
-- LMAR : Empowering Resampling Operation for Ultra-High-Definition Image Enhancement with Model-Aware Guidance | Super resolution, Image enhancement
-- LMD : Unsupervised Out-of-Distribution Detection with Diffusion Inpainting | Image inpainting, Out of distribution(OOD)
-- LOST : Localizing Objects with Self-Supervised Transformers and No Labels | Image localization
-- LPTN : High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyramid Translation Network | Image generation
-- LSGAN : Least Squares Generative Adversarial Networks | Image generation
-- LSGM : Score-based Generative Modeling in Latent Space | Image generation
-- LU-NeRF: Scene and Pose Estimation by Synchronizing Local Unposed NeRFs | Pose Estimation, global-optimization
-- LW-DETR: A Transformer Replacement to YOLO for Real-Time Detection | Object detection
+- Instant-NGP : Instant Neural Graphics Primitives with a Multiresolution Hash Encoding | 2022 · 5205회 인용, 3D reconstruction
+- Intriguing Properties of Vision Transformers | 2021 · 834회 인용 , Image classification
+- InvSR : Arbitrary-steps Image Super-resolution via Diffusion Inversion | 2024 · 26회 인용, Super-Resolution
+- TimeSformer : Is Space-Time Attention All You Need for Video Understanding? | 2021 · 3033회 인용, Action recognition
+- KernelGAN : Blind Super-Resolution Kernel Estimation using an Internal-GAN | 2019 · 620회 인용, Super resolution
+- LAVT: Language-Aware Vision Transformer for Referring Image Segmentation | 2021 · 488회 인용, Semantic segmentation
+- LDM : High-Resolution Image Synthesis with Latent Diffusion Models | 2021 · 23912회 인용, Image generation, Super resolution
+- LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | 2020 · 185회 인용, Super resolution : https://github.com/hellloxiaotian/LESRCNN/tree/master?tab=readme-ov-file
+- LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | 2019 · 198회 인용, Image reconstruction, Image generation
+- LIP: Local Importance-based Pooling | 2019 · 183회 인용, Image classification, Pooling technique, Object detection
+- LMAR : Empowering Resampling Operation for Ultra-High-Definition Image Enhancement with Model-Aware Guidance | 2024 · 6회 인용, Super resolution, Image enhancement
+- LMD : Unsupervised Out-of-Distribution Detection with Diffusion Inpainting | 2023 · 61회 인용, Image inpainting, Out of distribution(OOD)
+- LOST : Localizing Objects with Self-Supervised Transformers and No Labels | 2021 · 267회 인용, Image localization
+- LPTN : High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyramid Translation Network | 2021 · 163회 인용, Image generation
+- LSGAN : Least Squares Generative Adversarial Networks | 2016 · 6781회 인용, Image generation
+- LSGM : Score-based Generative Modeling in Latent Space | 2021 · 792회 인용, Image generation
+- LU-NeRF: Scene and Pose Estimation by Synchronizing Local Unposed NeRFs | 2023 · 43회 인용, Pose Estimation, global-optimization
+- LW-DETR: A Transformer Replacement to YOLO for Real-Time Detection | 2024 · 30회 인용, Object detection
 - Label-Efficient Semantic Segmentation with Diffusion Models | Semantic segmentation
-- Laplacian Regularized Few-Shot Learning | Image classification
-- LassoNet: Deep Lasso-Selection of 3D Point Clouds | 3D Point Cloud Preparation, Lasso-Selection
-- Latent Domain Learning with Dynamic Residual Adapters | Domain adaption, Dynamic Residual Adapters
+- LaplacianShot : Laplacian Regularized Few-Shot Learning | 2020 · 250회 인용, Image classification
+- LassoNet: Deep Lasso-Selection of 3D Point Clouds | 2019 · 60회 인용, 3D Point Cloud Preparation, Lasso-Selection
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | XAI
 - LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference | Image classification
 - Learning Fine-grained Image Similarity with Deep Ranking | Similarity precision
