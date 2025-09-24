@@ -255,24 +255,23 @@
 - Learning to Compare: Relation Network for Few-Shot Learning | 2017 · 5826회 인용, Image classification, Few-shot learning, Zero-shot learning
 - Learning to Measure Changes: Fully Convolutional Siamese Metric Networks for Scene Change Detection | 2018 · 129회 인용, Change detection, Semantic segmentation
 - LightGlue: Local Feature Matching at Light Speed | 2023 · 795회 인용, Feature Matching, 3D resonstruction, Image matching
-- Lite DETR: An Interleaved Multi-Scale Encoder for Efficient DETR | Object detection
-- LoRA: Low-Rank Adaptation of Large Language Models | LLM, Fine-tuning
-- MAE : Masked Autoencoders Are Scalable Vision Learners | Image reconstruction, Image generation
-- MAGVIT: Masked Generative Video Transformer | Video generation, Text-to-video generation
-- MAGVIT-v2 : Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation | Image generation, Language modeling, Video generation
-- MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | Image deblurring, Image enhancement, Super resolution : https://github.com/swz30/MIRNetv2/tree/main
-- MLP-Mixer: An all-MLP Architecture for Vision | Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
-- MnasNet: Platform-Aware Neural Architecture Search for Mobile | NAS
-- MPRNet : Multi-Stage Progressive Image Restoration | Image deblurring, Image denoising, Image restoration
-- MS-DETR: Efficient DETR Training with Mixed Supervision | Object detection
-- MWDCNN : Multi-stage image denoising with the wavelet transform | Image Denoising : https://github.com/hellloxiaotian/MWDCNN
-- Marigold : Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation | Depth estimation
-- Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation | Object detection, Semantic segmentation
-- Mask R-CNN | Object detection, Semantic segmentation
-- Mask2Former : Masked-attention Mask Transformer for Universal Image Segmentation | Semantic segmentation
-- MaskFormer : Per-Pixel Classification is Not All You Need for Semantic Segmentation | Semattic segmentation
-- MaskGIT: Masked Generative Image Transformer | Image generation, Image manipulation, Image reconstruction
-- Matching Networks for One Shot Learning | Image classification, One shot learning, Meta-Learning
+- Lite DETR: An Interleaved Multi-Scale Encoder for Efficient DETR | 2023 · 130회 인용, Object detection
+- LoRA: Low-Rank Adaptation of Large Language Models | 2021 · 18638회 인용, LLM, Fine-tuning
+- MAE : Masked Autoencoders Are Scalable Vision Learners | 2021 · 11570회 인용, Image reconstruction, Image generation
+- MAGVIT: Masked Generative Video Transformer | 2022 · 334회 인용, Video generation, Text-to-video generation
+- MAGVIT-v2 : Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation | 2023 · 428회 인용, Image generation, Language modeling, Video generation
+- MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | 2022 · 462회 인용, Image deblurring, Image enhancement, Super resolution : https://github.com/swz30/MIRNetv2/tree/main
+- MLP-Mixer: An all-MLP Architecture for Vision | 2021 · 3808회 인용, Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
+- MnasNet: Platform-Aware Neural Architecture Search for Mobile | 2018 · 4325회 인용, NAS
+- MPRNet : Multi-Stage Progressive Image Restoration | 2021 · 2334회 인용, Image deblurring, Image denoising, Image restoration
+- MS-DETR: Efficient DETR Training with Mixed Supervision | 2024 · 53회 인용, Object detection
+- MWDCNN : Multi-stage image denoising with the wavelet transform | 2022 · 360회 인용, Image Denoising : https://github.com/hellloxiaotian/MWDCNN
+- Marigold : Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation | 2023 · 556회 인용, Depth estimation
+- Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation | 2022 · 617회 인용, Object detection, Semantic segmentation
+- Mask R-CNN | 2017 · 45369회 인용, Object detection, Semantic segmentation
+- Mask2Former : Masked-attention Mask Transformer for Universal Image Segmentation | 2021 · 3513회 인용, Semantic segmentation
+- MaskFormer : Per-Pixel Classification is Not All You Need for Semantic Segmentation | 2021 · 1974회 인용, Semattic segmentation
+- MaskGIT: Masked Generative Image Transformer | 2022 · 925회 인용, Image generation, Image manipulation, Image reconstruction
 - Mesh R-CNN | 3D segmentation
 - MetaFormer : MetaFormer Is Actually What You Need for Vision | Image classification, Object detection, Semantic segmentation
 - MetaQNN : Designing Neural Network Architectures using Reinforcement Learning | Image classification, Reinforcement Learning
