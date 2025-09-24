@@ -6,6 +6,8 @@
 
 # A Theory of Generative ConvNet | Generation, EBM
 
+## 2016 · 388회 인용
+
 **“A Theory of Generative ConvNet”**는 기존의 **판별형(Discriminative) ConvNet**을 **생성형(Generative) 모델**로 전환하고, 그 내부에 **오토인코더(자동부호화기)** 구조를 드러냄으로써 에너지 기반 모델 중 유일무이한 **조각별 가우시안(piecewise Gaussian)** 특성을 확보함을 보인다.  
 1. **판별형 ⇄ 생성형 상호 유도**  
    - 다중 카테고리 분류용 ConvNet에 “기준 분포(base category)”로서 가우시안 화이트 노이즈를 도입하고, 소프트맥스 점수 $(fc(I;w))$ 를 기준 분포에 지수부등(exponential tilting) 하면 분류 모델과 동형(동일한 파라미터로 상호 유도 가능)임을 증명.  
