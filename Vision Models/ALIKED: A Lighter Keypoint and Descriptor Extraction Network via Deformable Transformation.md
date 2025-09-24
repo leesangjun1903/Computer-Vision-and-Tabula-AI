@@ -1,4 +1,4 @@
-# # ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation | Image Matching
+# ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation | Image Matching
 
 ## 핵심 주장과 주요 기여
 
