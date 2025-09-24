@@ -165,11 +165,10 @@
 - EdgeConnect: Generative Image Inpainting with Adversarial Edge Learning | 2019 · 1048회 인용, Image generation
 - EdgeSRGAN : Generative Adversarial Super-Resolution at the Edge with Knowledge Distillation | 2022 · 48회 인용, Super resolution : https://github.com/PIC4SeR/EdgeSRGAN?tab=readme-ov-file
 - Efficient DETR: Improving End-to-End Object Detector with Dense Prior | 2021 · 294회 인용, Object detection
-- EfficientFormer: Vision Transformers at MobileNet Speed | Image classification, Object detection, Instance segmentation, Semantic segmentation
-- EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | Image classification
-- EluCD : Elucidating The Design Space of Classifier-Guided Diffusion Generation | Image generation, Image denoising
-- End-to-End Learning of Deep Visual Representations for Image Retrieval | Image retrieval
-- Episodic Training for Domain Generalization | Domain Generalization, Episodic Training, Meta-Learning
+- EfficientFormer: Vision Transformers at MobileNet Speed | 2022 · 593회 인용, Image classification, Object detection, Instance segmentation, Semantic segmentation
+- EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | 2019 · 30645회 인용, Image classification
+- EluCD : Elucidating The Design Space of Classifier-Guided Diffusion Generation | 2023 · 16회 인용, Image generation, Image denoising
+- End-to-End Learning of Deep Visual Representations for Image Retrieval | 2016 · 711회 인용, Image retrieval
 - EsViT : Efficient Self-supervised Vision Transformers for Representation Learning | Image classification, Semantic segmentation
 - Evaluating image matching methods for book cover identification | Image matching
 - FBCNN : Towards Flexible Blind JPEG Artifacts Removal | Image compression, JPEG Artifact correlation, Image restoration
