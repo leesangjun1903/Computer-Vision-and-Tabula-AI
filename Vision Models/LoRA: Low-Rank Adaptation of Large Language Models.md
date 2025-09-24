@@ -43,8 +43,8 @@ $$
 ### 3.1 성능 요약  
 | 모델           | 파라미터 증가량 | downstream 과제 성능                        |
 |---------------|---------------|-------------------------------------------|
-| RoBERTa Large | +0.8 M       | GLUE 전체 $$+$$0.1% 우위                     |
-| DeBERTa XXL   | +4.7 M       | GLUE 전체 $$+$$0.2% 우위                     |
+| RoBERTa Large | +0.8 M       | GLUE 전체 + 0.1% 우위                     |
+| DeBERTa XXL   | +4.7 M       | GLUE 전체 + 0.2% 우위                     |
 | GPT-2 Medium  | +0.35 M      | E2E NLG 챌린지 BLEU +2.2점                  |
 | GPT-3 175B    | +4.7 M       | WikiSQL, MNLI, SAMSum 모두 fine-tune 상회 성능 |
 
