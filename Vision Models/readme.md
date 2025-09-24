@@ -228,7 +228,7 @@
 - Inceptionv2, 3 : Rethinking the Inception Architecture for Computer Vision | 2015 · 40956회 인용, Image classification
 - Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning | 2016 · 19858회 인용, Image classification
 - Instant-NGP : Instant Neural Graphics Primitives with a Multiresolution Hash Encoding | 2022 · 5205회 인용, 3D reconstruction
-- Intriguing Properties of Vision Transformers | 2021 · 834회 인용 , Image classification
+- IPViT : Intriguing Properties of Vision Transformers | 2021 · 834회 인용 , Image classification
 - InvSR : Arbitrary-steps Image Super-resolution via Diffusion Inversion | 2024 · 26회 인용, Super-Resolution
 - TimeSformer : Is Space-Time Attention All You Need for Video Understanding? | 2021 · 3033회 인용, Action recognition
 - KernelGAN : Blind Super-Resolution Kernel Estimation using an Internal-GAN | 2019 · 620회 인용, Super resolution
@@ -327,97 +327,97 @@
 - Progressive Neural Architecture Search | 2017 · 2661회 인용, NAS
 - Prompt-to-Prompt : Prompt-to-Prompt Image Editing with Cross Attention Control | 2022 · 2130회 인용, Image editing, Image generation
 - PromptSR : Image Super-Resolution with Text Prompt Diffusion | 2023 · 21회 인용, Super resolution
-- ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware | NAS
-- PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | Image classification, Semantic segmenation, Object detection
-- PVTv2: Improved Baselines with Pyramid Vision Transformer | Image classification, Object detection, Semantic segmentation
-- R-CNN : Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation | Object detection, Semantic segmentation
-- R-MAC : Particular Object Retrieval with Integral Max-Pooling of CNN Activations | Image retrieval
-- RAN : Residual Attention Network for Image Classification | Image classification
-- REGO-DETR : Recurrent Glimpse-based Decoder for Detection with Transformer | Object detection
-- RIS-GAN: Explore Residual and Illumination with Generative Adversarial Networks for Shadow Removal | Shadow removal
-- RT-DETR : DETRs Beat YOLOs on Real-time Object Detection | Object detection
-- ReACGAN : Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training | Image generation, Data diversity
-- Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | Super resolution : https://github.com/xinntao/Real-ESRGAN
-- Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models | Image generation
-- Refusion: Enabling Large-Size Realistic Image Restoration with Latent-Space Diffusion Models | Image denoising, Image dehazing, Image restoration, Super resolution
-- RegNet : Designing Network Design Spaces | Image classification
-- Region Mutual Information Loss for Semantic Segmentation | Semantic segmentation, Optimization
-- Regularized Evolution for Image Classifier Architecture Search | NAS
-- Reparameterizing Convolutions for Incremental Multi-Task Learning without Task Interference | Image classification, Semantic segmentation, Multi-Task Learning
-- Res2Net: A New Multi-scale Backbone Architecture | Image classification
-- ResNeXt: Aggregated Residual Transformations for Deep Neural Networks | Image classification
-- ResNet : Deep Residual Learning for Image Recognition | Image classification
-- ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | Image classification : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
-- ResShift: Efficient Diffusion Model for Image Super-Resolution by Residual Shifting | Super resolution
-- ResViT: Residual Vision Transformers for Multi-Modal Medical Image Synthesis | Image generation
-- Resnet in Resnet: Generalizing Residual Architectures | Image classification
-- RetinaNet : Focal Loss for Dense Object Detection | Object detection
-- Robust and Efficient Object Change Detection by Combining Global Semantic Information and Local Geometric Verification | 3D object detection
-- S3Diff : Degradation-Guided One-Step Image Super-Resolution with Diffusion Priors | Super resolution
-- SAGAN : Self-Attention Generative Adversarial Networks | Image generation
-- SAM-DiffSR: Structure-Modulated Diffusion Model for Image Super-Resolution | Super resolution
-- SAM : Segment Anything | Semantic segmentation :  https://github.com/facebookresearch/segment-anything/tree/main
-- SAM-DETR : Accelerating DETR Convergence via Semantic-Aligned Matching | Object detection
-- SAM 2: Segment Anything in Images and Videos | Semantic segmentation : https://github.com/facebookresearch/sam2
-- SAN : Second-order Attention Network for Single Image Super-Resolution | Super resolution
-- SASCNet : Change Detection in Images Using Shape-Aware Siamese Convolutional Network | Change detection
-- SCSNet : An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution | Image Colorization, Image reconstruction, Super-Resolution
-- SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis | Image generation
-- SENet : Squeeze-and-Excitation Networks | Image classification, Object detection
-- SFG : Stochastic Filter Groups for Multi-Task CNNs: Learning Specialist and Generalist Convolution Kernels | Image classification, Image regression, Image segmentation
-- SFT-GAN : Recovering Realistic Texture in Image Super-resolution by Deep Spatial Feature Transform | Super resolution
-- SIFT : Distinctive Image Features from Scale-Invariant Keypoints | Image retrieval
-- SKNet : Selective Kernel Networks | Image classification
-- SMCA-DETR : Fast Convergence of DETR with Spatially Modulated Co-Attention | Object detection
-- SPADE : Semantic Image Synthesis with Spatially-Adaptive Normalization | Image generation
-- SR3 : Image Super-Resolution via Iterative Refinement | Super resolution
-- SR3+ : Denoising Diffusion Probabilistic Models for Robust Image Super-Resolution in the Wild | Super resolution
-- SRCNN : Image Super-Resolution Using Deep Convolutional Networks | Super resolution
-- SRDiff: Single Image Super-Resolution with Diffusion Probabilistic Models | Super resolution
-- SRGAN : Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network | Super resolution : https://github.com/manumathewthomas/ImageDenoisingGAN/tree/master?tab=readme-ov-file
-- SSD: Single Shot MultiBox Detector | Object detection
-- ST-CGAN : Stacked Conditional Generative Adversarial Networks for Jointly Learning Shadow Detection and Shadow Removal | Shadow detection, Shadow removal
-- SUPIR : Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild | Super resolution
-- SWAGAN: A Style-based Wavelet-driven Generative Model | Super resolution
-- Score-Based Generative Modeling through Stochastic Differential Equations | Image generation, Density estimation, Image inpainting
-- SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution | Super resolution
-- SeemoRe : See More Details: Efficient Image Super-Resolution by Experts Mining | Super resolution
-- SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers | Semantic Segmentation
-- SegGPT: Segmenting Everything In Context | Image segmentation
-- Self-Conditioned GAN : Diverse Image Generation via Self-Conditioned GANs | Image generation
-- Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut | Object detection
-- Shadow Removal via Shadow Image Decomposition | Shadow removal
-- Sharing Residual Units Through Collective Tensor Factorization in Deep Neural Networks | Image classification
-- ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices | Image classification, Object detection
-- ShuffleNetV2: Practical Guidelines for Efficient CNN Architecture Design
-- SiT: Self-supervised vIsion Transformer | Image classification, Semantic segmentation
-- Siamese Neural Networks for One-shot Image Recognition | Meta-learning
-- SimCLR: A Simple Framework for Contrastive Learning of Visual Representations | Image Classification, Object Recognition
-- SimCLRv2 : Big Self-Supervised Models are Strong Semi-Supervised Learners | Self-Supervised Image Classification, Semi-Supervised Image Classification
-- SimSiam : Exploring Simple Siamese Representation Learning | Self-Supervised Image Classification
-- SimpleShot: Revisiting Nearest-Neighbor Classification for Few-Shot Learning | Image classification
-- simple diffusion: End-to-end diffusion for high resolution images | Image generation
-- SinGAN: Learning a Generative Model from a Single Natural Image | Image generation
-- SinSR: Diffusion-Based Image Super-Resolution in a Single Step | Super resolution
-- Sparse DETR: Efficient End-to-End Object Detection with Learnable Sparsity | Object detection
-- Spectral Normalization for Generative Adversarial Networks | GAN technique, Image generation
-- Spectral Regularization for Combating Mode Collapse in GANs | Improve techniques for GANs, Image generation
-- SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size | Image classification
-- StableVSR : Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models | Super resolution
-- StarGAN v2: Diverse Image Synthesis for Multiple Domains | Image generation
-- Static and Moving Object Detection Using Flux Tensor with Split Gaussian Models | Change detection
-- Structural-analogy from a Single Image Pair | Image generation
-- Structure from Motion with Objects | 3D reconstruction
-- StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | Image generation
-- SuperPoint: Self-Supervised Interest Point Detection and Description | Image matching, 3D reconstruction, Point detection
-- SwAV : Unsupervised Learning of Visual Features by Contrasting Cluster Assignments | Image classification
-- SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications | Image classification
-- SwiftSRGAN : Rethinking Super-Resolution for Efficient and Real-time Inference | Super-resolution
-- Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | Image classification, Object Detection, Semantic Segmentation
-- Swin Transformer V2: Scaling Up Capacity and Resolution | Image classification, Object Detection, Semantic Segmentation
-- Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration | Super resolution, Image restoration
-- SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | Image denoising
-- SwinIR : Image Restoration Using Swin Transformer | Image reconstruction, Super resolution, Image denoising : https://github.com/JingyunLiang/SwinIR/tree/main
+- ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware |  2018 · 2511회 인용, NAS
+- PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | 2021 · 5799회 인용, Image classification, Semantic segmenation, Object detection
+- PVTv2: Improved Baselines with Pyramid Vision Transformer | 2021 · 2229회 인용, Image classification, Object detection, Semantic segmentation
+- R-CNN : Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation | 2013 · 44495회 인용, Object detection, Semantic segmentation
+- R-MAC : Particular Object Retrieval with Integral Max-Pooling of CNN Activations | 2015 · 1265회 인용, Image retrieval
+- RAN : Residual Attention Network for Image Classification | 2017 · 4843회 인용, Image classification
+- REGO-DETR : Recurrent Glimpse-based Decoder for Detection with Transformer | 2021 · 43회 인용, Object detection
+- RIS-GAN: Explore Residual and Illumination with Generative Adversarial Networks for Shadow Removal | 2019 · 112회 인용, Shadow removal
+- RT-DETR : DETRs Beat YOLOs on Real-time Object Detection | 2023 · 2350회 인용, Object detection
+- ReACGAN : Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training | 2021 · 144회 인용, Image generation, Data diversity
+- Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | 2021 · 1911회 인용, Super resolution : https://github.com/xinntao/Real-ESRGAN
+- DG : Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models | 2022 · 118회 인용, Image generation
+- Refusion: Enabling Large-Size Realistic Image Restoration with Latent-Space Diffusion Models | 2023 · 172회 인용, Image denoising, Image dehazing, Image restoration, Super resolution
+- RegNet : Designing Network Design Spaces | 2020 · 2495회 인용, Image classification
+- Region Mutual Information Loss for Semantic Segmentation | 2019 · 158회 인용, Semantic segmentation, Optimization
+- Regularized Evolution for Image Classifier Architecture Search | 2018 · 3957회 인용, NAS
+- RCM : Reparameterizing Convolutions for Incremental Multi-Task Learning without Task Interference | 2020 · 112회 인용, Image classification, Semantic segmentation, Multi-Task Learning
+- Res2Net: A New Multi-scale Backbone Architecture | 2019 · 3684회 인용, Image classification
+- ResNeXt: Aggregated Residual Transformations for Deep Neural Networks | 2016 · 15486회 인용, Image classification
+- ResNet : Deep Residual Learning for Image Recognition | 2015 · 286531회 인용, Image classification
+- ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | 2021 · 422회 인용, Image classification : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
+- ResShift: Efficient Diffusion Model for Image Super-Resolution by Residual Shifting | 2023 · 362회 인용, Super resolution
+- ResViT: Residual Vision Transformers for Multi-Modal Medical Image Synthesis | 2021 · 549회 인용, Image generation
+- Resnet in Resnet: Generalizing Residual Architectures | 2016 · 1490회 인용, Image classification
+- RetinaNet : Focal Loss for Dense Object Detection | 2017 · 41640회 인용, Object detection
+- Robust and Efficient Object Change Detection by Combining Global Semantic Information and Local Geometric Verification | 2020 · 28회 인용, 3D object detection
+- S3Diff : Degradation-Guided One-Step Image Super-Resolution with Diffusion Priors | 2024 · 14회 인용, Super resolution
+- SAGAN : Self-Attention Generative Adversarial Networks | 2018 · 5484회 인용, Image generation
+- SAM-DiffSR: Structure-Modulated Diffusion Model for Image Super-Resolution | 2024 · 21회 인용, Super resolution
+- SAM : Segment Anything | 2023 · 13948회 인용, Semantic segmentation :  https://github.com/facebookresearch/segment-anything/tree/main
+- SAM-DETR : Accelerating DETR Convergence via Semantic-Aligned Matching | 2022 · 145회 인용, Object detection
+- SAM 2: Segment Anything in Images and Videos | 2024 · 1840회 인용, Semantic segmentation : https://github.com/facebookresearch/sam2
+- SAN : Second-order Attention Network for Single Image Super-Resolution | 2019 · 2184회 인용, Super resolution
+- SASCNet : Change Detection in Images Using Shape-Aware Siamese Convolutional Network | 2020 · 18회 인용, Change detection
+- SCSNet : An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution | 2022 · 21회 인용, Image Colorization, Image reconstruction, Super-Resolution
+- SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis | 2023 · 3218회 인용, Image generation
+- SENet : Squeeze-and-Excitation Networks | 2017 · 44660회 인용, Image classification, Object detection
+- SFG : Stochastic Filter Groups for Multi-Task CNNs: Learning Specialist and Generalist Convolution Kernels | 2019 · 114회 인용, Image classification, Image regression, Image segmentation
+- SFT-GAN : Recovering Realistic Texture in Image Super-resolution by Deep Spatial Feature Transform | 2018 · 1381회 인용, Super resolution
+- SIFT : Distinctive Image Features from Scale-Invariant Keypoints | 2004 · 80403회 인용, Image retrieval
+- SKNet : Selective Kernel Networks | 2019 · 3507회 인용, Image classification
+- SMCA-DETR : Fast Convergence of DETR with Spatially Modulated Co-Attention | 2021 · 410회 인용, Object detection
+- SPADE : Semantic Image Synthesis with Spatially-Adaptive Normalization | 2019 · 3893회 인용, Image generation
+- SR3 : Image Super-Resolution via Iterative Refinement | 2021 · 2547회 인용, Super resolution
+- SR3+ : Denoising Diffusion Probabilistic Models for Robust Image Super-Resolution in the Wild | 2023 · 85회 인용, Super resolution
+- SRCNN : Image Super-Resolution Using Deep Convolutional Networks | 2014 · 11819회 인용, Super-resolution
+- SRDiff: Single Image Super-Resolution with Diffusion Probabilistic Models | 2021 · 845회 인용, Super resolution
+- SRGAN : Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network | 2016 · 15662회 인용, Super resolution : https://github.com/manumathewthomas/ImageDenoisingGAN/tree/master?tab=readme-ov-file
+- SSD: Single Shot MultiBox Detector | 2015 · 49970회 인용, Object detection
+- ST-CGAN : Stacked Conditional Generative Adversarial Networks for Jointly Learning Shadow Detection and Shadow Removal | 2017 · 571회 인용, Shadow detection, Shadow removal
+- SUPIR : Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild | 2024 · 87회 인용, Super resolution
+- SWAGAN: A Style-based Wavelet-driven Generative Model | 2021 · 130회 인용, Super-resolution
+- Score-SDE : Score-Based Generative Modeling through Stochastic Differential Equations | 2020 · 8748회 인용, Image generation, Density estimation, Image inpainting
+- SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution | 2023 · 215회 인용, Super resolution
+- SeemoRe : See More Details: Efficient Image Super-Resolution by Experts Mining | 2024 · 25회 인용, Super resolution
+- SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers | 2021 · 7588회 인용, Semantic Segmentation
+- SegGPT: Segmenting Everything In Context | 2023 · 323회 인용, Image segmentation
+- Self-Conditioned GAN : Diverse Image Generation via Self-Conditioned GANs | 2020 · 136회 인용, Image generation
+- TokenCut : Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut | 2022 · 221회 인용, Object detection
+- Shadow Removal via Shadow Image Decomposition | 2019 · 255회 인용, Shadow removal
+- Sharing Residual Units Through Collective Tensor Factorization in Deep Neural Networks | 2017 · 26회 인용, Image classification
+- ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices | 2017 · 10997회 인용, Image classification, Object detection
+- ShuffleNetV2: Practical Guidelines for Efficient CNN Architecture Design | 2018 · 8184회 인용, Image classification
+- SiT: Self-supervised Vision Transformer | 2021 · 174회 인용, Image classification, Semantic segmentation
+- Siamese Neural Networks for One-shot Image Recognition | 2015 . 6215회 인용, Meta-learning
+- SimCLR: A Simple Framework for Contrastive Learning of Visual Representations | 2020 · 26555회 인용, Image Classification, Object Recognition
+- SimCLRv2 : Big Self-Supervised Models are Strong Semi-Supervised Learners | 2020 · 2942회 인용, Self-Supervised Image Classification, Semi-Supervised Image Classification
+- SimSiam : Exploring Simple Siamese Representation Learning | 2020 · 5727회 인용, Self-Supervised Image Classification
+- SimpleShot: Revisiting Nearest-Neighbor Classification for Few-Shot Learning | 2019 · 490회 인용, Image classification
+- simple diffusion: End-to-end diffusion for high resolution images | 2023 · 315회 인용, Image generation
+- SinGAN: Learning a Generative Model from a Single Natural Image | 2019 · 1151회 인용, Image generation
+- SinSR: Diffusion-Based Image Super-Resolution in a Single Step | 2023 · 177회 인용 ,Super resolution
+- Sparse DETR: Efficient End-to-End Object Detection with Learnable Sparsity | 2021 · 280회 인용, Object detection
+- Spectral Normalization for Generative Adversarial Networks | 2018 · 6124회 인용, GAN technique, Image generation
+- Spectral Regularization for Combating Mode Collapse in GANs | 2019 · 113회 인용, Improve techniques for GANs, Image generation
+- SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size | 2016 · 11719회 인용, Image classification
+- StableVSR : Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models | 2023 · 14회 인용, Super resolution
+- StarGAN v2: Diverse Image Synthesis for Multiple Domains | 2019 · 2312회 인용, Image generation
+- Static and Moving Object Detection Using Flux Tensor with Split Gaussian Models | 2014 · 289회 인용, Change detection
+- Structural-analogy from a Single Image Pair | 2020 · 21회 인용, Image generation
+- Structure from Motion with Objects | 2016 · 58회 인용, 3D reconstruction
+- StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | 2019 · 8374회 인용, Image generation
+- SuperPoint: Self-Supervised Interest Point Detection and Description | 2017 · 3820회 인용, Image matching, 3D reconstruction, Point detection
+- SwAV : Unsupervised Learning of Visual Features by Contrasting Cluster Assignments | 2020 · 5217회 인용, Image classification
+- SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications | 2023 · 217회 인용, Image classification
+- SwiftSRGAN : Rethinking Super-Resolution for Efficient and Real-time Inference | 2021 · 17회 인용, Super-resolution
+- Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | 2021 · 35845회 인용, Image classification, Object Detection, Semantic Segmentation
+- Swin Transformer V2: Scaling Up Capacity and Resolution | 2021 · 2891회 인용, Image classification, Object Detection, Semantic Segmentation
+- Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration | 2022 · 218회 인용, Super resolution, Image restoration
+- SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | 2023 · 7회 인용, Image denoising
+- SwinIR : Image Restoration Using Swin Transformer | 2021 · 4934회 인용, Image reconstruction, Super resolution, Image denoising : https://github.com/JingyunLiang/SwinIR/tree/main
 - TSP-DETR : Rethinking Transformer-based Set Prediction for Object Detection | Object detection
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | Image generation
 - TerDiT: Ternary Diffusion Models with Transformers | Image generation
