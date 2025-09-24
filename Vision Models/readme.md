@@ -113,49 +113,49 @@
 - DINOv2: Learning Robust Visual Features without Supervision | 2023 · 4757회 인용, Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
 - DIP : Deep Image Prior | 2017 · 4045회 인용, Image denoising, Image generation, Super resolution : https://github.com/DmitryUlyanov/deep-image-prior/tree/master
 - DLSM : Denoising Likelihood Score Matching for Conditional Score-Based Data Generation | 2022 · 45회 인용, Image generation
-- DN-DETR: Accelerate DETR Training by Introducing Query DeNoising | Object detection
-- DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | Image generation : https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models
-- DPN : Dual Path Networks | Image classification
-- DPSR : Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels | Super resolution
-- DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | Super resolution : https://github.com/kushalchordiya216/DPSRGAN/tree/master?tab=readme-ov-file
-- DPT : Vision Transformers for Dense Prediction | Depth estimation, Semantic segmentation
-- DRAW: A Recurrent Neural Network For Image Generation | Image generation
-- DSD : Diffusion Self-Distillation for Zero-Shot Customized Image Generation | Image generation
-- Deep Generator Priors for Bayesian Seismic Inversion | Image generation, Seismic Imaging, Uncertainty Quantification
-- Deep Layer Aggregation | Image classification, Fine-grained Recognition, Semantic Segmentation
-- Deep Learning of Partial Graph Matching via Differentiable Top-K | Graph matching, Image matching
-- Deep Networks with Stochastic Depth | Image classification
-- Deep Pyramidal Residual Networks | Image classification
-- Deep Residual Learning for Image Recognition | Optimization, Object Detection/Localization, Image classification
-- DeepBedMap: a deep neural network for resolving the bed topography of Antarctica | Super resolution, GAN
-- DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations | Image classification
-- DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | Image classification
-- DeepSIM : Image Shape Manipulation from a Single Augmented Training Sample | Image generation, Image manipulation
-- DeepViT: Towards Deeper Vision Transformer | Image classification
-- Deep Spectral Methods: A Surprisingly Strong Baseline for Unsupervised Semantic Segmentation and Localization | Image localization, Semantic segmentation
-- Deformable DETR: Deformable Transformers for End-to-End Object Detection | Object detection
-- DeiT : Training data-efficient image transformers & Distillation through attention | Image classification
-- Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification | Image classification
-- Denoising Diffusion Bridge Models | Image generation
-- DenseCL : Dense Contrastive Learning for Self-Supervised Visual Pre-Training | Image classification
-- DenseNet : Densely Connected Convolutional Networks | Image classification
-- Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data | Depth estimation
-- Depth-Aware Multi-Grid Deep Homography Estimation with Contextual Correlation | Image stitching
-- DeshadowNet: A Multi-context Embedding Deep Network for Shadow Removal | Shadow removal
-- DiNAT : Dilated Neighborhood Attention Transformer | Image classification, Object detection, Semantic segmentation
-- DiT : Scalable Diffusion Models with Transformers | Image generation
-- DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior | Image denoising, Super resolution, Image restoration
-- DiffTSR : Diffusion-based Blind Text Image Super-Resolution | Super resolution
-- Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | Image classification
-- Diffusion-GAN: Training GANs with Diffusion | Image generation
-- Direction-aware Spatial Context Features for Shadow Detection and Removal | Shadow detection, Shadow removal
-- DiscoGAN : Learning to Discover Cross-Domain Relations with Generative Adversarial Networks | Image generation
-- DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | Image Denoising, Super resolution : https://github.com/anushkayadav/Denoising_cifar10
-- DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | Image generation
-- Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution | Image classification, Video action recognition
-- Dynamic Convolution: Attention over Convolution Kernels | Image classification
-- Dynamic DETR: End-to-End Object Detection with Dynamic Attention | Object detection
-- D²ETR: Decoder-Only DETR with Computationally Efficient Cross-Scale Attention | Object detection
+- DN-DETR: Accelerate DETR Training by Introducing Query DeNoising | 2022 · 1121회 인용, Object detection
+- DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | 2015 · 9541회 인용, Image generation : https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models
+- DPN : Dual Path Networks | 2017 · 1121회 인용, Image classification
+- DPSR : Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels | 2019 · 495회 인용, Super resolution
+- DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | 2021 · 7회 인용, Super resolution : https://github.com/kushalchordiya216/DPSRGAN/tree/master?tab=readme-ov-file
+- DPT : Vision Transformers for Dense Prediction | 2021 · 2962회 인용, Depth estimation, Semantic segmentation
+- DRAW: A Recurrent Neural Network For Image Generation | 2015 · 2650회 인용, Image generation
+- DSD : Diffusion Self-Distillation for Zero-Shot Customized Image Generation | 2024 · 16회 인용, Image generation
+- Deep Generator Priors for Bayesian Seismic Inversion | 2020 · 18회 인용, Image generation, Seismic Imaging, Uncertainty Quantification
+- Deep Layer Aggregation | 2017 · 1914회 인용, Image classification, Fine-grained Recognition, Semantic Segmentation
+- Deep Learning of Partial Graph Matching via Differentiable Top-K | 2023 · 18회 인용, Graph matching, Image matching
+- Deep Networks with Stochastic Depth | 2016 · 3115회 인용, Image classification
+- Deep Pyramidal Residual Networks | 2016 · 957회 인용, Image classification
+- ResNet : Deep Residual Learning for Image Recognition | 2015 · 286531회 인용, Optimization, Object Detection/Localization, Image classification
+- DeepBedMap: a deep neural network for resolving the bed topography of Antarctica | 2020 · 53회 인용, Super resolution, GAN
+- DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations | 2016 · 2397회 인용, Image classification
+- DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | 2017 · 93회 인용, Image classification
+- DeepSIM : Image Shape Manipulation from a Single Augmented Training Sample | 2020 · 28회 인용, Image generation, Image manipulation
+- DeepViT: Towards Deeper Vision Transformer | 2021 · 801회 인용, Image classification
+- Deep Spectral Methods: A Surprisingly Strong Baseline for Unsupervised Semantic Segmentation and Localization | 2022 · 208회 인용, Image localization, Semantic segmentation
+- Deformable DETR: Deformable Transformers for End-to-End Object Detection | 2020 · 8074회 인용, Object detection
+- DeiT : Training data-efficient image transformers & Distillation through attention | 2020 · 9723회 인용, Image classification
+- Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification | 2015 · 28266회 인용, Image classification
+- Denoising Diffusion Bridge Models | 2023 · 109회 인용, Image generation
+- DenseCL : Dense Contrastive Learning for Self-Supervised Visual Pre-Training | 2020 · 930회 인용, Image classification
+- DenseNet : Densely Connected Convolutional Networks | 2016 · 56904회 인용, Image classification
+- Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data | 2024 · 1352회 인용, Depth estimation
+- Depth-Aware Multi-Grid Deep Homography Estimation with Contextual Correlation | 2021 · 98회 인용, Image stitching
+- DeshadowNet: A Multi-context Embedding Deep Network for Shadow Removal | 2017 · 396회 인용, Shadow removal
+- DiNAT : Dilated Neighborhood Attention Transformer | 2022 · 121회 인용, Image classification, Object detection, Semantic segmentation
+- DiT : Scalable Diffusion Models with Transformers | 2022 · 3548회 인용, Image generation
+- DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior | 2023 · 370회 인용, Image denoising, Super resolution, Image restoration
+- DiffTSR : Diffusion-based Blind Text Image Super-Resolution | 2023 · 25회 인용, Super resolution
+- Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | 2023 · 320회 인용, Image classification
+- Diffusion-GAN: Training GANs with Diffusion | 2022 · 353회 인용, Image generation
+- Direction-aware Spatial Context Features for Shadow Detection and Removal | 2018 · 507회 인용, Shadow detection, Shadow removal
+- DiscoGAN : Learning to Discover Cross-Domain Relations with Generative Adversarial Networks | 2017 · 2874회 인용, Image generation
+- DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | 2016 · 10020회 인용, Image Denoising, Super resolution : https://github.com/anushkayadav/Denoising_cifar10
+- DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | 2022 · 3668회 인용, Image generation
+- Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution | 2019 · 866회 인용, Image classification, Video action recognition
+- Dynamic Convolution: Attention over Convolution Kernels | 2019 · 1503회 인용, Image classification
+- Dynamic DETR: End-to-End Object Detection with Dynamic Attention | 2021 · 486회 인용, Object detection
+- D²ETR: Decoder-Only DETR with Computationally Efficient Cross-Scale Attention | 2022 · 42회 인용, Object detection
 - EDM : Elucidating the Design Space of Diffusion-Based Generative Models | Image generation
 - EDSR : Enhanced Deep Residual Networks for Single Image Super-Resolution
 - EMDiffuse : Diffusion-based deep learning method for augmenting ultrastructural imaging and volume electron microscopy | Image reconstruction, Electron microscopy
