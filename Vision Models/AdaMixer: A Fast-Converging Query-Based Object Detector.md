@@ -1,5 +1,5 @@
 # AdaMixer: A Fast-Converging Query-Based Object Detector | Object detection
-
+## 2022 · 170회 인용
 **주요 주장 및 기여**  
 AdaMixer는 쿼리 기반 객체 검출기의 디코더 적응성을 크게 향상시켜 학습 초반 빠른 수렴과 우수한 성능을 동시에 달성한다.  
 - 다중 스케일 특징을 3D 공간으로 간주하고, 각 쿼리가 공간(x,y)과 스케일(z) 축에서 샘플링 위치를 학습적으로 조정하도록 설계  
