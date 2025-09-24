@@ -315,20 +315,18 @@
 - Perceptual Losses for Real-Time Style Transfer and Super-Resolution | 2016 · 13726회 인용, Image generation, Optimization
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | 2023 · 20회 인용, Image Inpainting, Facial Inpainting
 - Physics-informed deep neural network for image denoising | 2023 · 10회 인용, Image denoising : https://codeocean.com/capsule/9043085/tree/v1
-- Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation : https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix?tab=readme-ov-file
-- Pix2Pix-zero : Zero-shot Image-to-Image Translation | Image generation
-- Pix2PixHD : High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | Image generation, Semantic segmentation
-- PlenOctrees for Real-time Rendering of Neural Radiance Fields | 3D reconstruction
-- PnP-DETR: Towards Efficient Visual Analysis with Transformers | Object detection
-- PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation | 3D classification, 3D Segmentation
-- PointRend: Image Segmentation as Rendering | Semantic segementation
-- PolyNet: A Pursuit of Structural Diversity in Very Deep Networks | Image classification
-- Progressive Distillation for Fast Sampling of Diffusion Models | Image generation
-- Progressive Neural Architecture Search | NAS
-- Prompt-to-Prompt Image Editing with Cross Attention Control | Image editing, Image generation
-- PromptSR : Image Super-Resolution with Text Prompt Diffusion | Super resolution
-- Prototype Rectification for Few-Shot Learning | Image classification
-- Prototypical Networks for Few-Shot Learning | Image classification, Few-shot Learning
+- Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | 2016 · 28621회 인용, Image generation : https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix?tab=readme-ov-file
+- Pix2Pix-zero : Zero-shot Image-to-Image Translation | 2023 · 582회 인용, Image generation
+- Pix2PixHD : High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | 2017 · 5683회 인용, Image generation, Semantic segmentation
+- NeRF-SH : PlenOctrees for Real-time Rendering of Neural Radiance Fields | 2021 · 1288회 인용, 3D reconstruction
+- PnP-DETR: Towards Efficient Visual Analysis with Transformers | 2021 · 135회 인용, Object detection
+- PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation | 2016 · 21463회 인용, 3D classification, 3D Segmentation
+- PointRend: Image Segmentation as Rendering | 2019 · 1379회 인용, Semantic segementation
+- PolyNet: A Pursuit of Structural Diversity in Very Deep Networks | 2016 · 339회 인용, Image classification
+- Progressive Distillation for Fast Sampling of Diffusion Models | 2022 · 1677회 인용, Image generation
+- Progressive Neural Architecture Search | 2017 · 2661회 인용, NAS
+- Prompt-to-Prompt : Prompt-to-Prompt Image Editing with Cross Attention Control | 2022 · 2130회 인용, Image editing, Image generation
+- PromptSR : Image Super-Resolution with Text Prompt Diffusion | 2023 · 21회 인용, Super resolution
 - ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware | NAS
 - PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | Image classification, Semantic segmenation, Object detection
 - PVTv2: Improved Baselines with Pyramid Vision Transformer | Image classification, Object detection, Semantic segmentation
