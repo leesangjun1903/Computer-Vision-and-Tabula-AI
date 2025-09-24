@@ -1,5 +1,5 @@
 # Aggregating Deep Convolutional Features for Image Retrieval | Image retrieval
-
+##  2015 · 366회 인용
 ## 1. 핵심 주장 및 주요 기여
 이 논문은 전통적 SIFT 기반 로컬 피처와 달리, **딥 CNN의 최종 합성곱 레이어에서 추출한 피처들의 유사도 분포가 더 신뢰할 만**하며, 이를 위해 복잡한 고차원 임베딩 없이 간단한 **합 연산(sum pooling)** 만으로도 강력하고 컴팩트한 전역 이미지 서술자(global descriptor)를 얻을 수 있음을 보인다.  
 - 제안된 SPoC(Sum-pooled Convolutional features) 서술자는 차원 축소 후 256차원으로 압축하여 표준 이미지 검색 벤치마크에서 기존 기법 대비 평균 10–20% 이상의 mAP 향상을 달성함.  
