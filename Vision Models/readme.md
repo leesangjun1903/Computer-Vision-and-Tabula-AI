@@ -252,9 +252,8 @@
 - LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference | 2021 · 932회 인용 , Image classification
 - Learning Fine-grained Image Similarity with Deep Ranking | 2014 · 1774회 인용, Similarity precision
 - hierarchical_primitives : Learning Unsupervised Hierarchical Part Decomposition of 3D Objects from a Single RGB Image | 2020 · 140회 인용, 3D Segmentation, 3D reconstruction
-- Learning to Compare: Relation Network for Few-Shot Learning | Image classification, Few-shot learning, Zero-shot learning
-- Learning to Measure Changes: Fully Convolutional Siamese Metric Networks for Scene Change Detection | Change detection, Semantic segmentation
-- Leveraging the Feature Distribution in Transfer-based Few-Shot Learning | Image classification
+- Learning to Compare: Relation Network for Few-Shot Learning | 2017 · 5826회 인용, Image classification, Few-shot learning, Zero-shot learning
+- Learning to Measure Changes: Fully Convolutional Siamese Metric Networks for Scene Change Detection | 2018 · 129회 인용, Change detection, Semantic segmentation
 - LightGlue: Local Feature Matching at Light Speed | 3D resonstruction, Image matching
 - Lite DETR: An Interleaved Multi-Scale Encoder for Efficient DETR | Object detection
 - LoRA: Low-Rank Adaptation of Large Language Models | LLM, Fine-tuning
