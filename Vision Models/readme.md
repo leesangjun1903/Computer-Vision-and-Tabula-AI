@@ -28,71 +28,69 @@
 - 수정필:
 
 # Models(papers)
-- 3D Object Representations for Fine-Grained Categorization | 3D estimation
-- 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks | Semantic segmentation
-- 3DiM : Novel View Synthesis with Diffusion Models | Novel View Synthesis, 3D generation
-- A Baseline for Few-Shot Image Classification | Image classification
-- A Closer Look at Few-Shot Classification | Image classification
-- A Performance Evaluation of Local Descriptors | local descriptors, interest points, interest regions, invariance, Image matching, Image recognition
-- A Theory of Generative ConvNet | Generation, EBM
-- AAE : Adversarial Autoencoders | Image generation
-- ADM : Diffusion Models Beat GANs on Image Synthesis | Image generation
-- ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation | Image Matching
-- AdaIN : Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | Image generation
-- AdaMixer: A Fast-Converging Query-Based Object Detector | Object detection
-- Aggregating Deep Convolutional Features for Image Retrieval | Image retrieval
-- Anchor DETR: Query Design for Transformer-Based Object Detection | Object detection
-- AnomalySD: Few-Shot Multi-Class Anomaly Detection with Stable Diffusion Model | Anomaly detection
-- ArcFace: Additive Angular Margin Loss for Deep Face Recognition | Image classification, Face recognition
-- Attention U-Net: Learning Where to Look for the Pancreas | Semantic segmentation
-- AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks | Image generation
-- AuXFT : Cross-Architecture Auxiliary Feature Space Translation for Efficient Few-Shot Personalized Object Detection | Object detection
-- Auto-Exposure Fusion for Single-Image Shadow Removal | Shadow removal
-- Auxiliary Classifier GAN : Conditional Image Synthesis with Auxiliary Classifier GANs | Image generation
-- BAM : Bottleneck Attention Module | Image classification, Object detection
-- BARF: Bundle-Adjusting Neural Radiance Fields | 3D reconstruction
-- BCRN : A Very Lightweight Image Super-Resolution Network | Super resolution, Lightweight
-- BEGAN: Boundary Equilibrium Generative Adversarial Networks | Image generation
-- BEIT: BERT Pre-Training of Image Transformers | Image classification, Semantic segmentation
-- BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion | Image generation
-- BRDNet : Image Denoising Using Deep CNN with Batch Renormalization | Image denoising
-- BSConv : Rethinking Depthwise Separable Convolutions: How Intra-Kernel Correlations Lead to Improved MobileNets | Image classification
-- BSRGAN : Designing a Practical Degradation Model for Deep Blind Image Super-Resolution | Super resolution
-- BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | Image augmentation, Image classification
-- Big Transfer (BiT): General Visual Representation Learning | Image classification
-- Background Segmentation with Feedback: The Pixel-Based Adaptive Segmenter | Change detection
-- Background Subtraction: Experiments and Improvements for ViBe | Semantic segmentation
-- BlockQNN : Practical Block-wise Neural Network Architecture Generation | Image classification, Reinforcement Learning
-- Boosting Robustness of Image Matting with Context Assembling and Strong Data Augmentation | Image matting
-- CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | Image reconstruction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
-- CAMixerSR: Only Details Need More “Attention” | Super resolution : https://github.com/icandle/CAMixerSR/tree/main?tab=readme-ov-file
-- CANet: A Context-Aware Network for Shadow Removal | Shadow removal
-- CBAM: Convolutional Block Attention Module | Image classification, Object detection
-- CDM : Cascaded Diffusion Models for High Fidelity Image Generation | Image generation, Super resolution
-- CF-DETR: Coarse-to-Fine Transformers for End-to-End Object Detection | Object detection
-- CFG : Classifier-Free Diffusion Guidance | Data diversity, Optimization
-- CLIP : Learning Transferable Visual Models From Natural Language Supervision | Image recognition, Image generation
-- CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders | Image generation
-- CNN Image Retrieval Learns from BoW: Unsupervised Fine-Tuning with Hard Examples | Image retrieval
-- COLMAP : Structure-from-Motion Revisited | 3D reconstruction
-- CPVT : Conditional Positional Encodings for Vision Transformers | Image classification, Transformer technique
-- CSPNet: A New Backbone that can Enhance Learning Capability of CNN | Image classification, Object detection
-- CUT : Contrastive Learning for Unpaired Image-to-Image Translation | Image generation
-- CaiT : Going deeper with Image Transformers | Image classification
-- Change Detection with Weightless Neural Networks | Change detection
-- ChangeNet: A Deep Learning Architecture for Visual Change Detection | Change detection, Semantic segmentation
-- Co-Mod GAN : Large Scale Image Completion via Co-Modulated Generative Adversarial Networks | Image generation, Image inpainting
-- CoAtNet: Marrying Convolution and Attention for All Data Sizes | Image classification
-- CoSeR: Bridging Image and Language for Cognitive Super-Resolution | Super resolution
-- CoaT : Co-Scale Conv-Attentional Image Transformers | Image classification, Object detection, Semantic segmentation
-- CodeFormer : Towards Robust Blind Face Restoration with Codebook Lookup Transformer | Image restoration, Blind Face restoration
-- CondenseNet: An Efficient DenseNet using Learned Group Convolutions | Image classification
-- Conditional DETR for Fast Training Convergence | Object detection
-- Contrastive Feature Loss for Image Prediction | Image generation
-- ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models | Image generation
-- ConvNeXt : A ConvNet for the 2020s | Image classification, Object detection, Semantic Segmentation
-- ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders | Image classification, Object detection, Semantic segmentation
-- Cross-Domain Few-Shot Classification via Learned Feature-Wise Transformation | Few-Shot Learning, Learning-to-Learn Approach (Meta-Learning)
+- 3D Object Representations for Fine-Grained Categorization | 2013 · 5280회 인용, 3D estimation
+- 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks | 2017 · 2051회 인용, Semantic segmentation
+- 3DiM : Novel View Synthesis with Diffusion Models | 2022 · 320회 인용, Novel View Synthesis, 3D generation
+- A Performance Evaluation of Local Descriptors | 2005 · 11129회 인용, local descriptors, interest points, interest regions, invariance, Image matching, Image recognition
+- A Theory of Generative ConvNet | 2016 · 388회 인용, Generation, EBM
+- AAE : Adversarial Autoencoders | 2015 · 3689회 인용, Image generation
+- ADM : Diffusion Models Beat GANs on Image Synthesis | 2021 · 10611회 인용, Image generation
+- ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation | 2023 · 128회 인용, Image Matching
+- AdaIN : Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | 2017 · 6085회 인용, Image generation
+- AdaMixer: A Fast-Converging Query-Based Object Detector | 2022 · 170회 인용, Object detection
+- Aggregating Deep Convolutional Features for Image Retrieval | 2015 · 366회 인용, Image retrieval
+- Anchor DETR: Query Design for Transformer-Based Object Detection | 2021 · 75회 인용, Object detection
+- AnomalySD: Few-Shot Multi-Class Anomaly Detection with Stable Diffusion Model | 2024 · 3회 인용, Anomaly detection
+- ArcFace: Additive Angular Margin Loss for Deep Face Recognition | 2018 · 9174회 인용, Image classification, Face recognition
+- Attention U-Net: Learning Where to Look for the Pancreas | 2018 · 9212회 인용, Semantic segmentation
+- AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks | 2019 · 331회 인용, Image generation
+- AuXFT : Cross-Architecture Auxiliary Feature Space Translation for Efficient Few-Shot Personalized Object Detection | 2024 · 5회 인용, Object detection
+- Auto-Exposure Fusion for Single-Image Shadow Removal | 2021 · 201회 인용, Shadow removal
+- Auxiliary Classifier GAN : Conditional Image Synthesis with Auxiliary Classifier GANs | 2016 · 4651회 인용, Image generation
+- BAM : Bottleneck Attention Module | 2018 · 1883회 인용, Image classification, Object detection
+- BARF: Bundle-Adjusting Neural Radiance Fields | 2021 · 889회 인용, 3D reconstruction
+- BCRN : A Very Lightweight Image Super-Resolution Network | 2024 · 10회 인용, Super resolution, Lightweight
+- BEGAN: Boundary Equilibrium Generative Adversarial Networks | 2017 · 1617회 인용, Image generation
+- BEIT: BERT Pre-Training of Image Transformers | 2021 · 3870회 인용, Image classification, Semantic segmentation
+- BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion | 2023 · 52회 인용, Image generation
+- BRDNet : Image Denoising Using Deep CNN with Batch Renormalization | 2020 · 615회 인용, Image denoising
+- BSConv : Rethinking Depthwise Separable Convolutions: How Intra-Kernel Correlations Lead to Improved MobileNets | 2020 · 246회 인용, Image classification
+- BSRGAN : Designing a Practical Degradation Model for Deep Blind Image Super-Resolution | 2021 · 943회 인용, Super resolution
+- BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | 2020 · 9134회 인용, Image augmentation, Image classification
+- Big Transfer (BiT): General Visual Representation Learning | 2019 · 1586회 인용, Image classification
+- Background Segmentation with Feedback: The Pixel-Based Adaptive Segmenter | 2012 · 769회 인용, Change detection
+- Background Subtraction: Experiments and Improvements for ViBe | 2012 · 382회 인용, Semantic segmentation
+- BlockQNN : Practical Block-wise Neural Network Architecture Generation | 2017 · 671회 인용, Image classification, Reinforcement Learning
+- Boosting Robustness of Image Matting with Context Assembling and Strong Data Augmentation | 2022 · 42회 인용, Image matting
+- CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | 2011 · 2931회 인용, Image reconstruction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
+- CAMixerSR: Only Details Need More “Attention” | 2024 · 63회 인용, Super resolution : https://github.com/icandle/CAMixerSR/tree/main?tab=readme-ov-file
+- CANet: A Context-Aware Network for Shadow Removal | 2021 · 131회 인용, Shadow removal
+- CBAM: Convolutional Block Attention Module | 2018 · 30618회 인용, Image classification, Object detection
+- CDM : Cascaded Diffusion Models for High Fidelity Image Generation | 2021 · 1500회 인용, Image generation, Super resolution
+- CF-DETR: Coarse-to-Fine Transformers for End-to-End Object Detection | 2022 · 53회 인용, Object detection
+- CFG : Classifier-Free Diffusion Guidance | 2022 · 5339회 인용, Data diversity, Optimization
+- CLIP : Learning Transferable Visual Models From Natural Language Supervision | 2021 · 43122회 인용, Image recognition, Image generation
+- CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders | 2021 · 254회 인용, Image generation
+- CNN Image Retrieval Learns from BoW: Unsupervised Fine-Tuning with Hard Examples | 2016 · 769회 인용, Image retrieval
+- COLMAP : Structure-from-Motion Revisited | 2016 . 8045회 인용, 3D reconstruction
+- CPVT : Conditional Positional Encodings for Vision Transformers | 2021 · 914회 인용, Image classification, Transformer technique
+- CSPNet: A New Backbone that can Enhance Learning Capability of CNN | 2019 · 5843회 인용, Image classification, Object detection
+- CUT : Contrastive Learning for Unpaired Image-to-Image Translation | 2020 · 1815회 인용, Image generation
+- CaiT : Going deeper with Image Transformers | 2021 · 1492회 인용, Image classification
+- Change Detection with Weightless Neural Networks | 2014 · 145회 인용, Change detection
+- ChangeNet: A Deep Learning Architecture for Visual Change Detection | 2018 · 200회 인용, Change detection, Semantic segmentation
+- Co-Mod GAN : Large Scale Image Completion via Co-Modulated Generative Adversarial Networks | 2021 · 391회 인용, Image generation, Image inpainting
+- CoAtNet: Marrying Convolution and Attention for All Data Sizes | 2021 · 1781회 인용, Image classification
+- CoSeR: Bridging Image and Language for Cognitive Super-Resolution | 2023 · 70회 인용, Super resolution
+- CoaT : Co-Scale Conv-Attentional Image Transformers | 2021 · 513회 인용, Image classification, Object detection, Semantic segmentation
+- CodeFormer : Towards Robust Blind Face Restoration with Codebook Lookup Transformer | 2022 · 338회 인용, Image restoration, Blind Face restoration
+- CondenseNet: An Efficient DenseNet using Learned Group Convolutions | 2017 · 1123회 인용, Image classification
+- Conditional DETR for Fast Training Convergence | 2021 · 1016회 인용, Object detection
+- Contrastive Feature Loss for Image Prediction | 2021 · 43회 인용, Image generation
+- ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models | 2023 · 5873회 인용, Image generation
+- ConvNeXt : A ConvNet for the 2020s | 2022 · 9671회 인용, Image classification, Object detection, Semantic Segmentation
+- ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders | 2023 · 1535회 인용, Image classification, Object detection, Semantic segmentation
+- Cross-Domain Few-Shot Classification via Learned Feature-Wise Transformation | 2020 · 552회 인용, Few-Shot Learning, Learning-to-Learn Approach (Meta-Learning)
 - CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification | Image classification
 - CutLER: Cut and Learn for Unsupervised Object Detection and Instance Segmentation | Object detection, Semantic segmentation
 - CvT : Introducing Convolutions to Vision Transformers | Image classification
