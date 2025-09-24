@@ -1,5 +1,5 @@
 # 3DiM : Novel View Synthesis with Diffusion Models | Novel View Synthesis, 3D generation
-
+## 2022 · 320회 인용
 ## 핵심 주장과 주요 기여
 
 **3DiM (3D Diffusion Models)**[1]은 단일 입력 이미지로부터 3D 일관성을 가진 새로운 시점의 이미지들을 생성하는 geometry-free 확산 모델을 제안합니다[2]. 이 연구의 **핵심 주장**은 기존의 명시적인 3D 기하학적 표현 없이도 확산 모델을 통해 고품질의 새로운 시점 합성이 가능하다는 것입니다.
