@@ -1,4 +1,5 @@
 # ADM : Diffusion Models Beat GANs on Image Synthesis | Image generation
+## 2021 · 10611회 인용
 
 # Classifier Guidance in Diffusion Models
 
