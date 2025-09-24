@@ -1,4 +1,5 @@
 # Adversarial Autoencoders | Image generation
+## 2015 · 3689회 인용
 
 ## 핵심 주장과 주요 기여
 
