@@ -90,31 +90,29 @@
 - ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models | 2023 · 5873회 인용, Image generation
 - ConvNeXt : A ConvNet for the 2020s | 2022 · 9671회 인용, Image classification, Object detection, Semantic Segmentation
 - ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders | 2023 · 1535회 인용, Image classification, Object detection, Semantic segmentation
-- Cross-Domain Few-Shot Classification via Learned Feature-Wise Transformation | 2020 · 552회 인용, Few-Shot Learning, Learning-to-Learn Approach (Meta-Learning)
-- CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification | Image classification
-- CutLER: Cut and Learn for Unsupervised Object Detection and Instance Segmentation | Object detection, Semantic segmentation
-- CvT : Introducing Convolutions to Vision Transformers | Image classification
-- CycleGAN: Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks | Image generation
-- CycleISP: Real Image Restoration via Improved Data Synthesis | Image denoising, Image restoration
-- DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR | Object detection
-- DARTS: Differentiable Architecture Search | NAS
-- DBPN : Deep Back-Projection Networks for Single Image Super-resolution | Super resolution : https://github.com/Lornatang/DBPN-PyTorch?tab=readme-ov-file
-- DCGAN : Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
-- DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | Image generation
-- DDGANs : Tackling the Generative Learning Trilemma with Denoising Diffusion GANs | Image generation
-- DDIM : Denoising Diffusion Implicit Models | Image generation
-- DDNM : Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model | Super resolution
-- DDPM : Denoising Diffusion Probabilistic Models | Image generation : https://github.com/lucidrains/denoising-diffusion-pytorch?tab=readme-ov-file
-- DDPN-PA : Few-shot Image Generation with Diffusion Models | Image generation
-- DETA : NMS Strikes Back | Object detection
-- DETR : End-to-End Object Detection with Transformers | Object detection
-- DIFFGUARD: Semantic Mismatch-Guided Out-of-Distribution Detection using Pre-trained Diffusion Models | Out of distribution(OOD) detection
-- DINO : DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection | Object detection
-- DINO : Emerging Properties in Self-Supervised Vision Transformers | Semantic segmentation, Image classification, Image retrieval, Object detection
-- DINOv2: Learning Robust Visual Features without Supervision | Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
-- DIP : Deep Image Prior | Image denoising, Image generation, Super resolution : https://github.com/DmitryUlyanov/deep-image-prior/tree/master
-- DLSM : Denoising Likelihood Score Matching for Conditional Score-Based Data Generation | Image generation
-- DMTRL : Deep Multi-task Representation Learning: A Tensor Factorisation Approach | Domain adaption
+- CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification | 2021 · 2401회 인용, Image classification
+- CutLER: Cut and Learn for Unsupervised Object Detection and Instance Segmentation | 2023 · 274회 인용, Object detection, Semantic segmentation
+- CvT : Introducing Convolutions to Vision Transformers | 2021 · 2904회 인용, Image classification
+- CycleGAN: Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks | 2017 · 29137회 인용, Image generation
+- CycleISP: Real Image Restoration via Improved Data Synthesis | 2020 · 491회 인용, Image denoising, Image restoration
+- DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR | 2022 · 1262회 인용, Object detection
+- DARTS: Differentiable Architecture Search | 2018 · 6142회 인용, NAS
+- DBPN : Deep Back-Projection Networks for Single Image Super-resolution | 2019 · 151회 인용 , Super resolution : https://github.com/Lornatang/DBPN-PyTorch?tab=readme-ov-file
+- DCGAN : Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks | 2015 · 20818회 인용, Image generation
+- DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | 2021 · 266회 인용, Image generation
+- DDGANs : Tackling the Generative Learning Trilemma with Denoising Diffusion GANs | 2021 · 765회 인용, Image generation
+- DDIM : Denoising Diffusion Implicit Models | 2020 · 10266회 인용, Image generation
+- DDNM : Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model | 2022 · 595회 인용, Super resolution
+- DDPM : Denoising Diffusion Probabilistic Models | 2020 · 27532회 인용, Image generation : https://github.com/lucidrains/denoising-diffusion-pytorch?tab=readme-ov-file
+- DDPM-PA : Few-shot Image Generation with Diffusion Models | 2022 · 31회 인용, Image generation
+- DETA : NMS Strikes Back | 2022 · 73회 인용, Object detection
+- DETR : End-to-End Object Detection with Transformers | 2020 · 20308회 인용, Object detection
+- DIFFGUARD: Semantic Mismatch-Guided Out-of-Distribution Detection using Pre-trained Diffusion Models | 2023 · 25회 인용, Out of distribution(OOD) detection
+- DINO : DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection | 2022 · 2463회 인용, Object detection
+- DINO : Emerging Properties in Self-Supervised Vision Transformers | 2021 · 8409회 인용, Semantic segmentation, Image classification, Image retrieval, Object detection
+- DINOv2: Learning Robust Visual Features without Supervision | 2023 · 4757회 인용, Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
+- DIP : Deep Image Prior | 2017 · 4045회 인용, Image denoising, Image generation, Super resolution : https://github.com/DmitryUlyanov/deep-image-prior/tree/master
+- DLSM : Denoising Likelihood Score Matching for Conditional Score-Based Data Generation | 2022 · 45회 인용, Image generation
 - DN-DETR: Accelerate DETR Training by Introducing Query DeNoising | Object detection
 - DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | Image generation : https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models
 - DPN : Dual Path Networks | Image classification
