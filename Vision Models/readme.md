@@ -227,7 +227,6 @@
 - Improving Foreground Segmentations with Probabilistic Superpixel Markov Random Fields | 2012 · 200회 인용, Change detection
 - Inceptionv2, 3 : Rethinking the Inception Architecture for Computer Vision | 2015 · 40956회 인용, Image classification
 - Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning | 2016 · 19858회 인용, Image classification
-- Incremental Multi-domain Learning with Network Latent Tensor Factorization | Domain adaption
 - Instant-NGP : Instant Neural Graphics Primitives with a Multiresolution Hash Encoding | 3D reconstruction
 - Intriguing Properties of Vision Transformers | Image classification
 - InvSR : Arbitrary-steps Image Super-resolution via Diffusion Inversion | Super-Resolution
