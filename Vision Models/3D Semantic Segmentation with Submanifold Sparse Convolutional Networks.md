@@ -1,5 +1,5 @@
 # 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks | Semantic segmentation
-
+## 2017 · 2051회 인용
 ## 1. 핵심 주장과 주요 기여
 
 이 논문은 **Submanifold Sparse Convolutional Networks (SSCNs)**를 제안하여 3D 점군 데이터의 의미론적 분할(semantic segmentation) 문제를 효율적으로 해결합니다. 주요 기여사항은 다음과 같습니다:
