@@ -1,4 +1,5 @@
 # AdaIN : Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | Image generation
+## 2017 · 6085회 인용
 ## 핵심 주장과 주요 기여
 
 이 논문은 **실시간 임의 스타일 전이(arbitrary style transfer)**를 최초로 가능하게 한 혁신적인 접근법을 제시합니다[1]. 기존 방법들이 속도와 유연성 사이의 근본적인 딜레마에 직면했던 반면, 본 연구는 **적응적 인스턴스 정규화(Adaptive Instance Normalization, AdaIN)** 계층을 도입하여 이 문제를 해결했습니다[1].
