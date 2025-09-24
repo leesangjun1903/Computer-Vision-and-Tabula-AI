@@ -275,47 +275,46 @@
 - Mesh R-CNN | 2019 · 665회 인용, 3D segmentation
 - MetaFormer : MetaFormer Is Actually What You Need for Vision | 2021 · 1496회 인용, Image classification, Object detection, Semantic segmentation
 - MetaQNN : Designing Neural Network Architectures using Reinforcement Learning | 2016 · 2059회 인용 , Image classification, Reinforcement Learning
-- MixDL : Few-shot Image Generation with Mixup-based Distance Learning | Image generation
-- MoCov2 : Improved Baselines with Momentum Contrastive Learning | Image classification, Object detection
-- MoCov3 : An Empirical Study of Training Self-Supervised Vision Transformers | Image classification
-- MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | Image classification
-- MobileNetV2: Inverted Residuals and Linear Bottlenecks | Image classification
-- MobileNetV3 : Searching for MobileNetV3 | Image classification, Object detection, Semantic segmenation
-- MobileStyleGAN: A Lightweight Convolutional Neural Network for High-Fidelity Image Synthesis | Image generation
-- MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer | Image classification, Object detection
-- MobileViTv2 : Separable Self-Attention for Mobile Vision Transformers | Image classification
-- Multi-Scale Vision Longformer: A New Vision Transformer for High-Resolution Image Encoding | Image classification, Object detection, Semantic segmentation
-- NAFNet: Simple Baselines for Image Restoration | Image restoration, Image denoising : https://github.com/megvii-research/NAFNet
-- NAFSSR: Stereo Image Super-Resolution Using NAFNet | Super resolution
+- MixDL : Few-shot Image Generation with Mixup-based Distance Learning | 2021 · 29회 인용, Image generation
+- MoCov2 : Improved Baselines with Momentum Contrastive Learning | 2020 · 4325회 인용, Image classification, Object detection
+- MoCov3 : An Empirical Study of Training Self-Supervised Vision Transformers | 2021 · 2474회 인용, Image classification
+- MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | 2017 · 34073회 인용, Image classification
+- MobileNetV2: Inverted Residuals and Linear Bottlenecks | 2018 · 31765회 인용, Image classification
+- MobileNetV3 : Searching for MobileNetV3 | 2019 · 12219회 인용, Image classification, Object detection, Semantic segmenation
+- MobileStyleGAN: A Lightweight Convolutional Neural Network for High-Fidelity Image Synthesis | 2021 · 28회 인용, Image generation
+- MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer | 2021 · 2430회 인용, Image classification, Object detection
+- MobileViTv2 : Separable Self-Attention for Mobile Vision Transformers | 2022 · 481회 인용, Image classification
+- Vision Longformer : Multi-Scale Vision Longformer: A New Vision Transformer for High-Resolution Image Encoding | 2021 · 451회 인용, Image classification, Object detection, Semantic segmentation
+- NAFNet: Simple Baselines for Image Restoration | 2022 · 1484회 인용, Image restoration, Image denoising : https://github.com/megvii-research/NAFNet
+- NAFSSR: Stereo Image Super-Resolution Using NAFNet | 2022 · 183회 인용, Super-resolution
 - NASNet : Learning Transferable Architectures for Scalable Image Recognition | Image classification, NAS
-- MultiGen: Zero-shot Image Generation from Multi-modal Prompts | Image generation
-- NAT : Neighborhood Attention Transformer | Image classification, Object detection, Semantic segmentation
-- NCSN : Generative Modeling by Estimating Gradients of the Data Distribution | Image generation, Image inpainting
-- NCSNv2 : Improved Techniques for Training Score-Based Generative Models | Image generation
-- Natural Image Denoising with Convolutional Networks | Image denoising
-- NeRF--: Neural Radiance Fields Without Known Camera Parameters | 3D reconstruction, photometric reconstruction
-- NeRF: Neural Radiance Fields for View Synthesis | 3D reconstruction, Neural rendering, Novel view synthesis
-- NetVLAD: CNN architecture for weakly supervised place recognition | Image retrieval, Visual localization
-- Neural Architecture Search with Reinforcement Learning | NAS
-- Noise Flow: Noise Modeling with Conditional Normalizing Flows | Image denoising
-- Noise2Noise: Learning Image Restoration without Clean Data | Image denoising
-- Noise2Void - Learning Denoising from Single Noisy Images | Image denoising
-- NoisyStudent : Self-training with Noisy Student improves ImageNet classification | Image classification
-- Normalizing Flows : Variational Inference with Normalizing Flows | Variational Inference, Image generation
-- On Distillation of Guided Diffusion Models | Image generation
-- On the Importance of Noise Scheduling for Diﬀusion Models | Image generation
-- P2 weighting : Perception Prioritized Training of Diffusion Models | Image generation
-- PASD : Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization | Super resolution
-- PFGM : Poisson Flow Generative Models | Image generation
-- PFGM++: Unlocking the Potential of Physics-Inspired Generative Models | Image generation
-- PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance | Image generation, Image restoration, Face restoration
-- PGGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation | Image generation
-- PRNet :  Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network | 3D reconstruction, Face alignment, Face reconstruction
-- PSConv: Squeezing Feature Pyramid into One Compact Poly-Scale Convolutional Layer | Image classification
-- Perceptual Losses for Real-Time Style Transfer and Super-Resolution | Image generation, Optimization
-- Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | Image Inpainting, Facial Inpainting
-- Physics-informed deep neural network for image denoising | Image denoising : https://codeocean.com/capsule/9043085/tree/v1
-- Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask Weights | Domain adaption
+- MultiGen: Zero-shot Image Generation from Multi-modal Prompts | 2024 · 3회 인용, Image generation
+- NAT : Neighborhood Attention Transformer | 2022 · 524회 인용, Image classification, Object detection, Semantic segmentation
+- NCSN : Generative Modeling by Estimating Gradients of the Data Distribution | 2019 · 5159회 인용, Image generation, Image inpainting
+- NCSNv2 : Improved Techniques for Training Score-Based Generative Models | 2020 · 1443회 인용, Image generation
+- Natural Image Denoising with Convolutional Networks | 2008 · 1329회 인용, Image denoising
+- NeRF--: Neural Radiance Fields Without Known Camera Parameters | 2021 · 749회 인용, 3D reconstruction, photometric reconstruction
+- NeRF: Neural Radiance Fields for View Synthesis | 2020 · 14429회 인용, 3D reconstruction, Neural rendering, Novel view synthesis
+- NetVLAD: CNN architecture for weakly supervised place recognition | 2015 · 3910회 인용, Image retrieval, Visual localization
+- Neural Architecture Search with Reinforcement Learning | 2016 · 7555회 인용, NAS
+- Noise Flow: Noise Modeling with Conditional Normalizing Flows | 2019 · 222회 인용, Image denoising
+- Noise2Noise: Learning Image Restoration without Clean Data | 2018 · 2454회 인용, Image denoising
+- Noise2Void - Learning Denoising from Single Noisy Images | 2018 · 1627회 인용, Image denoising
+- NoisyStudent : Self-training with Noisy Student improves ImageNet classification | 2019 · 3272회 인용, Image classification
+- Normalizing Flows : Variational Inference with Normalizing Flows | 2015 · 5592회 인용, Variational Inference, Image generation
+- Diffusion Models Distillation : On Distillation of Guided Diffusion Models | 2022 · 682회 인용, Image generation
+- On the Importance of Noise Scheduling for Diﬀusion Models | 2023 · 188회 인용, Image generation
+- P2 weighting : Perception Prioritized Training of Diffusion Models | 2022 · 318회 인용, Image generation
+- PASD : Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization | 2023 · 195회 인용, Super resolution
+- PFGM : Poisson Flow Generative Models | 2022 · 123회 인용, Image generation
+- PFGM++: Unlocking the Potential of Physics-Inspired Generative Models | 2023 · 78회 인용, Image generation
+- PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance | 2023 · 60회 인용, Image generation, Image restoration, Face restoration
+- PGGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation | 2017 · 10367회 인용, Image generation
+- PRNet :  Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network | 2018 · 953회 인용, 3D reconstruction, Face alignment, Face reconstruction
+- PSConv: Squeezing Feature Pyramid into One Compact Poly-Scale Convolutional Layer | 2020 · 46회 인용, Image classification
+- Perceptual Losses for Real-Time Style Transfer and Super-Resolution | 2016 · 13726회 인용, Image generation, Optimization
+- Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | 2023 · 20회 인용, Image Inpainting, Facial Inpainting
+- Physics-informed deep neural network for image denoising | 2023 · 10회 인용, Image denoising : https://codeocean.com/capsule/9043085/tree/v1
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | Image generation : https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix?tab=readme-ov-file
 - Pix2Pix-zero : Zero-shot Image-to-Image Translation | Image generation
 - Pix2PixHD : High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | Image generation, Semantic segmentation
