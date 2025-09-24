@@ -1,4 +1,5 @@
 # A Performance Evaluation of Local Descriptors | local descriptors, interest points, interest regions, invariance, Image matching, Image recognition
+## 2005 · 11129회 인용
 
 ## 1. 핵심 주장 및 주요 기여  
 이 논문은 다양한 **지역(local) 디스크립터**들의 성능을 일관된 평가 프레임워크 아래 비교함으로써, 어떤 디스크립터가 실제 영상 매칭 및 인식에 가장 **강건**하며 **식별력(distinctiveness)**이 높은지를 입증했다.  
