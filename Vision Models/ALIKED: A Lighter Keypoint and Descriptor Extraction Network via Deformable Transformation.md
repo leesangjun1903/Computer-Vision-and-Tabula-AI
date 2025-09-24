@@ -28,15 +28,15 @@ ALIKED는 기존 키포인트 및 디스크립터 추출 네트워크의 두 가
 
 **Affine transformation (기존):**
 
-$$
+```math
 \begin{bmatrix} x' \\ y' \\ 1 \end{bmatrix} = \begin{bmatrix} A & b \\ 0 & 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix}
-$$
+```
 
 **Deformable transformation (제안):**
 
-$$
+```math
 \begin{bmatrix} x' \\ y' \end{bmatrix} = \begin{bmatrix} x \\ y \end{bmatrix} + \begin{bmatrix} \Delta x \\ \Delta y \end{bmatrix}
-$$
+```
 
 여기서 $$(\Delta x, \Delta y)^T$$는 키포인트 주변 각 픽셀의 offset입니다.[1]
 
