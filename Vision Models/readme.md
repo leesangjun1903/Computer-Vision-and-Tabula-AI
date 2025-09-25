@@ -418,17 +418,16 @@
 - Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration | 2022 · 218회 인용, Super resolution, Image restoration
 - SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | 2023 · 7회 인용, Image denoising
 - SwinIR : Image Restoration Using Swin Transformer | 2021 · 4934회 인용, Image reconstruction, Super resolution, Image denoising : https://github.com/JingyunLiang/SwinIR/tree/main
-- TSP-DETR : Rethinking Transformer-based Set Prediction for Object Detection | Object detection
-- TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | Image generation
-- TerDiT: Ternary Diffusion Models with Transformers | Image generation
-- That’s BAD: Blind Anomaly Detection by Implicit Local Feature Clustering | Anomaly detection
-- Three things everyone should know to improve object retrieval | Image retrieval
-- TinyGAN: Distilling BigGAN for Conditional Image Generation | Image generation
-- TokenCut: Segmenting Objects in Images and Videos with Self-supervised Transformer and Normalized Cut | Unsupervised object discovery
-- Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet | Image classification
-- Towards Ghost-free Shadow Removal via Dual Hierarchical Aggregation Network and Shadow Matting GAN | Shadow removal, Shadow matting
-- Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution | Image classification, Facial emotion recognition
-- Transductive Information Maximization for Few-Shot Learning | Image classificaiton
+- TSP-DETR : Rethinking Transformer-based Set Prediction for Object Detection | 2020 · 461회 인용, Object detection
+- TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | 2020 · 142회 인용, Image generation
+- TerDiT: Ternary Diffusion Models with Transformers | 2024 · 4회 인용, Image generation
+- That’s BAD: Blind Anomaly Detection by Implicit Local Feature Clustering | 2023 · 6회 인용, Anomaly detection
+- Three things everyone should know to improve object retrieval | 2012 · 1880회 인용, Image retrieval
+- TinyGAN: Distilling BigGAN for Conditional Image Generation | 2020 · 38회 인용, Image generation
+- TokenCut Video : Segmenting Objects in Images and Videos with Self-supervised Transformer and Normalized Cut | 2022 · 125회 인용, Unsupervised object discovery
+- Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet | 2021 · 2915회 인용, Image classification
+- Towards Ghost-free Shadow Removal via Dual Hierarchical Aggregation Network and Shadow Matting GAN | 2019 · 281회 인용, Shadow removal, Shadow matting
+- Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution | 2016 · 990회 인용, Image classification, Facial emotion recognition
 - Transformer in Transformer | Image classification
 - Twins: Revisiting the Design of Spatial Attention in Vision Transformers | Image classification, Semantic segmentation, Object detection
 - Two-stage Discriminative Re-ranking for Large-scale Landmark Retrieval | Image retrieval
