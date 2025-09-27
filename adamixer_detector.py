@@ -154,10 +154,11 @@ class Sampling3DOperator(nn.Module):
     - z: 스케일 레벨 (로그 스케일)
     """
     
-    def __init__(self, hidden_dim: int, num_levels: int = 4):
+    def __init__(self, hidden_dim: int, num_levels: int = 4, p_in: int = 32):
         super().__init__()
         self.hidden_dim = hidden_dim
         self.num_levels = num_levels
+        self.p_in = p_in
         
         # 3D 오프셋 생성을 위한 선형층
         self.offset_generator = nn.Linear(hidden_dim, 3)  # (Δx, Δy, Δz)
@@ -189,7 +190,7 @@ class Sampling3DOperator(nn.Module):
         
         # 샘플링 좌표 계산 (논문의 수식대로)
         sampling_coords = []
-        for i in range(MODEL_CONFIG['p_in']):
+        for i in range(self.p_in):
             # 각 샘플링 포인트별로 다른 오프셋 적용 (실제로는 학습됨)
             delta_x, delta_y, delta_z = offsets[:, :, 0], offsets[:, :, 1], offsets[:, :, 2]
             
@@ -386,8 +387,11 @@ class AdaptiveSamplingMixing(nn.Module):
                  num_groups: int = 4):
         super().__init__()
         
+        self.p_in = p_in
+        self.p_out = p_out
+        
         # 3D 샘플링
-        self.sampling_3d = Sampling3DOperator(hidden_dim, num_levels)
+        self.sampling_3d = Sampling3DOperator(hidden_dim, num_levels, p_in)
         
         # 적응적 믹싱
         self.channel_mixing = AdaptiveChannelMixing(hidden_dim, num_groups)
