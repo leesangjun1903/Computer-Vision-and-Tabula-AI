@@ -477,31 +477,15 @@
 - iDDPM : Improved Denoising Diffusion Probabilistic Models | 2021 · 5039회 인용, Super resolution, Image generation, Image denoising
 - pGAN : Image Synthesis in Multi-Contrast MRI with Conditional Generative Adversarial Networks | 2018 · 682회 인용, Image generation
 - 출입 통제에 활용 가능한 딥러닝 기반 마스크 착용 판별 | 2020 · 5회 인용, Image classification, Face recognization
-
+- OmniSplat: Taming Feed-Forward 3D Gaussian Splatting for Omnidirectional Images with Editable Capabilities | 2024 · 3회 인용
 
 
 - 수정필 :
 - Generative AI, Artificial Images(StyleGAN2, Pix2Pix, SinGAN, Super-Resolution(EDSR, EUSR, DBPN, RCAN, MSRN, ESRGAN, CARN, FRSR) , U2-Net : https://github.com/dvschultz/ai/tree/master
 - PyTorch-GAN(Auxiliary Classifier GAN, Adversarial Autoencoder, BEGAN, BicycleGAN, Boundary-Seeking GAN, Cluster GAN, Conditional GAN, Context-Conditional GAN, Context Encoder, Coupled GAN, CycleGAN, Deep Convolutional GAN, DiscoGAN, DRAGAN, DualGAN, Energy-Based GAN, Enhanced Super-Resolution GAN, GAN, InfoGAN, Least Squares GAN, MUNIT, Pix2Pix, PixelDA, Relativistic GAN, Semi-Supervised GAN, Softmax GAN, StarGAN, Super-Resolution GAN, UNIT, Wasserstein GAN, Wasserstein GAN GP(Wasserstein GAN with Gradient Penalty), Wasserstein GAN DIV(Wasserstein Divergence for GANs) : https://github.com/eriklindernoren/PyTorch-GAN/tree/master?tab=readme-ov-file#munit
 
-
-## 3D
-OmniSplat: Taming Feed-Forward 3D Gaussian Splatting for Omnidirectional Images with Editable Capabilities
-
 ## Awesome Diffusion Categorized
 https://github.com/wangkai930418/awesome-diffusion-categorized?tab=readme-ov-file
-
-### Accelerate ( 가속화 )
-
-### Image Restoration
-### Colorization
-### Face Restoration
-### Image Compression
-### Super Resolution
-### Personalized Restoration
-
-...
-
 
 https://ostin.tistory.com/category/%EB%85%BC%EB%AC%B8%20%EB%A6%AC%EB%B7%B0/Diffusion%20Model
 
