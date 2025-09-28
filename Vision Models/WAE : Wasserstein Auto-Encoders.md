@@ -1,4 +1,4 @@
-# Wasserstein Auto-Encoders
+# WAE : Wasserstein Auto-Encoders
 
 **핵심 주장 및 주요 기여**  
 Wasserstein Auto-Encoders(WAE)는 **최적수송(Optimal Transport, OT) 관점**에서 생성모델을 제안하며, 데이터 분포 $$P_X$$와 모델 분포 $$P_G$$ 간의 **Wasserstein 거리**를 최소화하는 새로운 알고리즘이다. WAE는 VAE의 변분 바운드 대신 OT 비용에 기반한 다음과 같은 **벌점 형태의 목적함수**를 사용한다:
