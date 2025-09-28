@@ -139,6 +139,7 @@
 - DeiT : Training data-efficient image transformers & Distillation through attention | 2020 · 9723회 인용, Image classification
 - Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification | 2015 · 28266회 인용, Image classification
 - Denoising Diffusion Bridge Models | 2023 · 109회 인용, Image generation
+- Denoising MCMC for Accelerating Diffusion-Based Generative Models | 2022 · 23회 인용 , Image generation, Accelerating Technique
 - DenseCL : Dense Contrastive Learning for Self-Supervised Visual Pre-Training | 2020 · 930회 인용, Image classification
 - DenseNet : Densely Connected Convolutional Networks | 2016 · 56904회 인용, Image classification
 - Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data | 2024 · 1352회 인용, Depth estimation
