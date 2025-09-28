@@ -40,6 +40,7 @@
 - AdaIN : Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | 2017 · 6085회 인용, Image generation
 - AdaMixer: A Fast-Converging Query-Based Object Detector | 2022 · 170회 인용, Object detection
 - Aggregating Deep Convolutional Features for Image Retrieval | 2015 · 366회 인용, Image retrieval
+- AnomalyDiffusion: Few-Shot Anomaly Image Generation with Diffusion Model | 2023 · 120회 인용, Anomaly Detection
 - Anchor DETR: Query Design for Transformer-Based Object Detection | 2021 · 75회 인용, Object detection
 - AnomalySD: Few-Shot Multi-Class Anomaly Detection with Stable Diffusion Model | 2024 · 3회 인용, Anomaly detection
 - ArcFace: Additive Angular Margin Loss for Deep Face Recognition | 2018 · 9174회 인용, Image classification, Face recognition
