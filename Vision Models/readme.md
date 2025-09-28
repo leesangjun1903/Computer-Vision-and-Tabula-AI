@@ -338,6 +338,7 @@
 - RAN : Residual Attention Network for Image Classification | 2017 · 4843회 인용, Image classification
 - REGO-DETR : Recurrent Glimpse-based Decoder for Detection with Transformer | 2021 · 43회 인용, Object detection
 - RIS-GAN: Explore Residual and Illumination with Generative Adversarial Networks for Shadow Removal | 2019 · 112회 인용, Shadow removal
+- RLFN : Residual Local Feature Network for Efficient Super-Resolution | 2022 · 292회 인용, Super-Resolution
 - RT-DETR : DETRs Beat YOLOs on Real-time Object Detection | 2023 · 2350회 인용, Object detection
 - ReACGAN : Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training | 2021 · 144회 인용, Image generation, Data diversity
 - Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | 2021 · 1911회 인용, Super resolution : https://github.com/xinntao/Real-ESRGAN
