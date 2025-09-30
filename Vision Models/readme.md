@@ -63,6 +63,7 @@
 - Big Transfer (BiT): General Visual Representation Learning | 2019 · 1586회 인용, Image classification
 - Background Segmentation with Feedback: The Pixel-Based Adaptive Segmenter | 2012 · 769회 인용, Change detection
 - Background Subtraction: Experiments and Improvements for ViBe | 2012 · 382회 인용, Semantic segmentation
+- BicycleGAN : Toward Multimodal Image-to-Image Translation | 2017 · 2094회 인용, Image-to-Image generation
 - BlockQNN : Practical Block-wise Neural Network Architecture Generation | 2017 · 671회 인용, Image classification, Reinforcement Learning
 - Boosting Robustness of Image Matting with Context Assembling and Strong Data Augmentation | 2022 · 42회 인용, Image matting
 - CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | 2011 · 2931회 인용, Image reconstruction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
