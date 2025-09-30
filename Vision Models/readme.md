@@ -151,6 +151,7 @@
 - DiT : Scalable Diffusion Models with Transformers | 2022 · 3548회 인용, Image generation
 - DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior | 2023 · 370회 인용, Image denoising, Super resolution, Image restoration
 - DiffTSR : Diffusion-based Blind Text Image Super-Resolution | 2023 · 25회 인용, Super resolution
+- DiffuseIT : Diffusion-based Image Translation using Disentangled Style and Content Representation | 2022 · 215회 인용, Image-to-Image Translation
 - Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | 2023 · 320회 인용, Image classification
 - Diffusion-GAN: Training GANs with Diffusion | 2022 · 353회 인용, Image generation
 - DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation | 2021 · 870회 인용, Image generation
