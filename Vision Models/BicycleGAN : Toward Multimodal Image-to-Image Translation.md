@@ -36,28 +36,32 @@ BicycleGAN은 두 가지 cycle을 결합한 하이브리드 모델입니다:
 
 BicycleGAN의 전체 목적 함수는 다음과 같습니다:[1]
 
-$$
+```math
 G^*, E^* = \arg \min_{G,E} \max_D \mathcal{L}_{VAE}^{GAN}(G, D, E) + λ\mathcal{L}_1^{VAE}(G, E) + \mathcal{L}_{GAN}(G, D) + λ_{latent}\mathcal{L}_1^{latent}(G, E) + λ_{KL}\mathcal{L}_{KL}(E)
-$$
+```
 
 각 손실 항목의 의미:
 
 **1) VAE-GAN 손실**:
+
 $$
 \mathcal{L}_{VAE}^{GAN} = \mathbb{E}_{A,B \sim p(A,B)}[\log(D(A, B))] + \mathbb{E}_{A,B \sim p(A,B), z \sim E(B)}[\log(1 - D(A, G(A, z)))]
 $$
 
 **2) 이미지 재구성 손실**:
+
 $$
 \mathcal{L}_1^{VAE}(G, E) = \mathbb{E}_{A,B \sim p(A,B), z \sim E(B)}[||B - G(A, z)||_1]
 $$
 
 **3) KL 발산 손실**:
+
 $$
 \mathcal{L}_{KL}(E) = \mathbb{E}_{B \sim p(B)}[D_{KL}(E(B) || \mathcal{N}(0, I))]
 $$
 
 **4) Latent 재구성 손실**:
+
 $$
 \mathcal{L}_1^{latent}(G, E) = \mathbb{E}_{A \sim p(A), z \sim p(z)}[||z - E(G(A, z))||_1]
 $$
