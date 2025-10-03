@@ -118,6 +118,7 @@
 - DINOv2: Learning Robust Visual Features without Supervision | 2023 · 4757회 인용, Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
 - DIP : Deep Image Prior | 2017 · 4045회 인용, Image denoising, Image generation, Super resolution : https://github.com/DmitryUlyanov/deep-image-prior/tree/master
 - DLSM : Denoising Likelihood Score Matching for Conditional Score-Based Data Generation | 2022 · 45회 인용, Image generation
+- DMD2 : Improved Distribution Matching Distillation for Fast Image Synthesis | 2024 · 155회 인용, Image generation, Accelerate sampling
 - DN-DETR: Accelerate DETR Training by Introducing Query DeNoising | 2022 · 1121회 인용, Object detection
 - DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | 2015 · 9541회 인용, Image generation : https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models
 - DPN : Dual Path Networks | 2017 · 1121회 인용, Image classification
