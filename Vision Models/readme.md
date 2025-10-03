@@ -241,6 +241,7 @@
 - TimeSformer : Is Space-Time Attention All You Need for Video Understanding? | 2021 · 3033회 인용, Action recognition
 - KernelGAN : Blind Super-Resolution Kernel Estimation using an Internal-GAN | 2019 · 620회 인용, Super resolution
 - LAVT: Language-Aware Vision Transformer for Referring Image Segmentation | 2021 · 488회 인용, Semantic segmentation
+- LCM : Latent Consistency Models: Synthesizing High-Resolution Images with Few-Step Inference | 2023 · 523회 인용, Image generation, Accelerate sampling
 - LCM-LoRA: A Universal Stable-Diffusion Acceleration Module | 2023 · 180회 인용, Accelerate Sampling
 - LDM : High-Resolution Image Synthesis with Latent Diffusion Models | 2021 · 23912회 인용, Image generation, Super resolution
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | 2020 · 185회 인용, Super resolution : https://github.com/hellloxiaotian/LESRCNN/tree/master?tab=readme-ov-file
