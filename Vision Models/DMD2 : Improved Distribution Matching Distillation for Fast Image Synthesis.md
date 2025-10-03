@@ -1,4 +1,4 @@
-# Improved Distribution Matching Distillation for Fast Image Synthesis | 2024 · 155회 인용, Image generation, Accelerate sampling
+# DMD2 : Improved Distribution Matching Distillation for Fast Image Synthesis | 2024 · 155회 인용, Image generation, Accelerate sampling
 
 # 핵심 요약 및 주요 기여
 
