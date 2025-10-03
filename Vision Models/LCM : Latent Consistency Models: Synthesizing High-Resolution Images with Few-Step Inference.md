@@ -1,4 +1,4 @@
-# Latent Consistency Models: Synthesizing High-Resolution Images with Few-Step Inference | 2023 · 523회 인용, Image generation, Accelerate sampling
+# LCM : Latent Consistency Models: Synthesizing High-Resolution Images with Few-Step Inference | 2023 · 523회 인용, Image generation, Accelerate sampling
 
 # 핵심 요약 및 기여
 
