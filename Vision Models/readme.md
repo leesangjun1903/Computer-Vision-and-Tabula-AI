@@ -379,6 +379,7 @@
 - SASCNet : Change Detection in Images Using Shape-Aware Siamese Convolutional Network | 2020 · 18회 인용, Change detection
 - SCSNet : An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution | 2022 · 21회 인용, Image Colorization, Image reconstruction, Super-Resolution
 - SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations | 2021 · 2006회 인용, Conditional Image generation, Image Editing
+- SDXL-Lightning: Progressive Adversarial Diffusion Distillation | 2024 · 161회 인용, Image generation
 - SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis | 2023 · 3218회 인용, Image generation
 - SENet : Squeeze-and-Excitation Networks | 2017 · 44660회 인용, Image classification, Object detection
 - SFG : Stochastic Filter Groups for Multi-Task CNNs: Learning Specialist and Generalist Convolution Kernels | 2019 · 114회 인용, Image classification, Image regression, Image segmentation
