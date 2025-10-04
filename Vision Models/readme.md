@@ -417,6 +417,7 @@
 - simple diffusion: End-to-end diffusion for high resolution images | 2023 · 315회 인용, Image generation
 - SinGAN: Learning a Generative Model from a Single Natural Image | 2019 · 1151회 인용, Image generation
 - SinSR: Diffusion-Based Image Super-Resolution in a Single Step | 2023 · 177회 인용 ,Super resolution
+- SnapFusion: Text-to-Image Diffusion Model on Mobile Devices within Two Seconds | 2023 · 232회 인용, Image generation
 - Sparse DETR: Efficient End-to-End Object Detection with Learnable Sparsity | 2021 · 280회 인용, Object detection
 - Spectral Normalization for Generative Adversarial Networks | 2018 · 6124회 인용, GAN technique, Image generation
 - Spectral Regularization for Combating Mode Collapse in GANs | 2019 · 113회 인용, Improve techniques for GANs, Image generation
