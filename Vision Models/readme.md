@@ -153,6 +153,7 @@
 - DeshadowNet: A Multi-context Embedding Deep Network for Shadow Removal | 2017 · 396회 인용, Shadow removal
 - DiNAT : Dilated Neighborhood Attention Transformer | 2022 · 121회 인용, Image classification, Object detection, Semantic segmentation
 - DiT : Scalable Diffusion Models with Transformers | 2022 · 3548회 인용, Image generation
+- Diff-Instruct: A Universal Approach for Transferring Knowledge From Pre-trained Diffusion Models | 2023 · 155회 인용, Image generation
 - DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior | 2023 · 370회 인용, Image denoising, Super resolution, Image restoration
 - DiffTSR : Diffusion-based Blind Text Image Super-Resolution | 2023 · 25회 인용, Super resolution
 - DiffuseIT : Diffusion-based Image Translation using Disentangled Style and Content Representation | 2022 · 215회 인용, Image-to-Image Translation
