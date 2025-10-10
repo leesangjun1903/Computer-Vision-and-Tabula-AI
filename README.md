@@ -19,7 +19,6 @@
 - Awesome Diffusion Categorized models : https://github.com/wangkai930418/awesome-diffusion-categorized?tab=readme-ov-file#image-restoration
 - Awesome Remote Sensing Change Detection : https://github.com/wenhwu/awesome-remote-sensing-change-detection?tab=readme-ov-file#code
 - Awesome-Optical-Flow : https://github.com/hzwer/Awesome-Optical-Flow
-- Awesome Decision, Classification, and Regression Tree Research Papers : https://github.com/benedekrozemberczki/awesome-decision-tree-papers
 - Awesome-Local-Feature-Matching https://github.com/vignywang/Awesome-Local-Feature-Matching?tab=readme-ov-file#Detector-based-Models
 - Paper with code : Computer Vision https://paperswithcode.com/area/computer-vision
 - Paper with code : Image matching https://paperswithcode.com/task/image-matching
@@ -51,6 +50,8 @@
 - Satellite-image-deep-learning https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file
 - Awesome Pruning : https://github.com/he-y/Awesome-Pruning
 
+- Awesome Decision, Classification, and Regression Tree Research Papers : https://github.com/benedekrozemberczki/awesome-decision-tree-papers
+- Awesome Gradient Boosting Research Papers : https://github.com/benedekrozemberczki/awesome-gradient-boosting-papers
 - Awesome Self-Supervised Learning for Non-Sequential Tabular Data : https://github.com/wwweiwei/awesome-self-supervised-learning-for-tabular-data
 - Awesome random forest : https://github.com/kjw0612/awesome-random-forest?tab=readme-ov-file
 - Awesome Self-Supervised Learning for Non-Sequential Tabular Data (SSL4NSTD) : https://github.com/wwweiwei/awesome-self-supervised-learning-for-tabular-data?tab=readme-ov-file
