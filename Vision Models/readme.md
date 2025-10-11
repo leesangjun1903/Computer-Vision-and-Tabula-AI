@@ -173,6 +173,7 @@
 - D²ETR: Decoder-Only DETR with Computationally Efficient Cross-Scale Attention | 2022 · 42회 인용, Object detection
 - EDM : Elucidating the Design Space of Diffusion-Based Generative Models | 2022 · 2592회 인용, Image generation
 - EDSR : Enhanced Deep Residual Networks for Single Image Super-Resolution | 2017 · 8961회 인용, Super-Resolution
+- EGSDE: Unpaired Image-to-Image Translation via Energy-Guided Stochastic Differential Equations | 2022 · 281회 인용
 - EMDiffuse : Diffusion-based deep learning method for augmenting ultrastructural imaging and volume electron microscopy | 2024 · 23회 인용, Image reconstruction, Electron microscopy
 - EPDN : Enhanced Pix2pix Dehazing Network | 2019 · 902회 인용, Image Dehazing
 - ESPCN : Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network | 2016 · 8663회 인용, Super resolution
