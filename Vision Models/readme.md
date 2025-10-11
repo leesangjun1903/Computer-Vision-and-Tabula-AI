@@ -157,6 +157,7 @@
 - Diff-Instruct: A Universal Approach for Transferring Knowledge From Pre-trained Diffusion Models | 2023 · 155회 인용, Image generation
 - Diff-Pruning : Structural Pruning for Diffusion Models | 2023 · 355회 인용, Image generation
 - DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior | 2023 · 370회 인용, Image denoising, Super resolution, Image restoration
+- DiffPIR : Denoising Diffusion Models for Plug-and-Play Image Restoration | 2023 · 323회 인용, Image restoration
 - DiffTSR : Diffusion-based Blind Text Image Super-Resolution | 2023 · 25회 인용, Super resolution
 - DiffuseIT : Diffusion-based Image Translation using Disentangled Style and Content Representation | 2022 · 215회 인용, Image-to-Image Translation
 - Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | 2023 · 320회 인용, Image classification
