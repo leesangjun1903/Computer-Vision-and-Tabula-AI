@@ -13,6 +13,7 @@
 - Awesome-Image-Matching(-ing 2005) https://github.com/ericzzj1989/Awesome-Image-Matching
 - Awesome-Scene-Change-Detection(SCD)(-ing 2020) : https://github.com/DoongLi/Awesome-Scene-Change-Detection?tab=readme-ov-file
 - Awesome works on Unsupervised Object Localization(E) : https://github.com/valeoai/Awesome-Unsupervised-Object-Localization
+- Awesome Energy Based Models/Learning (Awesome-EBM)(E) : https://github.com/yataobian/awesome-ebm?tab=readme-ov-file
 - Awesome-Shadow-Removal(-ing 2021) : https://github.com/GuoLanqing/Awesome-Shadow-Removal
 - Awesome Diffusion Models in High-Resolution Synthesis(-ing End-to-End Model) : https://github.com/GuoLanqing/Awesome-High-Resolution-Diffusion
 - Awesome Diffusion Models In Low-level Vision : https://github.com/ChunmingHe/awesome-diffusion-models-in-low-level-vision?tab=readme-ov-file
