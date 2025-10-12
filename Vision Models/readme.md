@@ -91,6 +91,7 @@
 - CoSeR: Bridging Image and Language for Cognitive Super-Resolution | 2023 · 70회 인용, Super resolution
 - CoaT : Co-Scale Conv-Attentional Image Transformers | 2021 · 513회 인용, Image classification, Object detection, Semantic segmentation
 - CodeFormer : Towards Robust Blind Face Restoration with Codebook Lookup Transformer | 2022 · 338회 인용, Image restoration, Blind Face restoration
+- Compositional Visual Generation with Energy Based Models | 2020 · 197회 인용, Image generation
 - CondenseNet: An Efficient DenseNet using Learned Group Convolutions | 2017 · 1123회 인용, Image classification
 - Conditional DETR for Fast Training Convergence | 2021 · 1016회 인용, Object detection
 - Contrastive Feature Loss for Image Prediction | 2021 · 43회 인용, Image generation
