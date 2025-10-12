@@ -36,6 +36,7 @@
 - AAE : Adversarial Autoencoders | 2015 · 3689회 인용, Image generation
 - ADM : Diffusion Models Beat GANs on Image Synthesis | 2021 · 10611회 인용, Image generation
 - ADD : Adversarial Diffusion Distillation | 2023 · 561회 인용, Image generation
+- ADP : Adversarial Purification with Score-based Generative Models | 2021 · 234회 인용, Image classification
 - ALAE : Adversarial Latent Autoencoders | 2020 · 346회 인용, Image generation
 - ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation | 2023 · 128회 인용, Image Matching
 - AdaIN : Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | 2017 · 6085회 인용, Image generation
