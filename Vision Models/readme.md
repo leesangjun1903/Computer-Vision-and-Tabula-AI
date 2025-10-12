@@ -294,6 +294,7 @@
 - Mask2Former : Masked-attention Mask Transformer for Universal Image Segmentation | 2021 · 3513회 인용, Semantic segmentation
 - MaskFormer : Per-Pixel Classification is Not All You Need for Semantic Segmentation | 2021 · 1974회 인용, Semattic segmentation
 - MaskGIT: Masked Generative Image Transformer | 2022 · 925회 인용, Image generation, Image manipulation, Image reconstruction
+- Maximum Likelihood Training of Score-Based Diffusion Models | 2021 · 839회 인용, Image generation
 - Mesh R-CNN | 2019 · 665회 인용, 3D segmentation
 - MetaFormer : MetaFormer Is Actually What You Need for Vision | 2021 · 1496회 인용, Image classification, Object detection, Semantic segmentation
 - MetaQNN : Designing Neural Network Architectures using Reinforcement Learning | 2016 · 2059회 인용 , Image classification, Reinforcement Learning
