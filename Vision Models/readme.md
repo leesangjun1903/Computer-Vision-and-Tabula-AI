@@ -245,6 +245,7 @@
 - Image Style Transfer Using Convolutional Neural Networks | 2016 · 7513회 인용, Image generation
 - ImageGPT : Generative Pretraining from Pixels | 2020 · 2122회 인용, Image classification
 - Implicit Generation and Modeling with Energy-Based Models | 2019 · 896회 인용, Image generation, Image reconstruction
+- Improved Contrastive Divergence Training of Energy-Based Model | 2020 · 183회 인용, Image generation
 - Improved Techniques for Training GANs | 2016 · 12624회 인용, GAN technique, Image generation
 - Improving Foreground Segmentations with Probabilistic Superpixel Markov Random Fields | 2012 · 200회 인용, Change detection
 - Inceptionv2, 3 : Rethinking the Inception Architecture for Computer Vision | 2015 · 40956회 인용, Image classification
