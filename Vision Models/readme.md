@@ -212,6 +212,7 @@
 - FreqNet : Frequency-Aware Deepfake Detection | 2024 · 134회 인용, Image detection
 - GAN Dissection: Visualizing and Understanding Generative Adversarial Networks | 2018 · 710회 인용, XAI
 - GDP : Generative Diffusion Prior for Unified Image Restoration and Enhancement | 2023 · 320회 인용, Image restoration
+- GeBMs : Generalized Energy Based Models | 2020 · 107회 인용, Image generation
 - GLAM : All the attention you need: Global-local, spatial-channel attention for image retrieval | 2021 · 106회 인용, Image retrieval
 - GLPN : Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth | 2022 · 194회 인용, Depth estimation
 - GNeRF: GAN-based Neural Radiance Field without Posed Camera | 2021 · 234회 인용, 3D reconstruction
