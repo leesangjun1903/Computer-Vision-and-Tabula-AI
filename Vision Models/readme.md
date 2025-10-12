@@ -214,6 +214,7 @@
 - GNeRF: GAN-based Neural Radiance Field without Posed Camera | 2021 · 234회 인용, 3D reconstruction
 - GeM : Fine-tuning CNN Image Retrieval with No Human Annotation | 2017 · 1719회 인용, Image retrieval
 - GeNeVA-GAN : Tell, Draw, and Repeat: Generating and Modifying Images Based on Continual Linguistic Instruction | 2018 · 91회 인용, Text(Image)-Image generation
+- Generative Flow Networks for Discrete Probabilistic Modeling | 2022 · 134회 인용, Image generation
 - Genetic CNN | 2017 · 1242회 인용, Image classification
 - GhostNet: More Features from Cheap Operations | 2019 · 5193회 인용, Image classification
 - Gold-YOLO: Efficient Object Detector via Gather-and-Distribute Mechanism | 2023 · 535회 인용, Object detection
