@@ -196,6 +196,7 @@
 - FEAT : Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions | 2018 · 1000회 인용, Image classification
 - FP-DETR: Detection Transformer Advanced by Fully Pre-training | 2023 . 46회 인용, Object detection
 - FVAE : Factorized Variational Autoencoders for Modeling Audience Reactions to Movies | 2017 · 71회 인용, Facial Expression Recognition
+- Face Alignment using Cascade Gaussian Process Regression Trees | 2015 · 152회 인용, Face Alignment
 - Face-SPARNet : Learning Spatial Attention for Face Super-Resolution | 2020 · 231회 인용, Super resolution
 - Facial Landmark Detection by Deep Multi-task Learning | 2014 · 1941회 인용, Facial Landmark Detection
 - Fast R-CNN | 2015 · 42594회 인용, Object detection
