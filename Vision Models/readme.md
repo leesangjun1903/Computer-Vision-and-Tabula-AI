@@ -188,6 +188,7 @@
 - EluCD : Elucidating The Design Space of Classifier-Guided Diffusion Generation | 2023 · 16회 인용, Image generation, Image denoising
 - End-to-End Learning of Deep Visual Representations for Image Retrieval | 2016 · 711회 인용, Image retrieval
 - Energy-Based Learning for Scene Graph Generation | 2021 · 213회 인용, Scene Graph Generation
+- Energy-based Out-of-distribution Detection | 2020 · 1933회 인용, OOD Detection
 - EsViT : Efficient Self-supervised Vision Transformers for Representation Learning | 2021 · 259회 인용, Image classification, Semantic segmentation
 - Evaluating image matching methods for book cover identification | 2020, Image matching
 - FBCNN : Towards Flexible Blind JPEG Artifacts Removal | 2021 · 156회 인용, Image compression, JPEG Artifact correlation, Image restoration
