@@ -281,6 +281,7 @@
 - LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference | 2021 · 932회 인용 , Image classification
 - Learning Fine-grained Image Similarity with Deep Ranking | 2014 · 1774회 인용, Similarity precision
 - Learning Gradient Fields for Molecular Conformation Generation | 2021 · 283회 인용, Molecular generation
+- Learning Gradient Fields for Shape Generation | 2020 · 342회 인용, 3D generation
 - Learning Latent Space Energy-Based Prior Model | 2020 · 170회 인용, Image generation
 - hierarchical_primitives : Learning Unsupervised Hierarchical Part Decomposition of 3D Objects from a Single RGB Image | 2020 · 140회 인용, 3D Segmentation, 3D reconstruction
 - Learning to Compare: Relation Network for Few-Shot Learning | 2017 · 5826회 인용, Image classification, Few-shot learning, Zero-shot learning
