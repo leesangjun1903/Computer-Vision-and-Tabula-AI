@@ -1,7 +1,9 @@
 자율주행 관련 AI
 
 # Awesome Series
-Awesome Autonomous Driving : https://github.com/autonomousdrivingkr/Awesome-Autonomous-Driving
+- Awesome Autonomous Driving : https://github.com/autonomousdrivingkr/Awesome-Autonomous-Driving
+- Awesome-Autonomous-Driving : https://github.com/PeterJaq/Awesome-Autonomous-Driving
+
 
 # Autonomous vehicle
 
