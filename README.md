@@ -1,6 +1,5 @@
-
 # Computer Vision  
-- Computer Vision 학회 논문 : https://rollingpig.tistory.com/26
+- Computer Vision and Pattern Recognition : https://scholar.google.co.kr/citations?view_op=top_venues&hl=ko&vq=eng_computervisionpatternrecognition
 - CVPR, WACV, ICCV, etc journal papers : https://github.com/52CV?tab=repositories
 
 ## Awesome Series
@@ -63,6 +62,7 @@
 (-ing ~ ) : - ing paper ( ~ : 까지 진행됨)
 
 # ETC
+- Computer Vision 학회 논문 : https://rollingpig.tistory.com/26
 - [계산사진학] What is Computational Photography? : https://velog.io/@claude_ssim/%EA%B3%84%EC%82%B0%EC%82%AC%EC%A7%84%ED%95%99
 - https://computer-vision-talks.com/
 - Fatih Porikli https://paperswithcode.com/search?q=author%3AFatih+Porikli&order_by=stars
