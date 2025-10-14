@@ -1,4 +1,7 @@
-자율주행 관련 AI 포함.
+자율주행 관련 AI
+
+# Awesome Series
+https://github.com/autonomousdrivingkr/Awesome-Autonomous-Driving
 
 # Autonomous vehicle
 
